@@ -1,0 +1,254 @@
+
+Quartz3DB = {
+	["namespaces"] = {
+		["Swing"] = {
+		},
+		["Buff"] = {
+		},
+		["Interrupt"] = {
+		},
+		["Flight"] = {
+		},
+		["Pet"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 30.0244007110596,
+					["x"] = 357.481262207031,
+					["w"] = 150,
+					["border"] = "None",
+				},
+				["WARLOCK"] = {
+					["x"] = 658.5185546875,
+				},
+				["dur.2014.10.22"] = {
+					["y"] = 99.3087768554688,
+					["x"] = 844.196899414063,
+					["w"] = 150,
+					["border"] = "None",
+				},
+				["Darknex - 燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["rog.2014.10.20"] = {
+					["w"] = 150,
+					["x"] = 844.196899414063,
+					["border"] = "None",
+					["y"] = 99.3087768554688,
+				},
+				["wlk.2014.10.20"] = {
+					["y"] = 0,
+					["x"] = 310.074157714844,
+					["w"] = 150,
+					["border"] = "None",
+				},
+			},
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 120.469055175781,
+					["x"] = 594.37060546875,
+					["targetname"] = true,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+				["WARLOCK"] = {
+					["x"] = 633.5185546875,
+				},
+				["dur.2014.10.22"] = {
+					["y"] = 139.432266235352,
+					["x"] = 639.40771484375,
+					["targetname"] = true,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+				["Darknex - 燃烧之刃"] = {
+					["x"] = 633.5185546875,
+				},
+				["燃烧之刃"] = {
+					["x"] = 633.5185546875,
+				},
+				["rog.2014.10.20"] = {
+					["targetname"] = true,
+					["y"] = 128.370407104492,
+					["border"] = "None",
+					["x"] = 639.407592773438,
+					["texture"] = "BantoBar",
+				},
+				["wlk.2014.10.20"] = {
+					["y"] = 118.888793945313,
+					["x"] = 618.07421875,
+					["targetname"] = true,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+			},
+		},
+		["EnemyCasts"] = {
+		},
+		["GCD"] = {
+		},
+		["Focus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 447.531127929688,
+					["x"] = 494.173278808594,
+					["fontsize"] = 16,
+					["iconposition"] = "right",
+					["w"] = 150,
+					["showtarget"] = false,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+				["WARLOCK"] = {
+					["x"] = 658.5185546875,
+				},
+				["dur.2014.10.22"] = {
+					["y"] = 449.111053466797,
+					["x"] = 495.753814697266,
+					["showtarget"] = false,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+				["Darknex - 燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["rog.2014.10.20"] = {
+					["showtarget"] = false,
+					["w"] = 150,
+					["y"] = 473.604797363281,
+					["border"] = "None",
+					["fontsize"] = 12,
+					["texture"] = "BantoBar",
+					["x"] = 494.173583984375,
+				},
+				["wlk.2014.10.20"] = {
+					["y"] = 447.531127929688,
+					["x"] = 494.173278808594,
+					["fontsize"] = 16,
+					["iconposition"] = "right",
+					["w"] = 150,
+					["showtarget"] = false,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+			},
+		},
+		["Target"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = 317.160491943359,
+					["x"] = 496.543334960938,
+					["fontsize"] = 16,
+					["w"] = 150,
+					["noInterruptChangeBorder"] = true,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+				["WARLOCK"] = {
+					["x"] = 658.5185546875,
+				},
+				["dur.2014.10.22"] = {
+					["y"] = 317.160552978516,
+					["x"] = 497.333648681641,
+					["texture"] = "BantoBar",
+					["border"] = "None",
+					["iconposition"] = "left",
+				},
+				["Darknex - 燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
+				["rog.2014.10.20"] = {
+					["w"] = 150,
+					["y"] = 317.160552978516,
+					["iconposition"] = "left",
+					["border"] = "None",
+					["fontsize"] = 12,
+					["texture"] = "BantoBar",
+					["x"] = 497.333648681641,
+				},
+				["wlk.2014.10.20"] = {
+					["y"] = 317.160491943359,
+					["x"] = 496.543334960938,
+					["fontsize"] = 16,
+					["w"] = 150,
+					["noInterruptChangeBorder"] = true,
+					["border"] = "None",
+					["texture"] = "BantoBar",
+				},
+			},
+		},
+		["Mirror"] = {
+		},
+		["Range"] = {
+		},
+		["Latency"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Naxxes - 燃烧之刃"] = "Default",
+		["瓦尔希纳斯 - 燃烧之刃"] = "Default",
+		["Durix - 燃烧之刃"] = "dur.2014.10.22",
+		["Darknex - 燃烧之刃"] = "wlk.2014.10.20",
+		["Neroix - 燃烧之刃"] = "rog.2014.10.20",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Range"] = false,
+			},
+		},
+		["WARLOCK"] = {
+		},
+		["dur.2014.10.22"] = {
+			["modules"] = {
+				["Swing"] = false,
+				["EnemyCasts"] = true,
+				["GCD"] = false,
+				["Buff"] = false,
+			},
+		},
+		["Darknex - 燃烧之刃"] = {
+		},
+		["燃烧之刃"] = {
+		},
+		["rog.2014.10.20"] = {
+			["hidesamwise"] = false,
+			["modules"] = {
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
+				["Mirror"] = false,
+				["Range"] = false,
+			},
+		},
+		["wlk.2014.10.20"] = {
+			["modules"] = {
+				["Timer"] = false,
+				["Swing"] = false,
+				["GCD"] = false,
+				["Buff"] = false,
+				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Range"] = false,
+			},
+		},
+	},
+}

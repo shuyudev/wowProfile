@@ -1,0 +1,52 @@
+
+CoolLineDB = {
+	["hidebag"] = true,
+	["bgcolor"] = {
+		["a"] = 0.5,
+		["r"] = 0,
+		["g"] = 0,
+		["b"] = 0,
+	},
+	["border"] = "None",
+	["borderinset"] = 4,
+	["h"] = 21,
+	["fontsize"] = 10,
+	["block"] = {
+		["Hearthstone"] = true,
+	},
+	["iconplus"] = 10,
+	["spellcolor"] = {
+		["a"] = 1,
+		["r"] = 0.8,
+		["g"] = 0.4,
+		["b"] = 0,
+	},
+	["hideinv"] = false,
+	["nospellcolor"] = {
+		["a"] = 1,
+		["r"] = 0,
+		["g"] = 0,
+		["b"] = 0,
+	},
+	["inactivealpha"] = 0.5,
+	["bordercolor"] = {
+		["a"] = 1,
+		["r"] = 1,
+		["g"] = 1,
+		["b"] = 1,
+	},
+	["w"] = 358,
+	["y"] = -235,
+	["x"] = -1,
+	["dbinit"] = 3,
+	["activealpha"] = 1,
+	["bordersize"] = 16,
+	["font"] = "Friz Quadrata TT",
+	["fontcolor"] = {
+		["a"] = 0.8,
+		["r"] = 1,
+		["g"] = 1,
+		["b"] = 1,
+	},
+	["statusbar"] = "Blizzard",
+}

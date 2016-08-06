@@ -1,0 +1,5 @@
+CoolLine: enabled
+SexyCooldown2: disabled
+NugRunning: disabled
+PitBull4_ThreatBar: enabled
+Dominos_Cast: disabled

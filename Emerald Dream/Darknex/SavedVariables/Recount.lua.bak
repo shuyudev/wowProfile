@@ -1,0 +1,232 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Darknex"] = {
+			["GUID"] = "Player-162-08FDA7BF",
+			["TimeLast"] = {
+				["EnergyGain"] = 173123.263,
+				["ActiveTime"] = 173127.266,
+				["OVERALL"] = 173127.266,
+				["TimeDamage"] = 173127.266,
+				["Damage"] = 173127.266,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+			},
+			["TimeWindows"] = {
+				["EnergyGain"] = {
+					30, -- [1]
+				},
+				["Damage"] = {
+					7333, -- [1]
+				},
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "ROGUE",
+			["unit"] = "Darknex",
+			["level"] = 100,
+			["LastFightIn"] = 0,
+			["type"] = "Self",
+			["LastAbility"] = 173127.499,
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"213300 (100%)", -- [1]
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Darknex Shuriken Storm Shipyard Rat Hit -7333 (Physical)", -- [1]
+			},
+			["Name"] = "Darknex",
+			["LastEventIncoming"] = {
+				false, -- [1]
+			},
+			["LastEventTimes"] = {
+				173127.499, -- [1]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["EnergyGained"] = {
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Shuriken Storm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 0,
+					},
+					["DamagedWho"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Master of Shadows"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["Damage"] = 0,
+				},
+				["OverallData"] = {
+					["EnergyGained"] = {
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["TimeSpent"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Shuriken Storm"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 7333,
+									["min"] = 7333,
+									["count"] = 1,
+									["amount"] = 7333,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 7333,
+						},
+					},
+					["EnergyGain"] = 30,
+					["ElementDone"] = {
+						["Physical"] = 7333,
+					},
+					["DamagedWho"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 7333,
+								},
+							},
+							["amount"] = 7333,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Shipyard Rat"] = {
+							["Details"] = {
+								["Shuriken Storm"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Master of Shadows"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 7333,
+				},
+			},
+			["UnitLockout"] = 173127.266,
+			["LastActive"] = 173127.266,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}
