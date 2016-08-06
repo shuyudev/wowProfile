@@ -25,7 +25,7 @@ VER 3 0000000000000005 "Target" "132212"
 /target [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /cleartarget [nomod]
-/targetenemy [nomod]
+/targetenemy
 /cleartarget [mod:shift]
 END
 VER 3 0000000000000009 "TEST" "INV_MISC_QUESTIONMARK"

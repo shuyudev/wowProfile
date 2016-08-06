@@ -5,21 +5,21 @@ RecountPerCharDB = {
 		["Darknex"] = {
 			["GUID"] = "Player-162-08FDA7BF",
 			["TimeLast"] = {
-				["TimeHeal"] = 14925.369,
-				["OVERALL"] = 40104.815,
+				["TimeHeal"] = 41813.842,
 				["CCBreak"] = 15239.365,
-				["HOT_Time"] = 14929.365,
-				["Healing"] = 14925.369,
-				["DamageTaken"] = 40028.813,
-				["TimeDamage"] = 40029.807,
-				["EnergyGain"] = 40104.815,
+				["Healing"] = 41813.842,
+				["HOT_Time"] = 41782.839,
+				["OVERALL"] = 41916.842,
+				["DamageTaken"] = 41813.842,
+				["ActiveTime"] = 41814.841,
+				["EnergyGain"] = 41916.842,
 				["DeathCount"] = 11457.918,
-				["Overhealing"] = 40015.815,
+				["Overhealing"] = 41813.842,
+				["TimeDamage"] = 41814.841,
 				["Interrupts"] = 13265.04,
-				["ActiveTime"] = 40029.807,
-				["HealingTaken"] = 14925.369,
+				["HealingTaken"] = 41813.842,
 				["DOT_Time"] = 40029.807,
-				["Damage"] = 40029.807,
+				["Damage"] = 41814.841,
 			},
 			["LastAttackedBy"] = "Warlock Ritualist",
 			["LastEventType"] = {
@@ -29,40 +29,40 @@ RecountPerCharDB = {
 				"DAMAGE", -- [4]
 				"DAMAGE", -- [5]
 				"DAMAGE", -- [6]
-				"HEAL", -- [7]
-				"HEAL", -- [8]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
 				"HEAL", -- [9]
-				"HEAL", -- [10]
+				"DAMAGE", -- [10]
 				"HEAL", -- [11]
-				"HEAL", -- [12]
+				"DAMAGE", -- [12]
 				"DAMAGE", -- [13]
 				"DAMAGE", -- [14]
 				"DAMAGE", -- [15]
-				"HEAL", -- [16]
+				"DAMAGE", -- [16]
 				"HEAL", -- [17]
 				"HEAL", -- [18]
 				"HEAL", -- [19]
 				"HEAL", -- [20]
-				"DAMAGE", -- [21]
-				"DAMAGE", -- [22]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
 				"DAMAGE", -- [23]
-				"DAMAGE", -- [24]
+				"HEAL", -- [24]
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
 				"DAMAGE", -- [27]
-				"DAMAGE", -- [28]
+				"HEAL", -- [28]
 				"DAMAGE", -- [29]
 				"DAMAGE", -- [30]
 				"DAMAGE", -- [31]
-				"DAMAGE", -- [32]
-				"HEAL", -- [33]
+				"HEAL", -- [32]
+				"DAMAGE", -- [33]
 				"DAMAGE", -- [34]
 				"DAMAGE", -- [35]
-				"HEAL", -- [36]
-				"HEAL", -- [37]
-				"HEAL", -- [38]
-				"HEAL", -- [39]
-				"HEAL", -- [40]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
 				"HEAL", -- [41]
 				"DAMAGE", -- [42]
 				"DAMAGE", -- [43]
@@ -76,10 +76,10 @@ RecountPerCharDB = {
 			},
 			["TimeWindows"] = {
 				["TimeHeal"] = {
-					45.82, -- [1]
+					54.3, -- [1]
 				},
 				["Healing"] = {
-					300056, -- [1]
+					318336, -- [1]
 				},
 				["DeathCount"] = {
 					1, -- [1]
@@ -88,127 +88,134 @@ RecountPerCharDB = {
 					4, -- [1]
 				},
 				["DamageTaken"] = {
-					1144229, -- [1]
+					1166438, -- [1]
 				},
-				["TimeDamage"] = {
-					457.22, -- [1]
+				["ActiveTime"] = {
+					547.6, -- [1]
 				},
 				["EnergyGain"] = {
-					4230, -- [1]
+					4610, -- [1]
 				},
 				["HealingTaken"] = {
-					300056, -- [1]
+					318336, -- [1]
 				},
 				["Overhealing"] = {
-					358813, -- [1]
+					374593, -- [1]
+				},
+				["TimeDamage"] = {
+					493.3, -- [1]
+				},
+				["HOT_Time"] = {
+					237, -- [1]
 				},
 				["Interrupts"] = {
 					2, -- [1]
-				},
-				["HOT_Time"] = {
-					225, -- [1]
-				},
-				["ActiveTime"] = {
-					503.04, -- [1]
 				},
 				["DOT_Time"] = {
 					93, -- [1]
 				},
 				["Damage"] = {
-					4574198, -- [1]
+					4863672, -- [1]
 				},
 			},
 			["enClass"] = "ROGUE",
 			["unit"] = "Darknex",
-			["LastAbility"] = 40030.31,
+			["LastAbility"] = 41940.894,
 			["level"] = 100,
 			["LastDamageAbility"] = "Melee",
-			["LastFightIn"] = 50,
+			["LastFightIn"] = 58,
 			["LastEventNum"] = {
 				nil, -- [1]
 				nil, -- [2]
 				nil, -- [3]
-				1.66901078293483, -- [4]
+				nil, -- [4]
 				nil, -- [5]
-				nil, -- [6]
-				3, -- [7]
-				3, -- [8]
-				3, -- [9]
-				3, -- [10]
+				1.84013127051102, -- [6]
+				nil, -- [7]
+				nil, -- [8]
+				2.23488045007032, -- [9]
+				nil, -- [10]
 				3, -- [11]
-				3, -- [12]
+				nil, -- [12]
 				nil, -- [13]
 				nil, -- [14]
-				nil, -- [15]
-				3, -- [16]
+				1.84200656352555, -- [15]
+				nil, -- [16]
 				3, -- [17]
 				3, -- [18]
 				3, -- [19]
 				3, -- [20]
-				[33] = 1.83778715424285,
-				[37] = 5,
-				[39] = 5,
-				[41] = 5,
-				[36] = 5,
-				[38] = 5,
-				[40] = 5,
-				[48] = 2.01359587435537,
+				3, -- [21]
+				3, -- [22]
+				1.84200656352555, -- [23]
+				3, -- [24]
+				nil, -- [25]
+				1.3539615564932, -- [26]
+				nil, -- [27]
+				3, -- [28]
+				nil, -- [29]
+				1.86966713548992, -- [30]
+				nil, -- [31]
+				3, -- [32]
+				[48] = 3,
+				[47] = 1.6643225503985,
+				[41] = 1.73323956868261,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
 			["LastEventTimes"] = {
-				40027.73, -- [1]
-				40028.318, -- [2]
-				40028.917, -- [3]
-				40029.745, -- [4]
-				40029.993, -- [5]
-				40030.31, -- [6]
-				40103.114, -- [7]
-				40104.128, -- [8]
-				40105.017, -- [9]
-				40106.1, -- [10]
+				41784.369, -- [1]
+				41785.479, -- [2]
+				41786.937, -- [3]
+				41786.937, -- [4]
+				41814.571, -- [5]
+				41814.571, -- [6]
+				41814.571, -- [7]
+				41814.571, -- [8]
+				41814.571, -- [9]
+				41815.582, -- [10]
 				40107.042, -- [11]
-				14926.219, -- [12]
-				14927.515, -- [13]
-				14928.548, -- [14]
-				14928.548, -- [15]
-				14929.548, -- [16]
-				14930.556, -- [17]
-				14931.552, -- [18]
-				14932.545, -- [19]
-				14933.548, -- [20]
-				14972.731, -- [21]
-				14972.731, -- [22]
-				14972.731, -- [23]
-				14973.44, -- [24]
-				14973.654, -- [25]
-				14974.134, -- [26]
-				14982.929, -- [27]
-				15239.396, -- [28]
-				15239.396, -- [29]
-				15239.396, -- [30]
-				15240.111, -- [31]
-				15240.223, -- [32]
-				15240.223, -- [33]
-				15240.324, -- [34]
-				15240.854, -- [35]
-				39247.823, -- [36]
-				39248.865, -- [37]
-				39249.866, -- [38]
-				39250.871, -- [39]
-				39251.874, -- [40]
-				39252.854, -- [41]
-				40012.963, -- [42]
-				40013.821, -- [43]
-				40014.638, -- [44]
-				40015.471, -- [45]
-				40016.269, -- [46]
-				40016.269, -- [47]
-				40016.269, -- [48]
-				40016.939, -- [49]
-				40016.939, -- [50]
+				40398.809, -- [12]
+				40399.573, -- [13]
+				40401.337, -- [14]
+				40401.844, -- [15]
+				40403.229, -- [16]
+				40406.589, -- [17]
+				40409.174, -- [18]
+				40410.175, -- [19]
+				40411.18, -- [20]
+				40412.184, -- [21]
+				40413.178, -- [22]
+				40472.77, -- [23]
+				40473.133, -- [24]
+				40533.17, -- [25]
+				40620.82, -- [26]
+				40620.82, -- [27]
+				40621.558, -- [28]
+				40645.955, -- [29]
+				40645.955, -- [30]
+				40645.955, -- [31]
+				40646.695, -- [32]
+				40646.997, -- [33]
+				40789.92, -- [34]
+				40791.232, -- [35]
+				40791.621, -- [36]
+				40792.3, -- [37]
+				40792.766, -- [38]
+				40794.632, -- [39]
+				40794.632, -- [40]
+				40794.632, -- [41]
+				40794.807, -- [42]
+				40794.807, -- [43]
+				40795.446, -- [44]
+				40795.628, -- [45]
+				41781.091, -- [46]
+				41783.101, -- [47]
+				41783.278, -- [48]
+				41783.519, -- [49]
+				41784.369, -- [50]
 			},
-			["LastDamageTaken"] = 3560,
+			["LastDamageTaken"] = 3925,
 			["Owner"] = false,
 			["LastEventHealth"] = {
 				"213300 (100%)", -- [1]
@@ -216,7 +223,7 @@ RecountPerCharDB = {
 				"213300 (100%)", -- [3]
 				"213300 (100%)", -- [4]
 				"213300 (100%)", -- [5]
-				"209740 (98%)", -- [6]
+				"213300 (100%)", -- [6]
 				"213300 (100%)", -- [7]
 				"213300 (100%)", -- [8]
 				"213300 (100%)", -- [9]
@@ -225,15 +232,15 @@ RecountPerCharDB = {
 				"213300 (100%)", -- [12]
 				"213300 (100%)", -- [13]
 				"213300 (100%)", -- [14]
-				"213300 (100%)", -- [15]
-				"213300 (100%)", -- [16]
+				"209371 (98%)", -- [15]
+				"209371 (98%)", -- [16]
 				"213300 (100%)", -- [17]
 				"213300 (100%)", -- [18]
 				"213300 (100%)", -- [19]
 				"213300 (100%)", -- [20]
 				"213300 (100%)", -- [21]
 				"213300 (100%)", -- [22]
-				"213300 (100%)", -- [23]
+				"209371 (98%)", -- [23]
 				"213300 (100%)", -- [24]
 				"213300 (100%)", -- [25]
 				"213300 (100%)", -- [26]
@@ -262,14 +269,14 @@ RecountPerCharDB = {
 				"213300 (100%)", -- [49]
 				"213300 (100%)", -- [50]
 			},
-			["NextEventNum"] = 12,
+			["NextEventNum"] = 11,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
 				100, -- [3]
 				100, -- [4]
 				100, -- [5]
-				98.3309892170652, -- [6]
+				100, -- [6]
 				100, -- [7]
 				100, -- [8]
 				100, -- [9]
@@ -278,15 +285,15 @@ RecountPerCharDB = {
 				100, -- [12]
 				100, -- [13]
 				100, -- [14]
-				100, -- [15]
-				100, -- [16]
+				98.1579934364745, -- [15]
+				98.1579934364745, -- [16]
 				100, -- [17]
 				100, -- [18]
 				100, -- [19]
 				100, -- [20]
 				100, -- [21]
 				100, -- [22]
-				100, -- [23]
+				98.1579934364745, -- [23]
 				100, -- [24]
 				100, -- [25]
 				100, -- [26]
@@ -316,108 +323,108 @@ RecountPerCharDB = {
 				100, -- [50]
 			},
 			["LastEvents"] = {
-				"Warlock Ritualist Melee Darknex Miss (1)", -- [1]
-				"Darknex Nightblade (DoT) Warlock Ritualist Tick -6576 (Shadow)", -- [2]
-				"Darknex Backstab Warlock Ritualist Crit -15703 (Physical)", -- [3]
-				"Warlock Ritualist Melee Darknex Hit -3560 (Physical)", -- [4]
-				"Darknex Backstab Warlock Ritualist Hit -6869 (Physical)", -- [5]
-				"Darknex Nightblade (DoT) Warlock Ritualist Tick -5978 (Shadow)", -- [6]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [7]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [8]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [9]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [10]
+				"Darknex Shadowstrike Warlock Ritualist Hit -19087 (Physical)", -- [1]
+				"Darknex Eviscerate Warlock Ritualist Crit -65187 (Physical)", -- [2]
+				"Darknex Melee Shadow Infiltrator Hit -2069 (Physical)", -- [3]
+				"Darknex Backstab Shadow Infiltrator Hit -7562 (Physical)", -- [4]
+				"Darknex Melee Warlock Ritualist Hit -2461 (Physical)", -- [5]
+				"Warlock Ritualist Melee Darknex Hit -3925 (Physical)", -- [6]
+				"Darknex Shadowstrike Warlock Ritualist Hit -21906 (Physical)", -- [7]
+				"Darknex Touch of the Grave Warlock Ritualist Hit -4767 (Shadow)", -- [8]
+				"Darknex Touch of the Grave Darknex Hit +4767 (842 overheal)", -- [9]
+				"Darknex Shadowstrike Warlock Ritualist Hit -21850 (Physical)", -- [10]
 				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [11]
-				"Darknex Stealth Darknex Tick +6399 (2441 overheal)", -- [12]
-				"Warlock Ritualist Melee Darknex Parry (1)", -- [13]
-				"Darknex Melee Warlock Ritualist Crit -4411 (Physical)", -- [14]
-				"Darknex Shadowstrike Warlock Ritualist Crit -32928 (Physical)", -- [15]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [16]
-				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [17]
+				"Darknex Shadow Blade Shadow Pillager Hit -2722 (Shadow)", -- [12]
+				"Darknex Shadow Blade Off-hand Shadow Pillager Crit -2675 (Shadow)", -- [13]
+				"Darknex Shadowstrike Shadow Infiltrator Hit -17255 (Physical)", -- [14]
+				"Shadow Infiltrator Shadow Strikes Darknex Hit -3929 (Shadow)", -- [15]
+				"Darknex Eviscerate Shadow Infiltrator Hit -28529 (Physical)", -- [16]
+				"Darknex Stealth Darknex Tick +6399 (4632 overheal)", -- [17]
 				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [18]
 				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [19]
 				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [20]
-				"Darknex Melee Shadow Pillager Hit -2151 (Physical)", -- [21]
-				"Shadow Pillager Melee Darknex Miss (1)", -- [22]
-				"Darknex Shadowstrike Shadow Pillager Hit -19278 (Physical)", -- [23]
-				"Darknex Melee Shadow Pillager Hit -1007 (Physical)", -- [24]
-				"Shadow Pillager Melee Darknex Dodge (1)", -- [25]
-				"Darknex Eviscerate Shadow Pillager Crit -57057 (Physical)", -- [26]
-				"Darknex Pick Pocket Shadow Infiltrator Evade (Physical)", -- [27]
-				"Darknex Melee Shadow Pillager Hit -2200 (Physical)", -- [28]
-				"Shadow Pillager Melee Darknex Miss (1)", -- [29]
-				"Darknex Shadowstrike Shadow Pillager Hit -18688 (Physical)", -- [30]
-				"Darknex Melee Shadow Pillager Hit -1031 (Physical)", -- [31]
-				"Darknex Touch of the Grave Shadow Pillager Hit -3920 (Shadow)", -- [32]
-				"Darknex Touch of the Grave Darknex Hit +3920 (3920 overheal)", -- [33]
-				"Shadow Pillager Melee Darknex Dodge (1)", -- [34]
-				"Darknex Eviscerate Shadow Pillager Crit -22823 (Physical)", -- [35]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [36]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [37]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [38]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [39]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [40]
-				"Darknex Crimson Vial Darknex Tick +10665 (10665 overheal)", -- [41]
-				"Darknex Shadow Blade Warlock Ritualist Hit -2949 (Shadow)", -- [42]
-				"Darknex Shadow Blade Off-hand Warlock Ritualist Hit -1378 (Shadow)", -- [43]
-				"Darknex Shadow Blade Warlock Ritualist Hit -2903 (Shadow)", -- [44]
-				"Darknex Shadow Blade Off-hand Warlock Ritualist Hit -1386 (Shadow)", -- [45]
-				"Darknex Shadow Blade Warlock Ritualist Hit -2700 (Shadow)", -- [46]
-				"Darknex Touch of the Grave Warlock Ritualist Hit -4295 (Shadow)", -- [47]
-				"Darknex Touch of the Grave Darknex Hit +4295 (4295 overheal)", -- [48]
-				"Warlock Ritualist Melee Darknex Dodge (1)", -- [49]
-				"Darknex Eviscerate Warlock Ritualist Hit -29631 (Physical)", -- [50]
+				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [21]
+				"Darknex Shadow Dance Darknex Tick +6399 (6399 overheal)", -- [22]
+				"Shadow Infiltrator Shadow Strikes Darknex Hit -3929 (Shadow)", -- [23]
+				"Darknex Stealth Darknex Tick +6399 (2470 overheal)", -- [24]
+				"Darknex Pick Pocket Shadow Infiltrator Evade (Physical)", -- [25]
+				"Warlock Ritualist Melee Darknex Hit -2888 (Physical)", -- [26]
+				"Darknex Shadowstrike Warlock Ritualist Crit -33869 (Physical)", -- [27]
+				"Darknex Stealth Darknex Tick +6399 (3511 overheal)", -- [28]
+				"Darknex Melee Warlock Ritualist Hit -2413 (Physical)", -- [29]
+				"Warlock Ritualist Melee Darknex Hit -3988 (Physical)", -- [30]
+				"Darknex Shadowstrike Warlock Ritualist Hit -19966 (Physical)", -- [31]
+				"Darknex Stealth Darknex Tick +6399 (2411 overheal)", -- [32]
+				"Darknex Shadowstrike Warlock Ritualist Hit -19677 (Physical)", -- [33]
+				"Darknex Melee Shadow Pillager Evade (1)", -- [34]
+				"Darknex Melee Shadow Pillager Crit -2101 (Physical)", -- [35]
+				"Darknex Melee Shadow Pillager Hit -2031 (Physical)", -- [36]
+				"Shadow Pillager Melee Darknex Parry (1)", -- [37]
+				"Shadow Pillager Melee Darknex Parry (1)", -- [38]
+				"Darknex Melee Shadow Pillager Hit -2102 (Physical)", -- [39]
+				"Darknex Touch of the Grave Shadow Pillager Hit -3697 (Shadow)", -- [40]
+				"Darknex Touch of the Grave Darknex Hit +3697 (3697 overheal)", -- [41]
+				"Shadow Pillager Melee Darknex Miss (1)", -- [42]
+				"Shadow Pillager Melee Darknex Parry (1)", -- [43]
+				"Darknex Melee Shadow Pillager Hit -1069 (Physical)", -- [44]
+				"Darknex Melee Shadow Pillager Crit -4177 (Physical)", -- [45]
+				"Warlock Ritualist Melee Darknex Miss (1)", -- [46]
+				"Warlock Ritualist Melee Darknex Hit -3550 (Physical)", -- [47]
+				"Darknex Stealth Darknex Tick +6399 (2849 overheal)", -- [48]
+				"Darknex Melee Warlock Ritualist Miss (1)", -- [49]
+				"Darknex Melee Warlock Ritualist Crit -2302 (Physical)", -- [50]
 			},
 			["Name"] = "Darknex",
 			["LastEventIncoming"] = {
-				true, -- [1]
+				false, -- [1]
 				false, -- [2]
 				false, -- [3]
-				true, -- [4]
+				false, -- [4]
 				false, -- [5]
-				false, -- [6]
-				true, -- [7]
-				true, -- [8]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
 				true, -- [9]
-				true, -- [10]
+				false, -- [10]
 				true, -- [11]
-				true, -- [12]
-				true, -- [13]
+				false, -- [12]
+				false, -- [13]
 				false, -- [14]
-				false, -- [15]
-				true, -- [16]
+				true, -- [15]
+				false, -- [16]
 				true, -- [17]
 				true, -- [18]
 				true, -- [19]
 				true, -- [20]
-				false, -- [21]
+				true, -- [21]
 				true, -- [22]
-				false, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
+				true, -- [23]
+				true, -- [24]
+				false, -- [25]
+				true, -- [26]
 				false, -- [27]
-				false, -- [28]
-				true, -- [29]
-				false, -- [30]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
 				false, -- [31]
-				false, -- [32]
-				true, -- [33]
-				true, -- [34]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
 				false, -- [35]
-				true, -- [36]
+				false, -- [36]
 				true, -- [37]
 				true, -- [38]
-				true, -- [39]
-				true, -- [40]
+				false, -- [39]
+				false, -- [40]
 				true, -- [41]
-				false, -- [42]
-				false, -- [43]
+				true, -- [42]
+				true, -- [43]
 				false, -- [44]
 				false, -- [45]
-				false, -- [46]
-				false, -- [47]
+				true, -- [46]
+				true, -- [47]
 				true, -- [48]
-				true, -- [49]
+				false, -- [49]
 				false, -- [50]
 			},
 			["DeathLogs"] = {
@@ -798,6 +805,4524 @@ RecountPerCharDB = {
 								["Arianpali-Greymane"] = {
 									["count"] = 0,
 								},
+								["Hammertooth"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3988,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Holy"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["Damage"] = 42056,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 3988,
+						["Physical"] = 0,
+						["Fire"] = 0,
+						["Holy"] = 0,
+						["Frost"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+						["Shadow"] = 0,
+					},
+					["TimeHeal"] = 0.74,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+								},
+								["Immune"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 3988,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 2413,
+						["Physical"] = 39643,
+					},
+					["DamagedWho"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arianpali-Greymane"] = {
+							["Details"] = {
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Shadowblade"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 2413,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 39643,
+								},
+							},
+							["amount"] = 42056,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hammertooth"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Flameblast"] = {
+							["Details"] = {
+								["Immolation"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Meteor Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arianpali-Greymane"] = {
+							["Details"] = {
+								["Greater Blessing of Might"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Judgment"] = {
+									["count"] = 0,
+								},
+								["Crusader Strike"] = {
+									["count"] = 0,
+								},
+								["Divine Hammer"] = {
+									["count"] = 0,
+								},
+								["Templar's Verdict"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hashtagdik-Scilla"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Siphon Life (DoT)"] = {
+									["count"] = 0,
+								},
+								["Drain Soul (DoT)"] = {
+									["count"] = 0,
+								},
+								["Unstable Affliction (DoT)"] = {
+									["count"] = 0,
+								},
+								["Agony (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Shadowblade"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hammertooth"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Whip Splash"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3988,
+								},
+							},
+							["amount"] = 3988,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Relentless Strikes"] = {
+									["count"] = 0,
+								},
+								["Master of Shadows"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+						["Sap (Melee)"] = {
+							["Details"] = {
+								["Shadow Pillager"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0.74,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.74,
+						},
+					},
+					["OverHeals"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2411,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2411,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2411,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 3988,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3988,
+						},
+					},
+					["HealedWho"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 3988,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3988,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Whip Splash"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Judgment"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Divine Hammer"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Agony (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Greater Blessing of Might"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Siphon Life (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Unstable Affliction (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Templar's Verdict"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Meteor Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Whip Splash"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Judgment"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolation"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Divine Hammer"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Agony (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Greater Blessing of Might"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Siphon Life (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Unstable Affliction (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Drain Soul (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Templar's Verdict"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Meteor Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 2411,
+					["TimeSpent"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0.74,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0.74,
+						},
+						["Arianpali-Greymane"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hashtagdik-Scilla"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Shadowblade"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0.3,
+								},
+							},
+							["amount"] = 3.8,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hammertooth"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Cheap Shot"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 3988,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 3988,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3988,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 4.54,
+					["EnergyGained"] = {
+						["Relentless Strikes"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["EnergyGain"] = 30,
+					["Healing"] = 3988,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2413,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2413,
+								},
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2413,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Blade Off-hand"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Blade"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowstrike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 19966,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 39643,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 39643,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Absorb"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cheap Shot"] = {
+							["Details"] = {
+								["Immune"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shuriken Toss"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 3.8,
+					["TimeDamaging"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hammertooth"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Cheap Shot"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Hashtagdik-Scilla"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Shadowblade"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0.3,
+								},
+							},
+							["amount"] = 3.8,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arianpali-Greymane"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Steeltusk"] = {
+									["count"] = 0,
+								},
+								["An'dure the Awakened"] = {
+									["count"] = 0,
+								},
+								["Warlock Ritualist"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 15177,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 3697,
+						["Melee"] = 11480,
+						["Physical"] = 0,
+					},
+					["DamagedWho"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gokrum Wolfgrinder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steeltusk"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["An'dure the Awakened"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11480,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 3697,
+								},
+							},
+							["amount"] = 15177,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gokrum Wolfgrinder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Soothed Manafeeder"] = {
+							["Details"] = {
+								["Mana Volley"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steeltusk"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["An'dure the Awakened"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 0,
+								},
+								["Whirlwind Off-Hand"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Master of Shadows"] = {
+									["count"] = 90,
+								},
+								["Relentless Strikes"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 90,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3697,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 3697,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3697,
+						},
+					},
+					["WhoHealed"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Volley"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Whirlwind Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Brutal Slam"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Mana Volley"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Whirlwind Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Brutal Slam"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 3697,
+					["TimeSpent"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gokrum Wolfgrinder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Darknex"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 0,
+								},
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steeltusk"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["An'dure the Awakened"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.2,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.2,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+						["An'dure the Awakened"] = {
+							["Details"] = {
+								["Arcane Affinity (Kick)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 9.2,
+					["EnergyGained"] = {
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+						["Relentless Strikes"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 90,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 2102,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 5202,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 4177,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 6278,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 11480,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 3697,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 3697,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3697,
+						},
+						["Shuriken Toss"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowstrike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 9.2,
+					["TimeDamaging"] = {
+						["Peon"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Gokrum Wolfgrinder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Steeltusk"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["An'dure the Awakened"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9.2,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 9.2,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DamagedWho"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Grimshot"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Grom'kar Grimshot"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Shadow Strikes"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Master of Shadows"] = {
+									["count"] = 90,
+								},
+								["Relentless Strikes"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 90,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["HealedWho"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Strikes"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Strikes"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Pick Pocket"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Grimshot"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 90,
+								},
+							},
+							["amount"] = 90,
+						},
+						["Relentless Strikes"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 90,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Pick Pocket"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowstrike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shuriken Toss"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Pick Pocket"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grom'kar Grimshot"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Stealth"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Frenzied Manafeeder"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 3929,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Holy"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 3,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Holy"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 3929,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 3.5,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 3929,
+					["ElementDone"] = {
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DamagedWho"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Daggerjaw Hoarder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vindicator Dalu"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Daggerjaw Hoarder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vindicator Dalu"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Vindicator's Fury"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Shadow Strikes"] = {
+									["count"] = 3929,
+								},
+							},
+							["amount"] = 3929,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Master of Shadows"] = {
+									["count"] = 60,
+								},
+								["Relentless Strikes"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 60,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["OverHeals"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2470,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2470,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2470,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 3929,
+								},
+							},
+							["amount"] = 3929,
+						},
+					},
+					["HealedWho"] = {
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 3929,
+								},
+							},
+							["amount"] = 3929,
+						},
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Vindicator's Fury"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Strikes"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Vindicator's Fury"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Strikes"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hammer of Justice"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 2470,
+					["TimeSpent"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Daggerjaw Hoarder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vindicator Dalu"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Darknex"] = {
+							["Details"] = {
+								["Stealth"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 3929,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 3929,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 3929,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["EnergyGained"] = {
+						["Master of Shadows"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 60,
+								},
+							},
+							["amount"] = 60,
+						},
+						["Relentless Strikes"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 60,
+					["Healing"] = 3929,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadowstrike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shuriken Toss"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Touch of the Grave"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Daggerjaw Hoarder"] = {
+							["Details"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Vindicator Dalu"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Nightblade (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+						["Shadow Dance"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stealth"] = {
+							["Details"] = {
+								["Darknex"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Nightblade (DoT)"] = {
+							["Details"] = {
+								["Arianpali-Greymane"] = {
+									["count"] = 0,
+								},
 								["An'dure the Awakened"] = {
 									["count"] = 0,
 								},
@@ -1111,13 +5636,13 @@ RecountPerCharDB = {
 						["Darknex"] = {
 							["Details"] = {
 								["Master of Shadows"] = {
-									["count"] = 30,
+									["count"] = 0,
 								},
 								["Relentless Strikes"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 30,
+							["amount"] = 0,
 						},
 					},
 					["CCBroken"] = {
@@ -1196,7 +5721,7 @@ RecountPerCharDB = {
 						},
 					},
 					["CCBreak"] = 0,
-					["EnergyGain"] = 30,
+					["EnergyGain"] = 0,
 					["PartialAbsorb"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -1445,10 +5970,10 @@ RecountPerCharDB = {
 						["Master of Shadows"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 30,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 30,
+							["amount"] = 0,
 						},
 						["Relentless Strikes"] = {
 							["Details"] = {
@@ -2386,94 +6911,42 @@ RecountPerCharDB = {
 					},
 					["Overhealing"] = 0,
 				},
-				["Fight2"] = {
+				["LastFightData"] = {
 					["DOTs"] = {
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Arianpali-Greymane"] = {
-									["count"] = 0,
-								},
-								["Hammertooth"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 0,
+					["DamageTaken"] = 3550,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Shadow"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 1,
 								},
-								["Tick"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2,
 						},
-						["Melee"] = {
+						["Physical"] = {
 							["Details"] = {
-								["Dodge"] = {
-									["count"] = 1,
+								["Hit"] = {
+									["count"] = 0,
 								},
 								["Miss"] = {
 									["count"] = 0,
 								},
-								["Hit"] = {
-									["count"] = 0,
-								},
 								["Crit"] = {
 									["count"] = 0,
 								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Hit"] = {
+								["Dodge"] = {
 									["count"] = 0,
 								},
 							},
@@ -2481,1501 +6954,49 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 45242,
+					["HOT_Time"] = 3,
+					["Damage"] = 96207,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
+						["Melee"] = 3550,
 						["Physical"] = 0,
-						["Fire"] = 0,
-						["Holy"] = 0,
-						["Frost"] = 0,
 					},
 					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
-						["Shadow"] = 0,
 					},
-					["TimeHeal"] = 0,
+					["TimeHeal"] = 3.5,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Physical"] = {
 							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-								},
-								["Immune"] = {
-									["count"] = 0,
-								},
 								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
 									["count"] = 1,
 								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 15611,
-						["Melee"] = 0,
-						["Physical"] = 29631,
-					},
-					["DamagedWho"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arianpali-Greymane"] = {
-							["Details"] = {
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Shadowblade"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 29631,
-								},
-								["Shadow Blade Off-hand"] = {
-									["count"] = 2764,
-								},
-								["Shadow Blade"] = {
-									["count"] = 8552,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 4295,
-								},
-							},
-							["amount"] = 45242,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow Pillager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hammertooth"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Hashtagdik-Scilla"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Siphon Life (DoT)"] = {
-									["count"] = 0,
-								},
-								["Drain Soul (DoT)"] = {
-									["count"] = 0,
-								},
-								["Unstable Affliction (DoT)"] = {
-									["count"] = 0,
-								},
-								["Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arianpali-Greymane"] = {
-							["Details"] = {
-								["Greater Blessing of Might"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Judgment"] = {
-									["count"] = 0,
-								},
-								["Crusader Strike"] = {
-									["count"] = 0,
-								},
-								["Divine Hammer"] = {
-									["count"] = 0,
-								},
-								["Templar's Verdict"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Shadowblade"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Flameblast"] = {
-							["Details"] = {
-								["Immolation"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Meteor Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hammertooth"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Whip Splash"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Relentless Strikes"] = {
-									["count"] = 40,
-								},
-								["Master of Shadows"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 70,
-						},
-					},
-					["CCBroken"] = {
-						["Sap (Melee)"] = {
-							["Details"] = {
-								["Shadow Pillager"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
 								["Hit"] = {
-									["max"] = 4295,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4295,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4295,
-						},
-					},
-					["WhoHealed"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Whip Splash"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Judgment"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Divine Hammer"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Agony (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Greater Blessing of Might"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Siphon Life (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Unstable Affliction (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Soul (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Templar's Verdict"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Meteor Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Whip Splash"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 1,
-						},
-						["Judgment"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolation"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Divine Hammer"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Agony (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Greater Blessing of Might"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Siphon Life (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Unstable Affliction (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Drain Soul (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Templar's Verdict"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Crusader Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Meteor Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 4295,
-					["TimeSpent"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arianpali-Greymane"] = {
-							["Details"] = {
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hashtagdik-Scilla"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Shadowblade"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0.67,
-								},
-								["Shadow Blade Off-hand"] = {
-									["count"] = 1.69,
-								},
-								["Shadow Blade"] = {
-									["count"] = 5.12,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.48,
-						},
-						["Shadow Pillager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hammertooth"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Cheap Shot"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 7.48,
-					["EnergyGained"] = {
-						["Relentless Strikes"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-						["Master of Shadows"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["EnergyGain"] = 70,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Blade Off-hand"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1386,
-									["min"] = 1378,
 									["count"] = 2,
-									["amount"] = 2764,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 2764,
-						},
-						["Shadow Blade"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 2949,
-									["min"] = 2700,
-									["count"] = 3,
-									["amount"] = 8552,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 8552,
-						},
-						["Eviscerate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 29631,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 29631,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 29631,
-						},
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowstrike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Absorb"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 4295,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4295,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4295,
-						},
-						["Cheap Shot"] = {
-							["Details"] = {
-								["Immune"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shuriken Toss"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 7.48,
-					["TimeDamaging"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hammertooth"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Cheap Shot"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Hashtagdik-Scilla"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Shadowblade"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0.67,
-								},
-								["Shadow Blade Off-hand"] = {
-									["count"] = 1.69,
-								},
-								["Shadow Blade"] = {
-									["count"] = 5.12,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 7.48,
-						},
-						["Shadow Pillager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arianpali-Greymane"] = {
-							["Details"] = {
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 								["Crit"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 								["Hit"] = {
-									["count"] = 0,
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
 						["Shadow"] = {
 							["Details"] = {
@@ -3991,10 +7012,10 @@ RecountPerCharDB = {
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["HealingTaken"] = 3550,
 					["ElementDone"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
+						["Physical"] = 91836,
+						["Melee"] = 4371,
 						["Shadow"] = 0,
 					},
 					["DamagedWho"] = {
@@ -4018,43 +7039,6 @@ RecountPerCharDB = {
 						["Arcane Wraith"] = {
 							["Details"] = {
 								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Touch of the Grave"] = {
@@ -4077,13 +7061,86 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 65187,
+								},
+								["Melee"] = {
+									["count"] = 2302,
+								},
+								["Shadowstrike"] = {
+									["count"] = 19087,
+								},
+							},
+							["amount"] = 86576,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2069,
+								},
+								["Backstab"] = {
+									["count"] = 7562,
+								},
+							},
+							["amount"] = 9631,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
-						["Crystal Rager"] = {
+						["Peon"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -4110,7 +7167,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Peon"] = {
+						["Crystal Rager"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -4118,23 +7175,31 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3550,
+								},
+							},
+							["amount"] = 3550,
+						},
 					},
 					["EnergyGainedFrom"] = {
 						["Darknex"] = {
 							["Details"] = {
 								["Master of Shadows"] = {
-									["count"] = 120,
-								},
-								["Relentless Strikes"] = {
 									["count"] = 0,
 								},
+								["Relentless Strikes"] = {
+									["count"] = 40,
+								},
 							},
-							["amount"] = 120,
+							["amount"] = 40,
 						},
 					},
-					["CCBroken"] = {
+					["RunicPowerGained"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -4142,10 +7207,10 @@ RecountPerCharDB = {
 						["Darknex"] = {
 							["Details"] = {
 								["Stealth"] = {
-									["count"] = 0,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
 					},
 					["OverHeals"] = {
@@ -4164,41 +7229,41 @@ RecountPerCharDB = {
 						["Stealth"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 0,
+									["max"] = 2849,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 2849,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 2849,
 						},
 					},
 					["WhoHealed"] = {
 						["Darknex"] = {
 							["Details"] = {
 								["Stealth"] = {
-									["count"] = 0,
+									["count"] = 3550,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3550,
 						},
 					},
 					["HealedWho"] = {
 						["Darknex"] = {
 							["Details"] = {
 								["Stealth"] = {
-									["count"] = 0,
+									["count"] = 3550,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3550,
 						},
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
 					["PartialAbsorb"] = {
-						["Hamstring"] = {
+						["Whirlwind Off-Hand"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -4222,7 +7287,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Hamstring"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -4234,21 +7299,21 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Whirlwind Off-Hand"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 0,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
 					["PartialResist"] = {
-						["Hamstring"] = {
+						["Whirlwind Off-Hand"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -4272,7 +7337,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Melee"] = {
+						["Hamstring"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -4284,31 +7349,28 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Whirlwind Off-Hand"] = {
+						["Melee"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 0,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 0,
+							["amount"] = 2,
 						},
 					},
 					["ManaGained"] = {
 					},
 					["FDamage"] = 0,
 					["Interrupts"] = 0,
-					["Overhealing"] = 0,
+					["Overhealing"] = 2849,
 					["TimeSpent"] = {
-						["Crystal Rager"] = {
+						["Peon"] = {
 							["Details"] = {
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
+								["Howling Blade"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -4357,10 +7419,10 @@ RecountPerCharDB = {
 						["Darknex"] = {
 							["Details"] = {
 								["Stealth"] = {
-									["count"] = 0,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
 						["Iron Shredder"] = {
 							["Details"] = {
@@ -4379,9 +7441,37 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Peon"] = {
+						["Shadow Pillager"] = {
 							["Details"] = {
-								["Howling Blade"] = {
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.11,
+								},
+								["Melee"] = {
+									["count"] = 1.09,
+								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 2.2,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
@@ -4392,6 +7482,17 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.46,
 						},
 					},
 					["WhoDispelled"] = {
@@ -4404,76 +7505,64 @@ RecountPerCharDB = {
 						["Stealth"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 0,
+									["max"] = 3550,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 3550,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 3550,
 						},
 					},
-					["ActiveTime"] = 0,
+					["ActiveTime"] = 7.16,
 					["EnergyGained"] = {
 						["Master of Shadows"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 120,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 120,
+							["amount"] = 0,
 						},
 						["Relentless Strikes"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 0,
+									["count"] = 40,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 40,
 						},
 					},
-					["EnergyGain"] = 120,
-					["Healing"] = 0,
+					["EnergyGain"] = 40,
+					["Healing"] = 3550,
 					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
-						["Eviscerate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Miss"] = {
-									["count"] = 0,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 0,
+									["max"] = 2302,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 2302,
 								},
 								["Hit"] = {
-									["max"] = 0,
+									["max"] = 2069,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 2069,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 3,
+							["amount"] = 4371,
 						},
-						["Shadowstrike"] = {
+						["Touch of the Grave"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -4503,6 +7592,48 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Shadow Blade Off-hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Blade"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 65187,
+									["min"] = 65187,
+									["count"] = 1,
+									["amount"] = 65187,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 65187,
+						},
 						["Shuriken Toss"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -4515,19 +7646,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Backstab"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
+						["Shadowstrike"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -4536,20 +7655,38 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
+									["max"] = 19087,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 19087,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 19087,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
+								["Hit"] = {
+									["max"] = 7562,
+									["min"] = 7562,
+									["count"] = 1,
+									["amount"] = 7562,
+								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 7562,
 						},
 					},
 					["RageGain"] = 0,
 					["FDamagedWho"] = {
 					},
-					["TimeDamage"] = 0,
+					["TimeDamage"] = 3.66,
 					["TimeDamaging"] = {
 						["Crystal Rager"] = {
 							["Details"] = {
@@ -4570,43 +7707,6 @@ RecountPerCharDB = {
 						},
 						["Arcane Wraith"] = {
 							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
@@ -4633,723 +7733,74 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Stealth"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 0,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Physical"] = 0,
-						["Melee"] = 0,
-						["Shadow"] = 0,
-					},
-					["DamagedWho"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Grimshot"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Iron Shredder"] = {
 							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Grimshot"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Master of Shadows"] = {
-									["count"] = 30,
-								},
-								["Relentless Strikes"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
 								["Eviscerate"] = {
 									["count"] = 0,
 								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Warlock Ritualist"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.11,
+								},
+								["Melee"] = {
+									["count"] = 1.09,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 2.2,
 						},
 						["Shadow Pillager"] = {
 							["Details"] = {
-								["Pick Pocket"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Grom'kar Grimshot"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
+								["Shadow Blade"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
+								["Shadow Blade Off-hand"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["Frenzied Manafeeder"] = {
+						["Shadow Infiltrator"] = {
 							["Details"] = {
-								["Eviscerate"] = {
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Backstab"] = {
 									["count"] = 0,
 								},
+							},
+							["amount"] = 1.46,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
 								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 								["Shuriken Toss"] = {
 									["count"] = 0,
 								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
 								["Backstab"] = {
 									["count"] = 0,
 								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 0,
-								},
 								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 3.5,
-					["EnergyGained"] = {
-						["Master of Shadows"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Relentless Strikes"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 30,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Eviscerate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Pick Pocket"] = {
-							["Details"] = {
-								["Evade"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowstrike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shuriken Toss"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 3.5,
-					["TimeDamaging"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Grom'kar Grimshot"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow Pillager"] = {
-							["Details"] = {
-								["Pick Pocket"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
@@ -5361,2071 +7812,10 @@ RecountPerCharDB = {
 						["Stealth"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Frenzied Manafeeder"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 6841,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Holy"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 9,
-					["Damage"] = 37339,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 6841,
-						["Holy"] = 0,
-					},
-					["DOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 5.5,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 6841,
-					["ElementDone"] = {
-						["Physical"] = 32928,
-						["Melee"] = 4411,
-						["Shadow"] = 0,
-					},
-					["DamagedWho"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Daggerjaw Hoarder"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vindicator Dalu"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4411,
-								},
-								["Shadowstrike"] = {
-									["count"] = 32928,
-								},
-							},
-							["amount"] = 37339,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Daggerjaw Hoarder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vindicator Dalu"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Vindicator's Fury"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 6841,
-								},
-							},
-							["amount"] = 6841,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Master of Shadows"] = {
-									["count"] = 30,
-								},
-								["Relentless Strikes"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 30,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 5.5,
-								},
-							},
-							["amount"] = 5.5,
-						},
-					},
-					["OverHeals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 6399,
-									["min"] = 6399,
-									["count"] = 1,
-									["amount"] = 6399,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 6399,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 3516,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 5957,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 5957,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 6841,
-								},
-							},
-							["amount"] = 6841,
-						},
-					},
-					["HealedWho"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 6841,
-								},
-							},
-							["amount"] = 6841,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Vindicator's Fury"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Vindicator's Fury"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 3,
-						},
-						["Hammer of Justice"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 12356,
-					["TimeSpent"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Daggerjaw Hoarder"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vindicator Dalu"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Darknex"] = {
-							["Details"] = {
-								["Stealth"] = {
-									["count"] = 5.5,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.33,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2.33,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 3958,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 6841,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 6841,
-						},
-					},
-					["ActiveTime"] = 7.83,
-					["EnergyGained"] = {
-						["Master of Shadows"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Relentless Strikes"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGain"] = 30,
-					["Healing"] = 6841,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Eviscerate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 4411,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 4411,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 4411,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowstrike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 32928,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 32928,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 32928,
-						},
-						["Shuriken Toss"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 2.33,
-					["TimeDamaging"] = {
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Daggerjaw Hoarder"] = {
-							["Details"] = {
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Vindicator Dalu"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2.33,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2.33,
-						},
-						["Peon"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Darknex"] = {
 									["count"] = 3,
 								},
 							},
 							["amount"] = 3,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Steeltusk"] = {
-									["count"] = 0,
-								},
-								["An'dure the Awakened"] = {
-									["count"] = 0,
-								},
-								["Warlock Ritualist"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 3560,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 35126,
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 3560,
-						["Arcane"] = 0,
-					},
-					["DOT_Time"] = 6,
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 12554,
-						["Melee"] = 0,
-						["Physical"] = 22572,
-					},
-					["DamagedWho"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Backstab"] = {
-									["count"] = 22572,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 12554,
-								},
-							},
-							["amount"] = 35126,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["WhoDamaged"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soothed Manafeeder"] = {
-							["Details"] = {
-								["Mana Volley"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3560,
-								},
-							},
-							["amount"] = 3560,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Whirlwind Off-Hand"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Master of Shadows"] = {
-									["count"] = 30,
-								},
-								["Relentless Strikes"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 70,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["WhoHealed"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["HealedWho"] = {
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Volley"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Brutal Slam"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Mana Volley"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 2,
-						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Brutal Slam"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Darknex"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
-								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Backstab"] = {
-									["count"] = 1.68,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 3.82,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Arcane Affinity (Kick)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 5.5,
-					["EnergyGained"] = {
-						["Master of Shadows"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 30,
-								},
-							},
-							["amount"] = 30,
-						},
-						["Relentless Strikes"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["EnergyGain"] = 70,
-					["Healing"] = 0,
-					["Dispelled"] = 0,
-					["RageGained"] = {
-					},
-					["Attacks"] = {
-						["Eviscerate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 6576,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 12554,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 12554,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shuriken Toss"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadowstrike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15703,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15703,
-								},
-								["Hit"] = {
-									["max"] = 6869,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 6869,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 22572,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 5.5,
-					["TimeDamaging"] = {
-						["Peon"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Arcane Wraith"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Warlock Ritualist"] = {
-							["Details"] = {
-								["Backstab"] = {
-									["count"] = 1.68,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 3.82,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
 						},
 					},
 					["DispelledWho"] = {
@@ -7433,42 +7823,14 @@ RecountPerCharDB = {
 				},
 				["Fight1"] = {
 					["DOTs"] = {
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Steeltusk"] = {
-									["count"] = 0,
-								},
-								["An'dure the Awakened"] = {
-									["count"] = 0,
-								},
-								["Warlock Ritualist"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
 					},
 					["ElementDoneResist"] = {
 					},
 					["Ressed"] = 0,
-					["DamageTaken"] = 3560,
+					["DamageTaken"] = 3550,
 					["RageGainedFrom"] = {
 					},
 					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -7480,18 +7842,21 @@ RecountPerCharDB = {
 								["Dodge"] = {
 									["count"] = 0,
 								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 0,
-								},
 							},
 							["amount"] = 2,
 						},
-						["Arcane"] = {
+						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
 									["count"] = 0,
 								},
 							},
@@ -7499,77 +7864,79 @@ RecountPerCharDB = {
 						},
 					},
 					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["Damage"] = 35126,
+					["HOT_Time"] = 3,
+					["Damage"] = 96207,
 					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
+						["Melee"] = 3550,
 						["Physical"] = 0,
-						["Melee"] = 3560,
-						["Arcane"] = 0,
 					},
-					["DOT_Time"] = 6,
+					["DOT_Time"] = 0,
 					["ElementTakenBlock"] = {
 					},
 					["ElementDoneAbsorb"] = {
 					},
-					["TimeHeal"] = 0,
+					["TimeHeal"] = 3.5,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
 					["PartialBlock"] = {
 					},
 					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Physical"] = {
 							["Details"] = {
 								["Crit"] = {
 									["count"] = 1,
 								},
 								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 2,
+							["amount"] = 3,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
 						},
 					},
 					["FAttacks"] = {
 					},
-					["HealingTaken"] = 0,
+					["HealingTaken"] = 3550,
 					["ElementDone"] = {
-						["Shadow"] = 12554,
-						["Melee"] = 0,
-						["Physical"] = 22572,
+						["Physical"] = 91836,
+						["Melee"] = 4371,
+						["Shadow"] = 0,
 					},
 					["DamagedWho"] = {
-						["Peon"] = {
+						["Crystal Rager"] = {
 							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -7581,41 +7948,24 @@ RecountPerCharDB = {
 						},
 						["Arcane Wraith"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
 									["count"] = 0,
 								},
 								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Howling Blade"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
@@ -7626,10 +7976,13 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 0,
 								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Shadowstrike"] = {
+								["Touch of the Grave"] = {
 									["count"] = 0,
 								},
 							},
@@ -7637,81 +7990,55 @@ RecountPerCharDB = {
 						},
 						["Warlock Ritualist"] = {
 							["Details"] = {
-								["Backstab"] = {
-									["count"] = 22572,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 12554,
-								},
-							},
-							["amount"] = 35126,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
+									["count"] = 65187,
 								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 2302,
 								},
 								["Shadowstrike"] = {
+									["count"] = 19087,
+								},
+							},
+							["amount"] = 86576,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
 						},
-						["An'dure the Awakened"] = {
+						["Shadow Infiltrator"] = {
 							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
+								["Melee"] = {
+									["count"] = 2069,
 								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
+								["Backstab"] = {
+									["count"] = 7562,
 								},
+							},
+							["amount"] = 9631,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
-								["Touch of the Grave"] = {
+								["Shuriken Toss"] = {
 									["count"] = 0,
 								},
 								["Backstab"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
 								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
 									["count"] = 0,
 								},
 							},
@@ -7720,7 +8047,7 @@ RecountPerCharDB = {
 					},
 					["ManaGainedFrom"] = {
 					},
-					["RunicPowerGained"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 						["Peon"] = {
@@ -7731,9 +8058,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Gokrum Wolfgrinder"] = {
+						["Soljah"] = {
 							["Details"] = {
-								["Melee"] = {
+								["Whirlwind Off-Hand"] = {
+									["count"] = 0,
+								},
+								["Whirlwind"] = {
 									["count"] = 0,
 								},
 							},
@@ -7747,39 +8077,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Iron Shredder"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soothed Manafeeder"] = {
-							["Details"] = {
-								["Mana Volley"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
+						["Crystal Rager"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
@@ -7790,86 +8088,42 @@ RecountPerCharDB = {
 						["Warlock Ritualist"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 3560,
+									["count"] = 3550,
 								},
 							},
-							["amount"] = 3560,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 0,
-								},
-								["Whirlwind Off-Hand"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 3550,
 						},
 					},
 					["EnergyGainedFrom"] = {
 						["Darknex"] = {
 							["Details"] = {
 								["Master of Shadows"] = {
-									["count"] = 30,
+									["count"] = 0,
 								},
 								["Relentless Strikes"] = {
 									["count"] = 40,
 								},
 							},
-							["amount"] = 70,
+							["amount"] = 40,
 						},
 					},
-					["CCBroken"] = {
+					["RunicPowerGained"] = {
 					},
-					["RunicPowerGainedFrom"] = {
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 						["Darknex"] = {
 							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
 								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 3.5,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3.5,
 						},
 					},
 					["OverHeals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Stealth"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Touch of the Grave"] = {
 							["Details"] = {
 								["Hit"] = {
@@ -7882,44 +8136,44 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
+						["Stealth"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 2849,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2849,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 2849,
+						},
 					},
 					["WhoHealed"] = {
 						["Darknex"] = {
 							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
 								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 3550,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3550,
 						},
 					},
 					["HealedWho"] = {
 						["Darknex"] = {
 							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 0,
-								},
 								["Stealth"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 3550,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3550,
 						},
 					},
 					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
 					["PartialAbsorb"] = {
-						["Falling"] = {
+						["Whirlwind Off-Hand"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -7931,7 +8185,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Mana Volley"] = {
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hamstring"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -7955,45 +8221,9 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Brutal Slam"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["PartialResist"] = {
-						["Falling"] = {
+						["Whirlwind Off-Hand"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -8005,7 +8235,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Mana Volley"] = {
+						["Whirlwind"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Hamstring"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -8029,51 +8271,18 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 2,
 						},
-						["Whirlwind"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Brutal Slam"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 					},
 					["ManaGained"] = {
 					},
 					["FDamage"] = 0,
 					["Interrupts"] = 0,
-					["Overhealing"] = 0,
+					["Overhealing"] = 2849,
 					["TimeSpent"] = {
 						["Peon"] = {
 							["Details"] = {
+								["Howling Blade"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -8085,24 +8294,13 @@ RecountPerCharDB = {
 						},
 						["Arcane Wraith"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
 								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
 									["count"] = 0,
 								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Shadowstrike"] = {
+								["Touch of the Grave"] = {
 									["count"] = 0,
 								},
 							},
@@ -8110,13 +8308,16 @@ RecountPerCharDB = {
 						},
 						["Frenzied Manafeeder"] = {
 							["Details"] = {
-								["Shuriken Toss"] = {
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
+								["Shuriken Toss"] = {
+									["count"] = 0,
+								},
+								["Backstab"] = {
 									["count"] = 0,
 								},
 								["Touch of the Grave"] = {
@@ -8127,10 +8328,21 @@ RecountPerCharDB = {
 						},
 						["Darknex"] = {
 							["Details"] = {
-								["Shadow Dance"] = {
+								["Stealth"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Iron Shredder"] = {
+							["Details"] = {
+								["Eviscerate"] = {
 									["count"] = 0,
 								},
-								["Stealth"] = {
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
 									["count"] = 0,
 								},
 								["Touch of the Grave"] = {
@@ -8139,15 +8351,12 @@ RecountPerCharDB = {
 							},
 							["amount"] = 0,
 						},
-						["Iron Shredder"] = {
+						["Shadow Pillager"] = {
 							["Details"] = {
-								["Eviscerate"] = {
+								["Shadow Blade"] = {
 									["count"] = 0,
 								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
+								["Shadow Blade Off-hand"] = {
 									["count"] = 0,
 								},
 							},
@@ -8155,148 +8364,76 @@ RecountPerCharDB = {
 						},
 						["Warlock Ritualist"] = {
 							["Details"] = {
-								["Backstab"] = {
-									["count"] = 1.68,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 3.82,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
+									["count"] = 1.11,
 								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 1.09,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 0,
-						},
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
+							["amount"] = 2.2,
 						},
 						["Crystal Rager"] = {
 							["Details"] = {
-								["Eviscerate"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
 							["amount"] = 0,
+						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Backstab"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1.46,
 						},
 					},
 					["WhoDispelled"] = {
 					},
 					["InterruptData"] = {
-						["An'dure the Awakened"] = {
-							["Details"] = {
-								["Arcane Affinity (Kick)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 					},
 					["ElementTakenResist"] = {
 					},
 					["Heals"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
 						["Stealth"] = {
 							["Details"] = {
 								["Tick"] = {
-									["max"] = 0,
+									["max"] = 3550,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 3550,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Touch of the Grave"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 1,
+							["amount"] = 3550,
 						},
 					},
-					["ActiveTime"] = 5.5,
+					["ActiveTime"] = 7.16,
 					["EnergyGained"] = {
 						["Master of Shadows"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 30,
+									["count"] = 0,
 								},
 							},
-							["amount"] = 30,
+							["amount"] = 0,
 						},
 						["Relentless Strikes"] = {
 							["Details"] = {
@@ -8307,69 +8444,33 @@ RecountPerCharDB = {
 							["amount"] = 40,
 						},
 					},
-					["EnergyGain"] = 70,
-					["Healing"] = 0,
+					["EnergyGain"] = 40,
+					["Healing"] = 3550,
 					["Dispelled"] = 0,
 					["RageGained"] = {
 					},
 					["Attacks"] = {
-						["Eviscerate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Nightblade (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 6576,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 12554,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 12554,
-						},
 						["Melee"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
+								["Miss"] = {
+									["count"] = 1,
 									["amount"] = 0,
 								},
 								["Crit"] = {
-									["max"] = 0,
+									["max"] = 2302,
 									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+									["count"] = 1,
+									["amount"] = 2302,
 								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 2069,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 2069,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
+							["count"] = 3,
+							["amount"] = 4371,
 						},
 						["Touch of the Grave"] = {
 							["Details"] = {
@@ -8389,7 +8490,19 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 0,
 						},
-						["Shuriken Toss"] = {
+						["Howling Blade"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Blade Off-hand"] = {
 							["Details"] = {
 								["Crit"] = {
 									["max"] = 0,
@@ -8397,6 +8510,42 @@ RecountPerCharDB = {
 									["count"] = 0,
 									["amount"] = 0,
 								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Blade"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Eviscerate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 65187,
+									["min"] = 65187,
+									["count"] = 1,
+									["amount"] = 65187,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 65187,
+						},
+						["Shuriken Toss"] = {
+							["Details"] = {
 								["Hit"] = {
 									["max"] = 0,
 									["min"] = 0,
@@ -8416,41 +8565,47 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Hit"] = {
+									["max"] = 19087,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 19087,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 19087,
+						},
+						["Backstab"] = {
+							["Details"] = {
+								["Crit"] = {
 									["max"] = 0,
 									["min"] = 0,
 									["count"] = 0,
 									["amount"] = 0,
 								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Backstab"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 15703,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 15703,
-								},
 								["Hit"] = {
-									["max"] = 6869,
-									["min"] = 0,
+									["max"] = 7562,
+									["min"] = 7562,
 									["count"] = 1,
-									["amount"] = 6869,
+									["amount"] = 7562,
 								},
 							},
-							["count"] = 2,
-							["amount"] = 22572,
+							["count"] = 1,
+							["amount"] = 7562,
 						},
 					},
 					["RageGain"] = 0,
 					["FDamagedWho"] = {
 					},
-					["TimeDamage"] = 5.5,
+					["TimeDamage"] = 3.66,
 					["TimeDamaging"] = {
-						["Peon"] = {
+						["Crystal Rager"] = {
 							["Details"] = {
+								["Backstab"] = {
+									["count"] = 0,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
@@ -8462,34 +8617,6 @@ RecountPerCharDB = {
 						},
 						["Arcane Wraith"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Gokrum Wolfgrinder"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Frenzied Manafeeder"] = {
-							["Details"] = {
-								["Shuriken Toss"] = {
-									["count"] = 0,
-								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
@@ -8497,6 +8624,20 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 								["Touch of the Grave"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Peon"] = {
+							["Details"] = {
+								["Howling Blade"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
@@ -8507,10 +8648,13 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 0,
 								},
+								["Shadowstrike"] = {
+									["count"] = 0,
+								},
 								["Melee"] = {
 									["count"] = 0,
 								},
-								["Shadowstrike"] = {
+								["Touch of the Grave"] = {
 									["count"] = 0,
 								},
 							},
@@ -8518,81 +8662,55 @@ RecountPerCharDB = {
 						},
 						["Warlock Ritualist"] = {
 							["Details"] = {
-								["Backstab"] = {
-									["count"] = 1.68,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 3.82,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Steeltusk"] = {
-							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
+									["count"] = 1.11,
 								},
 								["Melee"] = {
-									["count"] = 0,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 0,
+									["count"] = 1.09,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
 							},
+							["amount"] = 2.2,
+						},
+						["Shadow Pillager"] = {
+							["Details"] = {
+								["Shadow Blade"] = {
+									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0,
+								},
+							},
 							["amount"] = 0,
 						},
-						["An'dure the Awakened"] = {
+						["Shadow Infiltrator"] = {
 							["Details"] = {
-								["Eviscerate"] = {
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Backstab"] = {
 									["count"] = 0,
 								},
-								["Nightblade (DoT)"] = {
-									["count"] = 0,
-								},
+							},
+							["amount"] = 1.46,
+						},
+						["Frenzied Manafeeder"] = {
+							["Details"] = {
 								["Melee"] = {
 									["count"] = 0,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
 								},
-								["Touch of the Grave"] = {
+								["Shuriken Toss"] = {
 									["count"] = 0,
 								},
 								["Backstab"] = {
 									["count"] = 0,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Backstab"] = {
-									["count"] = 0,
-								},
-								["Shadowstrike"] = {
-									["count"] = 0,
-								},
 								["Touch of the Grave"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
 									["count"] = 0,
 								},
 							},
@@ -8601,21 +8719,13 @@ RecountPerCharDB = {
 					},
 					["ManaGain"] = 0,
 					["HOTs"] = {
-						["Shadow Dance"] = {
-							["Details"] = {
-								["Darknex"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
 						["Stealth"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 0,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 3,
 						},
 					},
 					["DispelledWho"] = {
@@ -8625,14 +8735,14 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Nightblade (DoT)"] = {
 							["Details"] = {
-								["Warlock Ritualist"] = {
-									["count"] = 6,
+								["Steeltusk"] = {
+									["count"] = 9,
 								},
 								["Hammertooth"] = {
 									["count"] = 9,
 								},
-								["Frenzied Manafeeder"] = {
-									["count"] = 3,
+								["Warlock Ritualist"] = {
+									["count"] = 6,
 								},
 								["An'dure the Awakened"] = {
 									["count"] = 27,
@@ -8640,8 +8750,8 @@ RecountPerCharDB = {
 								["Arianpali-Greymane"] = {
 									["count"] = 39,
 								},
-								["Steeltusk"] = {
-									["count"] = 9,
+								["Frenzied Manafeeder"] = {
+									["count"] = 3,
 								},
 							},
 							["amount"] = 93,
@@ -8668,22 +8778,22 @@ RecountPerCharDB = {
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 65,
+									["count"] = 69,
 								},
 								["Dodge"] = {
 									["count"] = 26,
 								},
 								["Miss"] = {
-									["count"] = 19,
+									["count"] = 21,
 								},
 								["Crit"] = {
 									["count"] = 7,
 								},
 								["Parry"] = {
-									["count"] = 8,
+									["count"] = 11,
 								},
 							},
-							["amount"] = 125,
+							["amount"] = 134,
 						},
 						["Arcane"] = {
 							["Details"] = {
@@ -8729,17 +8839,20 @@ RecountPerCharDB = {
 						},
 						["Shadow"] = {
 							["Details"] = {
+								["Tick"] = {
+									["count"] = 40,
+								},
 								["Immune"] = {
 									["count"] = 1,
 								},
 								["Crit"] = {
 									["count"] = 9,
 								},
-								["Tick"] = {
-									["count"] = 40,
+								["Hit"] = {
+									["count"] = 2,
 								},
 							},
-							["amount"] = 50,
+							["amount"] = 52,
 						},
 						["Frost"] = {
 							["Details"] = {
@@ -8757,27 +8870,27 @@ RecountPerCharDB = {
 									["count"] = 162349,
 								},
 								["Stealth"] = {
-									["count"] = 112855,
+									["count"] = 127210,
 								},
 								["Touch of the Grave"] = {
-									["count"] = 24852,
+									["count"] = 28777,
 								},
 							},
-							["amount"] = 300056,
+							["amount"] = 318336,
 						},
 					},
 					["ElementDoneAbsorb"] = {
 						["Shadow"] = 15920,
 					},
 					["DeathCount"] = 1,
-					["HOT_Time"] = 225,
+					["HOT_Time"] = 237,
 					["ElementTaken"] = {
 						["Holy"] = 235093,
-						["Melee"] = 285162,
+						["Melee"] = 299513,
 						["Arcane"] = 32203,
 						["Physical"] = 244156,
 						["Fire"] = 78533,
-						["Shadow"] = 261614,
+						["Shadow"] = 269472,
 						["Frost"] = 7468,
 					},
 					["HOTs"] = {
@@ -8792,18 +8905,18 @@ RecountPerCharDB = {
 						["Stealth"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 93,
+									["count"] = 105,
 								},
 							},
-							["amount"] = 93,
+							["amount"] = 105,
 						},
 					},
-					["Damage"] = 4574198,
-					["TimeHeal"] = 45.82,
+					["Damage"] = 4863672,
+					["TimeHeal"] = 54.3,
 					["ElementDone"] = {
-						["Shadow"] = 502875,
-						["Melee"] = 480325,
-						["Physical"] = 3590998,
+						["Shadow"] = 516736,
+						["Melee"] = 501050,
+						["Physical"] = 3845886,
 					},
 					["ElementHitsDone"] = {
 						["Shadow"] = {
@@ -8815,13 +8928,13 @@ RecountPerCharDB = {
 									["count"] = 10,
 								},
 								["Crit"] = {
-									["count"] = 15,
+									["count"] = 16,
 								},
 								["Hit"] = {
-									["count"] = 37,
+									["count"] = 40,
 								},
 							},
-							["amount"] = 85,
+							["amount"] = 89,
 						},
 						["Melee"] = {
 							["Details"] = {
@@ -8829,19 +8942,22 @@ RecountPerCharDB = {
 									["count"] = 7,
 								},
 								["Miss"] = {
-									["count"] = 17,
+									["count"] = 18,
 								},
 								["Hit"] = {
-									["count"] = 177,
-								},
-								["Crit"] = {
-									["count"] = 48,
+									["count"] = 183,
 								},
 								["Immune"] = {
 									["count"] = 2,
 								},
+								["Crit"] = {
+									["count"] = 51,
+								},
+								["Evade"] = {
+									["count"] = 1,
+								},
 							},
-							["amount"] = 251,
+							["amount"] = 262,
 						},
 						["Physical"] = {
 							["Details"] = {
@@ -8849,19 +8965,19 @@ RecountPerCharDB = {
 									["count"] = 1,
 								},
 								["Hit"] = {
-									["count"] = 123,
+									["count"] = 131,
 								},
 								["Absorb"] = {
 									["count"] = 3,
 								},
 								["Crit"] = {
-									["count"] = 48,
+									["count"] = 50,
 								},
 								["Evade"] = {
-									["count"] = 2,
+									["count"] = 3,
 								},
 							},
-							["amount"] = 177,
+							["amount"] = 188,
 						},
 					},
 					["WhoDamaged"] = {
@@ -8906,19 +9022,13 @@ RecountPerCharDB = {
 							},
 							["amount"] = 2590,
 						},
-						["Flameblast"] = {
+						["Shadow Infiltrator"] = {
 							["Details"] = {
-								["Immolation"] = {
-									["count"] = 74768,
-								},
-								["Melee"] = {
-									["count"] = 40801,
-								},
-								["Meteor Strike"] = {
-									["count"] = 3765,
+								["Shadow Strikes"] = {
+									["count"] = 7858,
 								},
 							},
-							["amount"] = 119334,
+							["amount"] = 7858,
 						},
 						["Arianpali-Greymane"] = {
 							["Details"] = {
@@ -8946,13 +9056,27 @@ RecountPerCharDB = {
 							},
 							["amount"] = 285510,
 						},
-						["Arcane Wraith"] = {
+						["Peon"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 27342,
+									["count"] = 3804,
 								},
 							},
-							["amount"] = 27342,
+							["amount"] = 3804,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Whirlwind"] = {
+									["count"] = 44172,
+								},
+								["Whirlwind Off-Hand"] = {
+									["count"] = 24545,
+								},
+								["Melee"] = {
+									["count"] = 2995,
+								},
+							},
+							["amount"] = 71712,
 						},
 						["Soulbinder Halaari"] = {
 							["Details"] = {
@@ -8970,20 +9094,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 4293,
 						},
-						["Soljah"] = {
-							["Details"] = {
-								["Whirlwind"] = {
-									["count"] = 44172,
-								},
-								["Whirlwind Off-Hand"] = {
-									["count"] = 24545,
-								},
-								["Melee"] = {
-									["count"] = 2995,
-								},
-							},
-							["amount"] = 71712,
-						},
 						["Grom'kar Shadowblade"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -8992,13 +9102,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5581,
 						},
+						["Arcane Wraith"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 27342,
+								},
+							},
+							["amount"] = 27342,
+						},
 						["Warlock Ritualist"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 10401,
+									["count"] = 24752,
 								},
 							},
-							["amount"] = 10401,
+							["amount"] = 24752,
 						},
 						["Iron Shredder"] = {
 							["Details"] = {
@@ -9084,13 +9202,19 @@ RecountPerCharDB = {
 							},
 							["amount"] = 31046,
 						},
-						["Peon"] = {
+						["Flameblast"] = {
 							["Details"] = {
+								["Immolation"] = {
+									["count"] = 74768,
+								},
 								["Melee"] = {
-									["count"] = 3804,
+									["count"] = 40801,
+								},
+								["Meteor Strike"] = {
+									["count"] = 3765,
 								},
 							},
-							["amount"] = 3804,
+							["amount"] = 119334,
 						},
 						["Arcane Crystal"] = {
 							["Details"] = {
@@ -9105,13 +9229,13 @@ RecountPerCharDB = {
 						["Darknex"] = {
 							["Details"] = {
 								["Master of Shadows"] = {
-									["count"] = 2790,
+									["count"] = 3090,
 								},
 								["Relentless Strikes"] = {
-									["count"] = 1440,
+									["count"] = 1520,
 								},
 							},
-							["amount"] = 4230,
+							["amount"] = 4610,
 						},
 					},
 					["CCBroken"] = {
@@ -9142,13 +9266,13 @@ RecountPerCharDB = {
 									["count"] = 11.38,
 								},
 								["Stealth"] = {
-									["count"] = 34.32,
+									["count"] = 42.8,
 								},
 								["Touch of the Grave"] = {
 									["count"] = 0.12,
 								},
 							},
-							["amount"] = 45.82,
+							["amount"] = 54.3,
 						},
 					},
 					["OverHeals"] = {
@@ -9169,28 +9293,28 @@ RecountPerCharDB = {
 								["Tick"] = {
 									["max"] = 4572,
 									["min"] = 184,
-									["count"] = 18,
-									["amount"] = 54062,
+									["count"] = 22,
+									["amount"] = 65303,
 								},
 							},
-							["count"] = 18,
-							["amount"] = 54062,
+							["count"] = 22,
+							["amount"] = 65303,
 						},
 						["Touch of the Grave"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 10104,
 									["min"] = 300,
-									["count"] = 28,
-									["amount"] = 134104,
+									["count"] = 30,
+									["amount"] = 138643,
 								},
 							},
-							["count"] = 28,
-							["amount"] = 134104,
+							["count"] = 30,
+							["amount"] = 138643,
 						},
 					},
 					["CCBreak"] = 4,
-					["EnergyGain"] = 4230,
+					["EnergyGain"] = 4610,
 					["PartialAbsorb"] = {
 						["Corruption (DoT)"] = {
 							["Details"] = {
@@ -9336,6 +9460,18 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
+						["Whirlwind Off-Hand"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 0,
+						},
 						["Arcane Affinity"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -9360,31 +9496,7 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 21,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 21,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 125,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 125,
-							["amount"] = 0,
-						},
-						["Hamstring"] = {
+						["Brutal Slam"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
@@ -9394,6 +9506,30 @@ RecountPerCharDB = {
 								},
 							},
 							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 134,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 134,
+							["amount"] = 0,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Rebuke"] = {
@@ -9420,16 +9556,16 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Crusader Strike"] = {
+						["Hammer of Justice"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Phantom Singularity"] = {
@@ -9456,16 +9592,16 @@ RecountPerCharDB = {
 							["count"] = 2,
 							["amount"] = 0,
 						},
-						["Hammer of Justice"] = {
+						["Crystalline Burst"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 						["Immolation"] = {
@@ -9492,16 +9628,16 @@ RecountPerCharDB = {
 							["count"] = 7,
 							["amount"] = 0,
 						},
-						["Crystalline Burst"] = {
+						["Hamstring"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 1,
 							["amount"] = 0,
 						},
 						["Templar's Verdict"] = {
@@ -9528,20 +9664,20 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Brutal Slam"] = {
+						["Shadow Strikes"] = {
 							["Details"] = {
 								["No Absorb"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
 					},
-					["ActiveTime"] = 503.04,
+					["ActiveTime"] = 547.6,
 					["InterruptData"] = {
 						["Hashtagdik-Scilla"] = {
 							["Details"] = {
@@ -9578,24 +9714,24 @@ RecountPerCharDB = {
 								["Tick"] = {
 									["max"] = 6399,
 									["min"] = 1827,
-									["count"] = 31,
-									["amount"] = 112855,
+									["count"] = 35,
+									["amount"] = 127210,
 								},
 							},
-							["count"] = 31,
-							["amount"] = 112855,
+							["count"] = 35,
+							["amount"] = 127210,
 						},
 						["Touch of the Grave"] = {
 							["Details"] = {
 								["Hit"] = {
 									["max"] = 7045,
 									["min"] = 2895,
-									["count"] = 6,
-									["amount"] = 24852,
+									["count"] = 7,
+									["amount"] = 28777,
 								},
 							},
-							["count"] = 6,
-							["amount"] = 24852,
+							["count"] = 7,
+							["amount"] = 28777,
 						},
 					},
 					["Interrupts"] = 2,
@@ -9603,23 +9739,23 @@ RecountPerCharDB = {
 						["Master of Shadows"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 2790,
+									["count"] = 3090,
 								},
 							},
-							["amount"] = 2790,
+							["amount"] = 3090,
 						},
 						["Relentless Strikes"] = {
 							["Details"] = {
 								["Darknex"] = {
-									["count"] = 1440,
+									["count"] = 1520,
 								},
 							},
-							["amount"] = 1440,
+							["amount"] = 1520,
 						},
 					},
 					["DOT_Time"] = 93,
-					["Healing"] = 300056,
-					["DamageTaken"] = 1144229,
+					["Healing"] = 318336,
+					["DamageTaken"] = 1166438,
 					["DamagedWho"] = {
 						["Peon"] = {
 							["Details"] = {
@@ -9725,17 +9861,23 @@ RecountPerCharDB = {
 								["Eviscerate"] = {
 									["count"] = 79880,
 								},
-								["Touch of the Grave"] = {
-									["count"] = 3920,
-								},
 								["Melee"] = {
-									["count"] = 6389,
+									["count"] = 17869,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 7617,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 2675,
+								},
+								["Shadow Blade"] = {
+									["count"] = 2722,
 								},
 								["Shadowstrike"] = {
 									["count"] = 37966,
 								},
 							},
-							["amount"] = 128155,
+							["amount"] = 148729,
 						},
 						["Frenzied Manafeeder"] = {
 							["Details"] = {
@@ -9766,16 +9908,16 @@ RecountPerCharDB = {
 						["Warlock Ritualist"] = {
 							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 29631,
+									["count"] = 94818,
 								},
 								["Nightblade (DoT)"] = {
 									["count"] = 12554,
 								},
 								["Melee"] = {
-									["count"] = 4411,
+									["count"] = 11587,
 								},
 								["Shadowstrike"] = {
-									["count"] = 32928,
+									["count"] = 169283,
 								},
 								["Backstab"] = {
 									["count"] = 22572,
@@ -9787,10 +9929,50 @@ RecountPerCharDB = {
 									["count"] = 8552,
 								},
 								["Touch of the Grave"] = {
-									["count"] = 4295,
+									["count"] = 9062,
 								},
 							},
-							["amount"] = 117707,
+							["amount"] = 331192,
+						},
+						["Crystal Rager"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 148692,
+								},
+								["Melee"] = {
+									["count"] = 39768,
+								},
+								["Shadowstrike"] = {
+									["count"] = 289953,
+								},
+								["Backstab"] = {
+									["count"] = 17259,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 3822,
+								},
+							},
+							["amount"] = 499494,
+						},
+						["Soljah"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 30776,
+								},
+								["Melee"] = {
+									["count"] = 12148,
+								},
+								["Backstab"] = {
+									["count"] = 14215,
+								},
+								["Shadowstrike"] = {
+									["count"] = 37355,
+								},
+								["Touch of the Grave"] = {
+									["count"] = 3691,
+								},
+							},
+							["amount"] = 98185,
 						},
 						["Arcane Wraith"] = {
 							["Details"] = {
@@ -9814,26 +9996,6 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 725494,
-						},
-						["Soljah"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 30776,
-								},
-								["Melee"] = {
-									["count"] = 12148,
-								},
-								["Backstab"] = {
-									["count"] = 14215,
-								},
-								["Shadowstrike"] = {
-									["count"] = 37355,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 3691,
-								},
-							},
-							["amount"] = 98185,
 						},
 						["Hammertooth"] = {
 							["Details"] = {
@@ -9949,26 +10111,6 @@ RecountPerCharDB = {
 							},
 							["amount"] = 447673,
 						},
-						["Crystal Rager"] = {
-							["Details"] = {
-								["Eviscerate"] = {
-									["count"] = 148692,
-								},
-								["Melee"] = {
-									["count"] = 39768,
-								},
-								["Shadowstrike"] = {
-									["count"] = 289953,
-								},
-								["Backstab"] = {
-									["count"] = 17259,
-								},
-								["Touch of the Grave"] = {
-									["count"] = 3822,
-								},
-							},
-							["amount"] = 499494,
-						},
 						["Arianpali-Greymane"] = {
 							["Details"] = {
 								["Eviscerate"] = {
@@ -9995,16 +10137,33 @@ RecountPerCharDB = {
 							},
 							["amount"] = 348096,
 						},
+						["Shadow Infiltrator"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 28529,
+								},
+								["Shadowstrike"] = {
+									["count"] = 17255,
+								},
+								["Melee"] = {
+									["count"] = 2069,
+								},
+								["Backstab"] = {
+									["count"] = 7562,
+								},
+							},
+							["amount"] = 55415,
+						},
 					},
 					["Attacks"] = {
 						["Pick Pocket"] = {
 							["Details"] = {
 								["Evade"] = {
-									["count"] = 2,
+									["count"] = 3,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 2,
+							["count"] = 3,
 							["amount"] = 0,
 						},
 						["Melee"] = {
@@ -10014,28 +10173,32 @@ RecountPerCharDB = {
 									["amount"] = 0,
 								},
 								["Miss"] = {
-									["count"] = 17,
+									["count"] = 18,
 									["amount"] = 0,
 								},
 								["Hit"] = {
 									["max"] = 3265,
 									["min"] = 903,
-									["count"] = 177,
-									["amount"] = 314861,
-								},
-								["Crit"] = {
-									["max"] = 5369,
-									["min"] = 1682,
-									["count"] = 48,
-									["amount"] = 165464,
+									["count"] = 183,
+									["amount"] = 327006,
 								},
 								["Immune"] = {
 									["count"] = 2,
 									["amount"] = 0,
 								},
+								["Crit"] = {
+									["max"] = 5369,
+									["min"] = 1682,
+									["count"] = 51,
+									["amount"] = 174044,
+								},
+								["Evade"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
 							},
-							["count"] = 251,
-							["amount"] = 480325,
+							["count"] = 262,
+							["amount"] = 501050,
 						},
 						["Backstab"] = {
 							["Details"] = {
@@ -10052,12 +10215,12 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 12680,
 									["min"] = 6303,
-									["count"] = 17,
-									["amount"] = 147405,
+									["count"] = 18,
+									["amount"] = 154967,
 								},
 							},
-							["count"] = 29,
-							["amount"] = 307503,
+							["count"] = 30,
+							["amount"] = 315065,
 						},
 						["Howling Blade"] = {
 							["Details"] = {
@@ -10073,19 +10236,25 @@ RecountPerCharDB = {
 						},
 						["Shadow Blade Off-hand"] = {
 							["Details"] = {
+								["Absorb"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 2675,
+									["min"] = 2675,
+									["count"] = 1,
+									["amount"] = 2675,
+								},
 								["Hit"] = {
 									["max"] = 2322,
 									["min"] = 1378,
 									["count"] = 7,
 									["amount"] = 13953,
 								},
-								["Absorb"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
 							},
-							["count"] = 9,
-							["amount"] = 13953,
+							["count"] = 10,
+							["amount"] = 16628,
 						},
 						["Shadow Blade"] = {
 							["Details"] = {
@@ -10104,30 +10273,30 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 4645,
 									["min"] = 2700,
-									["count"] = 7,
-									["amount"] = 25092,
+									["count"] = 8,
+									["amount"] = 27814,
 								},
 							},
-							["count"] = 12,
-							["amount"] = 40224,
+							["count"] = 13,
+							["amount"] = 42946,
 						},
 						["Eviscerate"] = {
 							["Details"] = {
 								["Crit"] = {
-									["max"] = 62763,
+									["max"] = 65187,
 									["min"] = 22823,
-									["count"] = 9,
-									["amount"] = 445848,
+									["count"] = 10,
+									["amount"] = 511035,
 								},
 								["Hit"] = {
 									["max"] = 43739,
 									["min"] = 17496,
-									["count"] = 21,
-									["amount"] = 664901,
+									["count"] = 22,
+									["amount"] = 693430,
 								},
 							},
-							["count"] = 30,
-							["amount"] = 1110749,
+							["count"] = 32,
+							["amount"] = 1204465,
 						},
 						["Nightblade (DoT)"] = {
 							["Details"] = {
@@ -10158,18 +10327,18 @@ RecountPerCharDB = {
 								["Crit"] = {
 									["max"] = 47883,
 									["min"] = 23521,
-									["count"] = 25,
-									["amount"] = 946793,
+									["count"] = 26,
+									["amount"] = 980662,
 								},
 								["Hit"] = {
 									["max"] = 26831,
 									["min"] = 10893,
-									["count"] = 59,
-									["amount"] = 1090413,
+									["count"] = 65,
+									["amount"] = 1210154,
 								},
 							},
-							["count"] = 84,
-							["amount"] = 2037206,
+							["count"] = 91,
+							["amount"] = 2190816,
 						},
 						["Shuriken Toss"] = {
 							["Details"] = {
@@ -10214,15 +10383,15 @@ RecountPerCharDB = {
 								["Hit"] = {
 									["max"] = 6027,
 									["min"] = 3668,
-									["count"] = 23,
-									["amount"] = 103045,
+									["count"] = 25,
+									["amount"] = 111509,
 								},
 							},
-							["count"] = 31,
-							["amount"] = 166435,
+							["count"] = 33,
+							["amount"] = 174899,
 						},
 					},
-					["HealingTaken"] = 300056,
+					["HealingTaken"] = 318336,
 					["TimeSpent"] = {
 						["Crystal Rager"] = {
 							["Details"] = {
@@ -10306,11 +10475,23 @@ RecountPerCharDB = {
 						},
 						["Shadow Infiltrator"] = {
 							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.89,
+								},
 								["Pick Pocket"] = {
-									["count"] = 3.5,
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Shadowstrike"] = {
+									["count"] = 1.76,
+								},
+								["Backstab"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 12.11,
 						},
 						["Shadow Pillager"] = {
 							["Details"] = {
@@ -10321,16 +10502,22 @@ RecountPerCharDB = {
 									["count"] = 3.5,
 								},
 								["Melee"] = {
-									["count"] = 8.43,
+									["count"] = 17.63,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0.76,
+								},
+								["Shadow Blade"] = {
+									["count"] = 3.5,
 								},
 								["Touch of the Grave"] = {
 									["count"] = 0.11,
 								},
 							},
-							["amount"] = 13.36,
+							["amount"] = 26.82,
 						},
 						["Soulbinder Halaari"] = {
 							["Details"] = {
@@ -10369,16 +10556,16 @@ RecountPerCharDB = {
 						["Warlock Ritualist"] = {
 							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 0.67,
+									["count"] = 1.78,
 								},
 								["Nightblade (DoT)"] = {
 									["count"] = 3.82,
 								},
 								["Melee"] = {
-									["count"] = 2.33,
+									["count"] = 10.42,
 								},
 								["Shadowstrike"] = {
-									["count"] = 0,
+									["count"] = 4.81,
 								},
 								["Backstab"] = {
 									["count"] = 1.68,
@@ -10393,7 +10580,7 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 15.31,
+							["amount"] = 29.32,
 						},
 						["Soljah"] = {
 							["Details"] = {
@@ -10447,13 +10634,13 @@ RecountPerCharDB = {
 									["count"] = 11.38,
 								},
 								["Stealth"] = {
-									["count"] = 34.32,
+									["count"] = 42.8,
 								},
 								["Touch of the Grave"] = {
 									["count"] = 0.12,
 								},
 							},
-							["amount"] = 45.82,
+							["amount"] = 54.3,
 						},
 						["Iron Shredder"] = {
 							["Details"] = {
@@ -10641,7 +10828,7 @@ RecountPerCharDB = {
 							["amount"] = 20.01,
 						},
 					},
-					["TimeDamage"] = 457.22,
+					["TimeDamage"] = 493.3,
 					["TimeDamaging"] = {
 						["Peon"] = {
 							["Details"] = {
@@ -10719,11 +10906,23 @@ RecountPerCharDB = {
 						},
 						["Shadow Infiltrator"] = {
 							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.89,
+								},
 								["Pick Pocket"] = {
-									["count"] = 3.5,
+									["count"] = 7,
+								},
+								["Melee"] = {
+									["count"] = 1.46,
+								},
+								["Shadowstrike"] = {
+									["count"] = 1.76,
+								},
+								["Backstab"] = {
+									["count"] = 0,
 								},
 							},
-							["amount"] = 3.5,
+							["amount"] = 12.11,
 						},
 						["Soulbinder Halaari"] = {
 							["Details"] = {
@@ -10768,30 +10967,36 @@ RecountPerCharDB = {
 									["count"] = 3.5,
 								},
 								["Melee"] = {
-									["count"] = 8.43,
+									["count"] = 17.63,
 								},
 								["Shadowstrike"] = {
 									["count"] = 0,
+								},
+								["Shadow Blade Off-hand"] = {
+									["count"] = 0.76,
+								},
+								["Shadow Blade"] = {
+									["count"] = 3.5,
 								},
 								["Touch of the Grave"] = {
 									["count"] = 0.11,
 								},
 							},
-							["amount"] = 13.36,
+							["amount"] = 26.82,
 						},
 						["Warlock Ritualist"] = {
 							["Details"] = {
 								["Eviscerate"] = {
-									["count"] = 0.67,
+									["count"] = 1.78,
 								},
 								["Nightblade (DoT)"] = {
 									["count"] = 3.82,
 								},
 								["Melee"] = {
-									["count"] = 2.33,
+									["count"] = 10.42,
 								},
 								["Shadowstrike"] = {
-									["count"] = 0,
+									["count"] = 4.81,
 								},
 								["Backstab"] = {
 									["count"] = 1.68,
@@ -10806,7 +11011,7 @@ RecountPerCharDB = {
 									["count"] = 0,
 								},
 							},
-							["amount"] = 15.31,
+							["amount"] = 29.32,
 						},
 						["Frenzied Manafeeder"] = {
 							["Details"] = {
@@ -11191,6 +11396,18 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 4,
 						},
+						["Whirlwind Off-Hand"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 21,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 21,
+						},
 						["Arcane Affinity"] = {
 							["Details"] = {
 								["No Resist"] = {
@@ -11215,31 +11432,7 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-						["Whirlwind Off-Hand"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 21,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 21,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 125,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 125,
-						},
-						["Hamstring"] = {
+						["Brutal Slam"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
@@ -11250,6 +11443,30 @@ RecountPerCharDB = {
 							},
 							["count"] = 0,
 							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 134,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 134,
+						},
+						["Crusader Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
 						},
 						["Rebuke"] = {
 							["Details"] = {
@@ -11275,17 +11492,17 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-						["Crusader Strike"] = {
+						["Hammer of Justice"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 2,
+							["amount"] = 1,
 						},
 						["Phantom Singularity"] = {
 							["Details"] = {
@@ -11311,17 +11528,17 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 2,
 						},
-						["Hammer of Justice"] = {
+						["Crystalline Burst"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 1,
+							["amount"] = 2,
 						},
 						["Immolation"] = {
 							["Details"] = {
@@ -11347,17 +11564,17 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 7,
 						},
-						["Crystalline Burst"] = {
+						["Hamstring"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 2,
+									["count"] = 1,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 2,
+							["amount"] = 1,
 						},
 						["Templar's Verdict"] = {
 							["Details"] = {
@@ -11383,17 +11600,17 @@ RecountPerCharDB = {
 							["count"] = 0,
 							["amount"] = 1,
 						},
-						["Brutal Slam"] = {
+						["Shadow Strikes"] = {
 							["Details"] = {
 								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
 							["count"] = 0,
-							["amount"] = 1,
+							["amount"] = 2,
 						},
 					},
 					["WhoHealed"] = {
@@ -11403,20 +11620,20 @@ RecountPerCharDB = {
 									["count"] = 162349,
 								},
 								["Stealth"] = {
-									["count"] = 112855,
+									["count"] = 127210,
 								},
 								["Touch of the Grave"] = {
-									["count"] = 24852,
+									["count"] = 28777,
 								},
 							},
-							["amount"] = 300056,
+							["amount"] = 318336,
 						},
 					},
-					["Overhealing"] = 358813,
+					["Overhealing"] = 374593,
 				},
 			},
 			["UnitLockout"] = 11415.917,
-			["LastActive"] = 40106.811,
+			["LastActive"] = 41916.842,
 		},
 		["Mentá-Azralon"] = {
 			["GUID"] = "Player-3209-059F1706",
@@ -11524,7 +11741,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "ROGUE",
 			["unit"] = "Mentá-Azralon",
-			["LastAbility"] = 39297.154,
+			["LastAbility"] = 41940.894,
 			["level"] = 100,
 			["LastDamageAbility"] = "Divine Hammer",
 			["LastFightIn"] = 3,
@@ -12221,93 +12438,93 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["HOTs"] = {
+					},
 					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
+					["PartialBlock"] = {
 					},
-					["ElementDoneAbsorb"] = {
+					["FDamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
-					["RunicPowerGainedFrom"] = {
-					},
+					["RageGain"] = 0,
 					["ElementDone"] = {
 					},
-					["PartialAbsorb"] = {
+					["ManaGainedFrom"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["OverHeals"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RageGained"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
+					["PartialResist"] = {
 					},
 					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
+					["ElementTakenAbsorb"] = {
 					},
-					["WhoDispelled"] = {
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
+					["PartialAbsorb"] = {
 					},
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["ElementHitsDone"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -12324,43 +12541,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -12368,48 +12582,51 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
@@ -12441,23 +12658,8 @@ RecountPerCharDB = {
 							["amount"] = 48,
 						},
 					},
+					["DamageTaken"] = 821079,
 					["HealedWho"] = {
-						["Mentá-Azralon"] = {
-							["Details"] = {
-								["Shadow Dance"] = {
-									["count"] = 133851,
-								},
-								["Stealth"] = {
-									["count"] = 5578,
-								},
-								["Crimson Vial"] = {
-									["count"] = 79272,
-								},
-							},
-							["amount"] = 218701,
-						},
-					},
-					["WhoHealed"] = {
 						["Mentá-Azralon"] = {
 							["Details"] = {
 								["Shadow Dance"] = {
@@ -12523,7 +12725,22 @@ RecountPerCharDB = {
 							["amount"] = 0.52,
 						},
 					},
-					["DamageTaken"] = 821079,
+					["WhoHealed"] = {
+						["Mentá-Azralon"] = {
+							["Details"] = {
+								["Shadow Dance"] = {
+									["count"] = 133851,
+								},
+								["Stealth"] = {
+									["count"] = 5578,
+								},
+								["Crimson Vial"] = {
+									["count"] = 79272,
+								},
+							},
+							["amount"] = 218701,
+						},
+					},
 					["ElementDoneAbsorb"] = {
 						["Shadow"] = 35351,
 					},
@@ -13404,7 +13621,7 @@ RecountPerCharDB = {
 			["LastActive"] = 11486.917,
 		},
 	},
-	["FightNum"] = 51,
+	["FightNum"] = 58,
 	["CombatTimes"] = {
 		{
 			11415.917, -- [1]
@@ -13763,12 +13980,61 @@ RecountPerCharDB = {
 			"10:44:59", -- [4]
 			"Warlock Ritualist", -- [5]
 		}, -- [51]
+		{
+			40398.21, -- [1]
+			40401.216, -- [2]
+			"10:51:06", -- [3]
+			"10:51:08", -- [4]
+			"Shadow Pillager", -- [5]
+		}, -- [52]
+		{
+			40401.216, -- [1]
+			40405.213, -- [2]
+			"10:51:08", -- [3]
+			"10:51:12", -- [4]
+			"Shadow Infiltrator", -- [5]
+		}, -- [53]
+		{
+			40472.217, -- [1]
+			40492.21, -- [2]
+			"10:52:20", -- [3]
+			"10:52:39", -- [4]
+			"Shadow Infiltrator", -- [5]
+		}, -- [54]
+		{
+			40532.215, -- [1]
+			40540.216, -- [2]
+			"10:53:20", -- [3]
+			"10:53:27", -- [4]
+			"Shadow Infiltrator", -- [5]
+		}, -- [55]
+		{
+			40645.209, -- [1]
+			40648.21, -- [2]
+			"10:55:13", -- [3]
+			"10:55:15", -- [4]
+			"Warlock Ritualist", -- [5]
+		}, -- [56]
+		{
+			40789.209, -- [1]
+			40796.209, -- [2]
+			"10:57:37", -- [3]
+			"10:57:43", -- [4]
+			"Shadow Pillager", -- [5]
+		}, -- [57]
+		{
+			41780.836, -- [1]
+			41787.836, -- [2]
+			"11:14:08", -- [3]
+			"11:14:15", -- [4]
+			"Warlock Ritualist", -- [5]
+		}, -- [58]
 	},
 	["FoughtWho"] = {
-		"Warlock Ritualist 10:44:55-10:44:59", -- [1]
-		"Warlock Ritualist 10:44:40-10:44:45", -- [2]
-		"Shadow Infiltrator 03:47:33-03:47:42", -- [3]
-		"Warlock Ritualist 03:46:33-03:46:40", -- [4]
-		"Shadow Pillager 03:44:30-03:44:37", -- [5]
+		"Warlock Ritualist 11:14:08-11:14:15", -- [1]
+		"Shadow Pillager 10:57:37-10:57:43", -- [2]
+		"Warlock Ritualist 10:55:13-10:55:15", -- [3]
+		"Shadow Infiltrator 10:53:20-10:53:27", -- [4]
+		"Shadow Infiltrator 10:52:20-10:52:39", -- [5]
 	},
 }

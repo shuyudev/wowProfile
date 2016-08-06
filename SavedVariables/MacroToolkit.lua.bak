@@ -1,0 +1,34 @@
+
+MacroToolkitDB = {
+	["char"] = {
+		["Darknex - Emerald Dream"] = {
+			["backups"] = {
+			},
+		},
+	},
+	["global"] = {
+		["backups"] = {
+		},
+		["ebackups"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Default.2016.08.06",
+	},
+	["profiles"] = {
+		["profile"] = {
+			["x"] = 548.3798828125,
+			["y"] = 434.145385742188,
+		},
+		["Default.2016.08.06"] = {
+			["x"] = 279.211090087891,
+			["height"] = 555.950622558594,
+			["scale"] = 1,
+			["fonts"] = {
+				["edfont"] = "2002",
+				["edsize"] = 12,
+			},
+			["y"] = 215.281204223633,
+		},
+	},
+}

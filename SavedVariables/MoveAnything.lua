@@ -46,25 +46,6 @@ MADB = {
 						-20.0000038146973, -- [5]
 					},
 				},
-				["MiniMapWorldMapButton"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						23, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["name"] = "MiniMapWorldMapButton",
-					["alpha"] = 0.65,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						22.9999847412109, -- [5]
-					},
-				},
 				["PlayerFrame"] = {
 					["orgPos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -84,6 +65,25 @@ MADB = {
 						"BOTTOMLEFT", -- [3]
 						187.802490234375, -- [4]
 						37.1360054016113, -- [5]
+					},
+				},
+				["TimeManagerClockButton"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"Minimap", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-75, -- [5]
+					},
+					["name"] = "TimeManagerClockButton",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.65,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1400.03698730469, -- [4]
+						672.333374023438, -- [5]
 					},
 				},
 				["GameTimeFrame"] = {
@@ -124,23 +124,23 @@ MADB = {
 						-45.0000610351563, -- [5]
 					},
 				},
-				["TimeManagerClockButton"] = {
+				["MiniMapWorldMapButton"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"Minimap", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						-75, -- [5]
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
 					},
-					["name"] = "TimeManagerClockButton",
 					["orgAlpha"] = 1,
+					["name"] = "MiniMapWorldMapButton",
 					["alpha"] = 0.65,
 					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						1400.03698730469, -- [4]
-						672.333374023438, -- [5]
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						22.9999847412109, -- [5]
 					},
 				},
 				["MinimapBorderTop"] = {
