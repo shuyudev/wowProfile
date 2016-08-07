@@ -8,7 +8,7 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -352.166694641113,
-					["x"] = -597.018539428711,
+					["x"] = -597.018524169922,
 					["w"] = 253,
 					["h"] = 152.999984741211,
 				},
@@ -26,7 +26,7 @@ RecountDB = {
 			},
 			["Locked"] = true,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Eye of the Storm",
+			["LastInstanceName"] = "Alterac Valley",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 252.987747192383,
 		},

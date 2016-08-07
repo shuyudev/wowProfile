@@ -158,7 +158,9 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
+					["orgAlpha"] = 1,
 					["name"] = "LossOfControlFrame",
+					["alpha"] = 0.7,
 					["pos"] = {
 						"CENTER", -- [1]
 						"UIParent", -- [2]
@@ -168,13 +170,6 @@ MADB = {
 					},
 				},
 				["BattlefieldMinimap"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"BattlefieldMinimapTab", -- [2]
-						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						-5, -- [5]
-					},
 					["name"] = "BattlefieldMinimap",
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -337,6 +332,7 @@ MADB = {
 		},
 	},
 	["closeGUIOnEscape"] = false,
+	["modifiedFramesOnly"] = true,
 	["squareMM"] = false,
 	["playSound"] = false,
 	["noBags"] = false,

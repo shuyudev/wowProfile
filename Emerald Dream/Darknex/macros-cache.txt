@@ -14,12 +14,8 @@ VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 /use [form:0,nocombat]!Stealth
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
-VER 3 0100000000000017 "Dance" "INV_MISC_QUESTIONMARK"
-#showtooltip Shadow Dance
-/use [nostealth]Shadow Dance
-END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
-#showtooptip [mod:alt, form:0]Shadow Dance;Cheap Shot
+#showtooptip [mod:alt,form:0]Shadow Dance;Cheap Shot
 /cast [form:0, nocombat]!Stealth
 /cast [form:0]Shadow Dance
 /cast [mod:shift,@focus]Cheap Shot;[@mouseover,exists,harm]Cheap Shot;Cheap Shot
@@ -44,7 +40,13 @@ VER 3 0100000000000012 "Dance4" "INV_MISC_QUESTIONMARK"
 /use [form:0,nocombat]!Stealth
 /use [form:0]Shadow Dance
 /use Symbols of Death
+/use [@target,exists]Shadowstrike
 /changeactionbar 1
+END
+VER 3 0100000000000017 "Dot" "INV_Misc_QuestionMark"
+#showtooltip [spec:1]Rupture;[spec:3]Nightblade
+/use [mod:shift,@focus,spec:1]Rupture;[@mouseover,exists,spec:1]Rupture;Rupture
+/use [mod:shift,@focus,spec:3]Nightblade;[@mouseover,exists,spec:3]Nightblade;Nightblade
 END
 VER 3 0100000000000010 "Gouge" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -54,9 +56,9 @@ VER 3 0100000000000010 "Gouge" "INV_MISC_QUESTIONMARK"
 /use [mod:shift,@focus]Gouge;[@mouseover,harm]Gouge;Gouge
 END
 VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Kick
 /use [mod:alt]Shadowstep
-/use [mod:shift,@focus]Kick;[@mouseover,harm]Kick;Kick
+/use [mod:shift,@focus]Kick;[@mouseover,harm]Kick;[@target,exists]Kick
 END
 VER 3 010000000000000D "Kidney" "INV_MISC_QUESTIONMARK"
 /use [mod:shift,@focus,spec:2]Between the Eyes;[@mouseover,harm,spec:2]Between the Eyes;[spec:2]Between the Eyes
@@ -66,7 +68,8 @@ VER 3 010000000000000D "Kidney" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [form:0,nocombat]!Stealth;[form:0,spec:3]Backstab;[form:0,spec:2]Saber Slash;[form:0,spec:1]Mutilate
+/use [nostealth,nocombat]!Stealth;
+/use [nostealth,spec:3]Backstab;[nostealth,spec:2]Saber Slash;[nostealth,spec:1]Mutilate
 /use [stealth,spec:3]Symbols of Death;[stealth,spec:2]Ambush;[stealth,spec:1]Mutilate
 /stopattack [stealth][nocombat]
 END
@@ -91,9 +94,9 @@ VER 3 0100000000000002 "Step" "INV_MISC_QUESTIONMARK"
 /use [mod:shift,@focus]Shadowstep;[@mouseover,exists]Shadowstep;Shadowstep
 END
 VER 3 0100000000000013 "Strike" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Shadowstrike
 /use [form:0,nocombat]!Stealth
-/use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;Shadowstrike
+/use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;[@target,exists]Shadowstrike
 END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip

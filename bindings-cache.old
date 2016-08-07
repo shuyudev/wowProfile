@@ -13,7 +13,7 @@ bind 1 CLICK DominosActionButton38:LeftButton
 bind 2 CLICK DominosActionButton39:LeftButton
 bind 3 CLICK DominosActionButton40:LeftButton
 bind 4 CLICK DominosActionButton41:LeftButton
-bind 5 NONE
+bind 5 CLICK DominosActionButton42:LeftButton
 bind 6 NONE
 bind 7 NONE
 bind 8 NONE
@@ -41,6 +41,7 @@ bind G MULTIACTIONBAR3BUTTON6
 bind F ACTIONBUTTON5
 bind V MULTIACTIONBAR3BUTTON4
 bind C MULTIACTIONBAR3BUTTON3
+bind F9 NONE
 bind F12 RECOUNT_TOGGLE_MAIN
 bind J TOGGLECHARACTER0
 bind ALT-Z NONE
@@ -70,8 +71,9 @@ bind ALT-CAPSLOCK NONE
 bind ALT-X NONE
 bind ALT-C MULTIACTIONBAR3BUTTON7
 bind SHIFT-Z TOGGLESHEATH
-bind ALT-1 CLICK DominosActionButton43:LeftButton
-bind ALT-2 CLICK DominosActionButton44:LeftButton
-bind ALT-3 CLICK DominosActionButton45:LeftButton
-bind ALT-4 CLICK DominosActionButton46:LeftButton
+bind ALT-1 CLICK DominosActionButton44:LeftButton
+bind ALT-2 CLICK DominosActionButton45:LeftButton
+bind ALT-3 CLICK DominosActionButton46:LeftButton
+bind ALT-4 CLICK DominosActionButton47:LeftButton
+bind ALT-5 CLICK DominosActionButton48:LeftButton
 modifiedclick NONE AUTOLOOTTOGGLE

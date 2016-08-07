@@ -11,7 +11,7 @@ VER 3 0000000000000008 "Focus" "458724"
 /clearfocus [mod:shift]
 END
 VER 3 0000000000000004 "Macro" "132599"
-/Macro
+/mac
 END
 VER 3 0000000000000002 "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -27,6 +27,10 @@ VER 3 0000000000000005 "Target" "132212"
 /cleartarget [nomod]
 /targetenemy
 /cleartarget [mod:shift]
+END
+VER 3 000000000000000A "test" "INV_Misc_QuestionMark"
+#showtooptip [form:0]Shadow Dance
+/use [form:0]Shadow Dance
 END
 VER 3 0000000000000009 "TEST" "INV_MISC_QUESTIONMARK"
 #showtooltip [spec:3]Backstab;[spec:2]Saber Slash
