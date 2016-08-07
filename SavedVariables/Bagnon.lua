@@ -11,8 +11,8 @@ Bagnon_Sets = {
 			},
 			["scale"] = 1,
 			["alpha"] = 1,
-			["y"] = 286.333343505859,
-			["x"] = -105.308471679688,
+			["y"] = 221.543319702148,
+			["x"] = -275.975463867188,
 			["borderColor"] = {
 			},
 			["itemScale"] = 1,
@@ -31,11 +31,14 @@ Bagnon_Sets = {
 			},
 		},
 		["guild"] = {
+			["y"] = 242.166702270508,
+			["x"] = -478.5185546875,
+			["point"] = "BOTTOMRIGHT",
+			["borderColor"] = {
+			},
 			["color"] = {
 			},
 			["hiddenBags"] = {
-			},
-			["borderColor"] = {
 			},
 		},
 		["bank"] = {

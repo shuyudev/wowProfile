@@ -296,14 +296,14 @@ Quartz3DB = {
 		},
 		["wlk.2014.10.20"] = {
 			["modules"] = {
-				["Interrupt"] = false,
+				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
+				["Interrupt"] = false,
 				["Flight"] = false,
-				["Range"] = false,
 				["Mirror"] = false,
+				["Range"] = false,
 			},
 		},
 		["WARLOCK"] = {
@@ -333,14 +333,14 @@ Quartz3DB = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["modules"] = {
-				["Interrupt"] = false,
+				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
+				["Interrupt"] = false,
 				["Flight"] = false,
-				["Mirror"] = false,
 				["Range"] = false,
+				["Mirror"] = false,
 			},
 		},
 	},

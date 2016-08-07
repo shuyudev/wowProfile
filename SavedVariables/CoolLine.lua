@@ -10,7 +10,7 @@ CoolLineDB = {
 	["border"] = "None",
 	["borderinset"] = 4,
 	["h"] = 21,
-	["fontsize"] = 10,
+	["fontsize"] = 11,
 	["block"] = {
 		["Hearthstone"] = true,
 	},

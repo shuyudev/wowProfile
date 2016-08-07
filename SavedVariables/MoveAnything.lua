@@ -29,118 +29,23 @@ MADB = {
 						269.319702148438, -- [5]
 					},
 				},
-				["MinimapBackdrop"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"MinimapCluster", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						-20, -- [5]
-					},
-					["name"] = "MinimapBackdrop",
-					["pos"] = {
-						"CENTER", -- [1]
-						"MinimapCluster", -- [2]
-						"CENTER", -- [3]
-						-3.337860107421880e-006, -- [4]
-						-20.0000038146973, -- [5]
-					},
-				},
-				["PlayerFrame"] = {
+				["TargetFrame"] = {
 					["orgPos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						188, -- [4]
-						37, -- [5]
+						282, -- [4]
+						161.000015258789, -- [5]
 					},
-					["orgAlpha"] = 1,
-					["hidden"] = true,
-					["name"] = "PlayerFrame",
-					["unit"] = "player",
-					["alpha"] = 0.5,
+					["name"] = "TargetFrame",
+					["orgAlpha"] = 0.949019607843137,
+					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						187.802490234375, -- [4]
-						37.1360054016113, -- [5]
-					},
-				},
-				["TimeManagerClockButton"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"Minimap", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						-75, -- [5]
-					},
-					["name"] = "TimeManagerClockButton",
-					["orgAlpha"] = 1,
-					["alpha"] = 0.65,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						1400.03698730469, -- [4]
-						672.333374023438, -- [5]
-					},
-				},
-				["GameTimeFrame"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"Minimap", -- [2]
-						"TOPRIGHT", -- [3]
-						20, -- [4]
-						-2, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["name"] = "GameTimeFrame",
-					["alpha"] = 0.6,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"Minimap", -- [2]
-						"TOPRIGHT", -- [3]
-						20.0000152587891, -- [4]
-						-2.00001525878906, -- [5]
-					},
-				},
-				["MiniMapTracking"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPLEFT", -- [3]
-						9, -- [4]
-						-45.0000038146973, -- [5]
-					},
-					["name"] = "MiniMapTracking",
-					["orgAlpha"] = 1,
-					["alpha"] = 0.7,
-					["pos"] = {
-						"TOPLEFT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPLEFT", -- [3]
-						9.0001220703125, -- [4]
-						-45.0000610351563, -- [5]
-					},
-				},
-				["MiniMapWorldMapButton"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						23, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["name"] = "MiniMapWorldMapButton",
-					["alpha"] = 0.65,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						22.9999847412109, -- [5]
+						282.247589111328, -- [4]
+						160.691146850586, -- [5]
 					},
 				},
 				["MinimapBorderTop"] = {
@@ -198,25 +103,6 @@ MADB = {
 						17.6538238525391, -- [5]
 					},
 				},
-				["TargetFrame"] = {
-					["orgPos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						282, -- [4]
-						161.000015258789, -- [5]
-					},
-					["name"] = "TargetFrame",
-					["orgAlpha"] = 0.949019607843137,
-					["alpha"] = 0.9,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						282.247589111328, -- [4]
-						160.691146850586, -- [5]
-					},
-				},
 				["FocusFrame"] = {
 					["orgPos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -264,6 +150,154 @@ MADB = {
 						0, -- [5]
 					},
 				},
+				["LossOfControlFrame"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["name"] = "LossOfControlFrame",
+					["pos"] = {
+						"CENTER", -- [1]
+						"UIParent", -- [2]
+						"CENTER", -- [3]
+						-3.05175781250e-005, -- [4]
+						241.876586914063, -- [5]
+					},
+				},
+				["BattlefieldMinimap"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"BattlefieldMinimapTab", -- [2]
+						"BOTTOMLEFT", -- [3]
+						0, -- [4]
+						-5, -- [5]
+					},
+					["name"] = "BattlefieldMinimap",
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"BattlefieldMinimapTab", -- [2]
+						"BOTTOMLEFT", -- [3]
+						-1252.3456993103, -- [4]
+						-64.2597198486328, -- [5]
+					},
+				},
+				["GameTimeFrame"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"Minimap", -- [2]
+						"TOPRIGHT", -- [3]
+						20, -- [4]
+						-2, -- [5]
+					},
+					["orgAlpha"] = 1,
+					["name"] = "GameTimeFrame",
+					["alpha"] = 0.6,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"Minimap", -- [2]
+						"TOPRIGHT", -- [3]
+						20.0000152587891, -- [4]
+						-2.00001525878906, -- [5]
+					},
+				},
+				["TimeManagerClockButton"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"Minimap", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-75, -- [5]
+					},
+					["name"] = "TimeManagerClockButton",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.65,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1400.03698730469, -- [4]
+						672.333374023438, -- [5]
+					},
+				},
+				["PlayerFrame"] = {
+					["orgPos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						188, -- [4]
+						37, -- [5]
+					},
+					["orgAlpha"] = 1,
+					["hidden"] = true,
+					["name"] = "PlayerFrame",
+					["unit"] = "player",
+					["alpha"] = 0.5,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						187.802490234375, -- [4]
+						37.1360054016113, -- [5]
+					},
+				},
+				["MinimapBackdrop"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"MinimapCluster", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-20, -- [5]
+					},
+					["name"] = "MinimapBackdrop",
+					["pos"] = {
+						"CENTER", -- [1]
+						"MinimapCluster", -- [2]
+						"CENTER", -- [3]
+						-3.337860107421880e-006, -- [4]
+						-20.0000038146973, -- [5]
+					},
+				},
+				["MiniMapTracking"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPLEFT", -- [3]
+						9, -- [4]
+						-45.0000038146973, -- [5]
+					},
+					["name"] = "MiniMapTracking",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.7,
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPLEFT", -- [3]
+						9.0001220703125, -- [4]
+						-45.0000610351563, -- [5]
+					},
+				},
+				["MiniMapWorldMapButton"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
+					},
+					["orgAlpha"] = 1,
+					["name"] = "MiniMapWorldMapButton",
+					["alpha"] = 0.65,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						22.9999847412109, -- [5]
+					},
+				},
 				["TargetFrameSpellBar"] = {
 					["orgPos"] = {
 						"TOPLEFT", -- [1]
@@ -282,28 +316,27 @@ MADB = {
 						238.86360168457, -- [5]
 					},
 				},
-				["LossOfControlFrame"] = {
+				["PlayerDebuffsMover"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
+						"TOPRIGHT", -- [1]
+						"BuffFrame", -- [2]
+						"BOTTOMRIGHT", -- [3]
 						0, -- [4]
-						0, -- [5]
+						-60, -- [5]
 					},
-					["name"] = "LossOfControlFrame",
+					["name"] = "PlayerDebuffsMover",
 					["pos"] = {
-						"CENTER", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"CENTER", -- [3]
-						-3.05175781250e-005, -- [4]
-						241.876586914063, -- [5]
+						"BOTTOMLEFT", -- [3]
+						455.567749023438, -- [4]
+						174.901153564453, -- [5]
 					},
 				},
 			},
 		},
 	},
 	["closeGUIOnEscape"] = false,
-	["modifiedFramesOnly"] = true,
 	["squareMM"] = false,
 	["playSound"] = false,
 	["noBags"] = false,

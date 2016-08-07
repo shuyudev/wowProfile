@@ -48,6 +48,7 @@ VER 3 0100000000000012 "Dance4" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000010 "Gouge" "INV_MISC_QUESTIONMARK"
 #showtooltip
+/use [form:0,nocombat]!Stealth;
 /use [stealth,mod:shift,@focus]Cheap Shot;[stealth,@mouseover,harm]Cheap Shot;[stealth]Cheap Shot
 /stopmacro [stealth]
 /use [mod:shift,@focus]Gouge;[@mouseover,harm]Gouge;Gouge

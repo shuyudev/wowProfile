@@ -15,7 +15,7 @@ VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
 VER 3 0100000000000017 "Dance" "INV_MISC_QUESTIONMARK"
-#showtooltip
+#showtooltip Shadow Dance
 /use [nostealth]Shadow Dance
 END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"

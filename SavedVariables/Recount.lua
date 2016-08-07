@@ -7,10 +7,10 @@ RecountDB = {
 		["Darknex - Emerald Dream"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -352.000305175781,
-					["x"] = -596.938125610352,
-					["w"] = 252.987747192383,
-					["h"] = 153.382766723633,
+					["y"] = -352.166694641113,
+					["x"] = -597.018539428711,
+					["w"] = 253,
+					["h"] = 152.999984741211,
 				},
 			},
 			["MainWindowHeight"] = 153.382766723633,
@@ -26,7 +26,7 @@ RecountDB = {
 			},
 			["Locked"] = true,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Dalaran Sewers",
+			["LastInstanceName"] = "Eye of the Storm",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 252.987747192383,
 		},
