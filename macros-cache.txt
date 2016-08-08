@@ -10,9 +10,6 @@ VER 3 0000000000000008 "Focus" "458724"
 /focus [@target,exists]
 /clearfocus [mod:shift]
 END
-VER 3 0000000000000004 "Macro" "132599"
-/mac
-END
 VER 3 0000000000000002 "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 13

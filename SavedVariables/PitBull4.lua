@@ -755,15 +755,15 @@ PitBull4DB = {
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
-						["Target"] = {
-							["check_method"] = "duel",
-							["out_of_range_opacity"] = 0.75,
-						},
 						["Party"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
 						["Focus"] = {
+							["check_method"] = "duel",
+							["out_of_range_opacity"] = 0.75,
+						},
+						["Target"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
@@ -1099,10 +1099,10 @@ PitBull4DB = {
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Focus"] = {
 							["position"] = 1.00001,
 						},
-						["Focus"] = {
+						["Target"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -12332,15 +12332,8 @@ PitBull4DB = {
 								"!J", -- [2]
 							},
 						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled_weapons"] = false,
@@ -12432,54 +12425,6 @@ PitBull4DB = {
 								nil, -- [1]
 								"!J", -- [2]
 							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 8,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["size"] = 23,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["highlight"] = false,
 						},
 						["Target"] = {
 							["highlight_filters_color_by_type"] = {
@@ -12576,6 +12521,61 @@ PitBull4DB = {
 							["highlight_filters"] = {
 								nil, -- [1]
 								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled_weapons"] = false,
+							["max_debuffs"] = 8,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["size"] = 23,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["highlight"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
 							},
 						},
 					},
@@ -21756,6 +21756,13 @@ PitBull4DB = {
 						},
 					},
 				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00001,
+						},
+					},
+				},
 				["Jinzakk - 黑龍軍團"] = {
 					["layouts"] = {
 						["普通"] = {
@@ -21811,6 +21818,13 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00002,
 						},
 					},
 				},
@@ -23604,6 +23618,13 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00003,
 						},
 					},
 				},
@@ -53688,10 +53709,11 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["普通"] = {
-					["size_y"] = 40,
+				["Mini_Party_tar"] = {
+					["size_y"] = 28,
 					["exists"] = true,
-					["bar_texture"] = "Flat",
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
 				},
 				["Focus"] = {
 					["size_x"] = 165,
@@ -53700,10 +53722,11 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
-					["size_y"] = 28,
+				["Target"] = {
+					["size_x"] = 220,
+					["size_y"] = 48,
+					["font_size"] = 0.9,
 					["exists"] = true,
-					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
@@ -53719,12 +53742,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["size_x"] = 220,
-					["size_y"] = 48,
-					["font_size"] = 0.9,
+				["普通"] = {
+					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Flat",
 				},
 			},
 			["made_groups"] = true,
@@ -53780,6 +53801,7 @@ PitBull4DB = {
 			},
 			["minimap_icon"] = {
 				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
 			},
 			["groups"] = {
 				["隊伍寵物"] = {
@@ -53832,6 +53854,7 @@ PitBull4DB = {
 					},
 				},
 			},
+			["lock_movement"] = true,
 		},
 		["Darknex_110408"] = {
 			["minimap_icon"] = {

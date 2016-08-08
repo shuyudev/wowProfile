@@ -13,7 +13,7 @@ RecountDB = {
 					["h"] = 152.999984741211,
 				},
 			},
-			["MainWindowHeight"] = 153.382766723633,
+			["AutoDeleteNewInstance"] = false,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -24,11 +24,13 @@ RecountDB = {
 					},
 				},
 			},
+			["DeleteJoinGroup"] = false,
 			["Locked"] = true,
 			["MainWindowVis"] = false,
-			["LastInstanceName"] = "Alterac Valley",
+			["LastInstanceName"] = "The Tiger's Peak",
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 252.987747192383,
+			["MainWindowHeight"] = 153.382766723633,
 		},
 	},
 }

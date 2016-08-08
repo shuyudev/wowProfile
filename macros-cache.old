@@ -28,10 +28,3 @@ VER 3 0000000000000005 "Target" "132212"
 /targetenemy
 /cleartarget [mod:shift]
 END
-VER 3 000000000000000A "test" "INV_Misc_QuestionMark"
-#showtooptip [form:0]Shadow Dance
-/use [form:0]Shadow Dance
-END
-VER 3 0000000000000009 "TEST" "INV_MISC_QUESTIONMARK"
-#showtooltip [spec:3]Backstab;[spec:2]Saber Slash
-END

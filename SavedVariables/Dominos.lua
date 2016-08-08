@@ -81,47 +81,47 @@ DominosDB = {
 					["Darknex - Emerald Dream"] = {
 						["actionSets"] = {
 							"macro|136", -- [1]
-							"spell|32645|spell", -- [2]
-							"macro|132", -- [3]
-							"spell|703|spell", -- [4]
-							"macro|128", -- [5]
-							"macro|122", -- [6]
+							"macro|128", -- [2]
+							"macro|133", -- [3]
+							"spell|185763|spell", -- [4]
+							"macro|129", -- [5]
+							nil, -- [6]
 							"spell|137619|spell", -- [7]
-							"macro|127", -- [8]
-							"macro|125", -- [9]
-							[27] = "spell|31224|spell",
-							[107] = "macro|126",
-							[39] = "spell|212283|spell",
-							[20] = "macro|1",
-							[28] = "spell|5277|spell",
-							[64] = "macro|7",
-							[65] = "macro|3",
-							[97] = "macro|130",
-							[21] = "macro|1",
-							[25] = "spell|2983|spell",
-							[29] = "macro|128",
-							[67] = "spell|20577|spell",
-							[99] = "macro|123",
-							[68] = "item|5512",
-							[100] = "macro|131",
-							[11] = "spell|79140|spell",
-							[101] = "macro|134",
+							"spell|16511|spell", -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							"spell|79140|spell", -- [11]
+							"spell|185767|spell", -- [12]
 							[18] = "macro|1",
-							[22] = "macro|1",
-							[26] = "macro|133",
-							[30] = "macro|121",
-							[71] = "macro|4",
-							[87] = "macro|138",
-							[72] = "summonmount|268435455",
-							[88] = "spell|7744|spell",
-							[104] = "spell|51723|spell",
-							[102] = "spell|1725|spell",
-							[98] = "spell|185565|spell",
-							[105] = "macro|124",
-							[70] = "spell|161332|spell",
 							[19] = "macro|1",
-							[86] = "spell|195710|spell",
-							[85] = "spell|185311|spell",
+							[20] = "macro|1",
+							[21] = "macro|1",
+							[22] = "macro|1",
+							[25] = "spell|2983|spell",
+							[26] = "macro|134",
+							[27] = "spell|31224|spell",
+							[29] = "macro|122",
+							[30] = "macro|121",
+							[31] = "spell|5277|spell",
+							[85] = "spell|195710|spell",
+							[87] = "spell|7744|spell",
+							[64] = "macro|7",
+							[97] = "macro|132",
+							[68] = "item|113509",
+							[101] = "macro|135",
+							[72] = "summonmount|268435455",
+							[38] = "spell|185767|spell",
+							[39] = "spell|185311|spell",
+							[42] = "macro|138",
+							[65] = "macro|3",
+							[67] = "spell|20577|spell",
+							[100] = "macro|130",
+							[102] = "spell|1725|spell",
+							[104] = "spell|13877|spell",
+							[98] = "macro|136",
+							[70] = "spell|161691|spell",
+							[99] = "macro|123",
+							[69] = "item|113509",
 						},
 					},
 				},
@@ -658,22 +658,22 @@ DominosDB = {
 			},
 			["linkedOpacity"] = true,
 			["sticky"] = 1,
-			["possessBar"] = 4,
+			["possessBar"] = 9,
 			["frames"] = {
 				{
-					["point"] = "BOTTOM",
-					["scale"] = 0.95,
-					["padW"] = 11,
-					["fadeAlpha"] = 0.85,
-					["clickThrough"] = false,
-					["numButtons"] = 10,
 					["showInPetBattleUI"] = false,
+					["point"] = "BOTTOM",
 					["columns"] = 5,
+					["scale"] = 0.95,
 					["showInOverrideUI"] = false,
 					["alpha"] = 0.85,
-					["y"] = 43,
-					["x"] = -30,
+					["numButtons"] = 10,
+					["y"] = 46,
+					["showstates"] = "",
+					["padW"] = 11,
+					["clickThrough"] = false,
 					["padH"] = 11,
+					["fadeAlpha"] = 0.85,
 					["pages"] = {
 						["MAGE"] = {
 							["page2"] = 1,
@@ -700,7 +700,6 @@ DominosDB = {
 							["page6"] = 5,
 						},
 					},
-					["showstates"] = "",
 					["spacing"] = 6,
 				}, -- [1]
 				{
@@ -1015,14 +1014,14 @@ DominosDB = {
 					["columns"] = 1,
 					["scale"] = 1,
 					["showInOverrideUI"] = false,
-					["hidden"] = true,
-					["y"] = -152,
+					["y"] = 14,
 					["fadeAlpha"] = 0.8,
+					["point"] = "BOTTOM",
 					["spacing"] = 3,
 					["padH"] = 0,
-					["point"] = "TOPLEFT",
-					["numButtons"] = 1,
 					["padW"] = 0,
+					["numButtons"] = 1,
+					["anchor"] = "1BC",
 				},
 				["pet"] = {
 					["showInPetBattleUI"] = false,
