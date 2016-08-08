@@ -1,0 +1,43 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Naxxes - 燃烧之刃"] = "Naxxes - 燃烧之刃",
+		["Neroix - 燃烧之刃"] = "Neroix - 燃烧之刃",
+		["Darknex - 燃烧之刃"] = "Darknex - 燃烧之刃",
+	},
+	["profiles"] = {
+		["Naxxes - 燃烧之刃"] = {
+			["y"] = {
+				["arena1"] = 571.666702385301,
+			},
+			["x"] = {
+				["arena1"] = 1049.42150540295,
+			},
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["locked"] = true,
+		},
+		["Neroix - 燃烧之刃"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["locked"] = true,
+			["y"] = {
+				["arena1"] = 568.82223224581,
+			},
+			["x"] = {
+				["arena1"] = 1048.71090971865,
+			},
+		},
+		["Darknex - 燃烧之刃"] = {
+			["y"] = {
+				["arena1"] = 571.666702385301,
+			},
+			["x"] = {
+				["arena1"] = 1049.42150540295,
+			},
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["locked"] = true,
+		},
+	},
+}

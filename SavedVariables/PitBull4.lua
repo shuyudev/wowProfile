@@ -755,15 +755,15 @@ PitBull4DB = {
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
+						["Target"] = {
+							["check_method"] = "duel",
+							["out_of_range_opacity"] = 0.75,
+						},
 						["Party"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
 						["Focus"] = {
-							["check_method"] = "duel",
-							["out_of_range_opacity"] = 0.75,
-						},
-						["Target"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
@@ -1099,10 +1099,10 @@ PitBull4DB = {
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
-						["Focus"] = {
+						["Target"] = {
 							["position"] = 1.00001,
 						},
-						["Target"] = {
+						["Focus"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -1809,8 +1809,8 @@ PitBull4DB = {
 							["position"] = 14,
 						},
 						["Focus"] = {
-							["size"] = 1.45000004768372,
 							["position"] = 14,
+							["size"] = 1.45000004768372,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -1823,8 +1823,8 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["location"] = "edge_bottom_right",
-							["size"] = 1.45000004768372,
 							["position"] = 14,
+							["size"] = 1.45000004768372,
 						},
 					},
 				},
@@ -3183,14 +3183,14 @@ PitBull4DB = {
 							["size"] = 0.48,
 						},
 						["Focus"] = {
-							["location"] = "in_bottom_right",
-							["position"] = 1.00001,
 							["color"] = {
 								1, -- [1]
 								0.2, -- [2]
 								0.223529411764706, -- [3]
 							},
 							["spacing"] = 1,
+							["location"] = "in_bottom_right",
+							["position"] = 1.00001,
 							["attach_to"] = "Portrait",
 							["size"] = 0.48,
 						},
@@ -3339,6 +3339,15 @@ PitBull4DB = {
 				},
 			},
 		},
+		["Chi"] = {
+			["profiles"] = {
+				["Zenez - 燃烧之刃"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+			},
+		},
 		["DeadIcon"] = {
 			["profiles"] = {
 				["my"] = {
@@ -3381,8 +3390,6 @@ PitBull4DB = {
 					},
 				},
 			},
-		},
-		["HostilityFader"] = {
 		},
 		["HolyPower"] = {
 			["profiles"] = {
@@ -3484,14 +3491,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Chi"] = {
-			["profiles"] = {
-				["Zenez - 燃烧之刃"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-			},
+		["HostilityFader"] = {
 		},
 		["MasterLooterIcon"] = {
 			["profiles"] = {
@@ -4364,11 +4364,11 @@ PitBull4DB = {
 				},
 				["Default"] = {
 					["layouts"] = {
-						["Target"] = {
-							["position"] = 3.00001,
-						},
 						["Self"] = {
 							["position"] = 4,
+						},
+						["Target"] = {
+							["position"] = 3.00001,
 						},
 					},
 				},
@@ -5231,21 +5231,21 @@ PitBull4DB = {
 					["layouts"] = {
 						["Self"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Party"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Focus"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -5547,9 +5547,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5575,9 +5575,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5597,9 +5597,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "two_dimensional",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -5609,9 +5609,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "two_dimensional",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -5648,9 +5648,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5688,9 +5688,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5728,9 +5728,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5756,9 +5756,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5778,9 +5778,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -5790,9 +5790,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -5823,9 +5823,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5864,9 +5864,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5904,9 +5904,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5944,9 +5944,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -5998,8 +5998,8 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
-							["side"] = "right",
 							["fallback_style"] = "class",
+							["side"] = "right",
 						},
 					},
 				},
@@ -6011,9 +6011,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6033,9 +6033,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -6045,9 +6045,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -6076,9 +6076,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["fallback_style"] = "class",
 							["style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6116,9 +6116,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6156,9 +6156,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6184,9 +6184,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6206,9 +6206,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -6218,9 +6218,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -6249,9 +6249,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6291,9 +6291,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6331,9 +6331,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6370,9 +6370,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6398,21 +6398,21 @@ PitBull4DB = {
 						},
 						["Party"] = {
 							["enabled"] = true,
-							["fallback_style"] = "class",
 							["style"] = "class",
+							["fallback_style"] = "class",
 							["full_body"] = true,
 						},
 						["Focus"] = {
 							["enabled"] = true,
-							["fallback_style"] = "class",
 							["style"] = "class",
+							["fallback_style"] = "class",
 							["full_body"] = true,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
 							["style"] = "class",
-							["side"] = "right",
 							["fallback_style"] = "class",
+							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6425,8 +6425,8 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
-							["side"] = "right",
 							["fallback_style"] = "class",
+							["side"] = "right",
 						},
 					},
 				},
@@ -6450,9 +6450,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6489,9 +6489,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -6868,8 +6868,8 @@ PitBull4DB = {
 				["Default"] = {
 					["layouts"] = {
 						["普通"] = {
-							["size"] = 2,
 							["position"] = 13,
+							["size"] = 2,
 						},
 					},
 				},
@@ -6909,11761 +6909,6 @@ PitBull4DB = {
 						["簡單"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
-						},
-					},
-				},
-			},
-		},
-		["ReputationBar"] = {
-			["profiles"] = {
-				["my"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["dk.2014.10.30"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["Pet"] = {
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-			},
-		},
-		["Sounds"] = {
-		},
-		["BurningEmbers"] = {
-			["profiles"] = {
-				["Warlock_style2"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["Warlock_Draft"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["Warlock"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["术士"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["global"] = {
-						["enabled"] = false,
-					},
-				},
-			},
-		},
-		["DCIcon"] = {
-			["profiles"] = {
-				["my"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["position"] = 25,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["position"] = 25,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["position"] = 25,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
-					},
-				},
-			},
-		},
-		["Aura"] = {
-			["profiles"] = {
-				["Evillix - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 15,
-									["growth"] = "left_up",
-									["side"] = "TOP",
-									["filter"] = "!B",
-									["anchor"] = "TOPRIGHT",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-								},
-								["debuff"] = {
-									["width_percent"] = 0.71,
-									["anchor"] = "BOTTOMLEFT",
-									["size"] = 20,
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["my_debuffs"] = true,
-								["other_buffs"] = true,
-								["other_debuffs"] = true,
-							},
-							["highlight"] = false,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "BOTTOMLEFT",
-									["growth"] = "right_down",
-									["width_percent"] = 0.77,
-								},
-							},
-							["enabled_buffs"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["精通光環"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["獸心"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["變形術"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["制裁之錘"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Warlock_Draft"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled_weapons"] = false,
-							["highlight"] = false,
-							["max_debuffs"] = 12,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 23,
-									["growth"] = "right_down",
-									["size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["enabled_buffs"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.85,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 7,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["FocusAsTar"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 20,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["filter"] = "!B",
-									["my_size"] = 22,
-									["frame_level"] = 4,
-									["size"] = 22,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 20,
-								},
-								["buff"] = {
-									["my_size"] = 22,
-									["frame_level"] = 4,
-									["sort"] = false,
-									["size"] = 22,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["獸心"] = true,
-									["精通光環"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["冷酷"] = false,
-									["能量刺激"] = false,
-									["切割"] = false,
-									["暗影閃現"] = false,
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["ROGUE"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["精通光環"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["自由聖禦"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["冷酷"] = false,
-									["能量刺激"] = false,
-									["切割"] = false,
-									["暗影閃現"] = false,
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["dk.2014.10.30"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["冰錮堅韌"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["反擊風暴"] = true,
-									["寒冰護體"] = true,
-									["獸心"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["鑿擊"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["growth"] = "right_up",
-									["size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["cooldown_text"] = {
-								["other_debuffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["精通光環"] = true,
-									["獸心"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["冷酷"] = false,
-									["能量刺激"] = false,
-									["切割"] = false,
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Zenez - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-								},
-							},
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 23,
-									["growth"] = "right_down",
-									["my_size"] = 23,
-								},
-							},
-							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["max_debuffs"] = 12,
-							["enabled_weapons"] = false,
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.85,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 7,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["FocusAsTar"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["filter"] = "!B",
-									["size"] = 22,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["size"] = 22,
-									["sort"] = false,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["反擊風暴"] = true,
-									["冰錮堅韌"] = true,
-									["獸心"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["制裁之錘"] = true,
-									["恐懼術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["魅惑"] = true,
-									["鑿擊"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["疾跑"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Darknex - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["width_percent"] = 0.71,
-									["anchor"] = "BOTTOMLEFT",
-									["size"] = 20,
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["size"] = 15,
-									["frame_level"] = 4,
-									["side"] = "TOP",
-									["filter"] = "!B",
-									["anchor"] = "TOPRIGHT",
-									["width_percent"] = 0.25,
-									["growth"] = "left_up",
-									["my_size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["width_percent"] = 0.75,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["my_buffs"] = true,
-								["other_buffs"] = true,
-								["other_debuffs"] = true,
-							},
-							["highlight"] = false,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "BOTTOMLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 1,
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["精通光環"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["反擊風暴"] = true,
-									["痛苦鎮壓"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["鑿擊"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Draculax - 銀翼要塞"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["my_size"] = 15,
-									["size"] = 15,
-									["frame_level"] = 4,
-									["width_percent"] = 0.25,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["獸心"] = true,
-									["精通光環"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["自由聖禦"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Draculax - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 15,
-									["size"] = 15,
-									["frame_level"] = 4,
-									["width_percent"] = 0.25,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["layout"] = {
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["獸心"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["反擊風暴"] = true,
-									["寒冰護體"] = true,
-									["精通光環"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["變形術"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["制裁之錘"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["能量刺激"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Darknex_110408"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["frame_level"] = 4,
-									["my_size"] = 12,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["痛苦鎮壓"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["冰錮堅韌"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Self"] = {
-							["cooldown_text"] = {
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["enabled"] = false,
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["buff"] = {
-									["width_percent"] = 0.25,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 15,
-									["side"] = "TOP",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["offset_x"] = -180,
-								},
-								["debuff"] = {
-									["width_percent"] = 0.71,
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["anchor"] = "TOPLEFT",
-									["size"] = 20,
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["offset_x"] = 180,
-								},
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["offset_y"] = -15,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["highlight"] = false,
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["buff"] = {
-									["width_percent"] = 0.56,
-									["my_size"] = 18,
-									["anchor"] = "BOTTOMRIGHT",
-									["size"] = 18,
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-								},
-								["debuff"] = {
-									["width_percent"] = 1,
-									["my_size"] = 24,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["side"] = "TOP",
-									["growth"] = "left_up",
-								},
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["offset_y"] = -15,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["highlight"] = false,
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["buff"] = {
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["sort"] = false,
-								},
-								["debuff"] = {
-									["width_percent"] = 0.63,
-									["my_size"] = 26,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["side"] = "TOP",
-									["growth"] = "left_up",
-								},
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["offset_y"] = -10,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -10,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["highlight"] = false,
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 8,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["size"] = 23,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["highlight"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["制裁之錘"] = true,
-									["恐懼術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["魅惑"] = true,
-									["鑿擊"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["冰錮堅韌"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["獸心"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["冷酷"] = false,
-									["切割"] = false,
-									["暗影閃現"] = false,
-									["疾跑"] = false,
-									["冷血"] = false,
-									["劍刃亂舞"] = false,
-									["能量刺激"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Rogue_Style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-								},
-							},
-							["max_debuffs"] = 12,
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 23,
-									["growth"] = "right_down",
-									["my_size"] = 23,
-								},
-							},
-							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.85,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 7,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["FocusAsTar"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["filter"] = "!B",
-									["size"] = 22,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["size"] = 22,
-									["sort"] = false,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["寒冰護體"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["自由聖禦"] = true,
-									["冰錮堅韌"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["魅惑"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["制裁之錘"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["HUNTER"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["獸心"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["冰錮堅韌"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["魅惑"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["制裁之錘"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["冷酷"] = false,
-									["能量刺激"] = false,
-									["切割"] = false,
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["术士"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["highlight"] = false,
-							["max_debuffs"] = 8,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["精通光環"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["疾跑"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["冰錮堅韌"] = true,
-									["獸心"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-								},
-							},
-							["max_debuffs"] = 12,
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 23,
-									["growth"] = "right_down",
-									["my_size"] = 23,
-								},
-							},
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.85,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 7,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["FocusAsTar"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["filter"] = "!B",
-									["size"] = 22,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["size"] = 22,
-									["sort"] = false,
-									["frame_level"] = 4,
-									["my_size"] = 22,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.67,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 15,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["精通光環"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["魅惑"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["暗影閃現"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["劍刃亂舞"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Warlock"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["獸心"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["反擊風暴"] = true,
-									["寒冰護體"] = true,
-									["冰錮堅韌"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
-									["恐懼術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["疾跑"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Darknex-test1"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 15,
-									["growth"] = "left_up",
-									["side"] = "TOP",
-									["filter"] = "!B",
-									["anchor"] = "TOPRIGHT",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-								},
-								["debuff"] = {
-									["width_percent"] = 0.71,
-									["anchor"] = "BOTTOMLEFT",
-									["size"] = 20,
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["width_percent"] = 0.75,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["my_debuffs"] = true,
-								["other_buffs"] = true,
-								["other_debuffs"] = true,
-							},
-							["highlight"] = false,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "BOTTOMLEFT",
-									["growth"] = "right_down",
-									["width_percent"] = 0.77,
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["冰錮堅韌"] = true,
-									["寒冰護體"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["max_buffs"] = 8,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["growth"] = "right_up",
-									["size"] = 23,
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["反擊風暴"] = true,
-									["獸心"] = true,
-									["精通光環"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["魅惑"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["能量刺激"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["enabled_buffs"] = false,
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["frame_level"] = 4,
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["精通光環"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["反擊風暴"] = true,
-									["閃避"] = true,
-									["寒冰護體"] = true,
-									["獸心"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["魅惑"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["anchor"] = "BOTTOMLEFT",
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["獸心"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["反擊風暴"] = true,
-									["冰錮堅韌"] = true,
-									["痛苦鎮壓"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["強化變形術"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["鑿擊"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["疾跑"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Darknex-2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["max_buffs"] = 8,
-							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-								["debuff"] = {
-									["size"] = 24,
-									["my_size"] = 30,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 15,
-									["size"] = 15,
-									["frame_level"] = 4,
-									["width_percent"] = 0.25,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 20,
-									["growth"] = "left_up",
-									["my_size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 24,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
-									["my_size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
-									["my_size"] = 26,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "TOPLEFT",
-									["side"] = "LEFT",
-									["width_percent"] = 0.77,
-								},
-								["buff"] = {
-									["anchor"] = "BOTTOMRIGHT",
-									["size_to_fit"] = false,
-									["side"] = "RIGHT",
-									["growth"] = "right_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["highlight"] = false,
-							["enabled_weapons"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["寒冰護體"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
-									["獸心"] = true,
-									["冰錮堅韌"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
-									["恐懼術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["魅惑"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["破膽怒吼"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["亡靈意志"] = false,
-									["食屍"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
-						},
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["cooldown_text"] = {
-								["my_buffs"] = true,
-								["weapon_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["enabled_buffs"] = false,
-							["enabled_debuffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-								["debuff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
-							},
-							["texts"] = {
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-							},
-						},
-						["Party"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
-								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
-									["offset_x"] = 180,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["size"] = 20,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["growth"] = "right_up",
-									["size"] = 23,
-								},
-							},
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_weapons"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-					},
-					["global"] = {
-						["filters"] = {
-							["*A"] = {
-								["name_list"] = {
-									["痛苦鎮壓"] = true,
-									["保護聖禦"] = true,
-									["影散"] = true,
-									["聖盾術"] = true,
-									["寒冰屏障"] = true,
-									["威懾"] = true,
-									["隱形術"] = true,
-									["力量祝福"] = false,
-									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
-									["反魔法護罩"] = true,
-									["獸心"] = true,
-									["寒冰護體"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["反擊風暴"] = true,
-									["自由聖禦"] = true,
-									["精通光環"] = true,
-								},
-							},
-							["*B"] = {
-								["name_list"] = {
-									["沉默射擊"] = true,
-									["腎擊"] = true,
-									["自律"] = true,
-									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
-									["震盪猛擊"] = true,
-									["絞殺"] = true,
-									["颶風術"] = true,
-									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["魅惑"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
-									["變形術"] = true,
-									["心靈尖嘯"] = true,
-									["偷襲"] = true,
-									["沉默"] = true,
-									["低溫"] = true,
-									["星湧術"] = true,
-									["丟倒在地"] = true,
-									["絞喉 - 沉默"] = true,
-									["龍之吐息"] = true,
-									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["恐懼術"] = true,
-									["制裁之錘"] = true,
-									["啃食"] = true,
-									["極度冰凍"] = true,
-								},
-							},
-							["12"] = {
-								["name_list"] = {
-									["偷天換日"] = false,
-								},
-							},
-							[";0"] = {
-								["name_list"] = {
-									["食屍"] = false,
-									["亡靈意志"] = false,
-								},
-							},
-							["10"] = {
-								["name_list"] = {
-									["劍刃亂舞"] = false,
-									["疾跑"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
-									["暗影閃現"] = false,
-									["能量刺激"] = false,
-									["冷血"] = false,
-								},
-							},
 						},
 					},
 				},
@@ -19526,6 +7771,11623 @@ PitBull4DB = {
 				},
 			},
 		},
+		["Sounds"] = {
+		},
+		["BurningEmbers"] = {
+			["profiles"] = {
+				["Warlock_style2"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+				["Warlock_Draft"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+				["Warlock"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+				["术士"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+			},
+		},
+		["DCIcon"] = {
+			["profiles"] = {
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["position"] = 25,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["position"] = 25,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["position"] = 25,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
+					},
+				},
+			},
+		},
+		["Aura"] = {
+			["profiles"] = {
+				["Evillix - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 15,
+									["growth"] = "left_up",
+									["side"] = "TOP",
+									["filter"] = "!B",
+									["anchor"] = "TOPRIGHT",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+								},
+								["debuff"] = {
+									["width_percent"] = 0.71,
+									["anchor"] = "BOTTOMLEFT",
+									["size"] = 20,
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["cooldown_text"] = {
+								["other_debuffs"] = true,
+								["my_buffs"] = true,
+								["other_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "BOTTOMLEFT",
+									["growth"] = "right_down",
+									["width_percent"] = 0.77,
+								},
+							},
+							["enabled_buffs"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["精通光環"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["獸心"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["變形術"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Warlock_Draft"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled_weapons"] = false,
+							["highlight"] = false,
+							["max_debuffs"] = 12,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 23,
+									["growth"] = "right_down",
+									["size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_buffs"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.85,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 7,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["FocusAsTar"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["filter"] = "!B",
+									["my_size"] = 22,
+									["frame_level"] = 4,
+									["size"] = 22,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["my_size"] = 22,
+									["frame_level"] = 4,
+									["sort"] = false,
+									["size"] = 22,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["獸心"] = true,
+									["精通光環"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["冷酷"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["ROGUE"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
+									["精通光環"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["自由聖禦"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["冷酷"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["dk.2014.10.30"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["冰錮堅韌"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["寒冰護體"] = true,
+									["獸心"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["制裁之錘"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["鑿擊"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["growth"] = "right_up",
+									["size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_buffs"] = false,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["cooldown_text"] = {
+								["other_debuffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["精通光環"] = true,
+									["獸心"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["冷酷"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Zenez - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+								},
+							},
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 23,
+									["growth"] = "right_down",
+									["my_size"] = 23,
+								},
+							},
+							["enabled_buffs"] = false,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["max_debuffs"] = 12,
+							["enabled_weapons"] = false,
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.85,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 7,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["FocusAsTar"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["filter"] = "!B",
+									["size"] = 22,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 22,
+									["sort"] = false,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["冰錮堅韌"] = true,
+									["獸心"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["制裁之錘"] = true,
+									["恐懼術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["魅惑"] = true,
+									["鑿擊"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Darknex - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["width_percent"] = 0.71,
+									["anchor"] = "BOTTOMLEFT",
+									["size"] = 20,
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["size"] = 15,
+									["frame_level"] = 4,
+									["side"] = "TOP",
+									["filter"] = "!B",
+									["anchor"] = "TOPRIGHT",
+									["width_percent"] = 0.25,
+									["growth"] = "left_up",
+									["my_size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["width_percent"] = 0.75,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["cooldown_text"] = {
+								["other_debuffs"] = true,
+								["my_debuffs"] = true,
+								["other_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "BOTTOMLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 1,
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["精通光環"] = true,
+									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["反擊風暴"] = true,
+									["痛苦鎮壓"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["制裁之錘"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["鑿擊"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Draculax - 銀翼要塞"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["my_size"] = 15,
+									["size"] = 15,
+									["frame_level"] = 4,
+									["width_percent"] = 0.25,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["獸心"] = true,
+									["精通光環"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["自由聖禦"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Draculax - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 15,
+									["size"] = 15,
+									["frame_level"] = 4,
+									["width_percent"] = 0.25,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["layout"] = {
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+							},
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["獸心"] = true,
+									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["反擊風暴"] = true,
+									["寒冰護體"] = true,
+									["精通光環"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["變形術"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Darknex_110408"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["frame_level"] = 4,
+									["my_size"] = 12,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["痛苦鎮壓"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["冰錮堅韌"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["魅惑"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Self"] = {
+							["cooldown_text"] = {
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+								["my_buffs"] = true,
+							},
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["enabled"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["enabled_debuffs"] = false,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["enabled_weapons"] = false,
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["buff"] = {
+									["width_percent"] = 0.25,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 15,
+									["side"] = "TOP",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["offset_x"] = -180,
+								},
+								["debuff"] = {
+									["width_percent"] = 0.71,
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["anchor"] = "TOPLEFT",
+									["size"] = 20,
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["offset_x"] = 180,
+								},
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["offset_y"] = -15,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["highlight"] = false,
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled_weapons"] = false,
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["buff"] = {
+									["width_percent"] = 0.56,
+									["my_size"] = 18,
+									["anchor"] = "BOTTOMRIGHT",
+									["size"] = 18,
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+								},
+								["debuff"] = {
+									["width_percent"] = 1,
+									["my_size"] = 24,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["side"] = "TOP",
+									["growth"] = "left_up",
+								},
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["offset_y"] = -15,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["highlight"] = false,
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["enabled_weapons"] = false,
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["buff"] = {
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["sort"] = false,
+								},
+								["debuff"] = {
+									["width_percent"] = 0.63,
+									["my_size"] = 26,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["side"] = "TOP",
+									["growth"] = "left_up",
+								},
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["offset_y"] = -10,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -10,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["highlight"] = false,
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled_weapons"] = false,
+							["max_debuffs"] = 8,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["size"] = 23,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["highlight"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["制裁之錘"] = true,
+									["恐懼術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["魅惑"] = true,
+									["鑿擊"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["冰錮堅韌"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["獸心"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["冷酷"] = false,
+									["切割"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Rogue_Style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+								},
+							},
+							["max_debuffs"] = 12,
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 23,
+									["growth"] = "right_down",
+									["my_size"] = 23,
+								},
+							},
+							["enabled_buffs"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.85,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 7,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["FocusAsTar"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["filter"] = "!B",
+									["size"] = 22,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 22,
+									["sort"] = false,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
+									["寒冰護體"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["自由聖禦"] = true,
+									["冰錮堅韌"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["HUNTER"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["獸心"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["冰錮堅韌"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["冷酷"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["highlight"] = false,
+							["max_debuffs"] = 8,
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
+									["精通光環"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["魅惑"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["反擊風暴"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["冰錮堅韌"] = true,
+									["獸心"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["魅惑"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+								},
+							},
+							["max_debuffs"] = 12,
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 23,
+									["growth"] = "right_down",
+									["my_size"] = 23,
+								},
+							},
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.85,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 7,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["FocusAsTar"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["filter"] = "!B",
+									["size"] = 22,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 22,
+									["sort"] = false,
+									["frame_level"] = 4,
+									["my_size"] = 22,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.67,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 15,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
+									["閃避"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["精通光環"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["魅惑"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Warlock"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["獸心"] = true,
+									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["反擊風暴"] = true,
+									["寒冰護體"] = true,
+									["冰錮堅韌"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
+									["恐懼術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Darknex-test1"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 15,
+									["growth"] = "left_up",
+									["side"] = "TOP",
+									["filter"] = "!B",
+									["anchor"] = "TOPRIGHT",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+								},
+								["debuff"] = {
+									["width_percent"] = 0.71,
+									["anchor"] = "BOTTOMLEFT",
+									["size"] = 20,
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["width_percent"] = 0.75,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["cooldown_text"] = {
+								["other_debuffs"] = true,
+								["my_buffs"] = true,
+								["other_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "BOTTOMLEFT",
+									["growth"] = "right_down",
+									["width_percent"] = 0.77,
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["冰錮堅韌"] = true,
+									["寒冰護體"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["鑿擊"] = true,
+									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["致盲"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["max_buffs"] = 8,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["growth"] = "right_up",
+									["size"] = 23,
+								},
+							},
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["enabled_weapons"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["反擊風暴"] = true,
+									["獸心"] = true,
+									["精通光環"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["魅惑"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["size"] = 20,
+									["offset_x"] = 180,
+									["offset_y"] = -21,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["精通光環"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
+									["閃避"] = true,
+									["寒冰護體"] = true,
+									["獸心"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["魅惑"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["anchor"] = "BOTTOMLEFT",
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["獸心"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["冰錮堅韌"] = true,
+									["痛苦鎮壓"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["強化變形術"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["制裁之錘"] = true,
+									["心靈恐慌"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["鑿擊"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["劍刃亂舞"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["能量刺激"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Darknex-2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["max_buffs"] = 8,
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 15,
+									["size"] = 15,
+									["frame_level"] = 4,
+									["width_percent"] = 0.25,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 20,
+									["growth"] = "left_up",
+									["my_size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 26,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "TOPLEFT",
+									["side"] = "LEFT",
+									["width_percent"] = 0.77,
+								},
+								["buff"] = {
+									["anchor"] = "BOTTOMRIGHT",
+									["size_to_fit"] = false,
+									["side"] = "RIGHT",
+									["growth"] = "right_up",
+								},
+							},
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["highlight"] = false,
+							["enabled_weapons"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["精通光環"] = true,
+									["反魔法護罩"] = true,
+									["寒冰護體"] = true,
+									["反擊風暴"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["獸心"] = true,
+									["冰錮堅韌"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["制裁之錘"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
+									["恐懼術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["破膽怒吼"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["亡靈意志"] = false,
+									["食屍"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["cooldown_text"] = {
+								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["enabled_buffs"] = false,
+							["enabled_debuffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+								["debuff"] = {
+									["my_size"] = 30,
+									["size"] = 24,
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+							},
+						},
+						["Party"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["growth"] = "left_down",
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
+								},
+								["debuff"] = {
+									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Target"] = {
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 26,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["growth"] = "right_up",
+									["size"] = 23,
+								},
+							},
+							["enabled_weapons"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+					},
+					["global"] = {
+						["filters"] = {
+							["*A"] = {
+								["name_list"] = {
+									["痛苦鎮壓"] = true,
+									["保護聖禦"] = true,
+									["影散"] = true,
+									["聖盾術"] = true,
+									["寒冰屏障"] = true,
+									["威懾"] = true,
+									["隱形術"] = true,
+									["力量祝福"] = false,
+									["真言術:盾"] = true,
+									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
+									["獸心"] = true,
+									["寒冰護體"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["自由聖禦"] = true,
+									["精通光環"] = true,
+								},
+							},
+							["*B"] = {
+								["name_list"] = {
+									["沉默射擊"] = true,
+									["腎擊"] = true,
+									["自律"] = true,
+									["死亡纏繞"] = true,
+									["致盲"] = true,
+									["鑿擊"] = true,
+									["震盪猛擊"] = true,
+									["絞殺"] = true,
+									["颶風術"] = true,
+									["悶棍"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
+									["心靈尖嘯"] = true,
+									["偷襲"] = true,
+									["沉默"] = true,
+									["低溫"] = true,
+									["星湧術"] = true,
+									["丟倒在地"] = true,
+									["絞喉 - 沉默"] = true,
+									["龍之吐息"] = true,
+									["震蕩波"] = true,
+									["破膽怒吼"] = true,
+									["恐懼術"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
+									["極度冰凍"] = true,
+								},
+							},
+							["12"] = {
+								["name_list"] = {
+									["偷天換日"] = false,
+								},
+							},
+							[";0"] = {
+								["name_list"] = {
+									["食屍"] = false,
+									["亡靈意志"] = false,
+								},
+							},
+							["10"] = {
+								["name_list"] = {
+									["疾跑"] = false,
+									["能量刺激"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["暗影閃現"] = false,
+									["劍刃亂舞"] = false,
+									["冷血"] = false,
+								},
+							},
+						},
+					},
+				},
+			},
+		},
+		["Runes"] = {
+			["profiles"] = {
+				["dk.2014.10.30"] = {
+					["global"] = {
+						["enabled"] = false,
+					},
+				},
+			},
+		},
 		["Background"] = {
 		},
 		["PowerBar"] = {
@@ -19990,9 +19852,9 @@ PitBull4DB = {
 						},
 						["Focus"] = {
 							["background_alpha"] = 0,
-							["size"] = 1,
-							["animated"] = true,
 							["texture"] = "BantoBar",
+							["animated"] = true,
+							["size"] = 1,
 						},
 						["Mini_Party_tar"] = {
 							["size"] = 1,
@@ -20008,11 +19870,11 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["background_alpha"] = 0,
-							["size"] = 1,
+							["texture"] = "BantoBar",
 							["alpha"] = 0.7,
 							["animated"] = true,
 							["position"] = 4.00001,
-							["texture"] = "BantoBar",
+							["size"] = 1,
 						},
 					},
 				},
@@ -20430,10 +20292,10 @@ PitBull4DB = {
 							["size"] = 1,
 						},
 						["Focus"] = {
-							["texture"] = "BantoBar",
+							["size"] = 1,
 							["animated"] = true,
 							["background_alpha"] = 0,
-							["size"] = 1,
+							["texture"] = "BantoBar",
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -20450,8 +20312,8 @@ PitBull4DB = {
 							["animated"] = true,
 							["background_alpha"] = 0,
 							["position"] = 4.00001,
-							["texture"] = "BantoBar",
 							["size"] = 1,
+							["texture"] = "BantoBar",
 						},
 					},
 				},
@@ -20647,8 +20509,8 @@ PitBull4DB = {
 				},
 				["Default"] = {
 					["global"] = {
-						["runebar"] = false,
 						["player"] = false,
+						["runebar"] = false,
 					},
 				},
 				["default"] = {
@@ -20681,11 +20543,149 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Runes"] = {
+		["ReputationBar"] = {
 			["profiles"] = {
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
 				["dk.2014.10.30"] = {
-					["global"] = {
-						["enabled"] = false,
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
 					},
 				},
 			},
@@ -21180,11 +21180,11 @@ PitBull4DB = {
 				["Default.2016.08.05"] = {
 					["layouts"] = {
 						["Self"] = {
-							["hostility_color"] = false,
+							["background_alpha"] = 0,
 							["alpha"] = 0.75,
 							["hostility_color_npcs"] = false,
 							["position"] = 2,
-							["background_alpha"] = 0,
+							["hostility_color"] = false,
 						},
 						["Party"] = {
 							["hostility_color"] = false,
@@ -21212,12 +21212,12 @@ PitBull4DB = {
 							["background_alpha"] = 0,
 						},
 						["Target"] = {
-							["color_pvp_by_class"] = true,
-							["hostility_color"] = false,
 							["alpha"] = 0.7,
+							["background_alpha"] = 0,
+							["color_pvp_by_class"] = true,
 							["hostility_color_npcs"] = false,
 							["position"] = 3,
-							["background_alpha"] = 0,
+							["hostility_color"] = false,
 						},
 					},
 				},
@@ -21634,26 +21634,26 @@ PitBull4DB = {
 							["position"] = 1.00001,
 						},
 						["Mini_Party_tar"] = {
-							["background_alpha"] = 0,
 							["color_pvp_by_class"] = true,
+							["background_alpha"] = 0,
 							["position"] = 1.00001,
 						},
 						["Mini"] = {
-							["background_alpha"] = 0,
 							["color_pvp_by_class"] = true,
+							["background_alpha"] = 0,
 							["position"] = 1.00001,
 						},
 						["Pet"] = {
-							["background_alpha"] = 0,
 							["color_pvp_by_class"] = true,
+							["background_alpha"] = 0,
 							["position"] = 1.00001,
 						},
 						["Target"] = {
 							["hostility_color_npcs"] = false,
-							["background_alpha"] = 0,
+							["hostility_color"] = false,
 							["position"] = 3,
 							["color_pvp_by_class"] = true,
-							["hostility_color"] = false,
+							["background_alpha"] = 0,
 						},
 					},
 				},
@@ -22618,9 +22618,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 2,
-							["icon_on_left"] = false,
 							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
 						},
 					},
 				},
@@ -23116,9 +23116,9 @@ PitBull4DB = {
 							["out_of_combat_opacity"] = 0.5,
 						},
 						["Target"] = {
-							["hurt_opacity"] = 0.85,
-							["out_of_combat_opacity"] = 0.5,
 							["in_combat_opacity"] = 0.85,
+							["out_of_combat_opacity"] = 0.5,
+							["hurt_opacity"] = 0.85,
 						},
 					},
 				},
@@ -23371,12 +23371,12 @@ PitBull4DB = {
 							["hurt_opacity"] = 1,
 						},
 						["Party"] = {
-							["out_of_combat_opacity"] = 0.5,
 							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
 						},
 						["Focus"] = {
-							["out_of_combat_opacity"] = 0.5,
 							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
 						},
 						["Mini_Party_tar"] = {
 							["out_of_combat_opacity"] = 1,
@@ -23395,8 +23395,8 @@ PitBull4DB = {
 							["hurt_opacity"] = 1,
 						},
 						["Target"] = {
-							["out_of_combat_opacity"] = 0.5,
 							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
 						},
 					},
 				},
@@ -24581,7 +24581,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
@@ -24628,7 +24628,6 @@ PitBull4DB = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
-									["position"] = 9,
 								},
 							},
 							["first"] = false,
@@ -24843,12 +24842,13 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
+									["position"] = 7,
 								},
 							},
 							["first"] = false,
@@ -24889,6 +24889,7 @@ PitBull4DB = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
+									["position"] = 9,
 								},
 							},
 							["first"] = false,
@@ -25028,13 +25029,12 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
-									["position"] = 7,
 								},
 							},
 							["first"] = false,
@@ -35871,52 +35871,52 @@ PitBull4DB = {
 							["first"] = false,
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
+									["position"] = 4,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 4,
-									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
+									["position"] = 3,
 									["events"] = {
 										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
 									},
-									["position"] = 3,
-									["location"] = "right",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "PowerBar",
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
+									["position"] = 2,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 6,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -35927,39 +35927,39 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 8,
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["position"] = 8,
-									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "PowerBar",
 								},
 								["Lua:名稱"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 7,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 10,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -35971,9 +35971,9 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:經驗值"] = {
@@ -35990,26 +35990,26 @@ PitBull4DB = {
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 5,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 12,
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 								},
 							},
@@ -36039,27 +36039,27 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
+									["position"] = 2,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["position"] = 6,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -36070,9 +36070,9 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
@@ -36084,31 +36084,31 @@ PitBull4DB = {
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
+									["position"] = 7,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 5,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 10,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36120,21 +36120,21 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 12,
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 								},
 								["Diy:種族"] = {
@@ -36167,15 +36167,15 @@ PitBull4DB = {
 							["first"] = false,
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
+									["position"] = 4,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 4,
-									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:經驗值"] = {
@@ -36192,28 +36192,28 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
+									["position"] = 2,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 6,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -36224,9 +36224,9 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
@@ -36238,14 +36238,14 @@ PitBull4DB = {
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
+									["position"] = 7,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:法力值"] = {
@@ -36262,7 +36262,7 @@ PitBull4DB = {
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 10,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36274,21 +36274,21 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 12,
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 								},
 								["Diy:種族"] = {
@@ -36305,14 +36305,14 @@ PitBull4DB = {
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 5,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ThreatBar",
 								},
 							},
@@ -36322,12 +36322,12 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 									["location"] = "right",
 									["attach_to"] = "HealthBar",
@@ -36354,25 +36354,24 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["location"] = "out_right_top",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -36383,34 +36382,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["location"] = "left",
 									["attach_to"] = "PowerBar",
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 									["location"] = "left",
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36422,36 +36421,37 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["location"] = "right",
 									["attach_to"] = "CastBar",
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ExperienceBar",
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["location"] = "center",
 									["attach_to"] = "DruidManaBar",
@@ -36463,12 +36463,12 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 									["location"] = "right",
 									["attach_to"] = "HealthBar",
@@ -36495,19 +36495,19 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["location"] = "out_right_top",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ReputationBar",
@@ -36532,29 +36532,28 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["location"] = "left",
 									["attach_to"] = "PowerBar",
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 									["location"] = "left",
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36566,36 +36565,37 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["location"] = "right",
 									["attach_to"] = "CastBar",
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["location"] = "center",
 									["attach_to"] = "DruidManaBar",
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ExperienceBar",
@@ -36606,12 +36606,12 @@ PitBull4DB = {
 							["first"] = false,
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 									["location"] = "right",
 									["attach_to"] = "HealthBar",
@@ -36629,26 +36629,25 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["location"] = "out_right_top",
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -36659,35 +36658,35 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["location"] = "left",
 									["attach_to"] = "PowerBar",
 								},
 								["Lua:名稱"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 									["location"] = "left",
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36699,38 +36698,39 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["location"] = "right",
 									["attach_to"] = "CastBar",
 								},
 								["Lua:經驗值"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
 									["location"] = "center",
 									["attach_to"] = "ExperienceBar",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["exists"] = true,
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["location"] = "center",
 									["attach_to"] = "DruidManaBar",
@@ -36742,14 +36742,14 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 5,
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ThreatBar",
 								},
 								["Lua:經驗值"] = {
@@ -36766,27 +36766,27 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
+									["position"] = 2,
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["position"] = 6,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -36797,9 +36797,9 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["position"] = 6,
-									["location"] = "center",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:職業"] = {
@@ -36811,14 +36811,14 @@ PitBull4DB = {
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
+									["position"] = 7,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 								},
 								["Lua:生命值"] = {
@@ -36848,7 +36848,7 @@ PitBull4DB = {
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 10,
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -36860,9 +36860,9 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 								},
 								["Lua:法力值"] = {
@@ -36892,14 +36892,14 @@ PitBull4DB = {
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["position"] = 12,
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 								},
 							},
@@ -40350,59 +40350,56 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["position"] = 4,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
-									["position"] = 3,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
 									},
+									["position"] = 3,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "PowerBar",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -40413,39 +40410,38 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 6,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "left",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["position"] = 8,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "PowerBar",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 								},
 								["Lua:名稱"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["position"] = 7,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -40457,15 +40453,18 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
@@ -40474,25 +40473,25 @@ PitBull4DB = {
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["position"] = 5,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ThreatBar",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["position"] = 12,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
@@ -40501,55 +40500,48 @@ PitBull4DB = {
 						},
 						["Party"] = {
 							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["position"] = 4,
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
 								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
+								["Lua:法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
 									},
-									["position"] = 9,
+									["exists"] = true,
+									["position"] = 3,
 									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -40560,41 +40552,45 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
+									["position"] = 6,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
 									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["position"] = 7,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
-								["Lua:生命值"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["position"] = 5,
+									["location"] = "center",
 									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -40606,100 +40602,100 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
+									["position"] = 12,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
+									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:法力值"] = {
-									["exists"] = true,
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
-									["position"] = 3,
+									["exists"] = true,
+									["position"] = 9,
 									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 							},
 							["first"] = false,
 						},
 						["Focus"] = {
 							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
+								["Lua:生命值"] = {
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["position"] = 4,
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 								},
-								["Lua:法力值"] = {
-									["exists"] = true,
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
-									["position"] = 3,
+									["exists"] = true,
+									["position"] = 9,
 									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -40710,45 +40706,45 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 6,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
 									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["position"] = 7,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
+								["Lua:法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
 									},
-									["position"] = 9,
+									["exists"] = true,
+									["position"] = 3,
 									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -40760,44 +40756,47 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["position"] = 12,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
+									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
+								["Lua:威脅值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["attach_to"] = "HealthBar",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["position"] = 5,
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 							},
 							["first"] = false,
@@ -40806,15 +40805,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -40838,28 +40837,24 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -40870,34 +40865,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -40909,36 +40904,40 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -40947,15 +40946,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -40979,22 +40978,22 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
@@ -41016,32 +41015,28 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -41053,36 +41048,40 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -41090,15 +41089,15 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -41113,29 +41112,25 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -41146,35 +41141,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -41186,63 +41180,66 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
 						},
 						["Target"] = {
 							["elements"] = {
-								["Lua:生命值"] = {
-									["exists"] = true,
+								["Lua:威脅值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
+									["position"] = 5,
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
@@ -41251,29 +41248,26 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "ReputationBar",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "center",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -41284,46 +41278,50 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
+									["position"] = 6,
+									["location"] = "center",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
 									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["position"] = 7,
+									["location"] = "left",
+									["exists"] = true,
 									["attach_to"] = "HealthBar",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
+								["Lua:生命值"] = {
 									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
-									["attach_to"] = "DruidManaBar",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
 								},
 								["Diy:種族"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
+									["exists"] = true,
 									["position"] = 1.00002,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
@@ -41332,9 +41330,6 @@ PitBull4DB = {
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -41346,15 +41341,18 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
 									},
+									["exists"] = true,
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
@@ -41362,29 +41360,29 @@ PitBull4DB = {
 									["size"] = 0.95,
 								},
 								["生命百分比"] = {
+									["enabled"] = false,
 									["exists"] = true,
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["location"] = "in_bottom_right",
+									["position"] = 1.00001,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 1.00001,
-									["location"] = "bottom_left",
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["attach_to"] = "Portrait",
 									["size"] = 0.8,
 								},
-								["Lua:威脅值"] = {
+								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["position"] = 12,
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 							},
 							["first"] = false,
@@ -44651,147 +44649,115 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 									["attach_to"] = "HealthBar",
-									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 								},
 								["Lua:法力值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_MAXENERGY"] = true,
-										["UNIT_MANA"] = true,
-										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
-										["UNIT_MAXFOCUS"] = true,
-										["UNIT_FOCUS"] = true,
-										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
-										["UNIT_RUNIC_POWER"] = true,
-										["UNIT_MAXRAGE"] = true,
-										["UNIT_MAXRUNIC_POWER"] = true,
-									},
+									["exists"] = true,
 									["position"] = 3,
 									["location"] = "right",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return \"%s/%s\",Power(unit),max\nend",
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
 									["attach_to"] = "PowerBar",
-									["exists"] = true,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 									["attach_to"] = "ReputationBar",
-									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
+									["exists"] = true,
 									["position"] = 6,
 									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "left",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["position"] = 8,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["attach_to"] = "PowerBar",
-									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 								},
 								["Lua:名稱"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 									["attach_to"] = "HealthBar",
-									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
 									["exists"] = true,
@@ -44805,6 +44771,30 @@ PitBull4DB = {
 									["attach_to"] = "ExperienceBar",
 									["size"] = 0.8,
 								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+								},
 							},
 							["first"] = false,
 						},
@@ -44812,84 +44802,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["position"] = 6,
-									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
 									["exists"] = true,
@@ -44903,48 +44824,62 @@ PitBull4DB = {
 									["attach_to"] = "ExperienceBar",
 									["size"] = 0.8,
 								},
-								["Lua:施法時間"] = {
+								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
 									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "left",
+									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
+								["Lua:職業"] = {
 									["exists"] = true,
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:生命值"] = {
 									["exists"] = true,
@@ -44954,107 +44889,11 @@ PitBull4DB = {
 									["attach_to"] = "HealthBar",
 									["size"] = 0.85,
 								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["position"] = 6,
-									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -45066,23 +44905,20 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
 									["exists"] = true,
@@ -45096,6 +44932,105 @@ PitBull4DB = {
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "left",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+								},
 								["Lua:經驗值"] = {
 									["exists"] = true,
 									["events"] = {
@@ -45108,6 +45043,61 @@ PitBull4DB = {
 									["attach_to"] = "ExperienceBar",
 									["size"] = 0.8,
 								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+								},
 							},
 							["first"] = false,
 						},
@@ -45115,15 +45105,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -45133,11 +45123,11 @@ PitBull4DB = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -45147,107 +45137,107 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:威脅值"] = {
 									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
+								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
 								},
 							},
 							["first"] = false,
@@ -45256,15 +45246,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -45274,11 +45264,11 @@ PitBull4DB = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -45288,22 +45278,22 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
@@ -45314,8 +45304,8 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -45325,73 +45315,73 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								["Lua:德魯伊法力值"] = {
 									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
 								},
 								["Lua:威脅值"] = {
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
+								["Lua:經驗值"] = {
 									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
 								},
 							},
 							["first"] = false,
@@ -45399,133 +45389,134 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["location"] = "right",
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
 									},
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
+									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
 									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
+								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
 								},
 							},
 							["first"] = false,
@@ -45559,41 +45550,41 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 									["attach_to"] = "ReputationBar",
-									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 									["position"] = 6,
 									["location"] = "center",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["attach_to"] = "CastBar",
-									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
@@ -45604,70 +45595,27 @@ PitBull4DB = {
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 									["attach_to"] = "HealthBar",
-									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
+									["exists"] = true,
 									["position"] = 12,
 									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
 									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["生命百分比"] = {
-									["exists"] = true,
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["location"] = "in_bottom_right",
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 1.00001,
-									["size"] = 0.8,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
 									["exists"] = true,
@@ -45681,17 +45629,61 @@ PitBull4DB = {
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["生命百分比"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "bottom_left",
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["attach_to"] = "Portrait",
+									["size"] = 0.8,
+								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "ThreatBar",
-									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 							},
 							["first"] = false,
@@ -47786,170 +47778,183 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MAXENERGY"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_RAGE"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_MAXFOCUS"] = true,
+										["UNIT_FOCUS"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_ENERGY"] = true,
+										["UNIT_RUNIC_POWER"] = true,
+										["UNIT_MAXRAGE"] = true,
+										["UNIT_MAXRUNIC_POWER"] = true,
+									},
 									["position"] = 3,
 									["location"] = "right",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return \"%s/%s\",Power(unit),max\nend",
 									["attach_to"] = "PowerBar",
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["position"] = 6,
 									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["position"] = 8,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["position"] = 12,
+									["location"] = "center",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
 									["attach_to"] = "ExperienceBar",
 									["size"] = 0.8,
 								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-								},
 							},
 							["first"] = false,
 						},
 						["Party"] = {
 							["elements"] = {
-								["Lua:生命值"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
 									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["position"] = 4,
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
 								},
 								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
 									["exists"] = true,
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
@@ -47958,127 +47963,123 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
 									["position"] = 6,
 									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
 									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
 									["position"] = 12,
 									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
+									["exists"] = true,
 								},
 								["Diy:種族"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
 								},
 							},
 							["first"] = false,
@@ -48086,153 +48087,153 @@ PitBull4DB = {
 						["Focus"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["position"] = 4,
 									["location"] = "right",
-									["position"] = 8,
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
 									["exists"] = true,
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.95,
 								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["exists"] = true,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["position"] = 6,
+									["location"] = "left",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
 									["position"] = 12,
 									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
+									["exists"] = true,
 								},
 								["Diy:種族"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+								["Lua:經驗值"] = {
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 							},
 							["first"] = false,
@@ -48241,15 +48242,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -48259,11 +48260,11 @@ PitBull4DB = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -48273,107 +48274,107 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:經驗值"] = {
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:德魯伊法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -48382,15 +48383,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -48400,11 +48401,11 @@ PitBull4DB = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -48414,22 +48415,22 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
@@ -48440,8 +48441,8 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -48451,73 +48452,73 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-								},
-								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -48525,157 +48526,158 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["location"] = "right",
 									["events"] = {
-										["UNIT_POWER"] = true,
 										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
 									},
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:經驗值"] = {
-									["enabled"] = false,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:德魯伊法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
 						},
 						["Target"] = {
 							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
@@ -48684,141 +48686,139 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
 									["position"] = 6,
 									["location"] = "center",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
 									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-								},
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
-								},
-								["Diy:種族"] = {
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["exists"] = true,
-									["position"] = 1.00002,
+									["position"] = 7,
 									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
-								["Lua:施法時間"] = {
+								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
 									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
 									},
-								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
-									["exists"] = true,
-									["position"] = 3,
+									["position"] = 12,
 									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["生命百分比"] = {
-									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 1.00001,
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
 									["location"] = "in_bottom_right",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["position"] = 1.00001,
 									["size"] = 0.8,
 								},
-								["Lua:德魯伊法力值"] = {
+								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00002,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -51905,10 +51905,11 @@ PitBull4DB = {
 		["Naxxes - 燃烧之刃"] = "dk.2014.10.30",
 		["Jinzakk - 黑龍軍團"] = "Jinzakk - 黑龍軍團",
 		["新人物新 - 燃烧之刃"] = "Default",
+		["Darknex - Emerald Dream"] = "Default.2016.08.05",
 		["Humazz - 黑龍軍團"] = "Default",
 		["Zenez - 燃烧之刃"] = "Zenez - 燃烧之刃",
 		["Darknex - 黑龍軍團"] = "Darknex_110408",
-		["Darknex - Emerald Dream"] = "Default.2016.08.05",
+		["Shadowzxz - Emerald Dream"] = "Default",
 		["Uiiui - 黑龍軍團"] = "Default",
 		["Iuiuuau - 黑龍軍團"] = "Default",
 		["Darknex - 夜空之歌"] = "Default",
@@ -51921,13 +51922,13 @@ PitBull4DB = {
 		["Darknex - 燃烧之刃"] = "wlk.2014.10.20",
 		["Shadowx - 鬼雾峰"] = "术士",
 		["Glorix - 黑龍軍團"] = "Glorix - 黑龍軍團",
-		["Necromax - 黑龍軍團"] = "Default",
+		["Shadowx - 闪电之刃"] = "Default",
 		["Neroix - 黑龍軍團"] = "Neroix - 黑龍軍團",
 		["Amethy - 黑龍軍團"] = "Default",
 		["Humann - 黑龍軍團"] = "Default",
 		["Zeal - 黑龍軍團"] = "Zeal - 黑龍軍團",
 		["雄猫酒仙 - 燃烧之刃"] = "Default",
-		["Shadowx - 闪电之刃"] = "Default",
+		["Necromax - 黑龍軍團"] = "Default",
 		["瓦尔希纳斯 - 燃烧之刃"] = "HUNTER",
 		["Invoke - 黑龍軍團"] = "Default",
 		["Neroix - 銀翼要塞"] = "Neroix - 銀翼要塞",
@@ -53748,7 +53749,7 @@ PitBull4DB = {
 					["bar_texture"] = "Flat",
 				},
 			},
-			["made_groups"] = true,
+			["lock_movement"] = true,
 			["units"] = {
 				["targettargettarget"] = {
 					["enabled"] = false,
@@ -53798,10 +53799,6 @@ PitBull4DB = {
 					["position_y"] = -149.686625821848,
 					["layout"] = "Pet",
 				},
-			},
-			["minimap_icon"] = {
-				["minimapPos"] = 0.800979858987957,
-				["hide"] = true,
 			},
 			["groups"] = {
 				["隊伍寵物"] = {
@@ -53854,7 +53851,11 @@ PitBull4DB = {
 					},
 				},
 			},
-			["lock_movement"] = true,
+			["made_groups"] = true,
+			["minimap_icon"] = {
+				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
+			},
 		},
 		["Darknex_110408"] = {
 			["minimap_icon"] = {
@@ -54377,7 +54378,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["default"] = {
+		["Default"] = {
 			["groups"] = {
 				["隊伍寵物"] = {
 					["position_x"] = 110.67141778136,
@@ -54445,6 +54446,7 @@ PitBull4DB = {
 				"WARLOCK", -- [9]
 				"HUNTER", -- [10]
 				"MONK", -- [11]
+				"DEMONHUNTER", -- [12]
 			},
 			["layouts"] = {
 				["Self"] = {
@@ -54452,7 +54454,26 @@ PitBull4DB = {
 					["size_x"] = 190,
 					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Otravi",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
+					["bar_texture"] = "Otravi",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Otravi",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Otravi",
 				},
 				["Party"] = {
 					["font_size"] = 0.9,
@@ -54460,44 +54481,27 @@ PitBull4DB = {
 					["opacity_max"] = 0.85,
 					["size_y"] = 45,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
 					["font_size"] = 0.95,
 					["size_x"] = 180,
 					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Otravi",
 				},
 				["Target"] = {
+					["exists"] = true,
+					["size_y"] = 42,
 					["size_x"] = 220,
-					["size_y"] = 48,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini"] = {
-					["size_x"] = 110,
-					["size_y"] = 24,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Otravi",
 				},
 				["普通"] = {
-					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Flat",
+					["size_y"] = 40,
+				},
+				["簡單"] = {
+					["exists"] = true,
 				},
 			},
 			["lock_movement"] = true,
@@ -54511,8 +54515,8 @@ PitBull4DB = {
 				},
 				["focustarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = -486.546020507813,
-					["position_y"] = 64.1715393066406,
+					["position_x"] = 418.341178881756,
+					["position_y"] = -67.8242633181702,
 				},
 				["targettarget"] = {
 					["layout"] = "Mini",
@@ -54521,24 +54525,23 @@ PitBull4DB = {
 				},
 				["player"] = {
 					["layout"] = "Self",
-					["position_x"] = -305.079040527344,
-					["position_y"] = -184.686614990234,
+					["position_x"] = -298.939485321704,
+					["position_y"] = -185.02523470886,
 				},
 				["focus"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.545989990234,
-					["position_y"] = 73.1714477539063,
+					["layout"] = "Focus",
+					["position_x"] = 273.341058354811,
+					["position_y"] = -59.8242272898498,
 				},
 				["target"] = {
 					["layout"] = "Target",
 					["position_x"] = -321.54612056282,
 					["position_y"] = -58.5628306046842,
 				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
 				},
 				["focustargettarget"] = {
 					["enabled"] = false,
@@ -54546,10 +54549,11 @@ PitBull4DB = {
 					["position_x"] = -212.279312726498,
 					["position_y"] = 332.137682199114,
 				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
 				},
 			},
 		},
@@ -55125,7 +55129,58 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Darknex-test1"] = {
+		["default"] = {
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+				["隊伍目標"] = {
+					["vertical_spacing"] = 47,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -472.762492360822,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 266.66557572661,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 15,
+					["horizontal_spacing"] = 40,
+					["position_x"] = -607.174361405087,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 278.223712577733,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["PartyTarget"] = {
+					["vertical_spacing"] = 36,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.78611461372,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["position_y"] = 217.033971468362,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+			},
 			["minimap_icon"] = {
 				["minimapPos"] = 0.800979858987957,
 				["hide"] = true,
@@ -55142,7 +55197,6 @@ PitBull4DB = {
 				"WARLOCK", -- [9]
 				"HUNTER", -- [10]
 				"MONK", -- [11]
-				"DEMONHUNTER", -- [12]
 			},
 			["layouts"] = {
 				["Self"] = {
@@ -55150,89 +55204,55 @@ PitBull4DB = {
 					["size_x"] = 190,
 					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
 				["Party"] = {
 					["font_size"] = 0.9,
 					["size_x"] = 180,
 					["opacity_max"] = 0.85,
-					["size_y"] = 47,
+					["size_y"] = 45,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
-				["普通"] = {
+				["Mini_Party_tar"] = {
+					["size_x"] = 110,
+					["size_y"] = 28,
 					["exists"] = true,
+					["bar_texture"] = "Minimalist",
 				},
 				["Focus"] = {
 					["font_size"] = 0.95,
 					["size_x"] = 180,
 					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
+				["Target"] = {
+					["size_x"] = 220,
+					["size_y"] = 48,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
 					["size_x"] = 110,
 					["size_y"] = 24,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["size_x"] = 220,
-					["size_y"] = 42,
+				["普通"] = {
+					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Otravi",
+					["bar_texture"] = "Flat",
 				},
 			},
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 120,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.720535740361,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 2,
-					["enabled"] = true,
-					["position_y"] = 403.84018363391,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 70,
-					["horizontal_spacing"] = 40,
-					["position_x"] = -463.89818152396,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 2,
-					["enabled"] = true,
-					["position_y"] = 436.726633516032,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-			},
+			["lock_movement"] = true,
 			["made_groups"] = true,
 			["units"] = {
 				["targettargettarget"] = {
@@ -55243,28 +55263,28 @@ PitBull4DB = {
 				},
 				["focustarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = -446.744538827958,
-					["position_y"] = 56.1249614813746,
+					["position_x"] = -486.546020507813,
+					["position_y"] = 64.1715393066406,
 				},
 				["targettarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = -486.74462126564,
-					["position_y"] = -77.8751046214336,
+					["position_x"] = -486.546125982335,
+					["position_y"] = -67.5628467105648,
 				},
 				["player"] = {
 					["layout"] = "Self",
-					["position_x"] = -305.958183180347,
-					["position_y"] = -178.257655464683,
+					["position_x"] = -305.079040527344,
+					["position_y"] = -184.686614990234,
 				},
 				["focus"] = {
-					["layout"] = "Focus",
-					["position_x"] = -301.744467152973,
-					["position_y"] = 64.1249975096951,
+					["layout"] = "Target",
+					["position_x"] = -321.545989990234,
+					["position_y"] = 73.1714477539063,
 				},
 				["target"] = {
 					["layout"] = "Target",
-					["position_x"] = -321.744596305342,
-					["position_y"] = -68.875127597121,
+					["position_x"] = -321.54612056282,
+					["position_y"] = -58.5628306046842,
 				},
 				["pettarget"] = {
 					["enabled"] = false,
@@ -55280,8 +55300,8 @@ PitBull4DB = {
 				},
 				["pet"] = {
 					["layout"] = "Pet",
-					["position_x"] = -460.95819241642,
-					["position_y"] = -182.990218387343,
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
 				},
 			},
 		},
@@ -55623,61 +55643,10 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Default"] = {
+		["Darknex-test1"] = {
 			["minimap_icon"] = {
 				["minimapPos"] = 0.800979858987957,
 				["hide"] = true,
-			},
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 47,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -472.762492360822,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 266.66557572661,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 15,
-					["horizontal_spacing"] = 40,
-					["position_x"] = -607.174361405087,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 278.223712577733,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["PartyTarget"] = {
-					["vertical_spacing"] = 36,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.78611461372,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["position_y"] = 217.033971468362,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
 			},
 			["class_order"] = {
 				"WARRIOR", -- [1]
@@ -55701,6 +55670,24 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 180,
+					["opacity_max"] = 0.85,
+					["size_y"] = 47,
+					["exists"] = true,
+					["bar_texture"] = "Otravi",
+				},
+				["普通"] = {
+					["exists"] = true,
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Otravi",
+				},
 				["Mini_Party_tar"] = {
 					["size_x"] = 110,
 					["size_y"] = 28,
@@ -55720,37 +55707,51 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 180,
-					["opacity_max"] = 0.85,
-					["size_y"] = 45,
-					["exists"] = true,
-					["bar_texture"] = "Otravi",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Otravi",
-				},
 				["Target"] = {
 					["size_x"] = 220,
 					["size_y"] = 42,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["普通"] = {
+			},
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
 					["exists"] = true,
-					["size_y"] = 40,
+					["unit_group"] = "partypet",
 				},
-				["簡單"] = {
+				["隊伍目標"] = {
+					["vertical_spacing"] = 120,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.720535740361,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
 					["exists"] = true,
+					["units_per_column"] = 2,
+					["enabled"] = true,
+					["position_y"] = 403.84018363391,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 70,
+					["horizontal_spacing"] = 40,
+					["position_x"] = -463.89818152396,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 2,
+					["enabled"] = true,
+					["position_y"] = 436.726633516032,
+					["show_when"] = {
+						["raid"] = true,
+					},
 				},
 			},
 			["made_groups"] = true,
-			["lock_movement"] = true,
 			["units"] = {
 				["targettargettarget"] = {
 					["enabled"] = false,
@@ -55760,33 +55761,34 @@ PitBull4DB = {
 				},
 				["focustarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = 418.341178881756,
-					["position_y"] = -67.8242633181702,
+					["position_x"] = -446.744538827958,
+					["position_y"] = 56.1249614813746,
 				},
 				["targettarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = -486.546125982335,
-					["position_y"] = -67.5628467105648,
+					["position_x"] = -486.74462126564,
+					["position_y"] = -77.8751046214336,
 				},
 				["player"] = {
 					["layout"] = "Self",
-					["position_x"] = -298.939485321704,
-					["position_y"] = -185.02523470886,
+					["position_x"] = -305.958183180347,
+					["position_y"] = -178.257655464683,
 				},
 				["focus"] = {
 					["layout"] = "Focus",
-					["position_x"] = 273.341058354811,
-					["position_y"] = -59.8242272898498,
+					["position_x"] = -301.744467152973,
+					["position_y"] = 64.1249975096951,
 				},
 				["target"] = {
 					["layout"] = "Target",
-					["position_x"] = -321.54612056282,
-					["position_y"] = -58.5628306046842,
+					["position_x"] = -321.744596305342,
+					["position_y"] = -68.875127597121,
 				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
 				},
 				["focustargettarget"] = {
 					["enabled"] = false,
@@ -55794,11 +55796,10 @@ PitBull4DB = {
 					["position_x"] = -212.279312726498,
 					["position_y"] = 332.137682199114,
 				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -460.95819241642,
+					["position_y"] = -182.990218387343,
 				},
 			},
 		},
