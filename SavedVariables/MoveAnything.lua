@@ -19,6 +19,8 @@ MADB = {
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.15259173925681,
+					["orgScale"] = 1.33299994468689,
+					["hidden"] = true,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -26,8 +28,6 @@ MADB = {
 						28.5857524871826, -- [4]
 						269.319702148438, -- [5]
 					},
-					["hidden"] = true,
-					["orgScale"] = 1,
 				},
 				["TargetFrame"] = {
 					["orgPos"] = {
@@ -37,8 +37,8 @@ MADB = {
 						282, -- [4]
 						161.000015258789, -- [5]
 					},
-					["orgAlpha"] = 0.949019607843137,
 					["name"] = "TargetFrame",
+					["orgAlpha"] = 0.949019607843137,
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -56,8 +56,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "MinimapBorderTop",
 					["orgAlpha"] = 1,
+					["name"] = "MinimapBorderTop",
 					["alpha"] = 0.25,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -73,7 +73,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						175.000015258789, -- [5]
+						255.000015258789, -- [5]
 					},
 					["name"] = "ZoneAbilityFrame",
 					["pos"] = {
@@ -92,8 +92,8 @@ MADB = {
 						-249, -- [4]
 						178, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "TargetFrameToT",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.6,
 					["pos"] = {
 						"BOTTOMRIGHT", -- [1]
@@ -105,14 +105,14 @@ MADB = {
 				},
 				["FocusFrame"] = {
 					["orgPos"] = {
-						"LEFT", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"LEFT", -- [3]
+						"BOTTOMLEFT", -- [3]
 						126.000007629395, -- [4]
-						-145, -- [5]
+						232.000015258789, -- [5]
 					},
-					["orgAlpha"] = 0.949019607843137,
 					["name"] = "FocusFrame",
+					["orgAlpha"] = 0.949019607843137,
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -139,8 +139,8 @@ MADB = {
 							0, -- [5]
 						}, -- [2]
 					},
-					["name"] = "MinimapBorder",
 					["orgAlpha"] = 1,
+					["name"] = "MinimapBorder",
 					["alpha"] = 0,
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -158,8 +158,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["name"] = "LossOfControlFrame",
 					["orgAlpha"] = 1,
+					["name"] = "LossOfControlFrame",
 					["alpha"] = 0.7,
 					["pos"] = {
 						"CENTER", -- [1]
@@ -170,6 +170,13 @@ MADB = {
 					},
 				},
 				["BattlefieldMinimap"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"BattlefieldMinimapTab", -- [2]
+						"BOTTOMLEFT", -- [3]
+						0, -- [4]
+						-5, -- [5]
+					},
 					["name"] = "BattlefieldMinimap",
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -187,8 +194,8 @@ MADB = {
 						20, -- [4]
 						-2, -- [5]
 					},
-					["name"] = "GameTimeFrame",
 					["orgAlpha"] = 1,
+					["name"] = "GameTimeFrame",
 					["alpha"] = 0.6,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -206,8 +213,8 @@ MADB = {
 						0, -- [4]
 						-75, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "TimeManagerClockButton",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.65,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -217,21 +224,25 @@ MADB = {
 						672.333374023438, -- [5]
 					},
 				},
-				["PlayerDebuffsMover"] = {
+				["PlayerFrame"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"BuffFrame", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						0, -- [4]
-						-60, -- [5]
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						188, -- [4]
+						37, -- [5]
 					},
-					["name"] = "PlayerDebuffsMover",
+					["orgAlpha"] = 1,
+					["hidden"] = true,
+					["name"] = "PlayerFrame",
+					["unit"] = "player",
+					["alpha"] = 0.5,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						455.567749023438, -- [4]
-						174.901153564453, -- [5]
+						187.802490234375, -- [4]
+						37.1360054016113, -- [5]
 					},
 				},
 				["MinimapBackdrop"] = {
@@ -259,8 +270,8 @@ MADB = {
 						9, -- [4]
 						-45.0000038146973, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "MiniMapTracking",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.7,
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -278,8 +289,8 @@ MADB = {
 						-2, -- [4]
 						23, -- [5]
 					},
-					["name"] = "MiniMapWorldMapButton",
 					["orgAlpha"] = 1,
+					["name"] = "MiniMapWorldMapButton",
 					["alpha"] = 0.65,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -307,33 +318,29 @@ MADB = {
 						238.86360168457, -- [5]
 					},
 				},
-				["PlayerFrame"] = {
+				["PlayerDebuffsMover"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						-19.0000019073486, -- [4]
-						-4, -- [5]
+						"TOPRIGHT", -- [1]
+						"BuffFrame", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0, -- [4]
+						-60, -- [5]
 					},
-					["name"] = "PlayerFrame",
-					["alpha"] = 0.5,
-					["orgAlpha"] = 1,
+					["name"] = "PlayerDebuffsMover",
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						187.802490234375, -- [4]
-						37.1360054016113, -- [5]
+						455.567749023438, -- [4]
+						174.901153564453, -- [5]
 					},
-					["hidden"] = true,
-					["unit"] = "player",
 				},
 			},
 		},
 	},
-	["tooltips"] = true,
-	["squareMM"] = false,
-	["noBags"] = false,
-	["playSound"] = false,
 	["closeGUIOnEscape"] = false,
+	["squareMM"] = false,
+	["playSound"] = false,
+	["noBags"] = false,
+	["tooltips"] = true,
 }

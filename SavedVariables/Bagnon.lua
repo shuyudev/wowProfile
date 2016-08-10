@@ -11,15 +11,15 @@ Bagnon_Sets = {
 			},
 			["scale"] = 0.9,
 			["alpha"] = 0.8,
-			["y"] = 320.002197265625,
-			["x"] = -75.5002752303237,
+			["y"] = 377.944671630859,
+			["x"] = -82.5233465193862,
 			["borderColor"] = {
 			},
-			["columns"] = 15,
+			["spacing"] = 1,
+			["itemScale"] = 1,
 			["color"] = {
 			},
-			["itemScale"] = 1,
-			["spacing"] = 1,
+			["columns"] = 15,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
@@ -51,12 +51,12 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["showBags"] = true,
 			["hiddenBags"] = {
 				[5] = false,
 				[-3] = false,
 				[-1] = false,
 			},
+			["showBags"] = true,
 		},
 	},
 	["glowAlpha"] = 0.5,
@@ -68,18 +68,18 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
-	["leatherColor"] = {
-	},
-	["tackleColor"] = {
-	},
-	["herbColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["enchantColor"] = {
-	},
 	["players"] = {
 		["Emerald Dream"] = {
 		},
+	},
+	["enchantColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["herbColor"] = {
+	},
+	["tackleColor"] = {
+	},
+	["leatherColor"] = {
 	},
 }

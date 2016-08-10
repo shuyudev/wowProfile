@@ -28,52 +28,52 @@ TipTac_Config = {
 	["classification_normal"] = "%s ",
 	["colLevel"] = "|cffc0c0c0",
 	["healthBarClassColor"] = true,
-	["mouseOffsetX"] = 0,
+	["anchorFrameUnitPoint"] = "BOTTOMLEFT",
 	["reactColoredBorder"] = false,
 	["classification_minus"] = "-%s ",
 	["barFontFlags"] = "OUTLINE",
-	["anchorFrameUnitType"] = "normal",
+	["anchorFrameTipPoint"] = "BOTTOMLEFT",
 	["hideWorldTips"] = true,
-	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+	["classification_rare"] = "%s|r (Rare) ",
 	["fontSize"] = 12,
 	["anchorWorldTipType"] = "mouse",
+	["fontSizeDelta"] = 2,
 	["colorGuildByReaction"] = true,
-	["colGuild"] = "|c00000406",
-	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
+	["gradientTip"] = false,
 	["optionsBottom"] = 307.197601318359,
-	["healthBarText"] = "value",
+	["left"] = 34.7654724121094,
 	["preFadeTime"] = 0.1,
 	["reactColoredBackdrop"] = false,
-	["classColoredBorder"] = false,
+	["classification_worldboss"] = "%s|r (Boss) ",
 	["classification_trivial"] = "~%s ",
 	["backdropInsets"] = 4,
-	["manaBar"] = false,
-	["fadeTime"] = 0.1,
-	["classification_rareelite"] = "+%s|r (Rare) ",
-	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
 	["colorNameByClass"] = false,
-	["gradientColor"] = {
-		0.8, -- [1]
-		0.8, -- [2]
-		0.8, -- [3]
-		0.2, -- [4]
-	},
-	["colSameGuild"] = "|cffff32ff",
-	["anchorWorldUnitType"] = "mouse",
 	["healthBarColor"] = {
 		0.3, -- [1]
 		0.9, -- [2]
 		0.3, -- [3]
 		1, -- [4]
 	},
+	["colSameGuild"] = "|cffff32ff",
+	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
+	["manaBar"] = false,
+	["gradientColor"] = {
+		0.8, -- [1]
+		0.8, -- [2]
+		0.8, -- [3]
+		0.2, -- [4]
+	},
+	["classColoredBorder"] = false,
+	["anchorWorldUnitType"] = "mouse",
+	["fadeTime"] = 0.1,
 	["targetYouText"] = "<<YOU>>",
-	["classification_worldboss"] = "%s|r (Boss) ",
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["top"] = 24,
-	["left"] = 34.7654724121094,
-	["gradientTip"] = false,
-	["fontSizeDelta"] = 2,
-	["classification_rare"] = "%s|r (Rare) ",
+	["healthBarText"] = "value",
+	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
+	["colGuild"] = "|c00000406",
+	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 	["barFontSize"] = 12,
-	["anchorFrameTipPoint"] = "BOTTOMLEFT",
-	["anchorFrameUnitPoint"] = "BOTTOMLEFT",
+	["anchorFrameUnitType"] = "normal",
+	["mouseOffsetX"] = 0,
 }
