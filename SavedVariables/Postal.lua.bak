@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Darknex|Emerald Dream|Horde|100|ROGUE", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+	},
+	["profiles"] = {
+		["Darknex - Emerald Dream"] = {
+		},
+	},
+}

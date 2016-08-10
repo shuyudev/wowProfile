@@ -1,3 +1,7 @@
+VER 3 0000000000000009 "Band" "INV_Misc_QuestionMark"
+#showtooltip
+/use Antiseptic Bandage
+END
 VER 3 0000000000000006 "bar1" "134800"
 /changeactionbar 1
 END
@@ -9,9 +13,6 @@ VER 3 0000000000000008 "Focus" "458724"
 /stopmacro [@mouseover,exists]
 /focus [@target,exists]
 /clearfocus [mod:shift]
-END
-VER 3 0000000000000004 "Macro" "132599"
-/mac
 END
 VER 3 0000000000000002 "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
