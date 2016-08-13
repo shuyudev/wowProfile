@@ -1,5 +1,10 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Neroix - Emerald Dream"] = "Neroix - Emerald Dream",
+		["Felnex - Emerald Dream"] = "Felnex - Emerald Dream",
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -9,17 +14,17 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Felnex - Emerald Dream"] = "Felnex - Emerald Dream",
-		["Neroix - Emerald Dream"] = "Neroix - Emerald Dream",
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["profiles"] = {
-		["Felnex - Emerald Dream"] = {
-		},
 		["Neroix - Emerald Dream"] = {
 		},
+		["Felnex - Emerald Dream"] = {
+		},
 		["Darknex - Emerald Dream"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Felnex|Emerald Dream|Horde", -- [1]
+				},
+			},
 		},
 	},
 }

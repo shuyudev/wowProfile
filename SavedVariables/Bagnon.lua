@@ -6,20 +6,24 @@ Bagnon_Sets = {
 	},
 	["global"] = {
 		["inventory"] = {
-			["point"] = "BOTTOMRIGHT",
+			["brokerObject"] = "WeakAuras",
+			["point"] = "BOTTOMLEFT",
 			["hiddenBags"] = {
+				[4] = false,
+				[2] = false,
 			},
 			["scale"] = 0.9,
 			["alpha"] = 0.8,
-			["y"] = 377.944671630859,
-			["x"] = -82.5233465193862,
+			["y"] = 413.939331054688,
+			["x"] = 473.889251708984,
+			["columns"] = 15,
 			["borderColor"] = {
 			},
-			["spacing"] = 1,
-			["itemScale"] = 1,
 			["color"] = {
 			},
-			["columns"] = 15,
+			["itemScale"] = 1,
+			["spacing"] = 1,
+			["showBags"] = true,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
@@ -44,19 +48,19 @@ Bagnon_Sets = {
 			},
 		},
 		["bank"] = {
-			["y"] = 219.518447875977,
+			["y"] = 55.3333969116211,
 			["x"] = 205.617324829102,
 			["point"] = "BOTTOMLEFT",
 			["borderColor"] = {
 			},
 			["color"] = {
 			},
+			["showBags"] = true,
 			["hiddenBags"] = {
 				[5] = false,
 				[-3] = false,
 				[-1] = false,
 			},
-			["showBags"] = true,
 		},
 	},
 	["glowAlpha"] = 0.5,
@@ -68,18 +72,18 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
-	["players"] = {
-		["Emerald Dream"] = {
-		},
-	},
-	["enchantColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["herbColor"] = {
+	["leatherColor"] = {
 	},
 	["tackleColor"] = {
 	},
-	["leatherColor"] = {
+	["herbColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["enchantColor"] = {
+	},
+	["players"] = {
+		["Emerald Dream"] = {
+		},
 	},
 }

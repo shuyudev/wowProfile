@@ -12,10 +12,10 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default.2016.08.05"] = {
-					["w"] = 150,
-					["x"] = 310.074157714844,
-					["border"] = "None",
 					["y"] = 0,
+					["x"] = 310.074157714844,
+					["w"] = 150,
+					["border"] = "None",
 				},
 				["rog.2014.10.20"] = {
 					["y"] = 99.3087768554688,
@@ -29,11 +29,17 @@ Quartz3DB = {
 					["w"] = 150,
 					["border"] = "None",
 				},
+				["燃烧之刃"] = {
+					["x"] = 658.5185546875,
+				},
 				["WARLOCK"] = {
 					["x"] = 658.5185546875,
 				},
-				["燃烧之刃"] = {
-					["x"] = 658.5185546875,
+				["Slick.2016.08.12"] = {
+					["w"] = 150,
+					["x"] = 310.074157714844,
+					["border"] = "None",
+					["y"] = 0,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 99.3087768554688,
@@ -58,13 +64,15 @@ Quartz3DB = {
 				},
 			},
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default.2016.08.05"] = {
-					["targetname"] = true,
 					["y"] = 142.591918945313,
-					["border"] = "None",
 					["x"] = 629.926574707031,
+					["targetname"] = true,
+					["border"] = "None",
 					["texture"] = "BantoBar",
 				},
 				["rog.2014.10.20"] = {
@@ -81,11 +89,19 @@ Quartz3DB = {
 					["border"] = "None",
 					["texture"] = "BantoBar",
 				},
+				["燃烧之刃"] = {
+					["x"] = 633.5185546875,
+				},
 				["WARLOCK"] = {
 					["x"] = 633.5185546875,
 				},
-				["燃烧之刃"] = {
-					["x"] = 633.5185546875,
+				["Slick.2016.08.12"] = {
+					["targetname"] = true,
+					["w"] = 190,
+					["y"] = 90.0000076293945,
+					["border"] = "None",
+					["x"] = 652,
+					["texture"] = "BantoBar",
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 139.432266235352,
@@ -113,46 +129,54 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["GCD"] = {
 		},
 		["Focus"] = {
 			["profiles"] = {
 				["Default.2016.08.05"] = {
-					["showtarget"] = false,
-					["w"] = 150,
-					["y"] = 475.975646972656,
-					["iconposition"] = "right",
-					["border"] = "None",
+					["y"] = 475.185607910156,
+					["x"] = 470.470306396484,
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 476.000579833984,
+					["border"] = "None",
+					["showtarget"] = false,
+					["w"] = 150,
+					["iconposition"] = "right",
 				},
 				["rog.2014.10.20"] = {
 					["y"] = 310.469085693359,
 					["x"] = 97,
 					["fontsize"] = 12,
-					["w"] = 130,
-					["showtarget"] = false,
 					["border"] = "None",
+					["showtarget"] = false,
+					["w"] = 130,
 					["texture"] = "BantoBar",
 				},
 				["wlk.2014.10.20"] = {
 					["y"] = 447.531127929688,
 					["x"] = 494.173278808594,
 					["fontsize"] = 16,
-					["iconposition"] = "right",
-					["w"] = 150,
-					["showtarget"] = false,
-					["border"] = "None",
 					["texture"] = "BantoBar",
+					["border"] = "None",
+					["showtarget"] = false,
+					["w"] = 150,
+					["iconposition"] = "right",
+				},
+				["燃烧之刃"] = {
+					["x"] = 658.5185546875,
 				},
 				["WARLOCK"] = {
 					["x"] = 658.5185546875,
 				},
-				["燃烧之刃"] = {
-					["x"] = 658.5185546875,
+				["Slick.2016.08.12"] = {
+					["showtarget"] = false,
+					["w"] = 185,
+					["y"] = 470,
+					["iconposition"] = "right",
+					["border"] = "None",
+					["fontsize"] = 16,
+					["texture"] = "BantoBar",
+					["x"] = 277,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 449.111053466797,
@@ -165,11 +189,11 @@ Quartz3DB = {
 					["y"] = 447.531127929688,
 					["x"] = 494.173278808594,
 					["fontsize"] = 16,
-					["iconposition"] = "right",
-					["w"] = 150,
-					["showtarget"] = false,
-					["border"] = "None",
 					["texture"] = "BantoBar",
+					["border"] = "None",
+					["showtarget"] = false,
+					["w"] = 150,
+					["iconposition"] = "right",
 				},
 				["Darknex - 燃烧之刃"] = {
 					["x"] = 658.5185546875,
@@ -178,63 +202,72 @@ Quartz3DB = {
 					["y"] = 475.975646972656,
 					["x"] = 476.000579833984,
 					["fontsize"] = 16,
-					["iconposition"] = "right",
-					["w"] = 150,
-					["showtarget"] = false,
-					["border"] = "None",
 					["texture"] = "BantoBar",
+					["border"] = "None",
+					["showtarget"] = false,
+					["w"] = 150,
+					["iconposition"] = "right",
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default.2016.08.05"] = {
-					["w"] = 150,
 					["y"] = 319.530822753906,
-					["border"] = "None",
-					["fontsize"] = 16,
-					["texture"] = "BantoBar",
 					["x"] = 473.629943847656,
+					["fontsize"] = 16,
+					["border"] = "None",
 					["noInterruptChangeBorder"] = true,
+					["w"] = 150,
+					["texture"] = "BantoBar",
 				},
 				["rog.2014.10.20"] = {
 					["y"] = 309.518524169922,
 					["x"] = 291.259246826172,
 					["fontsize"] = 12,
-					["iconposition"] = "left",
-					["w"] = 170,
-					["border"] = "None",
 					["texture"] = "BantoBar",
+					["border"] = "None",
+					["w"] = 170,
+					["iconposition"] = "left",
 				},
 				["wlk.2014.10.20"] = {
 					["y"] = 317.160491943359,
 					["x"] = 496.543334960938,
 					["fontsize"] = 16,
-					["w"] = 150,
-					["noInterruptChangeBorder"] = true,
 					["border"] = "None",
+					["noInterruptChangeBorder"] = true,
+					["w"] = 150,
 					["texture"] = "BantoBar",
-				},
-				["WARLOCK"] = {
-					["x"] = 658.5185546875,
 				},
 				["燃烧之刃"] = {
 					["x"] = 658.5185546875,
 				},
+				["WARLOCK"] = {
+					["x"] = 658.5185546875,
+				},
+				["Slick.2016.08.12"] = {
+					["w"] = 185,
+					["y"] = 325,
+					["border"] = "None",
+					["fontsize"] = 16,
+					["texture"] = "BantoBar",
+					["x"] = 277,
+					["noInterruptChangeBorder"] = true,
+				},
 				["dur.2014.10.22"] = {
 					["y"] = 317.160552978516,
 					["x"] = 497.333648681641,
-					["iconposition"] = "left",
-					["border"] = "None",
 					["texture"] = "BantoBar",
+					["border"] = "None",
+					["iconposition"] = "left",
 				},
 				["Default"] = {
 					["y"] = 317.160491943359,
 					["x"] = 496.543334960938,
 					["fontsize"] = 16,
-					["w"] = 150,
-					["noInterruptChangeBorder"] = true,
 					["border"] = "None",
+					["noInterruptChangeBorder"] = true,
+					["w"] = 150,
 					["texture"] = "BantoBar",
 				},
 				["Darknex - 燃烧之刃"] = {
@@ -244,16 +277,16 @@ Quartz3DB = {
 					["y"] = 319.530822753906,
 					["x"] = 473.629943847656,
 					["fontsize"] = 16,
-					["w"] = 150,
-					["noInterruptChangeBorder"] = true,
 					["border"] = "None",
+					["noInterruptChangeBorder"] = true,
+					["w"] = 150,
 					["texture"] = "BantoBar",
 				},
 			},
 		},
-		["Mirror"] = {
-		},
 		["Range"] = {
+		},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
@@ -264,26 +297,26 @@ Quartz3DB = {
 		["瓦尔希纳斯 - 燃烧之刃"] = "Default",
 		["Durix - 燃烧之刃"] = "dur.2014.10.22",
 		["Felnex - Emerald Dream"] = "Default.2016.08.05",
-		["Darknex - 燃烧之刃"] = "wlk.2014.10.20",
+		["Neroix - 燃烧之刃"] = "rog.2014.10.20",
 		["Nastoluth - Emerald Dream"] = "Default",
 		["Neroix - Emerald Dream"] = "Default.2016.08.05",
 		["Sarraice - Emerald Dream"] = "rog.2014.10.20",
 		["Vazko - Emerald Dream"] = "Default",
 		["Kallinas - Emerald Dream"] = "Default",
-		["Neroix - 燃烧之刃"] = "rog.2014.10.20",
-		["Darknex - Emerald Dream"] = "Default.2016.08.05",
+		["Darknex - 燃烧之刃"] = "wlk.2014.10.20",
+		["Darknex - Emerald Dream"] = "Slick.2016.08.12",
 	},
 	["profiles"] = {
 		["Default.2016.08.05"] = {
 			["modules"] = {
+				["Range"] = false,
 				["Swing"] = false,
+				["GCD"] = false,
 				["Buff"] = false,
 				["Interrupt"] = false,
 				["Flight"] = false,
 				["Mirror"] = false,
-				["GCD"] = false,
 				["Timer"] = false,
-				["Range"] = false,
 			},
 		},
 		["rog.2014.10.20"] = {
@@ -299,24 +332,36 @@ Quartz3DB = {
 		},
 		["wlk.2014.10.20"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Interrupt"] = false,
+			},
+		},
+		["燃烧之刃"] = {
+		},
+		["WARLOCK"] = {
+		},
+		["Slick.2016.08.12"] = {
+			["modules"] = {
+				["Swing"] = false,
 				["Buff"] = false,
 				["Interrupt"] = false,
 				["Flight"] = false,
 				["Mirror"] = false,
+				["GCD"] = false,
+				["Timer"] = false,
 				["Range"] = false,
 			},
 		},
-		["WARLOCK"] = {
-		},
-		["燃烧之刃"] = {
-		},
 		["dur.2014.10.22"] = {
 			["modules"] = {
-				["Swing"] = false,
 				["EnemyCasts"] = true,
+				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 			},
@@ -336,14 +381,14 @@ Quartz3DB = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["modules"] = {
-				["Timer"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
+				["Timer"] = false,
 				["Flight"] = false,
 				["Range"] = false,
-				["Mirror"] = false,
+				["Interrupt"] = false,
 			},
 		},
 	},

@@ -2,8 +2,8 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
-		["Felnex - Emerald Dream"] = "Default",
 		["Neroix - Emerald Dream"] = "Default",
+		["Felnex - Emerald Dream"] = "Default",
 		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
@@ -87,9 +87,9 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
-			["MainWindowWidth"] = 252.987747192383,
 			["MainWindowHeight"] = 153.382766723633,
+			["MainWindowWidth"] = 252.987747192383,
+			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
 		},
 		["Darknex - Emerald Dream"] = {
 			["MainWindow"] = {

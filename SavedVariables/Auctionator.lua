@@ -2,42 +2,44 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["_200000"] = 1000,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
-	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Sea Scorpion Segment", -- [1]
-			"\"Sumptuous Fur\"", -- [2]
-			"Sumptuous Fur", -- [3]
-			"\"Blackrock Ore\"", -- [4]
-			"Blackrock Ore", -- [5]
-			"\"True Iron Ore\"", -- [6]
-			"True Iron Ore", -- [7]
-			"\"Mithril Bar\"", -- [8]
-			"Solid Stone", -- [9]
-			"\"Iron Bar\"", -- [10]
-			"\"Bronze Framework\"", -- [11]
-			"Gold Bar", -- [12]
-			"\"GOLD BAR\"", -- [13]
-			"Wool Cloth", -- [14]
-			"Heavy Stone", -- [15]
-			"Copper Bar", -- [16]
-			"Bronze Bar", -- [17]
-			"Moss Agate", -- [18]
-			"Silver Bar", -- [19]
-			"Silver Contact", -- [20]
-			"Linen Cloth", -- [21]
-			"Coarse Stone", -- [22]
-			"Rough Stone", -- [23]
+			"\"Hexweave Bag\"", -- [1]
+			"\"Royal Satchel\"", -- [2]
+			"Sea Scorpion Segment", -- [3]
+			"\"Sumptuous Fur\"", -- [4]
+			"Sumptuous Fur", -- [5]
+			"\"Blackrock Ore\"", -- [6]
+			"Blackrock Ore", -- [7]
+			"\"True Iron Ore\"", -- [8]
+			"True Iron Ore", -- [9]
+			"\"Mithril Bar\"", -- [10]
+			"Solid Stone", -- [11]
+			"\"Iron Bar\"", -- [12]
+			"\"Bronze Framework\"", -- [13]
+			"Gold Bar", -- [14]
+			"\"GOLD BAR\"", -- [15]
+			"Wool Cloth", -- [16]
+			"Heavy Stone", -- [17]
+			"Copper Bar", -- [18]
+			"Bronze Bar", -- [19]
+			"Moss Agate", -- [20]
+			"Silver Bar", -- [21]
+			"Silver Contact", -- [22]
+			"Linen Cloth", -- [23]
+			"Coarse Stone", -- [24]
+			"Rough Stone", -- [25]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -71,6 +73,13 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 12500,
 			["sc"] = 7,
 		},
+		["Royal Satchel"] = {
+			["mr"] = 11999000,
+			["cc"] = 1,
+			["id"] = "82446:0:0:0",
+			["sc"] = 0,
+			["H2095"] = 11999000,
+		},
 		["Blackrock Ore"] = {
 			["mr"] = 22200,
 			["cc"] = 7,
@@ -92,13 +101,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 75000,
 			["sc"] = 7,
 		},
+		["Hexweave Bag"] = {
+			["mr"] = 12480000,
+			["cc"] = 1,
+			["id"] = "114821:0:0:0",
+			["sc"] = 0,
+			["H2095"] = 12480000,
+		},
 		["True Iron Ore"] = {
 			["mr"] = 29000,
 			["cc"] = 7,
 			["id"] = "109119:0:0:0",
 			["H2092"] = 29800,
-			["sc"] = 7,
 			["L2092"] = 9896,
+			["sc"] = 7,
 		},
 		["Wool Cloth"] = {
 			["mr"] = 1985,
@@ -142,39 +158,28 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 9800,
 			["sc"] = 7,
 		},
-		["Bolt of Windwool Cloth"] = {
-			["mr"] = 61500,
+		["Sumptuous Fur"] = {
+			["mr"] = 16800,
+			["L2092"] = 9799,
 			["cc"] = 7,
-			["id"] = "82441:0:0:0",
-			["H2092"] = 61500,
+			["H2093"] = 21399,
+			["id"] = "111557:0:0:0",
+			["H2092"] = 9996,
 			["sc"] = 5,
+			["L2093"] = 16800,
 		},
-		["Windwool Cloth"] = {
-			["mr"] = 4900,
+		["Solid Stone"] = {
+			["mr"] = 799,
 			["cc"] = 7,
-			["id"] = "72988:0:0:0",
-			["H2092"] = 4900,
-			["sc"] = 5,
-		},
-		["Bronze Framework"] = {
-			["mr"] = 580000,
-			["cc"] = 7,
-			["id"] = "4382:0:0:0",
-			["H2092"] = 580000,
-			["sc"] = 1,
-		},
-		["Rough Stone"] = {
-			["mr"] = 199,
-			["cc"] = 7,
-			["id"] = "2835:0:0:0",
-			["H2092"] = 199,
+			["id"] = "7912:0:0:0",
+			["H2092"] = 799,
 			["sc"] = 7,
 		},
-		["Truesilver Bar"] = {
-			["mr"] = 13199,
+		["Iron Bar"] = {
+			["mr"] = 8256,
 			["cc"] = 7,
-			["id"] = "6037:0:0:0",
-			["H2092"] = 13199,
+			["id"] = "3575:0:0:0",
+			["H2092"] = 8256,
 			["sc"] = 7,
 		},
 		["Bolt of Linen Cloth"] = {
@@ -183,6 +188,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "2996:0:0:0",
 			["H2092"] = 7100,
 			["sc"] = 5,
+		},
+		["Truesilver Bar"] = {
+			["mr"] = 13199,
+			["cc"] = 7,
+			["id"] = "6037:0:0:0",
+			["H2092"] = 13199,
+			["sc"] = 7,
+		},
+		["Bronze Framework"] = {
+			["mr"] = 580000,
+			["cc"] = 7,
+			["id"] = "4382:0:0:0",
+			["H2092"] = 580000,
+			["sc"] = 1,
 		},
 		["Silver Bar"] = {
 			["mr"] = 49600,
@@ -196,32 +215,29 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 7,
 			["id"] = "2841:0:0:0",
 			["H2092"] = 123750,
+			["sc"] = 7,
 			["L2092"] = 115500,
+		},
+		["Rough Stone"] = {
+			["mr"] = 199,
+			["cc"] = 7,
+			["id"] = "2835:0:0:0",
+			["H2092"] = 199,
 			["sc"] = 7,
 		},
-		["Iron Bar"] = {
-			["mr"] = 8256,
+		["Windwool Cloth"] = {
+			["mr"] = 4900,
 			["cc"] = 7,
-			["id"] = "3575:0:0:0",
-			["H2092"] = 8256,
-			["sc"] = 7,
-		},
-		["Solid Stone"] = {
-			["mr"] = 799,
-			["cc"] = 7,
-			["id"] = "7912:0:0:0",
-			["H2092"] = 799,
-			["sc"] = 7,
-		},
-		["Sumptuous Fur"] = {
-			["L2092"] = 9799,
-			["mr"] = 16800,
-			["cc"] = 7,
-			["H2093"] = 21399,
-			["id"] = "111557:0:0:0",
-			["H2092"] = 9996,
+			["id"] = "72988:0:0:0",
+			["H2092"] = 4900,
 			["sc"] = 5,
-			["L2093"] = 16800,
+		},
+		["Bolt of Windwool Cloth"] = {
+			["mr"] = 61500,
+			["cc"] = 7,
+			["id"] = "82441:0:0:0",
+			["H2092"] = 61500,
+			["sc"] = 5,
 		},
 	},
 }
@@ -238,7 +254,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Felnex"] = {
 		["firstSeen"] = 1470794950,
-		["guid"] = "Player-162-0904D271",
 		["firstVersion"] = "4.0.9",
 	},
 }
