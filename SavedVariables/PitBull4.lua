@@ -8,29 +8,29 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
 				["Warlock_Draft"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
@@ -40,10 +40,10 @@ PitBull4DB = {
 						["FocusAsTar"] = {
 							["enabled"] = false,
 						},
-						["Focus"] = {
+						["Mini_FocusTar"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -52,7 +52,7 @@ PitBull4DB = {
 						["普通"] = {
 							["location"] = "out_left",
 						},
-						["Mini_FocusTar"] = {
+						["Focus"] = {
 							["enabled"] = false,
 						},
 					},
@@ -66,73 +66,73 @@ PitBull4DB = {
 				},
 				["ROGUE"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
-						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
 				["dk.2014.10.30"] = {
 					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["Durix - 燃烧之刃"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
-						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
 				["Zenez - 燃烧之刃"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
@@ -142,10 +142,10 @@ PitBull4DB = {
 						["FocusAsTar"] = {
 							["enabled"] = false,
 						},
-						["Focus"] = {
+						["Mini_FocusTar"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -154,7 +154,7 @@ PitBull4DB = {
 						["普通"] = {
 							["location"] = "out_left",
 						},
-						["Mini_FocusTar"] = {
+						["Focus"] = {
 							["enabled"] = false,
 						},
 					},
@@ -164,32 +164,29 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
 							["enabled"] = false,
 						},
 						["普通"] = {
 							["enabled"] = false,
 							["location"] = "out_left",
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 					},
 				},
 				["Slick.2016.08.12"] = {
 					["layouts"] = {
-						["Focus"] = {
-							["enabled"] = false,
-						},
 						["Target"] = {
 							["enabled"] = false,
 						},
@@ -206,117 +203,117 @@ PitBull4DB = {
 				},
 				["Draculax - 銀翼要塞"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
-						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
 				["Draculax - 黑龍軍團"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["Darknex_110408"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
 				["Darknex-2"] = {
 					["layouts"] = {
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["Rogue_Style2"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
@@ -326,10 +323,10 @@ PitBull4DB = {
 						["FocusAsTar"] = {
 							["enabled"] = false,
 						},
-						["Mini_FocusTar"] = {
+						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -338,80 +335,80 @@ PitBull4DB = {
 						["普通"] = {
 							["location"] = "out_left",
 						},
-						["Focus"] = {
+						["Mini_FocusTar"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["Default"] = {
 					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["术士"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
 				["wlk.2014.10.20"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
 				["Warlock_style2"] = {
 					["layouts"] = {
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
@@ -421,10 +418,10 @@ PitBull4DB = {
 						["FocusAsTar"] = {
 							["enabled"] = false,
 						},
-						["Focus"] = {
+						["Mini_FocusTar"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -433,96 +430,96 @@ PitBull4DB = {
 						["普通"] = {
 							["location"] = "out_left",
 						},
-						["Mini_FocusTar"] = {
+						["Focus"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["Warlock"] = {
 					["layouts"] = {
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["default"] = {
 					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["rog.2014.10.20"] = {
 					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
+						["Pet"] = {
+							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 					},
 				},
 				["test"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["location"] = "out_left",
+						},
+						["Pet"] = {
+							["enabled"] = false,
 						},
 					},
 				},
@@ -531,68 +528,68 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
-						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
 				["HUNTER"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
-						},
-						["普通"] = {
-							["location"] = "out_left",
 						},
 						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
+						["普通"] = {
+							["location"] = "out_left",
+						},
 					},
 				},
 				["Darknex - Emerald Dream"] = {
 					["layouts"] = {
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
-						},
 						["Pet"] = {
 							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
@@ -749,14 +746,12 @@ PitBull4DB = {
 				["Slick.2016.08.12"] = {
 					["layouts"] = {
 						["Target"] = {
-							["check_method"] = "duel",
-							["out_of_range_opacity"] = 0.75,
+							["enabled"] = true,
+							["check_method"] = "custom_spell",
+							["out_of_range_opacity"] = 0.5,
+							["custom_spell"] = "Blind",
 						},
 						["Party"] = {
-							["check_method"] = "duel",
-							["out_of_range_opacity"] = 0.75,
-						},
-						["Focus"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
@@ -1113,9 +1108,6 @@ PitBull4DB = {
 							["position"] = 1.00001,
 						},
 						["Self"] = {
-							["position"] = 1.00001,
-						},
-						["Focus"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -1505,10 +1497,6 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 14,
 							["location"] = "edge_left",
-						},
-						["Focus"] = {
-							["position"] = 14,
-							["size"] = 1.45000004768372,
 						},
 						["Target"] = {
 							["position"] = 14,
@@ -2059,27 +2047,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2144,27 +2132,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -2177,28 +2165,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -2210,27 +2198,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -2284,27 +2272,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -2315,10 +2303,6 @@ PitBull4DB = {
 							["position"] = 18,
 						},
 						["Party"] = {
-							["position"] = 18,
-						},
-						["Focus"] = {
-							["enabled"] = false,
 							["position"] = 18,
 						},
 						["Target"] = {
@@ -2348,27 +2332,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -2381,27 +2365,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2414,29 +2398,29 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
-							["size"] = 1.2,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
-						["Mini_Party_tar"] = {
+						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 18,
+							["size"] = 1.2,
 						},
 					},
 				},
@@ -2448,27 +2432,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2481,28 +2465,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
-						["Mini_Party_tar"] = {
+						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 18,
 						},
 					},
 				},
@@ -2555,28 +2539,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -2588,27 +2572,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2621,27 +2605,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2695,28 +2679,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
-						["Mini_Party_tar"] = {
+						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 18,
 						},
 					},
 				},
@@ -2728,28 +2712,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -2761,28 +2745,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -2794,28 +2778,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00001,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["position"] = 18,
-						},
 						["Target"] = {
 							["enabled"] = false,
 							["position"] = 18,
 							["size"] = 1.2,
 						},
+						["Focus"] = {
+							["enabled"] = false,
+							["position"] = 18,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00001,
+						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Pet"] = {
-							["enabled"] = false,
+						["普通"] = {
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Pet"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2828,27 +2812,27 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -2861,28 +2845,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
 							["position"] = 1.00002,
+						},
+						["普通"] = {
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -2894,28 +2878,28 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["size"] = 1.2,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["size"] = 1.2,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
-							["position"] = 1.00001,
-						},
 						["Pet"] = {
 							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+						["普通"] = {
 							["position"] = 1.00001,
 						},
 					},
@@ -3836,9 +3820,6 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["Focus"] = {
-							["enabled"] = false,
-						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
@@ -4303,17 +4284,6 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
-						},
-					},
-				},
-			},
-		},
-		["HolyPower"] = {
-			["profiles"] = {
-				["Glorix - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "out_right",
 						},
 					},
 				},
@@ -12810,160 +12780,6 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Focus"] = {
-							["first"] = false,
-							["elements"] = {
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["position"] = 6,
-									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["position"] = 10,
-									["location"] = "right",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-							},
-						},
 						["Target"] = {
 							["first"] = false,
 							["elements"] = {
@@ -16994,15 +16810,15 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["position"] = 4,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
@@ -17012,9 +16828,9 @@ PitBull4DB = {
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
-									["position"] = 3,
-									["location"] = "right",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
+									["position"] = 3,
 									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_POWER"] = true,
@@ -17024,18 +16840,18 @@ PitBull4DB = {
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
 								},
 								["Lua:聲望"] = {
 									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["position"] = 2,
 									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
@@ -17045,9 +16861,9 @@ PitBull4DB = {
 								["Lua:施法"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["position"] = 6,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
@@ -17063,9 +16879,9 @@ PitBull4DB = {
 								["Lua:職業"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
@@ -17074,11 +16890,10 @@ PitBull4DB = {
 									},
 								},
 								["Lua:名稱"] = {
-									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["position"] = 7,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
@@ -17088,9 +16903,9 @@ PitBull4DB = {
 								["Lua:施法時間"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["position"] = 10,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
@@ -17107,9 +16922,9 @@ PitBull4DB = {
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["position"] = 12,
 									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
@@ -17119,9 +16934,9 @@ PitBull4DB = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["position"] = 5,
 									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
@@ -17129,11 +16944,11 @@ PitBull4DB = {
 									},
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
@@ -17145,45 +16960,41 @@ PitBull4DB = {
 						},
 						["Party"] = {
 							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["position"] = 4,
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
 								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
+								["Lua:法力值"] = {
 									["exists"] = true,
-									["position"] = 9,
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["position"] = 3,
 									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
 								},
 								["Lua:聲望"] = {
 									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["position"] = 2,
 									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
@@ -17192,9 +17003,9 @@ PitBull4DB = {
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["position"] = 6,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
@@ -17209,41 +17020,41 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
 									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
 									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["position"] = 7,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
 								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
+								["Lua:經驗值"] = {
 									["exists"] = true,
-									["position"] = 3,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
 									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["position"] = 10,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
@@ -17260,9 +17071,9 @@ PitBull4DB = {
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["position"] = 12,
 									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
@@ -17270,117 +17081,39 @@ PitBull4DB = {
 									},
 								},
 								["Diy:種族"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
-								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 5,
-									["location"] = "center",
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["position"] = 5,
 									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
 								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["exists"] = true,
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["position"] = 6,
-									["location"] = "left",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
 								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["position"] = 4,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
@@ -17388,12 +17121,94 @@ PitBull4DB = {
 										["UNIT_MAXHEALTH"] = true,
 									},
 								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["position"] = 21,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["position"] = 2,
+									["attach_to"] = "ReputationBar",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["position"] = 6,
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["position"] = 7,
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["position"] = 5,
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["position"] = 10,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
@@ -17410,9 +17225,9 @@ PitBull4DB = {
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["position"] = 12,
 									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
@@ -17420,28 +17235,28 @@ PitBull4DB = {
 									},
 								},
 								["Diy:種族"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
+								["Lua:法力值"] = {
 									["exists"] = true,
-									["position"] = 9,
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["position"] = 3,
 									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
 								},
 							},
 							["first"] = false,
@@ -17450,15 +17265,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -17482,28 +17297,24 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -17514,34 +17325,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -17553,36 +17364,40 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -17591,15 +17406,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -17623,22 +17438,22 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
@@ -17660,32 +17475,28 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -17697,36 +17508,40 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -17734,15 +17549,15 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
@@ -17757,29 +17572,25 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -17790,35 +17601,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -17830,22 +17640,54 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Target"] = {
+							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
+									["position"] = 5,
 									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
@@ -17853,40 +17695,11 @@ PitBull4DB = {
 									},
 								},
 								["Lua:經驗值"] = {
-									["enabled"] = false,
 									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-								},
-							},
-							["first"] = false,
-						},
-						["Target"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
@@ -17896,18 +17709,18 @@ PitBull4DB = {
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 21,
-									["location"] = "out_right_top",
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["position"] = 21,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
 								},
 								["Lua:聲望"] = {
 									["exists"] = true,
-									["position"] = 2,
-									["location"] = "center",
 									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["position"] = 2,
 									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
@@ -17916,9 +17729,9 @@ PitBull4DB = {
 								},
 								["Lua:施法"] = {
 									["exists"] = true,
-									["position"] = 6,
-									["location"] = "center",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["position"] = 6,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
@@ -17933,54 +17746,54 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
 									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
 									["exists"] = true,
-									["position"] = 7,
-									["location"] = "left",
 									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["position"] = 7,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
 								},
-								["Lua:威脅值"] = {
+								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 5,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["location"] = "center",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["attach_to"] = "ThreatBar",
+									["position"] = 12,
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
 									},
 								},
 								["生命百分比"] = {
+									["enabled"] = false,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00001,
-									["location"] = "bottom_left",
+									["location"] = "in_bottom_right",
 									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["attach_to"] = "Portrait",
+									["exists"] = true,
 									["size"] = 0.8,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
 									["exists"] = true,
-									["position"] = 10,
-									["location"] = "right",
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["position"] = 10,
 									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
@@ -17995,11 +17808,11 @@ PitBull4DB = {
 									},
 								},
 								["Lua:法力值"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_POWER"] = true,
 										["UNIT_MAXPOWER"] = true,
 									},
-									["exists"] = true,
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
@@ -18007,28 +17820,29 @@ PitBull4DB = {
 									["size"] = 0.95,
 								},
 								["Diy:種族"] = {
+									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
-									["exists"] = true,
 									["position"] = 1.00002,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["position"] = 12,
-									["location"] = "center",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["attach_to"] = "DruidManaBar",
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
 								},
 							},
 							["first"] = false,
@@ -19083,26 +18897,172 @@ PitBull4DB = {
 						},
 					},
 				},
-				["黑龍軍團"] = {
+				["Warlock_style2"] = {
 					["layouts"] = {
-						["普通"] = {
+						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nlocal cur, max = HP(unit), MaxHP(unit)\nreturn \"%s/%s || %s%%\",Short(cur,true),Short(max,true),Percent(cur,max)",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["attach_to"] = "HealthBar",
+									["position"] = 4,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return \"%s/%s\",Power(unit),max\nend",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["location"] = "right",
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
 									["attach_to"] = "PowerBar",
+									["position"] = 3,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+									["attach_to"] = "PowerBar",
+									["position"] = 8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["exists"] = true,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
@@ -19116,14 +19076,1070 @@ PitBull4DB = {
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
 									},
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:施法時間"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_MAXENERGY"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_RAGE"] = true,
+										["UNIT_ENERGY"] = true,
+										["UNIT_MAXFOCUS"] = true,
+										["UNIT_FOCUS"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_RUNIC_POWER"] = true,
+										["UNIT_MAXRAGE"] = true,
+										["UNIT_MAXRUNIC_POWER"] = true,
+									},
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["size"] = 0.75,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Pet"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+								},
+								["Lua:聲望"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
+								},
+								["Lua:名稱"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
+								},
+								["Lua:施法時間"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Party"] = {
+							["elements"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["exists"] = true,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["exists"] = true,
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Diy:種族"] = {
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["exists"] = true,
+									["position"] = 1.00001,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
+								},
+							},
+							["first"] = false,
+						},
+						["FocusAsTar"] = {
+							["elements"] = {
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00002,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["生命百分比"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "bottom_left",
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["attach_to"] = "Portrait",
+									["size"] = 0.8,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["exists"] = true,
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["position"] = 4,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Diy:種族"] = {
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["exists"] = true,
+									["position"] = 1.00001,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["exists"] = true,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+							},
+							["first"] = false,
+						},
+						["Target"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
+								},
+								["Lua:經驗值"] = {
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["exists"] = true,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["生命百分比"] = {
+									["exists"] = true,
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["location"] = "out_left",
+									["position"] = 1.00001,
+									["attach_to"] = "HealthBar",
+									["size"] = 0.8,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["exists"] = true,
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Diy:種族"] = {
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["exists"] = true,
+									["position"] = 1.00002,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_FocusTar"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
+									["events"] = {
+										["UNIT_MAXENERGY"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_RAGE"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_MAXFOCUS"] = true,
+										["UNIT_FOCUS"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_ENERGY"] = true,
+										["UNIT_RUNIC_POWER"] = true,
+										["UNIT_MAXRAGE"] = true,
+										["UNIT_MAXRUNIC_POWER"] = true,
+									},
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
 								},
 								["Lua:聲望"] = {
 									["exists"] = true,
@@ -19139,19 +20155,22 @@ PitBull4DB = {
 									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
-									["attach_to"] = "CastBar",
 									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 									},
+									["attach_to"] = "CastBar",
+									["size"] = 0.75,
 								},
 								["Lua:職業"] = {
+									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["location"] = "left",
@@ -19173,6 +20192,7 @@ PitBull4DB = {
 									},
 								},
 								["Lua:施法時間"] = {
+									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["location"] = "right",
@@ -19182,8 +20202,8 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -20572,15 +21592,15 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["position"] = 4,
 									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
@@ -20590,1077 +21610,43 @@ PitBull4DB = {
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["location"] = "right",
-									["position"] = 3,
-									["attach_to"] = "PowerBar",
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["position"] = 21,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["position"] = 2,
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["position"] = 6,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["position"] = 8,
-									["attach_to"] = "PowerBar",
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["position"] = 7,
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["position"] = 10,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["position"] = 12,
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["position"] = 5,
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-							},
-							["first"] = false,
-						},
-						["Party"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["position"] = 4,
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["position"] = 21,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["position"] = 2,
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["position"] = 6,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
-									["position"] = 8,
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["position"] = 7,
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["position"] = 10,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["position"] = 12,
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["position"] = 5,
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["position"] = 4,
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["position"] = 21,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["position"] = 2,
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["position"] = 6,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
-									["position"] = 8,
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["position"] = 7,
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["position"] = 5,
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["position"] = 10,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["position"] = 12,
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXENERGY"] = true,
-										["UNIT_MANA"] = true,
-										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
-										["UNIT_MAXFOCUS"] = true,
-										["UNIT_FOCUS"] = true,
-										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
-										["UNIT_RUNIC_POWER"] = true,
-										["UNIT_MAXRAGE"] = true,
-										["UNIT_MAXRUNIC_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXENERGY"] = true,
-										["UNIT_MANA"] = true,
-										["UNIT_RAGE"] = true,
-										["UNIT_ENERGY"] = true,
-										["UNIT_MAXFOCUS"] = true,
-										["UNIT_FOCUS"] = true,
-										["UNIT_MAXMANA"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
-										["UNIT_RUNIC_POWER"] = true,
-										["UNIT_MAXRAGE"] = true,
-										["UNIT_MAXRUNIC_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["size"] = 0.75,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Pet"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Target"] = {
-							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["position"] = 5,
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["position"] = 21,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["position"] = 2,
-									["attach_to"] = "ReputationBar",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["position"] = 6,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
-									["position"] = 8,
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["position"] = 7,
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["position"] = 12,
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-								},
-								["生命百分比"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "in_bottom_right",
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["exists"] = true,
-									["size"] = 0.8,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["position"] = 10,
-									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00002,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
-								},
-							},
-							["first"] = false,
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 4,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
 									["position"] = 3,
 									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "PowerBar",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ReputationBar",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "left",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -21671,39 +21657,39 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 8,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["position"] = 8,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "PowerBar",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 								},
 								["Lua:名稱"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -21715,35 +21701,30 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "DruidManaBar",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
 									["events"] = {
@@ -21764,15 +21745,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:經驗值"] = {
 									["events"] = {
@@ -21788,26 +21769,31 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ReputationBar",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "left",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -21818,30 +21804,25 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
 									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:法力值"] = {
 									["events"] = {
@@ -21857,6 +21838,11 @@ PitBull4DB = {
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -21868,23 +21854,18 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "DruidManaBar",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
 									["events"] = {
@@ -21900,9 +21881,9 @@ PitBull4DB = {
 								},
 								["Lua:生命值"] = {
 									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
 									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 									["attach_to"] = "HealthBar",
 									["size"] = 0.85,
 								},
@@ -21913,15 +21894,15 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:法力值"] = {
 									["events"] = {
@@ -21937,27 +21918,32 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ReputationBar",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "left",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -21968,45 +21954,45 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["position"] = 6,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
 									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:生命值"] = {
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 4,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22018,23 +22004,18 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["position"] = 12,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "DruidManaBar",
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
 									["events"] = {
@@ -22067,17 +22048,20 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
@@ -22091,32 +22075,33 @@ PitBull4DB = {
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
 									},
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["exists"] = true,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -22127,34 +22112,34 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22166,40 +22151,36 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -22208,17 +22189,20 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
@@ -22232,32 +22216,32 @@ PitBull4DB = {
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
 									},
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["exists"] = true,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22269,36 +22253,37 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["exists"] = true,
 									["attach_to"] = "CastBar",
 									["size"] = 0.75,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22310,40 +22295,36 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -22351,48 +22332,52 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:法力值"] = {
+									["exists"] = true,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
 									},
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["location"] = "right",
-									["exists"] = true,
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
 								},
 								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -22403,35 +22388,35 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
 								},
 								["Lua:名稱"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22443,42 +22428,38 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
 								},
 								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
 								},
 								["Lua:經驗值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -22512,26 +22493,31 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 21,
+									["location"] = "out_right_top",
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-									["location"] = "out_right_top",
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
+									["exists"] = true,
+									["position"] = 2,
+									["location"] = "center",
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["position"] = 2,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ReputationBar",
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
+									["exists"] = true,
+									["position"] = 6,
+									["location"] = "center",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
@@ -22542,42 +22528,37 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 6,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["location"] = "right",
 									["position"] = 8,
+									["location"] = "right",
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:名稱"] = {
+									["exists"] = true,
+									["position"] = 7,
+									["location"] = "left",
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["position"] = 7,
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 5,
+									["location"] = "center",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["position"] = 5,
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["生命百分比"] = {
 									["events"] = {
@@ -22594,6 +22575,11 @@ PitBull4DB = {
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 10,
+									["location"] = "right",
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
@@ -22605,11 +22591,6 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["position"] = 10,
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:法力值"] = {
 									["events"] = {
@@ -22637,15 +22618,1054 @@ PitBull4DB = {
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
+									["exists"] = true,
+									["position"] = 12,
+									["location"] = "center",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["attach_to"] = "DruidManaBar",
 									["events"] = {
 										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
 									},
-									["position"] = 12,
+								},
+							},
+							["first"] = false,
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 4,
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "PowerBar",
+									["position"] = 3,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "PowerBar",
+									["position"] = 8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+							},
+							["first"] = false,
+						},
+						["Party"] = {
+							["elements"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
 									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 4,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_MAXENERGY"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_RAGE"] = true,
+										["UNIT_ENERGY"] = true,
+										["UNIT_MAXFOCUS"] = true,
+										["UNIT_FOCUS"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_RUNIC_POWER"] = true,
+										["UNIT_MAXRAGE"] = true,
+										["UNIT_MAXRUNIC_POWER"] = true,
+									},
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+								},
+								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+								},
+								["Lua:威脅值"] = {
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
+								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+								},
+							},
+							["first"] = false,
+						},
+						["Mini"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_MAXENERGY"] = true,
+										["UNIT_MANA"] = true,
+										["UNIT_RAGE"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_MAXFOCUS"] = true,
+										["UNIT_FOCUS"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_ENERGY"] = true,
+										["UNIT_RUNIC_POWER"] = true,
+										["UNIT_MAXRAGE"] = true,
+										["UNIT_MAXRUNIC_POWER"] = true,
+									},
+									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+								},
+								["Lua:聲望"] = {
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["size"] = 0.75,
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+								},
+								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+								},
+								["Lua:威脅值"] = {
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+								},
+							},
+							["first"] = false,
+						},
+						["Pet"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+								},
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+								},
+								["Lua:聲望"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+								},
+								["Lua:施法"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "left",
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+								},
+								["Lua:職業"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["events"] = {
+										["UNIT_LEVEL"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_AURA"] = true,
+									},
+								},
+								["Lua:名稱"] = {
+									["exists"] = true,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+								},
+								["Lua:施法時間"] = {
+									["exists"] = true,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+								},
+								["Lua:經驗值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["exists"] = true,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+								},
+								["Lua:德魯伊法力值"] = {
+									["exists"] = true,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+								},
+							},
+							["first"] = false,
+						},
+						["Target"] = {
+							["elements"] = {
+								["Lua:生命值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["position"] = 4,
+									["location"] = "right",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
+									["attach_to"] = "HealthBar",
+									["size"] = 0.95,
+								},
+								["Lua:經驗值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
+									},
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
+								},
+								["Lua:PvP計時"] = {
+									["enabled"] = false,
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
+									["position"] = 21,
+								},
+								["Lua:聲望"] = {
+									["events"] = {
+										["UNIT_FACTION"] = true,
+										["UPDATE_FACTION"] = true,
+									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ReputationBar",
+									["position"] = 2,
+								},
+								["Lua:施法"] = {
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 6,
+								},
+								["Lua:職業"] = {
+									["exists"] = true,
+									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
+									["location"] = "right",
+									["position"] = 8,
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:名稱"] = {
+									["events"] = {
+										["PLAYER_FLAGS_CHANGED"] = true,
+										["UNIT_NAME_UPDATE"] = true,
+									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["position"] = 7,
+								},
+								["Lua:威脅值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "ThreatBar",
+									["position"] = 5,
+								},
+								["Diy:種族"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
+									},
+									["position"] = 1.00002,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.8,
+								},
+								["Lua:施法時間"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_SPELLCAST_SUCCEEDED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+									},
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "CastBar",
+									["position"] = 10,
+								},
+								["Lua:法力值"] = {
+									["exists"] = true,
+									["events"] = {
+										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
+									},
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
+								},
+								["生命百分比"] = {
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["events"] = {
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
+									},
+									["position"] = 1.00001,
+									["location"] = "bottom_left",
+									["exists"] = true,
+									["attach_to"] = "Portrait",
+									["size"] = 0.8,
+								},
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
+									["events"] = {
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["position"] = 12,
 								},
 							},
 							["first"] = false,
@@ -23693,172 +24713,26 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Warlock_style2"] = {
+				["黑龍軍團"] = {
 					["layouts"] = {
-						["Self"] = {
+						["普通"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nlocal cur, max = HP(unit), MaxHP(unit)\nreturn \"%s/%s || %s%%\",Short(cur,true),Short(max,true),Percent(cur,max)",
 									["location"] = "right",
+									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["attach_to"] = "HealthBar",
-									["position"] = 4,
 								},
 								["Lua:法力值"] = {
 									["exists"] = true,
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return \"%s/%s\",Power(unit),max\nend",
 									["location"] = "right",
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
 									["attach_to"] = "PowerBar",
-									["position"] = 3,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["attach_to"] = "ReputationBar",
-									["position"] = 2,
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 6,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["position"] = 8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["attach_to"] = "HealthBar",
-									["position"] = 7,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 10,
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
@@ -23872,1070 +24746,14 @@ PitBull4DB = {
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
 									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXENERGY"] = true,
-										["UNIT_MANA"] = true,
-										["UNIT_RAGE"] = true,
-										["UNIT_ENERGY"] = true,
-										["UNIT_MAXFOCUS"] = true,
-										["UNIT_FOCUS"] = true,
-										["UNIT_MAXMANA"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
-										["UNIT_RUNIC_POWER"] = true,
-										["UNIT_MAXRAGE"] = true,
-										["UNIT_MAXRUNIC_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["size"] = 0.75,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Pet"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-								},
-								["Lua:聲望"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
-									["exists"] = true,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:職業"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_LEVEL"] = true,
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_AURA"] = true,
-									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
-									["exists"] = true,
-								},
-								["Lua:名稱"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
-									["exists"] = true,
-								},
-								["Lua:施法時間"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
-									["exists"] = true,
-								},
-								["Lua:德魯伊法力值"] = {
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["exists"] = true,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["exists"] = true,
-								},
-								["Lua:經驗值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Party"] = {
-							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["position"] = 21,
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["attach_to"] = "ReputationBar",
-									["position"] = 2,
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 6,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["attach_to"] = "HealthBar",
-									["position"] = 7,
-								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["exists"] = true,
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 10,
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
-								},
-								["Diy:種族"] = {
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["exists"] = true,
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
-								},
-							},
-							["first"] = false,
-						},
-						["FocusAsTar"] = {
-							["elements"] = {
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
-								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["exists"] = true,
-									["position"] = 21,
-								},
-								["Lua:聲望"] = {
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ReputationBar",
-									["position"] = 2,
-								},
-								["Lua:施法"] = {
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["position"] = 6,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["position"] = 7,
-								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
-								},
-								["Diy:種族"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["position"] = 1.00002,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["exists"] = true,
-									["attach_to"] = "CastBar",
-									["position"] = 10,
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
-									},
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["生命百分比"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["position"] = 1.00001,
-									["location"] = "bottom_left",
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["attach_to"] = "Portrait",
-									["size"] = 0.8,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
-								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
-								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["exists"] = true,
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["attach_to"] = "ReputationBar",
-									["position"] = 2,
-								},
-								["Lua:施法"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "left",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 6,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["attach_to"] = "HealthBar",
-									["position"] = 7,
-								},
-								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["attach_to"] = "HealthBar",
-									["position"] = 4,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 10,
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
-								},
-								["Diy:種族"] = {
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["exists"] = true,
-									["position"] = 1.00001,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-							},
-							["first"] = false,
-						},
-						["Target"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.95,
-								},
-								["Lua:經驗值"] = {
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["exists"] = true,
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
-									["position"] = 21,
-								},
-								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_FACTION"] = true,
-										["UPDATE_FACTION"] = true,
-									},
-									["attach_to"] = "ReputationBar",
-									["position"] = 2,
-								},
-								["Lua:施法"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 6,
-								},
-								["Lua:職業"] = {
-									["exists"] = true,
-									["position"] = 8,
-									["location"] = "right",
-									["code"] = "if UnitIsPlayer(unit) then\n  local cr,cg,cb = ClassColor(unit)\n  return \"|cff%02x%02x%02x%s|r\",cr,cg,cb,Class(unit)\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-										["UNIT_NAME_UPDATE"] = true,
-									},
-									["attach_to"] = "HealthBar",
-									["position"] = 7,
-								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
-								},
-								["生命百分比"] = {
-									["exists"] = true,
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
-									["location"] = "out_left",
-									["position"] = 1.00001,
-									["attach_to"] = "HealthBar",
-									["size"] = 0.8,
-								},
-								["Lua:施法時間"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
-									["attach_to"] = "CastBar",
-									["position"] = 10,
-								},
-								["Lua:法力值"] = {
-									["events"] = {
-										["UNIT_POWER"] = true,
-										["UNIT_MAXPOWER"] = true,
-									},
-									["exists"] = true,
-									["position"] = 3,
-									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
-								},
-								["Diy:種族"] = {
-									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
-									},
-									["exists"] = true,
-									["position"] = 1.00002,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
-									},
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_FocusTar"] = {
-							["elements"] = {
-								["Lua:生命值"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
-									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
-									},
-								},
-								["Lua:法力值"] = {
-									["exists"] = true,
-									["code"] = "local cur,max = Power(unit),MaxPower(unit)\nif max > 0 then\n  return \"%s/%s || %s%%\",cur,max,Percent(cur,max)\nend",
-									["location"] = "right",
-									["events"] = {
-										["UNIT_MAXENERGY"] = true,
-										["UNIT_MANA"] = true,
-										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
-										["UNIT_MAXFOCUS"] = true,
-										["UNIT_FOCUS"] = true,
-										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
-										["UNIT_RUNIC_POWER"] = true,
-										["UNIT_MAXRAGE"] = true,
-										["UNIT_MAXRUNIC_POWER"] = true,
-									},
-									["attach_to"] = "PowerBar",
-									["size"] = 0.8,
-								},
-								["Lua:PvP計時"] = {
-									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
-									["events"] = {
-										["PLAYER_FLAGS_CHANGED"] = true,
-									},
 								},
 								["Lua:聲望"] = {
 									["exists"] = true,
@@ -24951,22 +24769,19 @@ PitBull4DB = {
 									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
+									["attach_to"] = "CastBar",
 									["events"] = {
-										["UNIT_SPELLCAST_SUCCEEDED"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["attach_to"] = "CastBar",
-									["size"] = 0.75,
 								},
 								["Lua:職業"] = {
-									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 									["location"] = "left",
@@ -24988,7 +24803,6 @@ PitBull4DB = {
 									},
 								},
 								["Lua:施法時間"] = {
-									["enabled"] = false,
 									["exists"] = true,
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 									["location"] = "right",
@@ -24998,8 +24812,8 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -29214,7 +29028,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["术士"] = {
+				["rog.2014.10.20"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
@@ -29224,61 +29038,61 @@ PitBull4DB = {
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["position"] = 4,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "HealthBar",
-									["position"] = 4,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
 								},
 								["Lua:法力值"] = {
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
 									},
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["position"] = 3,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "PowerBar",
-									["position"] = 3,
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["position"] = 21,
 									["location"] = "out_right_top",
 									["exists"] = true,
-									["position"] = 21,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["position"] = 2,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ReputationBar",
-									["position"] = 2,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["position"] = 6,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 6,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
@@ -29287,22 +29101,23 @@ PitBull4DB = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["position"] = 8,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "PowerBar",
-									["position"] = 8,
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
 								},
 								["Lua:名稱"] = {
+									["enabled"] = false,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["position"] = 7,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "HealthBar",
-									["position"] = 7,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
@@ -29311,29 +29126,29 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["position"] = 10,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 10,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
+								["Lua:德魯伊法力值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
-									["position"] = 9,
+									["position"] = 12,
 									["location"] = "center",
-									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["exists"] = true,
+									["attach_to"] = "DruidManaBar",
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
@@ -29341,23 +29156,23 @@ PitBull4DB = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["position"] = 5,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ThreatBar",
-									["position"] = 5,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
-								["Lua:德魯伊法力值"] = {
-									["enabled"] = false,
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
 									["exists"] = true,
-									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "if IsMouseOver() then\n  local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\n  if rest then\n    return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\n  else\n    return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\n  end\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 							},
 							["first"] = false,
@@ -29370,61 +29185,61 @@ PitBull4DB = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["position"] = 5,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ThreatBar",
-									["position"] = 5,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
-								["Lua:法力值"] = {
-									["exists"] = true,
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
-										["UNIT_POWER"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
-									["position"] = 3,
+									["exists"] = true,
+									["position"] = 9,
 									["location"] = "center",
-									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
-									["attach_to"] = "PowerBar",
-									["size"] = 0.95,
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["position"] = 21,
 									["location"] = "out_right_top",
 									["exists"] = true,
-									["position"] = 21,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["position"] = 2,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ReputationBar",
-									["position"] = 2,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["position"] = 6,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 6,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
@@ -29439,19 +29254,23 @@ PitBull4DB = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["position"] = 7,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "HealthBar",
-									["position"] = 7,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
-								["Lua:生命值"] = {
+								["Lua:法力值"] = {
+									["events"] = {
+										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
+									},
 									["exists"] = true,
-									["position"] = 4,
-									["location"] = "right",
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["attach_to"] = "HealthBar",
-									["size"] = 0.85,
+									["position"] = 3,
+									["location"] = "center",
+									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
+									["attach_to"] = "PowerBar",
+									["size"] = 0.95,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
@@ -29460,77 +29279,73 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["position"] = 10,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 10,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["events"] = {
-										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["position"] = 12,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
+									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:經驗值"] = {
+								["Lua:生命值"] = {
 									["exists"] = true,
-									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
-									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["position"] = 4,
+									["attach_to"] = "HealthBar",
+									["size"] = 0.85,
 								},
 							},
 							["first"] = false,
 						},
 						["Focus"] = {
 							["elements"] = {
-								["Lua:生命值"] = {
+								["Lua:威脅值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
+									["position"] = 5,
+									["location"] = "center",
 									["exists"] = true,
-									["attach_to"] = "HealthBar",
-									["position"] = 4,
+									["attach_to"] = "ThreatBar",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
 									},
+									["exists"] = true,
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
@@ -29542,39 +29357,39 @@ PitBull4DB = {
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["position"] = 21,
 									["location"] = "out_right_top",
 									["exists"] = true,
-									["position"] = 21,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["position"] = 2,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ReputationBar",
-									["position"] = 2,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["enabled"] = false,
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["position"] = 6,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 6,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
@@ -29589,23 +29404,23 @@ PitBull4DB = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["position"] = 7,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "HealthBar",
-									["position"] = 7,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
-								["Lua:經驗值"] = {
-									["exists"] = true,
+								["Lua:生命值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 9,
-									["location"] = "center",
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["attach_to"] = "ExperienceBar",
-									["size"] = 0.8,
+									["position"] = 4,
+									["location"] = "right",
+									["exists"] = true,
+									["attach_to"] = "HealthBar",
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
@@ -29614,53 +29429,53 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["position"] = 10,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 10,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["events"] = {
-										["UNIT_MANA"] = true,
 										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["position"] = 12,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 								["Diy:種族"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_LEVEL"] = true,
 									},
+									["exists"] = true,
 									["position"] = 1.00001,
 									["location"] = "left",
 									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
-								["Lua:威脅值"] = {
-									["enabled"] = false,
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
 									["exists"] = true,
-									["attach_to"] = "ThreatBar",
-									["position"] = 5,
+									["position"] = 9,
+									["location"] = "center",
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["attach_to"] = "ExperienceBar",
+									["size"] = 0.8,
 								},
 							},
 							["first"] = false,
@@ -29669,26 +29484,26 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -29701,107 +29516,107 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:經驗值"] = {
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:德魯伊法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -29810,26 +29625,26 @@ PitBull4DB = {
 							["elements"] = {
 								["Lua:生命值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",Short(HP(unit),true)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["events"] = {
 										["UNIT_MAXENERGY"] = true,
 										["UNIT_MANA"] = true,
 										["UNIT_RAGE"] = true,
-										["UNIT_DISPLAYPOWER"] = true,
+										["UNIT_ENERGY"] = true,
 										["UNIT_MAXFOCUS"] = true,
 										["UNIT_FOCUS"] = true,
 										["UNIT_MAXMANA"] = true,
-										["UNIT_ENERGY"] = true,
+										["UNIT_DISPLAYPOWER"] = true,
 										["UNIT_RUNIC_POWER"] = true,
 										["UNIT_MAXRAGE"] = true,
 										["UNIT_MAXRUNIC_POWER"] = true,
@@ -29842,22 +29657,22 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
 									["events"] = {
@@ -29865,8 +29680,8 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
@@ -29879,73 +29694,73 @@ PitBull4DB = {
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
-									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
-									["events"] = {
-										["UNIT_MAXMANA"] = true,
-										["UNIT_MANA"] = true,
-									},
-								},
-								["Lua:威脅值"] = {
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
-									["events"] = {
-										["UNIT_THREAT_LIST_UPDATE"] = true,
-										["UNIT_THREAT_SITUATION_UPDATE"] = true,
-									},
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
+								},
+								["Lua:威脅值"] = {
+									["events"] = {
+										["UNIT_THREAT_LIST_UPDATE"] = true,
+										["UNIT_THREAT_SITUATION_UPDATE"] = true,
+									},
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["location"] = "center",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:德魯伊法力值"] = {
+									["events"] = {
+										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
+									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -29953,20 +29768,20 @@ PitBull4DB = {
 						["Pet"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
-									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
-									["location"] = "right",
-									["attach_to"] = "HealthBar",
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s\",HP(unit)",
+									["location"] = "right",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:法力值"] = {
 									["events"] = {
-										["UNIT_POWER"] = true,
 										["UNIT_MAXPOWER"] = true,
+										["UNIT_POWER"] = true,
 									},
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["location"] = "right",
@@ -29976,110 +29791,111 @@ PitBull4DB = {
 								},
 								["Lua:PvP計時"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
-									["location"] = "out_right_top",
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["location"] = "out_right_top",
+									["exists"] = true,
 								},
 								["Lua:聲望"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ReputationBar",
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ReputationBar",
+									["exists"] = true,
 								},
 								["Lua:施法"] = {
-									["exists"] = true,
+									["events"] = {
+										["UNIT_SPELLCAST_DELAYED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_STOP"] = true,
+										["UNIT_SPELLCAST_START"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+									},
 									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 									["location"] = "left",
 									["attach_to"] = "CastBar",
-									["events"] = {
-										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
-										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
-									},
+									["exists"] = true,
 								},
 								["Lua:職業"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
-									["location"] = "left",
-									["attach_to"] = "PowerBar",
 									["events"] = {
 										["UNIT_LEVEL"] = true,
 										["UNIT_CLASSIFICATION_CHANGED"] = true,
 										["UNIT_AURA"] = true,
 									},
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nlocal form = DruidForm(unit)\nlocal classification = Classification(unit)\nif UnitIsPlayer(unit) or (not UnitIsFriend(unit,\"player\") and not IsPet(unit)) then\n  local cr,cg,cb = ClassColor(unit)\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r |cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),cr,cg,cb,Class(unit),SmartRace(unit) or ''\n  end\nelse\n  if form then\n    return \"%s%s|cff%02x%02x%02x%s|r (%s) %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),form,SmartRace(unit) or ''\n  else\n    return \"%s%s|cff%02x%02x%02x%s|r %s\",classification or '',classification and ' ' or '',dr,dg,db,Level(unit),SmartRace(unit) or ''\n  end\nend",
+									["location"] = "left",
+									["attach_to"] = "PowerBar",
+									["exists"] = true,
 								},
 								["Lua:名稱"] = {
-									["exists"] = true,
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
-									["location"] = "left",
-									["attach_to"] = "HealthBar",
+									["enabled"] = false,
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["location"] = "left",
+									["attach_to"] = "HealthBar",
+									["exists"] = true,
 								},
 								["Lua:施法時間"] = {
-									["exists"] = true,
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
-									["location"] = "right",
-									["attach_to"] = "CastBar",
 									["events"] = {
 										["UNIT_SPELLCAST_SUCCEEDED"] = true,
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
+										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-								},
-								["Lua:經驗值"] = {
-									["enabled"] = false,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["location"] = "right",
+									["attach_to"] = "CastBar",
 									["exists"] = true,
-									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
-									["location"] = "center",
-									["attach_to"] = "ExperienceBar",
+								},
+								["Lua:德魯伊法力值"] = {
 									["events"] = {
-										["UNIT_PET_EXPERIENCE"] = true,
-										["PLAYER_XP_UPDATE"] = true,
+										["UNIT_MAXMANA"] = true,
+										["UNIT_MANA"] = true,
 									},
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["location"] = "center",
+									["attach_to"] = "DruidManaBar",
+									["exists"] = true,
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
-									["exists"] = true,
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
-									["location"] = "center",
-									["attach_to"] = "ThreatBar",
 									["events"] = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-								},
-								["Lua:德魯伊法力值"] = {
-									["exists"] = true,
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 									["location"] = "center",
-									["attach_to"] = "DruidManaBar",
+									["attach_to"] = "ThreatBar",
+									["exists"] = true,
+								},
+								["Lua:經驗值"] = {
+									["enabled"] = false,
 									["events"] = {
-										["UNIT_MANA"] = true,
-										["UNIT_MAXMANA"] = true,
+										["UNIT_PET_EXPERIENCE"] = true,
+										["PLAYER_XP_UPDATE"] = true,
 									},
+									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
+									["location"] = "center",
+									["attach_to"] = "ExperienceBar",
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -30087,12 +29903,12 @@ PitBull4DB = {
 						["Target"] = {
 							["elements"] = {
 								["Lua:生命值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_HEALTH"] = true,
 										["UNIT_AURA"] = true,
 										["UNIT_MAXHEALTH"] = true,
 									},
+									["exists"] = true,
 									["position"] = 4,
 									["location"] = "right",
 									["code"] = "local s = Status(unit)\nif s then\n  return s\nend\nreturn \"%s/%s\",Short(HP(unit),true),Short(MaxHP(unit),true)",
@@ -30100,11 +29916,11 @@ PitBull4DB = {
 									["size"] = 0.95,
 								},
 								["Lua:經驗值"] = {
-									["exists"] = true,
 									["events"] = {
 										["UNIT_PET_EXPERIENCE"] = true,
 										["PLAYER_XP_UPDATE"] = true,
 									},
+									["exists"] = true,
 									["position"] = 9,
 									["location"] = "center",
 									["code"] = "local cur, max, rest = XP(unit), MaxXP(unit), RestXP(unit)\nif rest then\n  return \"%s/%s (%s%%) R: %s%%\",cur,max,Percent(cur,max),Percent(rest,max)\nelse\n  return \"%s/%s (%s%%)\",cur,max,Percent(cur,max)\nend",
@@ -30116,38 +29932,38 @@ PitBull4DB = {
 									["events"] = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 									},
-									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
+									["position"] = 21,
 									["location"] = "out_right_top",
 									["exists"] = true,
-									["position"] = 21,
+									["code"] = "if unit == \"player\" then\n  local pvp = PVPDuration()\n  if pvp then\n    return \"|cffff0000%s|r\",FormatDuration(pvp)\n  end\nend",
 								},
 								["Lua:聲望"] = {
 									["events"] = {
 										["UNIT_FACTION"] = true,
 										["UPDATE_FACTION"] = true,
 									},
-									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
+									["position"] = 2,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ReputationBar",
-									["position"] = 2,
+									["code"] = "local name, _, min , max, value, id = GetWatchedFactionInfo()\nif IsMouseOver() then\n  return name or ConfigMode() \nelse\n  local fs_id, fs_rep, _, _, _, _, _, fs_threshold, next_fs_threshold = GetFriendshipReputation(id)\n  if fs_id then\n    if next_fs_threshold then\n      min, max, value = fs_threshold, next_fs_threshold, fs_rep\n    else\n      min, max, value = 0, 1, 1\n    end\n  end\n  local bar_cur,bar_max = value-min,max-min\n  return \"%d/%d (%s%%)\",bar_cur,bar_max,Percent(bar_cur,bar_max)\nend",
 								},
 								["Lua:施法"] = {
 									["events"] = {
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_FAILED"] = true,
+										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
-										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
-										["UNIT_SPELLCAST_START"] = true,
-										["UNIT_SPELLCAST_CHANNEL_START"] = true,
+										["UNIT_SPELLCAST_INTERRUPTED"] = true,
+										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
+									["position"] = 6,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 6,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  local spell,stop_message,target = cast_data.spell,cast_data.stop_message,cast_data.target\n  local stop_time,stop_duration = cast_data.stop_time\n  if stop_time then\n    stop_duration = GetTime() - stop_time\n  end\n  Alpha(-(stop_duration or 0) + 1)\n  if stop_message then\n    return stop_message\n  elseif target then\n    return \"%s (%s)\",spell,target\n  else\n    return spell \n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:職業"] = {
 									["exists"] = true,
@@ -30162,11 +29978,11 @@ PitBull4DB = {
 										["PLAYER_FLAGS_CHANGED"] = true,
 										["UNIT_NAME_UPDATE"] = true,
 									},
-									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
+									["position"] = 7,
 									["location"] = "left",
 									["exists"] = true,
 									["attach_to"] = "HealthBar",
-									["position"] = 7,
+									["code"] = "return '%s %s%s%s',Name(unit),Angle(AFK(unit) or DND(unit))",
 								},
 								["Lua:威脅值"] = {
 									["enabled"] = false,
@@ -30174,22 +29990,23 @@ PitBull4DB = {
 										["UNIT_THREAT_LIST_UPDATE"] = true,
 										["UNIT_THREAT_SITUATION_UPDATE"] = true,
 									},
-									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
+									["position"] = 5,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "ThreatBar",
-									["position"] = 5,
+									["code"] = "local unit_a,unit_b = ThreatPair(unit)\nif unit_a and unit_b then\n  local _,_,percent = UnitDetailedThreatSituation(unit_a, unit_b)\n  if percent and percent ~= 0 then\n    return \"%s%%\",Round(percent,1)\n  end\nend\nreturn ConfigMode()",
 								},
-								["Diy:種族"] = {
-									["exists"] = true,
+								["生命百分比"] = {
 									["events"] = {
-										["UNIT_CLASSIFICATION_CHANGED"] = true,
-										["UNIT_LEVEL"] = true,
+										["UNIT_HEALTH"] = true,
+										["UNIT_AURA"] = true,
+										["UNIT_MAXHEALTH"] = true,
 									},
-									["position"] = 1.00002,
-									["location"] = "left",
-									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
-									["attach_to"] = "PowerBar",
+									["exists"] = true,
+									["position"] = 1.00001,
+									["location"] = "bottom_left",
+									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+									["attach_to"] = "Portrait",
 									["size"] = 0.8,
 								},
 								["Lua:施法時間"] = {
@@ -30199,54 +30016,53 @@ PitBull4DB = {
 										["UNIT_SPELLCAST_START"] = true,
 										["UNIT_SPELLCAST_CHANNEL_START"] = true,
 										["UNIT_SPELLCAST_DELAYED"] = true,
-										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_CHANNEL_STOP"] = true,
+										["UNIT_SPELLCAST_CHANNEL_UPDATE"] = true,
 										["UNIT_SPELLCAST_STOP"] = true,
 										["UNIT_SPELLCAST_INTERRUPTED"] = true,
 										["UNIT_SPELLCAST_FAILED"] = true,
 									},
-									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
+									["position"] = 10,
 									["location"] = "right",
 									["exists"] = true,
 									["attach_to"] = "CastBar",
-									["position"] = 10,
+									["code"] = "local cast_data = CastData(unit)\nif cast_data then\n  if not cast_data.stop_time then\n    local delay,end_time = cast_data.delay, cast_data.end_time\n    local duration\n    if end_time then\n      duration = end_time - GetTime()\n    end\n    if delay and delay ~= 0 then\n      local delay_sign = '+'\n      if delay < 0 then\n        delay_sign = ''\n      end\n      if duration and duration >= 0 then\n        return \"|cffff0000%s%s|r %.1f\",delay_sign,Round(delay,1),duration\n      else\n        return \"|cffff0000%s%s|r\",delay_sign,Round(delay,1)\n      end\n    elseif duration and duration >= 0 then\n      return \"%.1f\",duration\n    end\n  end\nend\nreturn ConfigMode()",
 								},
 								["Lua:法力值"] = {
-									["exists"] = true,
 									["events"] = {
-										["UNIT_MAXPOWER"] = true,
 										["UNIT_POWER"] = true,
+										["UNIT_MAXPOWER"] = true,
 									},
+									["exists"] = true,
 									["position"] = 3,
 									["location"] = "center",
 									["code"] = "local max = MaxPower(unit)\nif max > 0 then\n  return VeryShort(Power(unit))\nend",
 									["attach_to"] = "PowerBar",
 									["size"] = 0.95,
 								},
-								["生命百分比"] = {
-									["code"] = "local cur, max = HP(unit), MaxHP(unit)\nreturn \"%s%%\",Percent(cur,max)",
+								["Diy:種族"] = {
 									["events"] = {
-										["UNIT_HEALTH"] = true,
-										["UNIT_AURA"] = true,
-										["UNIT_MAXHEALTH"] = true,
+										["UNIT_CLASSIFICATION_CHANGED"] = true,
+										["UNIT_LEVEL"] = true,
 									},
-									["position"] = 1.00001,
-									["location"] = "bottom_left",
 									["exists"] = true,
-									["attach_to"] = "Portrait",
+									["position"] = 1.00002,
+									["location"] = "left",
+									["code"] = "local dr,dg,db = DifficultyColor(unit)\nreturn \"|cff%02x%02x%02x%s%s|r %s\",dr,dg,db,Level(unit),Classification(unit) and '+' or '',SmartRace(unit) or ''",
+									["attach_to"] = "PowerBar",
 									["size"] = 0.8,
 								},
 								["Lua:德魯伊法力值"] = {
 									["enabled"] = false,
 									["events"] = {
-										["UNIT_MAXMANA"] = true,
 										["UNIT_MANA"] = true,
+										["UNIT_MAXMANA"] = true,
 									},
-									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
+									["position"] = 12,
 									["location"] = "center",
 									["exists"] = true,
 									["attach_to"] = "DruidManaBar",
-									["position"] = 12,
+									["code"] = "if UnitPowerType(unit) ~= 0 then\n  return \"%s/%s\",Power(unit,0),MaxPower(unit,0)\nend",
 								},
 							},
 							["first"] = false,
@@ -32344,6 +32160,17 @@ PitBull4DB = {
 				},
 			},
 		},
+		["HolyPower"] = {
+			["profiles"] = {
+				["Glorix - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "out_right",
+						},
+					},
+				},
+			},
+		},
 		["SoulShards"] = {
 			["profiles"] = {
 				["wlk.2014.10.20"] = {
@@ -32691,13 +32518,6 @@ PitBull4DB = {
 							["enabled"] = false,
 						},
 						["Party"] = {
-							["color"] = {
-								nil, -- [1]
-								0.545098039215686, -- [2]
-								0.611764705882353, -- [3]
-							},
-						},
-						["Focus"] = {
 							["color"] = {
 								nil, -- [1]
 								0.545098039215686, -- [2]
@@ -33535,12 +33355,6 @@ PitBull4DB = {
 							["size"] = 1,
 						},
 						["Party"] = {
-							["position"] = 15,
-							["location"] = "center",
-							["attach_to"] = "Portrait",
-							["size"] = 1,
-						},
-						["Focus"] = {
 							["position"] = 15,
 							["location"] = "center",
 							["attach_to"] = "Portrait",
@@ -34557,17 +34371,12 @@ PitBull4DB = {
 				["Slick.2016.08.12"] = {
 					["layouts"] = {
 						["Self"] = {
-							["enabled"] = true,
 							["target_opacity"] = 0.5,
 							["hurt_opacity"] = 0.85,
 							["out_of_combat_opacity"] = 0.5,
 							["in_combat_opacity"] = 0.85,
 						},
 						["Party"] = {
-							["hurt_opacity"] = 0.9,
-							["out_of_combat_opacity"] = 0.5,
-						},
-						["Focus"] = {
 							["hurt_opacity"] = 0.9,
 							["out_of_combat_opacity"] = 0.5,
 						},
@@ -35282,7 +35091,938 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Sounds"] = {
+		["CastBar"] = {
+			["profiles"] = {
+				["HUNTER"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 2,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Warlock_Draft"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["ROGUE"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 2,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["dk.2014.10.30"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["texture"] = "BantoBar",
+						},
+					},
+				},
+				["Zenez - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Darknex - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 4,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Slick.2016.08.12"] = {
+					["layouts"] = {
+						["Self"] = {
+							["color_by_class"] = true,
+							["auto_hide"] = true,
+							["size"] = 3,
+							["enabled"] = false,
+							["deficit"] = true,
+							["reverse"] = true,
+							["position"] = 2,
+						},
+						["Party"] = {
+							["size"] = 2,
+							["icon_on_left"] = false,
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["enabled"] = false,
+							["side"] = "right",
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Draculax - 銀翼要塞"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Draculax - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["enabled"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["Darknex_110408"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["Darknex-2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Rogue_Style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 2,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Warlock"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["enabled"] = false,
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["test"] = {
+					["layouts"] = {
+						["Self"] = {
+							["color_by_class"] = true,
+							["deficit"] = true,
+							["position"] = 2,
+							["auto_hide"] = true,
+							["reverse"] = true,
+							["enabled"] = false,
+							["size"] = 3,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["side"] = "right",
+							["position"] = 2,
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
+						},
+					},
+				},
+				["Darknex-test1"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Evillix - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+							["icon_on_left"] = false,
+							["position"] = 2,
+						},
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 6,
+						},
+						["Party"] = {
+							["icon_on_left"] = false,
+							["size"] = 2,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Target"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["enabled"] = false,
+							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["position"] = 2,
+							["texture"] = "BantoBar",
+						},
+					},
+				},
+			},
 		},
 		["Totems"] = {
 		},
@@ -35574,11 +36314,6 @@ PitBull4DB = {
 							["position"] = 27,
 							["location"] = "edge_top_right",
 						},
-						["Focus"] = {
-							["enabled"] = false,
-							["position"] = 27,
-							["location"] = "edge_top_right",
-						},
 						["Target"] = {
 							["enabled"] = false,
 							["position"] = 27,
@@ -36213,1066 +36948,41 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Portrait"] = {
+		["RaceIcon"] = {
 			["profiles"] = {
-				["Evillix - 黑龍軍團"] = {
+				["my"] = {
 					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
+						["普通"] = {
+							["enabled"] = false,
+							["position"] = 23,
 						},
-						["Party"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Warlock_Draft"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["fallback_style"] = "hide",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00002,
 						},
 					},
 				},
 				["Jinzakk - 黑龍軍團"] = {
 					["layouts"] = {
 						["普通"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["ROGUE"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["dk.2014.10.30"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Zenez - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["fallback_style"] = "hide",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Darknex - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["side"] = "right",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-							["full_body"] = true,
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Slick.2016.08.12"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["full_body"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Draculax - 銀翼要塞"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Draculax - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Darknex_110408"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["Darknex-2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["Rogue_Style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["fallback_style"] = "hide",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
+							["enabled"] = false,
+							["position"] = 23,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00002,
 						},
 					},
 				},
 				["Default"] = {
 					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["术士"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["style"] = "two_dimensional",
-							["fallback_style"] = "hide",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Warlock"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["test"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["Darknex-test1"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["side"] = "right",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
-						},
-					},
-				},
-				["HUNTER"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-							["style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["fallback_style"] = "class",
-						},
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Party"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["style"] = "class",
-							["full_body"] = true,
-						},
-						["Focus"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = true,
-							["side"] = "right",
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Mini"] = {
-							["enabled"] = true,
-							["style"] = "class",
-							["fallback_style"] = "class",
-						},
-						["Pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "hide",
-						},
-						["Target"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
+						["普通"] = {
+							["enabled"] = false,
+							["position"] = 23,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00002,
 						},
 					},
 				},
@@ -37414,11 +37124,11 @@ PitBull4DB = {
 								1, -- [4]
 							},
 						},
-						["Pet"] = {
-							["position"] = 6,
-						},
 						["Target"] = {
 							["enabled"] = false,
+						},
+						["Pet"] = {
+							["position"] = 6,
 						},
 					},
 				},
@@ -37759,943 +37469,7 @@ PitBull4DB = {
 		},
 		["Background"] = {
 		},
-		["CastBar"] = {
-			["profiles"] = {
-				["HUNTER"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 2,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-					},
-				},
-				["Warlock_Draft"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["ROGUE"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 2,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["dk.2014.10.30"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["texture"] = "BantoBar",
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Zenez - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 5,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Darknex - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 4,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Slick.2016.08.12"] = {
-					["layouts"] = {
-						["Self"] = {
-							["color_by_class"] = true,
-							["auto_hide"] = true,
-							["size"] = 3,
-							["enabled"] = false,
-							["deficit"] = true,
-							["reverse"] = true,
-							["position"] = 2,
-						},
-						["Party"] = {
-							["size"] = 2,
-							["icon_on_left"] = false,
-						},
-						["Focus"] = {
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["icon_on_left"] = false,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["side"] = "right",
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Draculax - 銀翼要塞"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["Draculax - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Darknex_110408"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Darknex-2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Rogue_Style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 5,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 2,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["术士"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 2,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Warlock"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["texture"] = "BantoBar",
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["test"] = {
-					["layouts"] = {
-						["Self"] = {
-							["color_by_class"] = true,
-							["deficit"] = true,
-							["position"] = 2,
-							["auto_hide"] = true,
-							["reverse"] = true,
-							["enabled"] = false,
-							["size"] = 3,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["side"] = "right",
-							["position"] = 2,
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["texture"] = "BantoBar",
-							["position"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Darknex-test1"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-					},
-				},
-				["Evillix - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-							["icon_on_left"] = false,
-							["position"] = 2,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 6,
-						},
-						["Party"] = {
-							["icon_on_left"] = false,
-							["size"] = 2,
-						},
-						["Target"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["enabled"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["auto_hide"] = true,
-							["position"] = 2,
-							["texture"] = "BantoBar",
-						},
-						["普通"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-			},
+		["Sounds"] = {
 		},
 		["BurningEmbers"] = {
 			["profiles"] = {
@@ -38726,7 +37500,69 @@ PitBull4DB = {
 				},
 			},
 		},
-		["DruidManaBar"] = {
+		["PvPIcon"] = {
+			["profiles"] = {
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+							["position"] = 11,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+							["position"] = 11,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Slick.2016.08.12"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00001,
+						},
+						["Self"] = {
+							["position"] = 1.00003,
+						},
+					},
+				},
+				["test"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00001,
+						},
+						["Self"] = {
+							["position"] = 1.00003,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Target"] = {
+							["position"] = 1.00001,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+							["position"] = 11,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+			},
 		},
 		["Aura"] = {
 			["profiles"] = {
@@ -39127,9 +37963,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["獸心"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
 									["閃避"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
 									["自由聖禦"] = true,
 									["精通光環"] = true,
 									["寒冰護體"] = true,
@@ -39149,10 +37985,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["制裁之錘"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -39163,7 +37999,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["強化變形術"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -39263,7 +38099,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled_weapons"] = false,
 							["max_debuffs"] = 12,
-							["enabled_buffs"] = false,
 							["borders"] = {
 								["my_buffs"] = {
 									["friend"] = {
@@ -39286,6 +38121,7 @@ PitBull4DB = {
 									},
 								},
 							},
+							["enabled_buffs"] = false,
 							["layout"] = {
 								["buff"] = {
 									["size_to_fit"] = false,
@@ -39728,9 +38564,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
 									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
 									["反擊風暴"] = true,
 									["精通光環"] = true,
 									["獸心"] = true,
@@ -39750,10 +38586,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -39764,7 +38600,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -40266,9 +39102,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
 									["反擊風暴"] = true,
 									["精通光環"] = true,
 									["痛苦鎮壓"] = true,
@@ -40288,10 +39124,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -40302,7 +39138,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -40754,8 +39590,8 @@ PitBull4DB = {
 									["寒冰護體"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["閃避"] = true,
 									["自由聖禦"] = true,
+									["閃避"] = true,
 									["冰錮堅韌"] = true,
 								},
 							},
@@ -40773,10 +39609,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -40787,7 +39623,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -41240,9 +40076,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
 									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
 									["反擊風暴"] = true,
 									["獸心"] = true,
 									["精通光環"] = true,
@@ -41262,10 +40098,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -41276,7 +40112,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -41399,7 +40235,6 @@ PitBull4DB = {
 									},
 								},
 							},
-							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -41415,6 +40250,7 @@ PitBull4DB = {
 									["growth"] = "left_up",
 								},
 							},
+							["enabled_buffs"] = false,
 							["texts"] = {
 								["other_debuffs"] = {
 									["count"] = {
@@ -41844,8 +40680,8 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["閃避"] = true,
 									["自由聖禦"] = true,
+									["閃避"] = true,
 									["寒冰護體"] = true,
 								},
 							},
@@ -41863,10 +40699,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
 									["魅惑"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -41877,7 +40713,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -42306,8 +41142,8 @@ PitBull4DB = {
 									["痛苦鎮壓"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["自由聖禦"] = true,
 									["閃避"] = true,
+									["自由聖禦"] = true,
 									["精通光環"] = true,
 								},
 							},
@@ -42325,10 +41161,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -42339,7 +41175,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -42374,8 +41210,10 @@ PitBull4DB = {
 					["layouts"] = {
 						["Self"] = {
 							["cooldown_text"] = {
+								["other_debuffs"] = true,
 								["weapon_buffs"] = true,
 								["my_buffs"] = true,
+								["other_buffs"] = true,
 								["my_debuffs"] = true,
 							},
 							["max_debuffs"] = 12,
@@ -42418,29 +41256,27 @@ PitBull4DB = {
 									["side"] = "LEFT",
 									["growth"] = "down_left",
 									["width"] = 70,
-									["row_spacing"] = 3,
-									["filter"] = "!B",
-									["width_type"] = "fixed",
-									["offset_x"] = -10,
-									["col_spacing"] = 3,
 									["new_row_size"] = true,
+									["row_spacing"] = 3,
+									["width_type"] = "fixed",
+									["col_spacing"] = 3,
+									["offset_x"] = -20,
 								},
 								["debuff"] = {
+									["width_percent"] = 1,
 									["size_to_fit"] = false,
-									["my_size"] = 20,
-									["offset_y"] = 5,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 30,
+									["my_size"] = 17,
+									["size"] = 34,
 									["side"] = "RIGHT",
-									["growth"] = "down_right",
-									["width"] = 70,
+									["growth"] = "up_right",
+									["width"] = 40,
 									["row_spacing"] = 3,
-									["new_row_size"] = true,
-									["width_type"] = "fixed",
-									["col_spacing"] = 3,
 									["offset_x"] = 10,
+									["col_spacing"] = 3,
+									["new_row_size"] = true,
 								},
 							},
+							["enabled_buffs"] = false,
 							["cooldown"] = {
 								["other_debuffs"] = false,
 								["weapon_buffs"] = false,
@@ -42450,8 +41286,13 @@ PitBull4DB = {
 							},
 							["texts"] = {
 								["other_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 5,
+										["anchor"] = "TOPRIGHT",
+									},
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -42573,97 +41414,6 @@ PitBull4DB = {
 								"!J", -- [2]
 							},
 						},
-						["Focus"] = {
-							["enabled_weapons"] = false,
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["layout"] = {
-								["buff"] = {
-									["width_percent"] = 0.56,
-									["my_size"] = 18,
-									["anchor"] = "BOTTOMRIGHT",
-									["size"] = 18,
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-								},
-								["debuff"] = {
-									["width_percent"] = 1,
-									["my_size"] = 24,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["side"] = "TOP",
-									["growth"] = "left_up",
-								},
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["offset_y"] = -15,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["highlight"] = false,
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
@@ -42721,7 +41471,7 @@ PitBull4DB = {
 								false, -- [1]
 							},
 							["enabled_weapons"] = false,
-							["max_debuffs"] = 20,
+							["max_debuffs"] = 14,
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
@@ -42750,43 +41500,45 @@ PitBull4DB = {
 								["buff"] = {
 									["width_percent"] = 0.78,
 									["size_to_fit"] = false,
-									["my_size"] = 26,
-									["offset_y"] = 15,
-									["anchor"] = "TOPRIGHT",
-									["size"] = 26,
-									["side"] = "RIGHT",
-									["growth"] = "down_right",
-									["width"] = 110,
+									["my_size"] = 28,
+									["offset_y"] = 5,
+									["anchor"] = "TOPLEFT",
+									["size"] = 28,
+									["side"] = "LEFT",
+									["growth"] = "down_left",
+									["width"] = 120,
 									["new_row_size"] = true,
-									["offset_x"] = 5,
-									["filter"] = "!B",
-									["frame_level"] = 4,
-									["width_type"] = "fixed",
-									["col_spacing"] = 3,
 									["row_spacing"] = 3,
+									["offset_x"] = -5,
+									["frame_level"] = 4,
+									["col_spacing"] = 3,
+									["width_type"] = "fixed",
 								},
 								["debuff"] = {
 									["width_percent"] = 0.63,
 									["size_to_fit"] = false,
 									["my_size"] = 26,
-									["offset_y"] = 15,
-									["anchor"] = "TOPLEFT",
+									["offset_y"] = 5,
+									["anchor"] = "TOPRIGHT",
 									["size"] = 26,
-									["side"] = "LEFT",
-									["growth"] = "down_left",
-									["width"] = 110,
-									["row_spacing"] = 3,
+									["side"] = "TOP",
+									["growth"] = "left_up",
+									["width"] = 200,
+									["row_spacing"] = 2,
 									["new_row_size"] = true,
 									["width_type"] = "fixed",
-									["col_spacing"] = 3,
-									["offset_x"] = -5,
+									["col_spacing"] = 2,
+									["offset_x"] = 5,
 								},
 							},
 							["texts"] = {
 								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -42805,10 +41557,13 @@ PitBull4DB = {
 									},
 								},
 								["other_buffs"] = {
+									["count"] = {
+										["offset_y"] = 5,
+										["anchor"] = "TOPRIGHT",
+									},
 									["cooldown_text"] = {
-										["offset_y"] = -10,
 										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
+										["size"] = 1,
 									},
 								},
 								["my_debuffs"] = {
@@ -42856,10 +41611,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -42870,7 +41625,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -42899,8 +41654,8 @@ PitBull4DB = {
 									["獸心"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["自由聖禦"] = true,
 									["反擊風暴"] = true,
+									["自由聖禦"] = true,
 									["冰錮堅韌"] = true,
 								},
 							},
@@ -43326,9 +42081,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
 									["反擊風暴"] = true,
 									["精通光環"] = true,
 									["獸心"] = true,
@@ -43348,10 +42103,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -43362,7 +42117,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -43792,8 +42547,8 @@ PitBull4DB = {
 									["寒冰護體"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["自由聖禦"] = true,
 									["閃避"] = true,
+									["自由聖禦"] = true,
 									["獸心"] = true,
 								},
 							},
@@ -43811,10 +42566,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["制裁之錘"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -43825,7 +42580,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["強化變形術"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -44012,6 +42767,100 @@ PitBull4DB = {
 								},
 							},
 						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
 						["Target"] = {
 							["highlight"] = false,
 							["highlight_filters_color_by_type"] = {
@@ -44109,112 +42958,8 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
 						["Mini"] = {
 							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
 						},
 						["Pet"] = {
 							["max_debuffs"] = 8,
@@ -44258,6 +43003,16 @@ PitBull4DB = {
 							},
 							["enabled_weapons"] = false,
 						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
 					},
 					["global"] = {
 						["filters"] = {
@@ -44278,8 +43033,8 @@ PitBull4DB = {
 									["獸心"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["反擊風暴"] = true,
 									["自由聖禦"] = true,
+									["反擊風暴"] = true,
 									["冰錮堅韌"] = true,
 								},
 							},
@@ -44297,10 +43052,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["變形術"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
 									["魅惑"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -44311,7 +43066,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -44736,9 +43491,9 @@ PitBull4DB = {
 									["精通光環"] = true,
 									["反魔法護罩"] = true,
 									["冰錮堅韌"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
 									["閃避"] = true,
 									["痛苦鎮壓"] = true,
 									["寒冰護體"] = true,
@@ -44758,10 +43513,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -44772,7 +43527,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -45202,8 +43957,8 @@ PitBull4DB = {
 									["獸心"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["自由聖禦"] = true,
 									["反擊風暴"] = true,
+									["自由聖禦"] = true,
 									["寒冰護體"] = true,
 								},
 							},
@@ -45221,10 +43976,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["強化變形術"] = true,
-									["魅惑"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -45235,7 +43990,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -45335,7 +44090,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled_weapons"] = false,
 							["max_debuffs"] = 12,
-							["enabled_buffs"] = false,
 							["borders"] = {
 								["my_buffs"] = {
 									["friend"] = {
@@ -45358,6 +44112,7 @@ PitBull4DB = {
 									},
 								},
 							},
+							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -45800,9 +44555,9 @@ PitBull4DB = {
 									["精通光環"] = true,
 									["反魔法護罩"] = true,
 									["冰錮堅韌"] = true,
-									["閃避"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
 									["反擊風暴"] = true,
 									["寒冰護體"] = true,
 									["痛苦鎮壓"] = true,
@@ -45822,10 +44577,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -45836,7 +44591,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["強化變形術"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -46285,8 +45040,8 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["閃避"] = true,
 									["自由聖禦"] = true,
+									["閃避"] = true,
 									["寒冰護體"] = true,
 								},
 							},
@@ -46304,10 +45059,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["鑿擊"] = true,
-									["魅惑"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -46318,7 +45073,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["制裁之錘"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -46767,9 +45522,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
 									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
 									["反擊風暴"] = true,
 									["精通光環"] = true,
 									["痛苦鎮壓"] = true,
@@ -46789,10 +45544,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -46803,7 +45558,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -46990,6 +45745,100 @@ PitBull4DB = {
 								"!J", -- [2]
 							},
 						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
+									["frame_level"] = 4,
+									["size"] = 18,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
 						["Target"] = {
 							["highlight"] = false,
 							["highlight_filters_color_by_type"] = {
@@ -47087,112 +45936,8 @@ PitBull4DB = {
 								"!J", -- [2]
 							},
 						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
 						["Mini"] = {
 							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
 						},
 						["Pet"] = {
 							["max_debuffs"] = 8,
@@ -47236,6 +45981,16 @@ PitBull4DB = {
 							},
 							["enabled_weapons"] = false,
 						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
 					},
 					["global"] = {
 						["filters"] = {
@@ -47256,8 +46011,8 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["自由聖禦"] = true,
 									["反擊風暴"] = true,
+									["自由聖禦"] = true,
 									["寒冰護體"] = true,
 								},
 							},
@@ -47275,10 +46030,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -47289,7 +46044,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -47389,7 +46144,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled_weapons"] = false,
 							["max_debuffs"] = 12,
-							["enabled_buffs"] = false,
 							["borders"] = {
 								["my_buffs"] = {
 									["friend"] = {
@@ -47412,6 +46166,7 @@ PitBull4DB = {
 									},
 								},
 							},
+							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -47857,8 +46612,8 @@ PitBull4DB = {
 									["精通光環"] = true,
 									["聖佑術"] = true,
 									["自由聖禦"] = true,
-									["反擊風暴"] = true,
 									["閃避"] = true,
+									["反擊風暴"] = true,
 									["痛苦鎮壓"] = true,
 								},
 							},
@@ -47876,10 +46631,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["強化變形術"] = true,
-									["變形術"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -47890,7 +46645,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -48342,8 +47097,8 @@ PitBull4DB = {
 									["寒冰護體"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["自由聖禦"] = true,
 									["閃避"] = true,
+									["自由聖禦"] = true,
 									["獸心"] = true,
 								},
 							},
@@ -48361,10 +47116,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["強化變形術"] = true,
-									["魅惑"] = true,
-									["心靈恐慌"] = true,
-									["懺悔"] = true,
 									["變形術"] = true,
+									["恐懼術"] = true,
+									["懺悔"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -48375,7 +47130,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -48562,15 +47317,47 @@ PitBull4DB = {
 								},
 							},
 						},
-						["普通"] = {
-							["texts"] = {
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["borders"] = {
 								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
 									},
 								},
 							},
+							["enabled_buffs"] = false,
+							["enabled_weapons"] = false,
 						},
 						["Focus"] = {
 							["highlight"] = false,
@@ -48662,54 +47449,6 @@ PitBull4DB = {
 									},
 								},
 							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
-							["enabled_weapons"] = false,
 						},
 						["Target"] = {
 							["highlight"] = false,
@@ -48808,6 +47547,22 @@ PitBull4DB = {
 								},
 							},
 						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
 					},
 					["global"] = {
 						["filters"] = {
@@ -48828,8 +47583,8 @@ PitBull4DB = {
 									["獸心"] = true,
 									["聖佑術"] = true,
 									["反擊風暴"] = true,
-									["自由聖禦"] = true,
 									["閃避"] = true,
+									["自由聖禦"] = true,
 									["寒冰護體"] = true,
 								},
 							},
@@ -48847,10 +47602,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["強化變形術"] = true,
-									["變形術"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -48861,7 +47616,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -49048,6 +47803,100 @@ PitBull4DB = {
 								},
 							},
 						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
+								},
+								["buff"] = {
+									["my_size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["frame_level"] = 4,
+									["growth"] = "left_down",
+									["size"] = 18,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
 						["Target"] = {
 							["highlight"] = false,
 							["highlight_filters_color_by_type"] = {
@@ -49145,112 +47994,8 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["frame_level"] = 4,
-									["growth"] = "left_down",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
 						["Mini"] = {
 							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
 						},
 						["Pet"] = {
 							["max_debuffs"] = 8,
@@ -49294,6 +48039,16 @@ PitBull4DB = {
 							},
 							["enabled_weapons"] = false,
 						},
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
+						},
 					},
 					["global"] = {
 						["filters"] = {
@@ -49314,8 +48069,8 @@ PitBull4DB = {
 									["寒冰護體"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["反擊風暴"] = true,
 									["自由聖禦"] = true,
+									["反擊風暴"] = true,
 									["精通光環"] = true,
 								},
 							},
@@ -49333,10 +48088,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["噬溫酷寒"] = true,
 									["強化變形術"] = true,
-									["變形術"] = true,
-									["恐懼術"] = true,
-									["懺悔"] = true,
 									["魅惑"] = true,
+									["心靈恐慌"] = true,
+									["懺悔"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -49347,7 +48102,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
@@ -49382,6 +48137,16 @@ PitBull4DB = {
 					["layouts"] = {
 						["Self"] = {
 							["borders"] = {
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["friend"] = {
+										["enabled"] = false,
+									},
+								},
 								["weapon_buffs"] = {
 									["custom_color"] = {
 										0, -- [1]
@@ -49392,16 +48157,6 @@ PitBull4DB = {
 									["color_type"] = "custom",
 								},
 								["my_buffs"] = {
-									["friend"] = {
-										["enabled"] = false,
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
 									["friend"] = {
 										["enabled"] = false,
 									},
@@ -49422,12 +48177,12 @@ PitBull4DB = {
 									["size_to_fit"] = false,
 									["growth"] = "down_right",
 									["my_size"] = 20,
-									["offset_y"] = 5,
-									["offset_x"] = 10,
+									["row_spacing"] = 3,
 									["width_type"] = "fixed",
+									["offset_x"] = 10,
 									["new_row_size"] = true,
 									["anchor"] = "TOPRIGHT",
-									["row_spacing"] = 3,
+									["offset_y"] = 5,
 									["col_spacing"] = 3,
 									["size"] = 30,
 								},
@@ -49438,12 +48193,12 @@ PitBull4DB = {
 									["size_to_fit"] = false,
 									["growth"] = "down_left",
 									["my_size"] = 30,
-									["offset_y"] = 5,
-									["offset_x"] = -10,
+									["new_row_size"] = true,
 									["width_type"] = "fixed",
+									["offset_x"] = -10,
 									["row_spacing"] = 3,
 									["anchor"] = "TOPLEFT",
-									["new_row_size"] = true,
+									["offset_y"] = 5,
 									["col_spacing"] = 3,
 									["size"] = 20,
 								},
@@ -49732,12 +48487,12 @@ PitBull4DB = {
 									["size_to_fit"] = false,
 									["growth"] = "down_left",
 									["my_size"] = 26,
-									["offset_y"] = 15,
-									["offset_x"] = -5,
+									["width_type"] = "fixed",
 									["row_spacing"] = 3,
+									["offset_x"] = -5,
 									["new_row_size"] = true,
 									["anchor"] = "TOPLEFT",
-									["width_type"] = "fixed",
+									["offset_y"] = 15,
 									["col_spacing"] = 3,
 									["size"] = 26,
 								},
@@ -49745,16 +48500,16 @@ PitBull4DB = {
 									["my_size"] = 26,
 									["side"] = "RIGHT",
 									["width_percent"] = 0.78,
-									["row_spacing"] = 3,
+									["offset_y"] = 15,
 									["size_to_fit"] = false,
 									["growth"] = "down_right",
 									["width"] = 120,
-									["offset_y"] = 15,
-									["offset_x"] = 5,
+									["width_type"] = "fixed",
 									["new_row_size"] = true,
+									["row_spacing"] = 3,
 									["frame_level"] = 4,
 									["anchor"] = "TOPRIGHT",
-									["width_type"] = "fixed",
+									["offset_x"] = 5,
 									["col_spacing"] = 3,
 									["size"] = 26,
 								},
@@ -49871,9 +48626,9 @@ PitBull4DB = {
 									["精通光環"] = true,
 									["反魔法護罩"] = true,
 									["冰錮堅韌"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
 									["閃避"] = true,
 									["獸心"] = true,
 									["寒冰護體"] = true,
@@ -49893,10 +48648,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["恐懼術"] = true,
 									["心靈恐慌"] = true,
+									["恐懼術"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -49907,7 +48662,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -50336,8 +49091,8 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
-									["反擊風暴"] = true,
 									["自由聖禦"] = true,
+									["反擊風暴"] = true,
 									["痛苦鎮壓"] = true,
 								},
 							},
@@ -50355,10 +49110,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["致盲"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -50369,7 +49124,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["鑿擊"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -50815,9 +49570,9 @@ PitBull4DB = {
 									["精通光環"] = true,
 									["反魔法護罩"] = true,
 									["冰錮堅韌"] = true,
-									["自由聖禦"] = true,
-									["聖佑術"] = true,
 									["閃避"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
 									["反擊風暴"] = true,
 									["獸心"] = true,
 									["寒冰護體"] = true,
@@ -50837,10 +49592,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -50851,7 +49606,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["強化變形術"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -51038,47 +49793,15 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
+						["普通"] = {
+							["texts"] = {
 								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
 									},
 								},
 							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["size"] = 23,
-									["growth"] = "right_up",
-									["my_size"] = 23,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
-							["enabled_weapons"] = false,
 						},
 						["Focus"] = {
 							["highlight"] = false,
@@ -51170,6 +49893,54 @@ PitBull4DB = {
 									},
 								},
 							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["max_debuffs"] = 8,
+							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["size"] = 23,
+									["growth"] = "right_up",
+									["my_size"] = 23,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
+							["enabled_weapons"] = false,
 						},
 						["Target"] = {
 							["highlight"] = false,
@@ -51268,22 +50039,6 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["普通"] = {
-							["texts"] = {
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
-									},
-								},
-							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
 					},
 					["global"] = {
 						["filters"] = {
@@ -51301,9 +50056,9 @@ PitBull4DB = {
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
 									["精通光環"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
 									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["反擊風暴"] = true,
 									["閃避"] = true,
 									["寒冰護體"] = true,
 									["獸心"] = true,
@@ -51323,10 +50078,10 @@ PitBull4DB = {
 									["絞殺"] = true,
 									["啃食"] = true,
 									["制裁之錘"] = true,
-									["心靈恐慌"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -51337,7 +50092,7 @@ PitBull4DB = {
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
 									["星湧術"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["強化變形術"] = true,
 									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
@@ -51379,69 +50134,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["PvPIcon"] = {
-			["profiles"] = {
-				["my"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-							["position"] = 11,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-							["position"] = 11,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-				["Slick.2016.08.12"] = {
-					["layouts"] = {
-						["Target"] = {
-							["position"] = 1.00001,
-						},
-						["Self"] = {
-							["position"] = 1.00003,
-						},
-					},
-				},
-				["test"] = {
-					["layouts"] = {
-						["Target"] = {
-							["position"] = 1.00001,
-						},
-						["Self"] = {
-							["position"] = 1.00003,
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Target"] = {
-							["position"] = 1.00001,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-							["position"] = 11,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-						},
-					},
-				},
-			},
+		["DruidManaBar"] = {
 		},
 		["PowerBar"] = {
 			["profiles"] = {
@@ -51781,12 +50474,6 @@ PitBull4DB = {
 							["background_alpha"] = 0,
 							["size"] = 1,
 							["animated"] = true,
-						},
-						["Focus"] = {
-							["background_alpha"] = 0,
-							["size"] = 1,
-							["animated"] = true,
-							["texture"] = "BantoBar",
 						},
 						["Target"] = {
 							["background_alpha"] = 0,
@@ -52537,155 +51224,45 @@ PitBull4DB = {
 				},
 			},
 		},
-		["HideBlizzard"] = {
+		["DCIcon"] = {
 			["profiles"] = {
-				["Evillix - 黑龍軍團"] = {
-					["global"] = {
-						["runebar"] = false,
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["size"] = 1.5,
+							["position"] = 25,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
 					},
 				},
-				["Warlock_Draft"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["ROGUE"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
-				["dk.2014.10.30"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
-				["Zenez - 燃烧之刃"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Darknex-2"] = {
-					["global"] = {
-						["party"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Slick.2016.08.12"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Draculax - 銀翼要塞"] = {
-					["global"] = {
-						["player"] = false,
-						["party"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Draculax - 黑龍軍團"] = {
-					["global"] = {
-						["party"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Darknex - 黑龍軍團"] = {
-					["global"] = {
-						["runebar"] = false,
-					},
-				},
-				["Darknex_110408"] = {
-					["global"] = {
-						["party"] = false,
-						["runebar"] = false,
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["size"] = 1.5,
+							["position"] = 25,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
 					},
 				},
 				["Default"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
-				["Rogue_Style2"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["default"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
-				["术士"] = {
-					["global"] = {
-						["altpower"] = false,
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Warlock_style2"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Warlock"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Darknex-test1"] = {
-					["global"] = {
-						["runebar"] = false,
-					},
-				},
-				["rog.2014.10.20"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["test"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["HUNTER"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
-				["Default.2016.08.05"] = {
-					["global"] = {
-						["player"] = false,
-						["runebar"] = false,
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left",
+							["size"] = 1.5,
+							["position"] = 25,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00003,
+						},
 					},
 				},
 			},
@@ -52796,12 +51373,12 @@ PitBull4DB = {
 							["enabled"] = false,
 							["position"] = 5,
 						},
-						["Pet"] = {
-							["position"] = 5,
-						},
 						["Target"] = {
 							["enabled"] = false,
 							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
 						},
 					},
 				},
@@ -53247,11 +51824,6 @@ PitBull4DB = {
 							["position"] = 1.00001,
 							["background_alpha"] = 0.15,
 						},
-						["Focus"] = {
-							["hostility_color"] = false,
-							["position"] = 1.00001,
-							["background_alpha"] = 0,
-						},
 						["Target"] = {
 							["color_pvp_by_class"] = true,
 							["hostility_color"] = false,
@@ -53396,8 +51968,8 @@ PitBull4DB = {
 							["hostility_color_npcs"] = false,
 							["hostility_color"] = false,
 							["position"] = 3,
-							["color_pvp_by_class"] = true,
 							["alpha"] = 0.7,
+							["color_pvp_by_class"] = true,
 							["background_alpha"] = 0,
 						},
 					},
@@ -53875,8 +52447,8 @@ PitBull4DB = {
 							["hostility_color_npcs"] = false,
 							["background_alpha"] = 0,
 							["position"] = 3,
-							["color_pvp_by_class"] = true,
 							["alpha"] = 0.7,
+							["color_pvp_by_class"] = true,
 							["hostility_color"] = false,
 						},
 					},
@@ -54001,52 +52573,162 @@ PitBull4DB = {
 							["background_alpha"] = 0,
 							["position"] = 3,
 							["hostility_color"] = false,
-							["alpha"] = 0.7,
 							["color_pvp_by_class"] = true,
+							["alpha"] = 0.7,
 						},
 					},
 				},
 			},
 		},
-		["DCIcon"] = {
+		["HideBlizzard"] = {
 			["profiles"] = {
-				["my"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["size"] = 1.5,
-							["position"] = 25,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
+				["Evillix - 黑龍軍團"] = {
+					["global"] = {
+						["runebar"] = false,
 					},
 				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["size"] = 1.5,
-							["position"] = 25,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
+				["Warlock_Draft"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["ROGUE"] = {
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
+					},
+				},
+				["dk.2014.10.30"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
+					},
+				},
+				["Zenez - 燃烧之刃"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Darknex-2"] = {
+					["global"] = {
+						["party"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Slick.2016.08.12"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Draculax - 銀翼要塞"] = {
+					["global"] = {
+						["player"] = false,
+						["party"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Draculax - 黑龍軍團"] = {
+					["global"] = {
+						["party"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Darknex - 黑龍軍團"] = {
+					["global"] = {
+						["runebar"] = false,
+					},
+				},
+				["Darknex_110408"] = {
+					["global"] = {
+						["party"] = false,
+						["runebar"] = false,
 					},
 				},
 				["Default"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left",
-							["size"] = 1.5,
-							["position"] = 25,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00003,
-						},
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
+					},
+				},
+				["Rogue_Style2"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["default"] = {
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
+					},
+				},
+				["术士"] = {
+					["global"] = {
+						["altpower"] = false,
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Warlock_style2"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Warlock"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Darknex-test1"] = {
+					["global"] = {
+						["runebar"] = false,
+					},
+				},
+				["rog.2014.10.20"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["test"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["HUNTER"] = {
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
+					},
+				},
+				["Default.2016.08.05"] = {
+					["global"] = {
+						["player"] = false,
+						["runebar"] = false,
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["global"] = {
+						["runebar"] = false,
+						["player"] = false,
 					},
 				},
 			},
@@ -54092,41 +52774,1061 @@ PitBull4DB = {
 		},
 		["VisualHeal"] = {
 		},
-		["RaceIcon"] = {
+		["Portrait"] = {
 			["profiles"] = {
-				["my"] = {
+				["Evillix - 黑龍軍團"] = {
 					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-							["position"] = 23,
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
 						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00002,
+						["Party"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Warlock_Draft"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["fallback_style"] = "hide",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "two_dimensional",
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "two_dimensional",
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
 						},
 					},
 				},
 				["Jinzakk - 黑龍軍團"] = {
 					["layouts"] = {
 						["普通"] = {
-							["enabled"] = false,
-							["position"] = 23,
+							["enabled"] = true,
+							["fallback_style"] = "class",
 						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00002,
+					},
+				},
+				["ROGUE"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["dk.2014.10.30"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Zenez - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["fallback_style"] = "hide",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Darknex - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["side"] = "right",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+							["full_body"] = true,
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Slick.2016.08.12"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["full_body"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Draculax - 銀翼要塞"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Draculax - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Darknex_110408"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["Darknex-2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["Rogue_Style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["fallback_style"] = "hide",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "two_dimensional",
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "two_dimensional",
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
 						},
 					},
 				},
 				["Default"] = {
 					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
-							["position"] = 23,
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
 						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00002,
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["style"] = "two_dimensional",
+							["fallback_style"] = "hide",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "two_dimensional",
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "two_dimensional",
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Warlock"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["test"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["Darknex-test1"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+							["style"] = "two_dimensional",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["side"] = "right",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
+						},
+					},
+				},
+				["HUNTER"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+						},
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+						},
+						["Party"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["style"] = "class",
+							["full_body"] = true,
+						},
+						["Focus"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Mini"] = {
+							["enabled"] = true,
+							["style"] = "class",
+							["fallback_style"] = "class",
+						},
+						["Pet"] = {
+							["enabled"] = true,
+							["fallback_style"] = "hide",
+						},
+						["Target"] = {
+							["enabled"] = true,
+							["fallback_style"] = "class",
+							["side"] = "right",
 						},
 					},
 				},
@@ -55030,14 +54732,6 @@ PitBull4DB = {
 								},
 							},
 						},
-						["Focus"] = {
-							["first"] = false,
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-						},
 						["Target"] = {
 							["first"] = false,
 							["elements"] = {
@@ -55281,7 +54975,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
@@ -55328,7 +55022,6 @@ PitBull4DB = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
-									["position"] = 9,
 								},
 							},
 							["first"] = false,
@@ -55405,9 +55098,77 @@ PitBull4DB = {
 						},
 					},
 				},
-				["黑龍軍團"] = {
+				["Warlock_style2"] = {
 					["layouts"] = {
-						["普通"] = {
+						["Self"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 7,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Pet"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 7,
+								},
+							},
+							["first"] = false,
+						},
+						["Party"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["FocusAsTar"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 5,
+								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Target"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 5,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_FocusTar"] = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
@@ -55497,69 +55258,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 7,
-								},
-							},
-							["first"] = false,
-						},
-						["Party"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Pet"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Target"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 5,
-								},
-							},
-							["first"] = false,
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
@@ -55607,6 +55306,68 @@ PitBull4DB = {
 								["預設"] = {
 									["exists"] = true,
 									["position"] = 9,
+								},
+							},
+							["first"] = false,
+						},
+						["Target"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 5,
+								},
+							},
+							["first"] = false,
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+									["position"] = 7,
+								},
+							},
+							["first"] = false,
+						},
+						["Party"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Focus"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini_Party_tar"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Mini"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
+								},
+							},
+							["first"] = false,
+						},
+						["Pet"] = {
+							["elements"] = {
+								["預設"] = {
+									["exists"] = true,
 								},
 							},
 							["first"] = false,
@@ -55685,77 +55446,9 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Warlock_style2"] = {
+				["黑龍軍團"] = {
 					["layouts"] = {
-						["Self"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 7,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_Party_tar"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Pet"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 7,
-								},
-							},
-							["first"] = false,
-						},
-						["Party"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["FocusAsTar"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 5,
-								},
-							},
-							["first"] = false,
-						},
-						["Focus"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-								},
-							},
-							["first"] = false,
-						},
-						["Target"] = {
-							["elements"] = {
-								["預設"] = {
-									["exists"] = true,
-									["position"] = 5,
-								},
-							},
-							["first"] = false,
-						},
-						["Mini_FocusTar"] = {
+						["普通"] = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
@@ -56012,7 +55705,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["术士"] = {
+				["rog.2014.10.20"] = {
 					["layouts"] = {
 						["Self"] = {
 							["elements"] = {
@@ -56059,6 +55752,7 @@ PitBull4DB = {
 							["elements"] = {
 								["預設"] = {
 									["exists"] = true,
+									["position"] = 9,
 								},
 							},
 							["first"] = false,
@@ -56483,9 +56177,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
+				["Target"] = {
+					["size_x"] = 220,
+					["size_y"] = 42,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
@@ -56496,9 +56190,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
-					["size_x"] = 220,
-					["size_y"] = 42,
+				["Mini_Party_tar"] = {
+					["size_x"] = 110,
+					["size_y"] = 28,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
@@ -56508,16 +56202,16 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+					["size_y"] = 40,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
-					["size_y"] = 40,
 				},
 			},
 			["made_groups"] = true,
@@ -57138,12 +56832,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
+				["普通"] = {
+					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Flat",
 				},
 				["Focus"] = {
 					["font_size"] = 0.95,
@@ -57152,10 +56844,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 48,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
@@ -57164,15 +56856,17 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
-				["普通"] = {
-					["size_y"] = 40,
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
 					["exists"] = true,
-					["bar_texture"] = "Flat",
+					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 48,
+					["size_x"] = 220,
 					["bar_texture"] = "Minimalist",
 				},
 			},
@@ -57314,9 +57008,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
+				["Target"] = {
+					["size_x"] = 220,
+					["size_y"] = 48,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
@@ -57327,9 +57021,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["size_x"] = 220,
-					["size_y"] = 48,
+				["Mini_Party_tar"] = {
+					["size_x"] = 110,
+					["size_y"] = 28,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
@@ -57339,17 +57033,17 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Blizzard Raid Bar",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
 				},
 			},
 			["lock_movement"] = true,
@@ -57636,10 +57330,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 46,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
@@ -57649,10 +57343,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 46,
+					["size_x"] = 220,
 					["bar_texture"] = "Otravi",
 				},
 				["Mini"] = {
@@ -57661,15 +57355,15 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
 				},
 			},
 			["groups"] = {
@@ -57778,10 +57472,12 @@ PitBull4DB = {
 			},
 			["layouts"] = {
 				["Self"] = {
-					["size_x"] = 190,
+					["opacity_max"] = 0.95,
+					["opacity_min"] = 0.95,
 					["size_y"] = 45,
 					["font_size"] = 1.1,
 					["exists"] = true,
+					["size_x"] = 190,
 					["bar_texture"] = "Minimalist",
 				},
 				["Party"] = {
@@ -57789,13 +57485,6 @@ PitBull4DB = {
 					["size_x"] = 180,
 					["size_y"] = 45,
 					["font_size"] = 0.9,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Focus"] = {
-					["size_x"] = 165,
-					["size_y"] = 40,
-					["font_size"] = 0.95,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
@@ -57823,6 +57512,7 @@ PitBull4DB = {
 					["size_y"] = 42,
 					["font_size"] = 0.9,
 					["exists"] = true,
+					["opacity_smooth"] = false,
 					["bar_texture"] = "Minimalist",
 				},
 			},
@@ -57835,18 +57525,18 @@ PitBull4DB = {
 					["layout"] = "Self",
 				},
 				["focustarget"] = {
-					["position_x"] = -373.925872802734,
-					["position_y"] = -10.4763793945313,
+					["position_x"] = -423.925933837891,
+					["position_y"] = -10.476318359375,
 					["layout"] = "Mini",
 				},
 				["targettarget"] = {
-					["position_x"] = -373.888305664063,
+					["position_x"] = -422.859893798828,
 					["position_y"] = -153.656707763672,
 					["layout"] = "Mini",
 				},
 				["player"] = {
-					["position_x"] = -7.3782958984375,
-					["position_y"] = -277.996841430664,
+					["position_x"] = -194.068908691406,
+					["position_y"] = -279.222900390625,
 					["layout"] = "Self",
 				},
 				["focus"] = {
@@ -58018,10 +57708,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 42,
+					["size_x"] = 220,
 					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
@@ -58031,10 +57721,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
 				["Mini"] = {
@@ -58043,16 +57733,16 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+					["size_y"] = 40,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
-					["size_y"] = 40,
 				},
 			},
 			["lock_movement"] = true,
@@ -58225,9 +57915,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
-					["size_x"] = 220,
-					["size_y"] = 42,
+				["Mini_Party_tar"] = {
+					["size_x"] = 110,
+					["size_y"] = 28,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
@@ -58238,9 +57928,9 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
+				["Target"] = {
+					["size_x"] = 220,
+					["size_y"] = 42,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
@@ -58250,16 +57940,16 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["普通"] = {
-					["exists"] = true,
-					["size_y"] = 40,
-				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
+				},
+				["普通"] = {
+					["exists"] = true,
+					["size_y"] = 40,
 				},
 			},
 			["lock_movement"] = true,
@@ -58401,11 +58091,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 220,
-					["size_y"] = 48,
+				["Mini_Party_tar"] = {
 					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Focus"] = {
@@ -58415,10 +58104,11 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 220,
+					["size_y"] = 48,
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
@@ -58427,17 +58117,17 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
 				},
 			},
 			["lock_movement"] = true,
@@ -58484,587 +58174,6 @@ PitBull4DB = {
 					["layout"] = "Self",
 					["position_x"] = -212.279312726498,
 					["position_y"] = 332.137682199114,
-				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
-				},
-			},
-		},
-		["default"] = {
-			["minimap_icon"] = {
-				["minimapPos"] = 0.800979858987957,
-				["hide"] = true,
-			},
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 47,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -472.762492360822,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 266.66557572661,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 15,
-					["horizontal_spacing"] = 40,
-					["position_x"] = -607.174361405087,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 278.223712577733,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["PartyTarget"] = {
-					["vertical_spacing"] = 36,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.78611461372,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["position_y"] = 217.033971468362,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-				"MONK", -- [11]
-			},
-			["layouts"] = {
-				["Self"] = {
-					["font_size"] = 1.1,
-					["size_x"] = 190,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 180,
-					["opacity_max"] = 0.85,
-					["size_y"] = 45,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Target"] = {
-					["exists"] = true,
-					["size_y"] = 48,
-					["size_x"] = 220,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini"] = {
-					["exists"] = true,
-					["size_y"] = 24,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Mini_Party_tar"] = {
-					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-			},
-			["made_groups"] = true,
-			["lock_movement"] = true,
-			["units"] = {
-				["targettargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = 211.241309292329,
-					["position_y"] = 281.091768092589,
-				},
-				["focustarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -486.546020507813,
-					["position_y"] = 64.1715393066406,
-				},
-				["targettarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -486.546125982335,
-					["position_y"] = -67.5628467105648,
-				},
-				["player"] = {
-					["layout"] = "Self",
-					["position_x"] = -305.079040527344,
-					["position_y"] = -184.686614990234,
-				},
-				["focus"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.545989990234,
-					["position_y"] = 73.1714477539063,
-				},
-				["target"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.54612056282,
-					["position_y"] = -58.5628306046842,
-				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
-				},
-				["focustargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -212.279312726498,
-					["position_y"] = 332.137682199114,
-				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
-				},
-			},
-		},
-		["Darknex_110408"] = {
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 120,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -360.765047341978,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 2,
-					["enabled"] = true,
-					["position_y"] = 216.538792352142,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 70,
-					["horizontal_spacing"] = 40,
-					["position_x"] = -445.095941508938,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 2,
-					["enabled"] = true,
-					["position_y"] = 251.733953753224,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-			},
-			["minimap_icon"] = {
-				["minimapPos"] = 0.800979858987957,
-				["hide"] = true,
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-				"MONK", -- [11]
-				"DEMONHUNTER", -- [12]
-			},
-			["layouts"] = {
-				["Self"] = {
-					["font_size"] = 1.1,
-					["size_x"] = 190,
-					["opacity_max"] = 0.6,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 180,
-					["opacity_max"] = 0.85,
-					["size_y"] = 47,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["普通"] = {
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini_Party_tar"] = {
-					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini"] = {
-					["exists"] = true,
-					["size_y"] = 24,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Target"] = {
-					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
-					["bar_texture"] = "Minimalist",
-				},
-			},
-			["lock_movement"] = true,
-			["made_groups"] = true,
-			["units"] = {
-				["targettargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = 211.241309292329,
-					["position_y"] = 281.091768092589,
-				},
-				["focustarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = 418.341178881756,
-					["position_y"] = -67.8242633181702,
-				},
-				["targettarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -486.546125982335,
-					["position_y"] = -67.5628467105648,
-				},
-				["player"] = {
-					["layout"] = "Self",
-					["position_x"] = -300.276543922301,
-					["position_y"] = -184.77018839682,
-				},
-				["focus"] = {
-					["layout"] = "Focus",
-					["position_x"] = 273.341058354811,
-					["position_y"] = -59.8242272898498,
-				},
-				["target"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.54612056282,
-					["position_y"] = -58.5628306046842,
-				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
-				},
-				["focustargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -212.279312726498,
-					["position_y"] = 332.137682199114,
-				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
-				},
-			},
-		},
-		["黑龍軍團"] = {
-			["groups"] = {
-				["隊伍"] = {
-					["enabled"] = true,
-					["exists"] = true,
-				},
-				["隊伍寵物"] = {
-					["enabled"] = true,
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-			},
-			["layouts"] = {
-				["普通"] = {
-					["exists"] = true,
-				},
-			},
-			["made_groups"] = true,
-			["units"] = {
-				["player"] = {
-				},
-				["targettargettarget"] = {
-				},
-				["focus"] = {
-				},
-				["target"] = {
-				},
-				["focustarget"] = {
-				},
-				["pet"] = {
-				},
-			},
-		},
-		["Rogue_Style2"] = {
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 50,
-					["direction"] = "up_right",
-					["position_x"] = -475.26580058821,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["horizontal_spacing"] = 162,
-					["position_y"] = 130.140090878692,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 15,
-					["direction"] = "up_right",
-					["position_x"] = -608.983032226563,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["horizontal_spacing"] = 40,
-					["position_y"] = 142.901428222656,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["PartyTarget"] = {
-					["vertical_spacing"] = 36,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.78611461372,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["position_y"] = 217.033971468362,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-				"MONK", -- [11]
-				"DEMONHUNTER", -- [12]
-			},
-			["layouts"] = {
-				["Self"] = {
-					["font_size"] = 1.1,
-					["size_x"] = 190,
-					["scale"] = 1.04999995231628,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Mini_Party_tar"] = {
-					["exists"] = true,
-					["size_y"] = 25,
-					["size_x"] = 110,
-					["bar_texture"] = "Flat",
-				},
-				["Mini"] = {
-					["exists"] = true,
-					["opacity_max"] = 0.85,
-					["size_y"] = 24,
-					["size_x"] = 110,
-					["bar_texture"] = "Flat",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["exists"] = true,
-					["size_x"] = 180,
-					["scale"] = 0.99,
-					["size_y"] = 45,
-					["opacity_max"] = 0.85,
-					["bar_texture"] = "Flat",
-				},
-				["FocusAsTar"] = {
-					["exists"] = true,
-					["opacity_min"] = 0.5,
-					["opacity_max"] = 0.75,
-					["size_y"] = 38,
-					["size_x"] = 185,
-					["bar_texture"] = "Flat",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Target"] = {
-					["exists"] = true,
-					["opacity_max"] = 0.85,
-					["size_y"] = 42,
-					["size_x"] = 220,
-					["bar_texture"] = "Flat",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Mini_FocusTar"] = {
-					["exists"] = true,
-					["opacity_max"] = 0.65,
-					["size_y"] = 22,
-					["size_x"] = 110,
-					["bar_texture"] = "Flat",
-				},
-			},
-			["minimap_icon"] = {
-				["minimapPos"] = 238.881094686685,
-			},
-			["made_groups"] = true,
-			["units"] = {
-				["targettargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = 211.241309292329,
-					["position_y"] = 281.091768092589,
-				},
-				["focustarget"] = {
-					["size_x"] = 0.8,
-					["layout"] = "Mini_FocusTar",
-					["position_x"] = -476.5,
-					["position_y"] = 76.7636413574219,
-				},
-				["targettarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -484.583557128906,
-					["position_y"] = -88.5274353027344,
-				},
-				["player"] = {
-					["layout"] = "Self",
-					["position_x"] = 2.55876156324064,
-					["position_y"] = -281.96387281342,
-				},
-				["focus"] = {
-					["layout"] = "FocusAsTar",
-					["position_x"] = -340.000030517578,
-					["position_y"] = 83.7635803222656,
-				},
-				["target"] = {
-					["layout"] = "Target",
-					["position_x"] = -319.583618164063,
-					["position_y"] = -79.5274353027344,
-				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = 163.524475097656,
-					["position_y"] = -286.300598144531,
-				},
-				["focustargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -233.408996582031,
-					["position_y"] = 344.538635253906,
 				},
 				["pettarget"] = {
 					["enabled"] = false,
@@ -59253,7 +58362,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["rog.2014.10.20"] = {
+		["Darknex_110408"] = {
 			["groups"] = {
 				["隊伍寵物"] = {
 					["position_x"] = 110.67141778136,
@@ -59263,43 +58372,29 @@ PitBull4DB = {
 					["unit_group"] = "partypet",
 				},
 				["隊伍目標"] = {
-					["vertical_spacing"] = 47,
+					["vertical_spacing"] = 120,
 					["horizontal_spacing"] = 162,
-					["position_x"] = -472.762492360822,
+					["position_x"] = -360.765047341978,
 					["scale"] = 0.8,
 					["layout"] = "Mini_Party_tar",
 					["unit_group"] = "partytarget",
 					["exists"] = true,
-					["units_per_column"] = 4,
+					["units_per_column"] = 2,
 					["enabled"] = true,
-					["position_y"] = 266.66557572661,
+					["position_y"] = 216.538792352142,
 					["show_when"] = {
 						["raid"] = true,
 					},
 				},
 				["隊伍"] = {
-					["vertical_spacing"] = 15,
+					["vertical_spacing"] = 70,
 					["horizontal_spacing"] = 40,
-					["position_x"] = -607.174361405087,
+					["position_x"] = -445.095941508938,
 					["layout"] = "Party",
 					["exists"] = true,
-					["units_per_column"] = 4,
+					["units_per_column"] = 2,
 					["enabled"] = true,
-					["position_y"] = 278.223712577733,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["PartyTarget"] = {
-					["vertical_spacing"] = 36,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.78611461372,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["position_y"] = 217.033971468362,
+					["position_y"] = 251.733953753224,
 					["show_when"] = {
 						["raid"] = true,
 					},
@@ -59327,6 +58422,7 @@ PitBull4DB = {
 				["Self"] = {
 					["font_size"] = 1.1,
 					["size_x"] = 190,
+					["opacity_max"] = 0.6,
 					["size_y"] = 40,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
@@ -59335,7 +58431,7 @@ PitBull4DB = {
 					["font_size"] = 0.9,
 					["size_x"] = 180,
 					["opacity_max"] = 0.85,
-					["size_y"] = 45,
+					["size_y"] = 47,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
@@ -59355,7 +58451,7 @@ PitBull4DB = {
 				},
 				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 48,
+					["size_y"] = 42,
 					["size_x"] = 220,
 					["bar_texture"] = "Minimalist",
 				},
@@ -59366,166 +58462,6 @@ PitBull4DB = {
 					["bar_texture"] = "Minimalist",
 				},
 				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Mini_Party_tar"] = {
-					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-			},
-			["made_groups"] = true,
-			["lock_movement"] = true,
-			["units"] = {
-				["targettargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = 211.241309292329,
-					["position_y"] = 281.091768092589,
-				},
-				["focustarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -486.546020507813,
-					["position_y"] = 85.6963500976563,
-				},
-				["targettarget"] = {
-					["layout"] = "Mini",
-					["position_x"] = -486.546125982335,
-					["position_y"] = -67.5628467105648,
-				},
-				["player"] = {
-					["layout"] = "Self",
-					["position_x"] = -305.079040527344,
-					["position_y"] = -184.686614990234,
-				},
-				["focus"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.545989990234,
-					["position_y"] = 97.6962890625,
-				},
-				["target"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.54612056282,
-					["position_y"] = -58.5628306046842,
-				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
-				},
-				["focustargettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -212.279312726498,
-					["position_y"] = 332.137682199114,
-				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
-				},
-			},
-		},
-		["wlk.2014.10.20"] = {
-			["minimap_icon"] = {
-				["minimapPos"] = 0.800979858987957,
-				["hide"] = true,
-			},
-			["groups"] = {
-				["隊伍寵物"] = {
-					["position_x"] = 110.67141778136,
-					["position_y"] = -19.1841601839229,
-					["layout"] = "Self",
-					["exists"] = true,
-					["unit_group"] = "partypet",
-				},
-				["隊伍目標"] = {
-					["vertical_spacing"] = 47,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -472.762492360822,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 266.66557572661,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["隊伍"] = {
-					["vertical_spacing"] = 15,
-					["horizontal_spacing"] = 40,
-					["position_x"] = -607.174361405087,
-					["layout"] = "Party",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["enabled"] = true,
-					["position_y"] = 278.223712577733,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-				["PartyTarget"] = {
-					["vertical_spacing"] = 36,
-					["horizontal_spacing"] = 162,
-					["position_x"] = -376.78611461372,
-					["scale"] = 0.8,
-					["layout"] = "Mini_Party_tar",
-					["unit_group"] = "partytarget",
-					["exists"] = true,
-					["units_per_column"] = 4,
-					["position_y"] = 217.033971468362,
-					["show_when"] = {
-						["raid"] = true,
-					},
-				},
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-				"MONK", -- [11]
-				"DEMONHUNTER", -- [12]
-			},
-			["layouts"] = {
-				["Self"] = {
-					["font_size"] = 1.1,
-					["size_x"] = 190,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 180,
-					["opacity_max"] = 0.85,
-					["size_y"] = 45,
-					["exists"] = true,
-					["bar_texture"] = "Minimalist",
-				},
-				["Target"] = {
-					["exists"] = true,
-					["size_y"] = 48,
-					["size_x"] = 220,
-					["bar_texture"] = "Minimalist",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
@@ -59533,24 +58469,6 @@ PitBull4DB = {
 					["exists"] = true,
 					["size_y"] = 28,
 					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-				["Mini"] = {
-					["exists"] = true,
-					["size_y"] = 24,
-					["size_x"] = 110,
-					["bar_texture"] = "Minimalist",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
 			},
@@ -59565,8 +58483,8 @@ PitBull4DB = {
 				},
 				["focustarget"] = {
 					["layout"] = "Mini",
-					["position_x"] = -486.546020507813,
-					["position_y"] = 64.1715393066406,
+					["position_x"] = 418.341178881756,
+					["position_y"] = -67.8242633181702,
 				},
 				["targettarget"] = {
 					["layout"] = "Mini",
@@ -59575,13 +58493,13 @@ PitBull4DB = {
 				},
 				["player"] = {
 					["layout"] = "Self",
-					["position_x"] = -305.079040527344,
-					["position_y"] = -184.686614990234,
+					["position_x"] = -300.276543922301,
+					["position_y"] = -184.77018839682,
 				},
 				["focus"] = {
-					["layout"] = "Target",
-					["position_x"] = -321.545989990234,
-					["position_y"] = 73.1714477539063,
+					["layout"] = "Focus",
+					["position_x"] = 273.341058354811,
+					["position_y"] = -59.8242272898498,
 				},
 				["target"] = {
 					["layout"] = "Target",
@@ -59806,6 +58724,776 @@ PitBull4DB = {
 			["made_groups"] = true,
 			["frame_snap"] = false,
 		},
+		["Rogue_Style2"] = {
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+				["隊伍目標"] = {
+					["vertical_spacing"] = 50,
+					["direction"] = "up_right",
+					["position_x"] = -475.26580058821,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["horizontal_spacing"] = 162,
+					["position_y"] = 130.140090878692,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 15,
+					["direction"] = "up_right",
+					["position_x"] = -608.983032226563,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["horizontal_spacing"] = 40,
+					["position_y"] = 142.901428222656,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["PartyTarget"] = {
+					["vertical_spacing"] = 36,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.78611461372,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["position_y"] = 217.033971468362,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+				"MONK", -- [11]
+				"DEMONHUNTER", -- [12]
+			},
+			["layouts"] = {
+				["Self"] = {
+					["font_size"] = 1.1,
+					["size_x"] = 190,
+					["scale"] = 1.04999995231628,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 25,
+					["size_x"] = 110,
+					["bar_texture"] = "Flat",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["opacity_max"] = 0.85,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Flat",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["exists"] = true,
+					["size_x"] = 180,
+					["scale"] = 0.99,
+					["size_y"] = 45,
+					["opacity_max"] = 0.85,
+					["bar_texture"] = "Flat",
+				},
+				["FocusAsTar"] = {
+					["exists"] = true,
+					["opacity_min"] = 0.5,
+					["opacity_max"] = 0.75,
+					["size_y"] = 38,
+					["size_x"] = 185,
+					["bar_texture"] = "Flat",
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Target"] = {
+					["exists"] = true,
+					["opacity_max"] = 0.85,
+					["size_y"] = 42,
+					["size_x"] = 220,
+					["bar_texture"] = "Flat",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Mini_FocusTar"] = {
+					["exists"] = true,
+					["opacity_max"] = 0.65,
+					["size_y"] = 22,
+					["size_x"] = 110,
+					["bar_texture"] = "Flat",
+				},
+			},
+			["minimap_icon"] = {
+				["minimapPos"] = 238.881094686685,
+			},
+			["made_groups"] = true,
+			["units"] = {
+				["targettargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = 211.241309292329,
+					["position_y"] = 281.091768092589,
+				},
+				["focustarget"] = {
+					["size_x"] = 0.8,
+					["layout"] = "Mini_FocusTar",
+					["position_x"] = -476.5,
+					["position_y"] = 76.7636413574219,
+				},
+				["targettarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -484.583557128906,
+					["position_y"] = -88.5274353027344,
+				},
+				["player"] = {
+					["layout"] = "Self",
+					["position_x"] = 2.55876156324064,
+					["position_y"] = -281.96387281342,
+				},
+				["focus"] = {
+					["layout"] = "FocusAsTar",
+					["position_x"] = -340.000030517578,
+					["position_y"] = 83.7635803222656,
+				},
+				["target"] = {
+					["layout"] = "Target",
+					["position_x"] = -319.583618164063,
+					["position_y"] = -79.5274353027344,
+				},
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = 163.524475097656,
+					["position_y"] = -286.300598144531,
+				},
+				["focustargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -233.408996582031,
+					["position_y"] = 344.538635253906,
+				},
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
+				},
+			},
+		},
+		["default"] = {
+			["minimap_icon"] = {
+				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
+			},
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+				["隊伍目標"] = {
+					["vertical_spacing"] = 47,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -472.762492360822,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 266.66557572661,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 15,
+					["horizontal_spacing"] = 40,
+					["position_x"] = -607.174361405087,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 278.223712577733,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["PartyTarget"] = {
+					["vertical_spacing"] = 36,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.78611461372,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["position_y"] = 217.033971468362,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+				"MONK", -- [11]
+			},
+			["layouts"] = {
+				["Self"] = {
+					["font_size"] = 1.1,
+					["size_x"] = 190,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 180,
+					["opacity_max"] = 0.85,
+					["size_y"] = 45,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Target"] = {
+					["exists"] = true,
+					["size_y"] = 48,
+					["size_x"] = 220,
+					["bar_texture"] = "Minimalist",
+				},
+			},
+			["made_groups"] = true,
+			["lock_movement"] = true,
+			["units"] = {
+				["targettargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = 211.241309292329,
+					["position_y"] = 281.091768092589,
+				},
+				["focustarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546020507813,
+					["position_y"] = 64.1715393066406,
+				},
+				["targettarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546125982335,
+					["position_y"] = -67.5628467105648,
+				},
+				["player"] = {
+					["layout"] = "Self",
+					["position_x"] = -305.079040527344,
+					["position_y"] = -184.686614990234,
+				},
+				["focus"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.545989990234,
+					["position_y"] = 73.1714477539063,
+				},
+				["target"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.54612056282,
+					["position_y"] = -58.5628306046842,
+				},
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
+				},
+				["focustargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -212.279312726498,
+					["position_y"] = 332.137682199114,
+				},
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
+				},
+			},
+		},
+		["术士"] = {
+			["minimap_icon"] = {
+				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+				"MONK", -- [11]
+			},
+			["layouts"] = {
+				["Self"] = {
+					["font_size"] = 1.1,
+					["size_x"] = 190,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 180,
+					["opacity_max"] = 0.85,
+					["size_y"] = 45,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
+					["bar_texture"] = "Flat",
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Target"] = {
+					["exists"] = true,
+					["size_y"] = 42,
+					["size_x"] = 220,
+					["bar_texture"] = "Flat",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Flat",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+			},
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+				["隊伍目標"] = {
+					["vertical_spacing"] = 47,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -472.762492360822,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 266.66557572661,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 15,
+					["horizontal_spacing"] = 40,
+					["position_x"] = -607.174361405087,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 278.223712577733,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["PartyTarget"] = {
+					["vertical_spacing"] = 36,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.78611461372,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["position_y"] = 217.033971468362,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+			},
+			["made_groups"] = true,
+			["units"] = {
+				["targettargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = 211.241309292329,
+					["position_y"] = 281.091768092589,
+				},
+				["focustarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546020507813,
+					["position_y"] = 64.1715393066406,
+				},
+				["targettarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546125982335,
+					["position_y"] = -67.5628467105648,
+				},
+				["player"] = {
+					["layout"] = "Self",
+					["position_x"] = -298.939485321704,
+					["position_y"] = -185.02523470886,
+				},
+				["focus"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.545989990234,
+					["position_y"] = 73.1715698242188,
+				},
+				["target"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.54612056282,
+					["position_y"] = -58.5628306046842,
+				},
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
+				},
+				["focustargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -212.279312726498,
+					["position_y"] = 332.137682199114,
+				},
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
+				},
+			},
+		},
+		["wlk.2014.10.20"] = {
+			["minimap_icon"] = {
+				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
+			},
+			["groups"] = {
+				["隊伍寵物"] = {
+					["position_x"] = 110.67141778136,
+					["position_y"] = -19.1841601839229,
+					["layout"] = "Self",
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+				["隊伍目標"] = {
+					["vertical_spacing"] = 47,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -472.762492360822,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 266.66557572661,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["隊伍"] = {
+					["vertical_spacing"] = 15,
+					["horizontal_spacing"] = 40,
+					["position_x"] = -607.174361405087,
+					["layout"] = "Party",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["enabled"] = true,
+					["position_y"] = 278.223712577733,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+				["PartyTarget"] = {
+					["vertical_spacing"] = 36,
+					["horizontal_spacing"] = 162,
+					["position_x"] = -376.78611461372,
+					["scale"] = 0.8,
+					["layout"] = "Mini_Party_tar",
+					["unit_group"] = "partytarget",
+					["exists"] = true,
+					["units_per_column"] = 4,
+					["position_y"] = 217.033971468362,
+					["show_when"] = {
+						["raid"] = true,
+					},
+				},
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+				"MONK", -- [11]
+				"DEMONHUNTER", -- [12]
+			},
+			["layouts"] = {
+				["Self"] = {
+					["font_size"] = 1.1,
+					["size_x"] = 190,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 180,
+					["opacity_max"] = 0.85,
+					["size_y"] = 45,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Target"] = {
+					["exists"] = true,
+					["size_y"] = 48,
+					["size_x"] = 220,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+			},
+			["lock_movement"] = true,
+			["made_groups"] = true,
+			["units"] = {
+				["targettargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = 211.241309292329,
+					["position_y"] = 281.091768092589,
+				},
+				["focustarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546020507813,
+					["position_y"] = 64.1715393066406,
+				},
+				["targettarget"] = {
+					["layout"] = "Mini",
+					["position_x"] = -486.546125982335,
+					["position_y"] = -67.5628467105648,
+				},
+				["player"] = {
+					["layout"] = "Self",
+					["position_x"] = -305.079040527344,
+					["position_y"] = -184.686614990234,
+				},
+				["focus"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.545989990234,
+					["position_y"] = 73.1714477539063,
+				},
+				["target"] = {
+					["layout"] = "Target",
+					["position_x"] = -321.54612056282,
+					["position_y"] = -58.5628306046842,
+				},
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
+				},
+				["focustargettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -212.279312726498,
+					["position_y"] = 332.137682199114,
+				},
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
+				},
+			},
+		},
+		["黑龍軍團"] = {
+			["groups"] = {
+				["隊伍"] = {
+					["enabled"] = true,
+					["exists"] = true,
+				},
+				["隊伍寵物"] = {
+					["enabled"] = true,
+					["exists"] = true,
+					["unit_group"] = "partypet",
+				},
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+			},
+			["layouts"] = {
+				["普通"] = {
+					["exists"] = true,
+				},
+			},
+			["made_groups"] = true,
+			["units"] = {
+				["player"] = {
+				},
+				["targettargettarget"] = {
+				},
+				["focus"] = {
+				},
+				["target"] = {
+				},
+				["focustarget"] = {
+				},
+				["pet"] = {
+				},
+			},
+		},
 		["Warlock"] = {
 			["minimap_icon"] = {
 				["minimapPos"] = 0.800979858987957,
@@ -59840,8 +59528,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Flat",
 				},
-				["普通"] = {
-					["size_y"] = 40,
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Flat",
 				},
@@ -59852,10 +59542,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Flat",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 42,
+					["size_x"] = 220,
 					["bar_texture"] = "Flat",
 				},
 				["Mini"] = {
@@ -59864,17 +59554,15 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Flat",
 				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
+				["普通"] = {
+					["size_y"] = 40,
 					["exists"] = true,
 					["bar_texture"] = "Flat",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Flat",
 				},
 			},
@@ -60016,10 +59704,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 42,
+					["size_x"] = 220,
 					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
@@ -60029,10 +59717,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
 				["Mini"] = {
@@ -60041,15 +59729,15 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
 				},
 			},
 			["groups"] = {
@@ -60213,10 +59901,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 42,
+					["size_x"] = 220,
 					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
@@ -60226,10 +59914,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
 				["Mini"] = {
@@ -60238,15 +59926,15 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
 				},
 			},
 			["made_groups"] = true,
@@ -60382,10 +60070,11 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 210,
+					["size_y"] = 42,
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Focus"] = {
@@ -60395,11 +60084,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 210,
-					["size_y"] = 42,
+				["Mini_Party_tar"] = {
 					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
@@ -60408,17 +60096,17 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Minimalist",
 				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
 				},
 			},
 			["minimap_icon"] = {
@@ -60477,78 +60165,7 @@ PitBull4DB = {
 				},
 			},
 		},
-		["术士"] = {
-			["minimap_icon"] = {
-				["minimapPos"] = 0.800979858987957,
-				["hide"] = true,
-			},
-			["class_order"] = {
-				"WARRIOR", -- [1]
-				"DEATHKNIGHT", -- [2]
-				"PALADIN", -- [3]
-				"PRIEST", -- [4]
-				"SHAMAN", -- [5]
-				"DRUID", -- [6]
-				"ROGUE", -- [7]
-				"MAGE", -- [8]
-				"WARLOCK", -- [9]
-				"HUNTER", -- [10]
-				"MONK", -- [11]
-			},
-			["layouts"] = {
-				["Self"] = {
-					["font_size"] = 1.1,
-					["size_x"] = 190,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Party"] = {
-					["font_size"] = 0.9,
-					["size_x"] = 180,
-					["opacity_max"] = 0.85,
-					["size_y"] = 45,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Target"] = {
-					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
-					["bar_texture"] = "Flat",
-				},
-				["Focus"] = {
-					["font_size"] = 0.95,
-					["size_x"] = 180,
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Mini_Party_tar"] = {
-					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
-					["bar_texture"] = "Flat",
-				},
-				["Mini"] = {
-					["exists"] = true,
-					["size_y"] = 24,
-					["size_x"] = 110,
-					["bar_texture"] = "Flat",
-				},
-				["普通"] = {
-					["size_y"] = 40,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
-					["exists"] = true,
-					["bar_texture"] = "Flat",
-				},
-			},
+		["rog.2014.10.20"] = {
 			["groups"] = {
 				["隊伍寵物"] = {
 					["position_x"] = 110.67141778136,
@@ -60600,7 +60217,80 @@ PitBull4DB = {
 					},
 				},
 			},
+			["minimap_icon"] = {
+				["minimapPos"] = 0.800979858987957,
+				["hide"] = true,
+			},
+			["class_order"] = {
+				"WARRIOR", -- [1]
+				"DEATHKNIGHT", -- [2]
+				"PALADIN", -- [3]
+				"PRIEST", -- [4]
+				"SHAMAN", -- [5]
+				"DRUID", -- [6]
+				"ROGUE", -- [7]
+				"MAGE", -- [8]
+				"WARLOCK", -- [9]
+				"HUNTER", -- [10]
+				"MONK", -- [11]
+				"DEMONHUNTER", -- [12]
+			},
+			["layouts"] = {
+				["Self"] = {
+					["font_size"] = 1.1,
+					["size_x"] = 190,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Party"] = {
+					["font_size"] = 0.9,
+					["size_x"] = 180,
+					["opacity_max"] = 0.85,
+					["size_y"] = 45,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["普通"] = {
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Flat",
+				},
+				["Focus"] = {
+					["font_size"] = 0.95,
+					["size_x"] = 180,
+					["size_y"] = 40,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini_Party_tar"] = {
+					["exists"] = true,
+					["size_y"] = 28,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Mini"] = {
+					["exists"] = true,
+					["size_y"] = 24,
+					["size_x"] = 110,
+					["bar_texture"] = "Minimalist",
+				},
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
+					["exists"] = true,
+					["bar_texture"] = "Minimalist",
+				},
+				["Target"] = {
+					["exists"] = true,
+					["size_y"] = 48,
+					["size_x"] = 220,
+					["bar_texture"] = "Minimalist",
+				},
+			},
 			["made_groups"] = true,
+			["lock_movement"] = true,
 			["units"] = {
 				["targettargettarget"] = {
 					["enabled"] = false,
@@ -60611,7 +60301,7 @@ PitBull4DB = {
 				["focustarget"] = {
 					["layout"] = "Mini",
 					["position_x"] = -486.546020507813,
-					["position_y"] = 64.1715393066406,
+					["position_y"] = 85.6963500976563,
 				},
 				["targettarget"] = {
 					["layout"] = "Mini",
@@ -60620,24 +60310,23 @@ PitBull4DB = {
 				},
 				["player"] = {
 					["layout"] = "Self",
-					["position_x"] = -298.939485321704,
-					["position_y"] = -185.02523470886,
+					["position_x"] = -305.079040527344,
+					["position_y"] = -184.686614990234,
 				},
 				["focus"] = {
 					["layout"] = "Target",
 					["position_x"] = -321.545989990234,
-					["position_y"] = 73.1715698242188,
+					["position_y"] = 97.6962890625,
 				},
 				["target"] = {
 					["layout"] = "Target",
 					["position_x"] = -321.54612056282,
 					["position_y"] = -58.5628306046842,
 				},
-				["pettarget"] = {
-					["enabled"] = false,
-					["layout"] = "Self",
-					["position_x"] = -167.719975137504,
-					["position_y"] = -109.276915925866,
+				["pet"] = {
+					["layout"] = "Pet",
+					["position_x"] = -340.079049493524,
+					["position_y"] = -149.686625821848,
 				},
 				["focustargettarget"] = {
 					["enabled"] = false,
@@ -60645,10 +60334,11 @@ PitBull4DB = {
 					["position_x"] = -212.279312726498,
 					["position_y"] = 332.137682199114,
 				},
-				["pet"] = {
-					["layout"] = "Pet",
-					["position_x"] = -340.079049493524,
-					["position_y"] = -149.686625821848,
+				["pettarget"] = {
+					["enabled"] = false,
+					["layout"] = "Self",
+					["position_x"] = -167.719975137504,
+					["position_y"] = -109.276915925866,
 				},
 			},
 		},
@@ -60721,10 +60411,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Mini_Party_tar"] = {
+				["Target"] = {
 					["exists"] = true,
-					["size_y"] = 28,
-					["size_x"] = 110,
+					["size_y"] = 42,
+					["size_x"] = 220,
 					["bar_texture"] = "Otravi",
 				},
 				["Focus"] = {
@@ -60734,10 +60424,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
 				},
-				["Target"] = {
+				["Mini_Party_tar"] = {
 					["exists"] = true,
-					["size_y"] = 42,
-					["size_x"] = 220,
+					["size_y"] = 28,
+					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
 				["Mini"] = {
@@ -60746,15 +60436,15 @@ PitBull4DB = {
 					["size_x"] = 110,
 					["bar_texture"] = "Otravi",
 				},
+				["普通"] = {
+					["exists"] = true,
+				},
 				["Pet"] = {
 					["font_size"] = 0.8,
 					["size_x"] = 120,
 					["size_y"] = 30,
 					["exists"] = true,
 					["bar_texture"] = "Otravi",
-				},
-				["普通"] = {
-					["exists"] = true,
 				},
 			},
 			["minimap_icon"] = {
@@ -60895,12 +60585,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Pet"] = {
-					["font_size"] = 0.8,
-					["size_x"] = 120,
-					["size_y"] = 30,
+				["普通"] = {
+					["size_y"] = 40,
 					["exists"] = true,
-					["bar_texture"] = "Minimalist",
+					["bar_texture"] = "Flat",
 				},
 				["Focus"] = {
 					["font_size"] = 0.95,
@@ -60909,11 +60597,10 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["Target"] = {
-					["font_size"] = 0.9,
+				["Mini_Party_tar"] = {
+					["size_x"] = 110,
+					["size_y"] = 28,
 					["exists"] = true,
-					["size_y"] = 48,
-					["size_x"] = 220,
 					["bar_texture"] = "Minimalist",
 				},
 				["Mini"] = {
@@ -60922,15 +60609,18 @@ PitBull4DB = {
 					["exists"] = true,
 					["bar_texture"] = "Minimalist",
 				},
-				["普通"] = {
-					["size_y"] = 40,
+				["Pet"] = {
+					["font_size"] = 0.8,
+					["size_x"] = 120,
+					["size_y"] = 30,
 					["exists"] = true,
-					["bar_texture"] = "Flat",
+					["bar_texture"] = "Minimalist",
 				},
-				["Mini_Party_tar"] = {
-					["size_x"] = 110,
-					["size_y"] = 28,
+				["Target"] = {
+					["font_size"] = 0.9,
 					["exists"] = true,
+					["size_y"] = 48,
+					["size_x"] = 220,
 					["bar_texture"] = "Minimalist",
 				},
 			},

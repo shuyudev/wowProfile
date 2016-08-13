@@ -1,0 +1,24 @@
+
+KuiNameplatesCoreSaved = {
+	["profiles"] = {
+		["default"] = {
+			["target_arrows_size"] = 25,
+			["target_arrows"] = true,
+			["nameonly_damaged_friends"] = false,
+			["health_text_friend_max"] = 1,
+			["frame_width"] = 120,
+			["name_vertical_offset"] = 1,
+			["auras_icon_squareness"] = 1,
+			["frame_height"] = 10,
+			["frame_glow_size"] = 4,
+			["fade_untracked"] = true,
+			["auras_icon_minus_size"] = 24,
+			["auras_centre"] = true,
+			["font_face"] = "Arial Narrow",
+			["health_text"] = true,
+			["bar_animation"] = 1,
+			["classpowers_size"] = 8,
+			["bar_texture"] = "Armory",
+		},
+	},
+}

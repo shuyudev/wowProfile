@@ -97,10 +97,9 @@ Quartz3DB = {
 				},
 				["Slick.2016.08.12"] = {
 					["targetname"] = true,
-					["w"] = 190,
-					["y"] = 90.0000076293945,
+					["y"] = 89.999267578125,
 					["border"] = "None",
-					["x"] = 652,
+					["x"] = 630.036926269531,
 					["texture"] = "BantoBar",
 				},
 				["dur.2014.10.22"] = {
@@ -171,12 +170,12 @@ Quartz3DB = {
 				["Slick.2016.08.12"] = {
 					["showtarget"] = false,
 					["w"] = 185,
-					["y"] = 470,
+					["y"] = 396.518493652344,
 					["iconposition"] = "right",
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 277,
+					["x"] = 388.407836914063,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 449.111053466797,
@@ -247,11 +246,11 @@ Quartz3DB = {
 				},
 				["Slick.2016.08.12"] = {
 					["w"] = 185,
-					["y"] = 325,
+					["y"] = 253.098861694336,
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 277,
+					["x"] = 388.407775878906,
 					["noInterruptChangeBorder"] = true,
 				},
 				["dur.2014.10.22"] = {
@@ -309,14 +308,14 @@ Quartz3DB = {
 	["profiles"] = {
 		["Default.2016.08.05"] = {
 			["modules"] = {
-				["Range"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
-				["Flight"] = false,
-				["Mirror"] = false,
 				["Timer"] = false,
+				["Flight"] = false,
+				["Range"] = false,
+				["Interrupt"] = false,
 			},
 		},
 		["rog.2014.10.20"] = {
@@ -332,14 +331,14 @@ Quartz3DB = {
 		},
 		["wlk.2014.10.20"] = {
 			["modules"] = {
-				["Range"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
-				["Flight"] = false,
-				["Mirror"] = false,
 				["Interrupt"] = false,
+				["Flight"] = false,
+				["Range"] = false,
+				["Timer"] = false,
 			},
 		},
 		["燃烧之刃"] = {
@@ -381,14 +380,14 @@ Quartz3DB = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
-				["Flight"] = false,
-				["Range"] = false,
 				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Timer"] = false,
 			},
 		},
 	},

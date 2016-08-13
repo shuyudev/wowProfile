@@ -17,13 +17,13 @@ Bagnon_Sets = {
 			["y"] = 413.939331054688,
 			["x"] = 473.889251708984,
 			["columns"] = 15,
-			["borderColor"] = {
-			},
+			["showBags"] = true,
 			["color"] = {
 			},
 			["itemScale"] = 1,
 			["spacing"] = 1,
-			["showBags"] = true,
+			["borderColor"] = {
+			},
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
