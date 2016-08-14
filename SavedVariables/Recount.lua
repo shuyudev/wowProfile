@@ -2,8 +2,8 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
-		["Neroix - Emerald Dream"] = "Default",
 		["Felnex - Emerald Dream"] = "Default",
+		["Neroix - Emerald Dream"] = "Default",
 		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
@@ -87,9 +87,9 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["MainWindowHeight"] = 153.382766723633,
-			["MainWindowWidth"] = 252.987747192383,
 			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
+			["MainWindowWidth"] = 252.987747192383,
+			["MainWindowHeight"] = 153.382766723633,
 		},
 		["Darknex - Emerald Dream"] = {
 			["MainWindow"] = {
@@ -115,7 +115,7 @@ RecountDB = {
 			["Locked"] = true,
 			["MainWindowVis"] = false,
 			["LastInstanceName"] = "The Tiger's Peak",
-			["CurDataSet"] = "OverallData",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 252.987747192383,
 			["MainWindowHeight"] = 153.382766723633,
 		},
