@@ -7,23 +7,23 @@ Bagnon_Sets = {
 	["global"] = {
 		["inventory"] = {
 			["brokerObject"] = "WeakAuras",
-			["point"] = "BOTTOMLEFT",
+			["point"] = "BOTTOMRIGHT",
 			["hiddenBags"] = {
 				[4] = false,
 				[2] = false,
 			},
 			["scale"] = 0.9,
 			["alpha"] = 0.8,
-			["y"] = 413.939331054688,
-			["x"] = 473.889251708984,
+			["y"] = 421.840545654297,
+			["x"] = -245.814362144386,
 			["columns"] = 15,
-			["showBags"] = true,
+			["borderColor"] = {
+			},
 			["color"] = {
 			},
 			["itemScale"] = 1,
 			["spacing"] = 1,
-			["borderColor"] = {
-			},
+			["showBags"] = true,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,

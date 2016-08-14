@@ -12,6 +12,8 @@ CoolLineDB = {
 	["h"] = 21,
 	["fontsize"] = 11,
 	["block"] = {
+		["Honorable Medallion"] = true,
+		["Will of the Forsaken"] = true,
 		["Hearthstone"] = true,
 	},
 	["iconplus"] = 10,

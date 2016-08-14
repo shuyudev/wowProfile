@@ -58,7 +58,7 @@ VER 3 010000000000000D "Finish3" "INV_Misc_QuestionMark"
 END
 VER 3 0100000000000019 "Heal" "INV_Misc_QuestionMark"
 #showtooltip
-/use [mod:ctrl]Healthstone;[mod:alt]Crimson Vial;[mod:shift]Shieldtronic Shield;Feint
+/use [mod:alt]Crimson Vial;[mod:shift]Shieldtronic Shield;Feint
 END
 VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
 #showtooltip

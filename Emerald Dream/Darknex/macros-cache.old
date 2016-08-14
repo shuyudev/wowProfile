@@ -16,19 +16,19 @@ VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
-#showtooptip [mod:alt,form:0]Shadow Dance;Cheap Shot
+#showtooptip Shadow Dance
 /cast [form:0, nocombat]!Stealth
 /cast [form:0]Shadow Dance
 /cast [mod:shift,@focus]Cheap Shot;[@mouseover,exists,harm]Cheap Shot;[@target]Cheap Shot
 END
 VER 3 0100000000000008 "Dance2" "INV_MISC_QUESTIONMARK"
-#showtooptip [mod:alt,form:0]Shadow Dance;Shadowstrike
+#showtooptip Shadow Dance
 /use [form:0,nocombat]!Stealth
 /use [form:0]Shadow Dance
 /use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;[@target]Shadowstrike
 END
 VER 3 010000000000000B "Dance3" "INV_MISC_QUESTIONMARK"
-#showtooptip [mod:alt,form:0]Shadow Dance;Sap
+#showtooptip Shadow Dance
 /use [form:0,nocombat]!Stealth
 /use [form:0]Shadow Dance
 /use [mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap

@@ -170,12 +170,12 @@ Quartz3DB = {
 				["Slick.2016.08.12"] = {
 					["showtarget"] = false,
 					["w"] = 185,
-					["y"] = 396.518493652344,
+					["y"] = 392.567840576172,
 					["iconposition"] = "right",
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 388.407836914063,
+					["x"] = 387.617706298828,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 449.111053466797,
@@ -246,11 +246,11 @@ Quartz3DB = {
 				},
 				["Slick.2016.08.12"] = {
 					["w"] = 185,
-					["y"] = 253.098861694336,
+					["y"] = 249.938278198242,
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 388.407775878906,
+					["x"] = 388.407867431641,
 					["noInterruptChangeBorder"] = true,
 				},
 				["dur.2014.10.22"] = {
@@ -308,14 +308,14 @@ Quartz3DB = {
 	["profiles"] = {
 		["Default.2016.08.05"] = {
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
-				["Flight"] = false,
-				["Range"] = false,
 				["Interrupt"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Timer"] = false,
 			},
 		},
 		["rog.2014.10.20"] = {
@@ -331,14 +331,14 @@ Quartz3DB = {
 		},
 		["wlk.2014.10.20"] = {
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
-				["Flight"] = false,
-				["Range"] = false,
 				["Timer"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Interrupt"] = false,
 			},
 		},
 		["燃烧之刃"] = {
@@ -380,14 +380,14 @@ Quartz3DB = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["modules"] = {
-				["Range"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
-				["Flight"] = false,
-				["Mirror"] = false,
 				["Timer"] = false,
+				["Flight"] = false,
+				["Range"] = false,
+				["Interrupt"] = false,
 			},
 		},
 	},
