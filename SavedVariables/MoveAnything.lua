@@ -19,8 +19,6 @@ MADB = {
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.15259173925681,
-					["orgScale"] = 1.33299994468689,
-					["hidden"] = true,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -28,6 +26,8 @@ MADB = {
 						28.5857524871826, -- [4]
 						269.319702148438, -- [5]
 					},
+					["hidden"] = true,
+					["orgScale"] = 1,
 				},
 				["TargetFrame"] = {
 					["orgPos"] = {
@@ -37,8 +37,8 @@ MADB = {
 						282, -- [4]
 						161.000015258789, -- [5]
 					},
-					["name"] = "TargetFrame",
 					["orgAlpha"] = 0.949019607843137,
+					["name"] = "TargetFrame",
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -56,8 +56,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "MinimapBorderTop",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.25,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -73,7 +73,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						255.000015258789, -- [5]
+						175.000015258789, -- [5]
 					},
 					["name"] = "ZoneAbilityFrame",
 					["pos"] = {
@@ -92,8 +92,8 @@ MADB = {
 						-249, -- [4]
 						178, -- [5]
 					},
-					["name"] = "TargetFrameToT",
 					["orgAlpha"] = 1,
+					["name"] = "TargetFrameToT",
 					["alpha"] = 0.6,
 					["pos"] = {
 						"BOTTOMRIGHT", -- [1]
@@ -105,14 +105,14 @@ MADB = {
 				},
 				["FocusFrame"] = {
 					["orgPos"] = {
-						"BOTTOMLEFT", -- [1]
+						"LEFT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
+						"LEFT", -- [3]
 						126.000007629395, -- [4]
-						232.000015258789, -- [5]
+						-145, -- [5]
 					},
-					["name"] = "FocusFrame",
 					["orgAlpha"] = 0.949019607843137,
+					["name"] = "FocusFrame",
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -139,8 +139,8 @@ MADB = {
 							0, -- [5]
 						}, -- [2]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "MinimapBorder",
+					["orgAlpha"] = 1,
 					["alpha"] = 0,
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -158,8 +158,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "LossOfControlFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.7,
 					["pos"] = {
 						"CENTER", -- [1]
@@ -170,13 +170,6 @@ MADB = {
 					},
 				},
 				["BattlefieldMinimap"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"BattlefieldMinimapTab", -- [2]
-						"BOTTOMLEFT", -- [3]
-						0, -- [4]
-						-5, -- [5]
-					},
 					["name"] = "BattlefieldMinimap",
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -194,8 +187,8 @@ MADB = {
 						0, -- [4]
 						96, -- [5]
 					},
-					["name"] = "TalkingHeadFrame",
 					["orgAlpha"] = 1,
+					["name"] = "TalkingHeadFrame",
 					["alpha"] = 0.8,
 					["pos"] = {
 						"BOTTOM", -- [1]
@@ -213,8 +206,8 @@ MADB = {
 						20, -- [4]
 						-2, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "GameTimeFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.6,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -226,17 +219,15 @@ MADB = {
 				},
 				["PlayerFrame"] = {
 					["orgPos"] = {
-						"BOTTOMLEFT", -- [1]
+						"TOPLEFT", -- [1]
 						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						188, -- [4]
-						37, -- [5]
+						"TOPLEFT", -- [3]
+						-19.0000019073486, -- [4]
+						-4, -- [5]
 					},
-					["orgAlpha"] = 1,
-					["hidden"] = true,
 					["name"] = "PlayerFrame",
-					["unit"] = "player",
 					["alpha"] = 0.5,
+					["orgAlpha"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -244,29 +235,26 @@ MADB = {
 						187.802490234375, -- [4]
 						37.1360054016113, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "player",
 				},
-				["QuestLogPopupDetailFrame"] = {
+				["TimeManagerClockButton"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						16, -- [4]
-						-116.000007629395, -- [5]
+						"CENTER", -- [1]
+						"Minimap", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-75, -- [5]
 					},
-					["name"] = "QuestLogPopupDetailFrame",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 1.39038401947924,
-					["orgScale"] = 1,
+					["orgAlpha"] = 1,
+					["name"] = "TimeManagerClockButton",
+					["alpha"] = 0.65,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						12.644154548645, -- [4]
-						105.912101745605, -- [5]
+						1400.03698730469, -- [4]
+						672.333374023438, -- [5]
 					},
 				},
 				["MinimapBackdrop"] = {
@@ -286,28 +274,24 @@ MADB = {
 						-20.0000038146973, -- [5]
 					},
 				},
-				["QuestFrame"] = {
+				["MiniMapWorldMapButton"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						31.0000019073486, -- [4]
-						-16, -- [5]
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
 					},
-					["name"] = "QuestFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 1.35532085712139,
+					["name"] = "MiniMapWorldMapButton",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.65,
 					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						31.0436267852783, -- [4]
-						117.986152648926, -- [5]
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						22.9999847412109, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["MiniMapTracking"] = {
 					["orgPos"] = {
@@ -317,8 +301,8 @@ MADB = {
 						9, -- [4]
 						-45.0000038146973, -- [5]
 					},
-					["name"] = "MiniMapTracking",
 					["orgAlpha"] = 1,
+					["name"] = "MiniMapTracking",
 					["alpha"] = 0.7,
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -328,23 +312,27 @@ MADB = {
 						-45.0000610351563, -- [5]
 					},
 				},
-				["MiniMapWorldMapButton"] = {
+				["QuestFrame"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						23, -- [5]
+						"TOP", -- [1]
+						"UIParent", -- [2]
+						"TOP", -- [3]
+						0, -- [4]
+						-135, -- [5]
 					},
-					["orgAlpha"] = 1,
-					["name"] = "MiniMapWorldMapButton",
-					["alpha"] = 0.65,
+					["name"] = "QuestFrame",
+					["UIPanelWindows"] = {
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["scale"] = 1.35532085712139,
+					["orgScale"] = 1,
 					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						22.9999847412109, -- [5]
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						31.0436267852783, -- [4]
+						117.986152648926, -- [5]
 					},
 				},
 				["TargetFrameSpellBar"] = {
@@ -365,31 +353,36 @@ MADB = {
 						238.86360168457, -- [5]
 					},
 				},
-				["TimeManagerClockButton"] = {
+				["QuestLogPopupDetailFrame"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"Minimap", -- [2]
-						"CENTER", -- [3]
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
 						0, -- [4]
-						-75, -- [5]
+						0, -- [5]
 					},
-					["name"] = "TimeManagerClockButton",
-					["orgAlpha"] = 1,
-					["alpha"] = 0.65,
+					["name"] = "QuestLogPopupDetailFrame",
+					["UIPanelWindows"] = {
+						["whileDead"] = 1,
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["scale"] = 1.39038401947924,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						1400.03698730469, -- [4]
-						672.333374023438, -- [5]
+						12.644154548645, -- [4]
+						105.912101745605, -- [5]
 					},
+					["orgScale"] = 1,
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["squareMM"] = false,
-	["playSound"] = false,
-	["noBags"] = false,
 	["tooltips"] = true,
+	["squareMM"] = false,
+	["noBags"] = false,
+	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }

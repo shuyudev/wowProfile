@@ -15,15 +15,14 @@ RecountPerCharDB = {
 			},
 			["Owner"] = false,
 			["enClass"] = "WARLOCK",
-			["LastAbility"] = 215848.84,
 			["Name"] = "Shadowzxz",
 			["Pet"] = {
 				"Biznip <Shadowzxz>", -- [1]
 			},
-			["UnitLockout"] = 157607.156,
-			["level"] = 1,
 			["Fights"] = {
 			},
+			["level"] = 1,
+			["UnitLockout"] = 157607.156,
 			["LastFightIn"] = 0,
 		},
 	},

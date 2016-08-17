@@ -2,13 +2,12 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
-		["Felnex - Emerald Dream"] = "Default",
 		["Neroix - Emerald Dream"] = "Default",
+		["Felnex - Emerald Dream"] = "Default",
 		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Shadowzxz - Emerald Dream"] = {
-			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
 					["w"] = 140.000015258789,
@@ -24,6 +23,7 @@ RecountDB = {
 					},
 				},
 			},
+			["MainWindowVis"] = false,
 			["CurDataSet"] = "OverallData",
 		},
 		["Neroix - Emerald Dream"] = {
@@ -75,7 +75,7 @@ RecountDB = {
 			["AutoDeleteNewInstance"] = false,
 			["LastInstanceName"] = "The Tiger's Peak",
 			["DeleteJoinGroup"] = false,
-			["CurDataSet"] = "OverallData",
+			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -87,11 +87,12 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
+			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 252.987747192383,
 			["MainWindowHeight"] = 153.382766723633,
 		},
 		["Darknex - Emerald Dream"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -352.166694641113,
@@ -101,6 +102,9 @@ RecountDB = {
 				},
 			},
 			["AutoDeleteNewInstance"] = false,
+			["LastInstanceName"] = "The Tiger's Peak",
+			["DeleteJoinGroup"] = false,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -111,11 +115,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DeleteJoinGroup"] = false,
 			["Locked"] = true,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "The Tiger's Peak",
-			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 252.987747192383,
 			["MainWindowHeight"] = 153.382766723633,
 		},

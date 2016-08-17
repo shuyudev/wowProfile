@@ -28,52 +28,52 @@ TipTac_Config = {
 	["classification_normal"] = "%s ",
 	["colLevel"] = "|cffc0c0c0",
 	["healthBarClassColor"] = true,
-	["anchorFrameUnitPoint"] = "BOTTOMLEFT",
+	["mouseOffsetX"] = 0,
 	["reactColoredBorder"] = false,
 	["classification_minus"] = "-%s ",
 	["barFontFlags"] = "OUTLINE",
-	["anchorFrameTipPoint"] = "BOTTOMLEFT",
+	["anchorFrameUnitType"] = "normal",
 	["hideWorldTips"] = true,
-	["anchorWorldTipType"] = "mouse",
+	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 	["fontSize"] = 12,
 	["classification_rare"] = "%s|r (Rare) ",
-	["fontSizeDelta"] = 2,
 	["colGuild"] = "|c00000406",
-	["gradientTip"] = false,
+	["colorGuildByReaction"] = true,
+	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
 	["optionsBottom"] = 307.197601318359,
-	["left"] = 34.7654724121094,
+	["healthBarText"] = "value",
 	["preFadeTime"] = 0.1,
 	["reactColoredBackdrop"] = false,
-	["backdropInsets"] = 4,
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["classification_trivial"] = "~%s ",
 	["classification_worldboss"] = "%s|r (Boss) ",
-	["colorNameByClass"] = false,
-	["healthBarColor"] = {
-		0.3, -- [1]
-		0.9, -- [2]
-		0.3, -- [3]
-		1, -- [4]
-	},
-	["colSameGuild"] = "|cffff32ff",
-	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
 	["manaBar"] = false,
+	["fadeTime"] = 0.1,
+	["classColoredBorder"] = false,
+	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
+	["colorNameByClass"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
 		0.8, -- [2]
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["colSameGuild"] = "|cffff32ff",
 	["anchorWorldUnitType"] = "mouse",
-	["fadeTime"] = 0.1,
+	["healthBarColor"] = {
+		0.3, -- [1]
+		0.9, -- [2]
+		0.3, -- [3]
+		1, -- [4]
+	},
 	["targetYouText"] = "<<YOU>>",
-	["classColoredBorder"] = false,
+	["backdropInsets"] = 4,
 	["top"] = 24,
-	["healthBarText"] = "value",
-	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
-	["colorGuildByReaction"] = true,
-	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+	["left"] = 34.7654724121094,
+	["gradientTip"] = false,
+	["fontSizeDelta"] = 2,
+	["anchorWorldTipType"] = "mouse",
 	["barFontSize"] = 12,
-	["anchorFrameUnitType"] = "normal",
-	["mouseOffsetX"] = 0,
+	["anchorFrameTipPoint"] = "BOTTOMLEFT",
+	["anchorFrameUnitPoint"] = "BOTTOMLEFT",
 }
