@@ -6,3 +6,7 @@ VER 3 0100000000000001 "Intr" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift,@focus]Consume Magic;[@mouseover,harm]Consume Magic;[@target]Consume Magic
 END
+VER 3 0100000000000003 "Sight" "INV_Misc_QuestionMark"
+/use !Spectral Sight
+/cancelaura [mod:shift]Spectral Sight
+END

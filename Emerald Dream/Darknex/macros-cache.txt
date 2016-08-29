@@ -53,7 +53,7 @@ VER 3 0100000000000017 "Finish2" "INV_Misc_QuestionMark"
 /click [btn:1]MTSB121 LeftButton;[btn:2]MTSB121 RightButton;[btn:3]MTSB121 MiddleButton;[btn:4]MTSB121 Button4;[btn:5]MTSB121 Button5
 END
 VER 3 010000000000000D "Finish3" "INV_Misc_QuestionMark"
-#showtooltip [spec:1/3,mod:alt/ctrl]Shadowstep;[spec:1/3]Kidney Shot;[spec:2]Between the Eyes
+#showtooltip [spec:1/3,mod:alt]Shadowstep;[spec:1/3]Kidney Shot;[spec:2]Between the Eyes
 /click [btn:1]MTSB122 LeftButton;[btn:2]MTSB122 RightButton;[btn:3]MTSB122 MiddleButton;[btn:4]MTSB122 Button4;[btn:5]MTSB122 Button5
 END
 VER 3 0100000000000019 "Heal" "INV_Misc_QuestionMark"
@@ -70,7 +70,7 @@ VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 /use [stealth,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
 /stopattack [stealth]
 /stopmacro [stealth][nocombat][@target,noharm]
-/use [spec:3]Backstab;[spec:2]Saber Slash;Mutilate
+/use [spec:3,form:0]Backstab;[spec:2]Saber Slash;Mutilate
 END
 VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 #showtooltip Vanish
@@ -90,10 +90,10 @@ VER 3 0100000000000002 "Step" "INV_MISC_QUESTIONMARK"
 /use [mod:shift/alt,@focus,spec:1/3]Shadowstep;[@mouseover,exists,spec:1/3]Shadowstep;[@target,spec:1/3]Shadowstep
 /use [mod:shift,@focus,spec:2]Gouge;[@mouseover,harm,spec:2]Gouge;[@target,spec:2]Gouge
 END
-VER 3 0100000000000013 "Strike" "INV_MISC_QUESTIONMARK"
-#showtooltip Shadowstrike
+VER 3 0100000000000013 "Str/Gar" "INV_MISC_QUESTIONMARK"
+#showtooltip [spec:3]Shadowstrike;Garrote
 /use [form:0,nocombat]!Stealth
-/use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;[@target,exists]Shadowstrike
+/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,harm,spec:3]Shadowstrike;[@target,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,harm]Garrote;[@target]Garrote
 END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip

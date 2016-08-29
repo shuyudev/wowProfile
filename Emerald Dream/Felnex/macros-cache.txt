@@ -1,3 +1,8 @@
+VER 3 0100000000000004 "Glide" "INV_Misc_QuestionMark"
+#showtooltip
+/dismount
+/use Glide
+END
 VER 3 0100000000000002 "Impr" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift,@focus]Imprison;[@mouseover,harm]Imprison;[@target]Imprison
@@ -5,6 +10,10 @@ END
 VER 3 0100000000000001 "Intr" "INV_Misc_QuestionMark"
 #showtooltip
 /use [mod:shift,@focus]Consume Magic;[@mouseover,harm]Consume Magic;[@target]Consume Magic
+END
+VER 3 0100000000000005 "mac" "INV_Misc_QuestionMark"
+/dismount
+/kneel
 END
 VER 3 0100000000000003 "Sight" "INV_Misc_QuestionMark"
 /use !Spectral Sight

@@ -14,15 +14,16 @@ Bagnon_Sets = {
 			},
 			["scale"] = 0.9,
 			["alpha"] = 0.8,
-			["y"] = 288.3974609375,
-			["x"] = -105.347199058449,
+			["y"] = 267.327545166016,
+			["x"] = -83.3995672225112,
+			["columns"] = 15,
 			["borderColor"] = {
 			},
-			["columns"] = 15,
 			["color"] = {
 			},
 			["itemScale"] = 1,
 			["spacing"] = 1,
+			["showBags"] = true,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
@@ -82,6 +83,10 @@ Bagnon_Sets = {
 	["enchantColor"] = {
 	},
 	["players"] = {
+		["Kel'Thuzad"] = {
+		},
+		["Malygos"] = {
+		},
 		["Emerald Dream"] = {
 		},
 	},

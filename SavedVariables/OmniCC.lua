@@ -1,6 +1,5 @@
 
 OmniCC4Config = {
-	["engine"] = "AniUpdater",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
@@ -125,6 +124,8 @@ OmniCC4Config = {
 			["fontSize"] = 18,
 		},
 	},
+	["engine"] = "AniUpdater",
+	["version"] = "7.0.1",
 	["groups"] = {
 		{
 			["id"] = "Ignore",
@@ -135,5 +136,4 @@ OmniCC4Config = {
 			["enabled"] = true,
 		}, -- [1]
 	},
-	["version"] = "7.0.1",
 }

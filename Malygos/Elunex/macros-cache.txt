@@ -1,0 +1,55 @@
+VER 3 0100000000000007 "Bash" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift,@focus]Mighty Bash;[@mouseover,harm]Mighty Bash;[@target]Mighty Bash
+END
+VER 3 0100000000000006 "Beam" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift,@focus,spec:1]Solar Beam;[@mouseover,harm,spec:1]Solar Beam;[spec:1]Solar Beam;[mod:shift,@focus,spec:2]Skull Bash;[@mouseover,harm,spec:2]Skull Bash;[spec:2]Skull Bash
+END
+VER 3 0100000000000005 "Entang" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:shift,@focus]Entangling Roots;[@mouseover,harm]Entangling Roots;[@target]Entangling Roots
+END
+VER 3 0100000000000002 "Form" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nomounted,noform:4,nomod]Moonkin Form
+/use [mod:alt]Travel Form;[mod:shift]Bear Form;[nomod,@mouseover,harm]Sunfire;[nomod,@target]Sunfire
+END
+VER 3 0100000000000004 "Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/use [nomod,@mouseover,help]Rejuvenation;[nomod]Rejuvenation;[mod:shift,@mouseover,help]Regrowth;[mod:shift]Regrowth;[mod:alt,@mouseover,help]Swiftmend;[mod:alt]Swiftmend
+END
+VER 3 0100000000000001 "Lunar" "INV_Misc_QuestionMark"
+#showtooltip
+/use [mod:ctrl]Warrior of Elune
+/use Lunar Strike
+END
+VER 3 010000000000000E "Main" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:2,nocombat,nostealth]!Prowl;[spec:1,nomounted,noform:4]Moonkin Form
+/stopattack [stealth]
+/use [spec:2,@target]Shred;[spec:1,@mouseover,harm]Moonfire;[spec:1]Moonfire
+END
+VER 3 010000000000000F "Rake" "INV_Misc_QuestionMark"
+#showtooltip
+/use [spec:2,nocombat,nostealth]!Prowl;
+/stopattack [stealth]
+/use [@target]Rake
+END
+VER 3 010000000000000D "Remove" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help]Remove Corruption;Remove Corruption
+END
+VER 3 0100000000000003 "Stealth" "INV_Misc_QuestionMark"
+#showtooltip
+/use !Prowl
+END
+VER 3 010000000000000C "Touch" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,help]Healing Touch;Healing Touch
+END
+VER 3 0100000000000008 "Tp" "INV_Misc_QuestionMark"
+#showtooltip
+/use Displacer Beast
+/use [nocombat]!Prowl
+END

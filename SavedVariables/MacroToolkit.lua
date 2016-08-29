@@ -1,11 +1,28 @@
 
 MacroToolkitDB = {
 	["char"] = {
+		["Elunex - Malygos"] = {
+			["backups"] = {
+			},
+			["wodupgrade"] = true,
+		},
 		["Felnex - Emerald Dream"] = {
 			["backups"] = {
 			},
 		},
 		["Darknex - Emerald Dream"] = {
+			["extended"] = {
+				["121"] = {
+					["name"] = "Finish2",
+					["icon"] = "1373910",
+					["body"] = "#showtooltip [spec:1]Rupture;[spec:2]Roll the Bones;[spec:3]Nightblade\n/use [mod:ctrl]Marked for Death\n/use [spec:2]Roll the Bones;[mod:shift,@focus,spec:1]Rupture;[@mouseover,exists,spec:1]Rupture;[@target,spec:1]Rupture;[mod:shift,@focus,spec:3]Nightblade;[@mouseover,exists,spec:3]Nightblade;[@target,spec:3]Nightblade",
+				},
+				["122"] = {
+					["icon"] = "134400",
+					["name"] = "Finish3",
+					["body"] = "#showtooltip [spec:1/3,mod:alt]Shadowstep;[spec:1/3]Kidney Shot;[spec:2]Between the Eyes\n/use [mod:ctrl]Marked for Death\n/use [mod:shift,@focus,spec:2]Between the Eyes;[@mouseover,harm,spec:2]Between the Eyes;[spec:2,@target]Between the Eyes\n/stopmacro [spec:2]\n/use [mod:alt,@target]Shadowstep\n/use [mod:shift,@focus]Kidney Shot;[@mouseover,harm,mod]Kidney Shot;[@target]Kidney Shot",
+				},
+			},
 			["wodupgrade"] = true,
 			["backups"] = {
 				{
@@ -123,26 +140,22 @@ MacroToolkitDB = {
 					["n"] = "Main",
 				}, -- [1]
 			},
-			["extended"] = {
-				["121"] = {
-					["icon"] = "1373910",
-					["name"] = "Finish2",
-					["body"] = "#showtooltip [spec:1]Rupture;[spec:2]Roll the Bones;[spec:3]Nightblade\n/use [mod:ctrl]Marked for Death\n/use [spec:2]Roll the Bones;[mod:shift,@focus,spec:1]Rupture;[@mouseover,exists,spec:1]Rupture;[@target,spec:1]Rupture;[mod:shift,@focus,spec:3]Nightblade;[@mouseover,exists,spec:3]Nightblade;[@target,spec:3]Nightblade",
-				},
-				["122"] = {
-					["icon"] = "132298",
-					["name"] = "Finish3",
-					["body"] = "#showtooltip [spec:1/3,mod:alt/ctrl]Shadowstep;[spec:1/3]Kidney Shot;[spec:2]Between the Eyes\n/use [mod:ctrl]Marked for Death\n/use [mod:shift,@focus,spec:2]Between the Eyes;[@mouseover,harm,spec:2]Between the Eyes;[spec:2,@target]Between the Eyes\n/stopmacro [spec:2]\n/use [mod:ctrl,@focus]Shadowstep;[mod:alt,@target]Shadowstep\n/use [mod:shift,@focus]Kidney Shot;[@mouseover,harm,mod]Kidney Shot;[@target]Kidney Shot",
-				},
-			},
 			["lastbackup"] = "Aug 07 10:29:18",
 		},
 	},
 	["profileKeys"] = {
 		["Shadowzxz - Emerald Dream"] = "profile",
-		["Neroix - Emerald Dream"] = "profile",
+		["Därknex - Kel'Thuzad"] = "profile",
 		["Felnex - Emerald Dream"] = "Default.2016.08.06",
+		["Marnethy - Emerald Dream"] = "profile",
 		["Darknex - Emerald Dream"] = "Default.2016.08.06",
+		["Elunex - Malygos"] = "Default",
+		["Elunnex - Emerald Dream"] = "profile",
+		["Shädowx - Emerald Dream"] = "Default.2016.08.06",
+		["Neroix - Emerald Dream"] = "profile",
+		["Ruthala - Emerald Dream"] = "profile",
+		["Eavey - Emerald Dream"] = "profile",
+		["Gorlordis - Emerald Dream"] = "profile",
 	},
 	["global"] = {
 		["ebackups"] = {
@@ -152,19 +165,35 @@ MacroToolkitDB = {
 	},
 	["profiles"] = {
 		["profile"] = {
-			["x"] = 419.326782226563,
-			["y"] = 408.685974121094,
+			["y"] = 339.155120849609,
+			["x"] = 695.8701171875,
+			["fonts"] = {
+				["edfont"] = "2002",
+				["edsize"] = 12,
+			},
+			["scale"] = 1,
 		},
 		["Default.2016.08.06"] = {
-			["y"] = 227.923126220703,
-			["x"] = 891.118896484375,
-			["height"] = 555.950622558594,
+			["y"] = 256.367645263672,
+			["x"] = 646.180358886719,
+			["height"] = 556.74072265625,
+			["override"] = true,
 			["fonts"] = {
 				["edfont"] = "2002",
 				["edsize"] = 14,
 			},
 			["scale"] = 1,
-			["override"] = true,
+		},
+		["Default"] = {
+			["y"] = 336.696868896484,
+			["x"] = 456.111328125,
+			["scale"] = 1,
+			["fonts"] = {
+				["edfont"] = "2002",
+				["edsize"] = 12,
+			},
+		},
+		["Emerald Dream"] = {
 		},
 	},
 }
