@@ -12,18 +12,23 @@ MacroToolkitDB = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["extended"] = {
-				["121"] = {
-					["name"] = "Finish2",
-					["icon"] = "1373910",
-					["body"] = "#showtooltip [spec:1]Rupture;[spec:2]Roll the Bones;[spec:3]Nightblade\n/use [mod:ctrl]Marked for Death\n/use [spec:2]Roll the Bones;[mod:shift,@focus,spec:1]Rupture;[@mouseover,exists,spec:1]Rupture;[@target,spec:1]Rupture;[mod:shift,@focus,spec:3]Nightblade;[@mouseover,exists,spec:3]Nightblade;[@target,spec:3]Nightblade",
+				["123"] = {
+					["icon"] = "1373912",
+					["name"] = "Str/Gar",
+					["body"] = "#showtooltip [spec:3]Shadowstrike;Garrote\n/use [form:0,nocombat]!Stealth\n/use [form:0,combat,spec:3]Shadow Dance\n/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,exists,spec:3]Shadowstrike;[@target,exists,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,exists]Garrote;[@target,exists]Garrote",
 				},
 				["122"] = {
 					["icon"] = "134400",
 					["name"] = "Finish3",
 					["body"] = "#showtooltip [spec:1/3,mod:alt]Shadowstep;[spec:1/3]Kidney Shot;[spec:2]Between the Eyes\n/use [mod:ctrl]Marked for Death\n/use [mod:shift,@focus,spec:2]Between the Eyes;[@mouseover,harm,spec:2]Between the Eyes;[spec:2,@target]Between the Eyes\n/stopmacro [spec:2]\n/use [mod:alt,@target]Shadowstep\n/use [mod:shift,@focus]Kidney Shot;[@mouseover,harm,mod]Kidney Shot;[@target]Kidney Shot",
 				},
+				["121"] = {
+					["name"] = "Finish2",
+					["icon"] = "1373910",
+					["body"] = "#showtooltip [spec:1]Rupture;[spec:2]Roll the Bones;[spec:3]Nightblade\n/use [mod:ctrl]Marked for Death\n/use [spec:2]Roll the Bones;[mod:shift,@focus,spec:1]Rupture;[@mouseover,exists,spec:1]Rupture;[@target,spec:1]Rupture;[mod:shift,@focus,spec:3]Nightblade;[@mouseover,exists,spec:3]Nightblade;[@target,spec:3]Nightblade",
+				},
 			},
-			["wodupgrade"] = true,
+			["lastbackup"] = "Aug 07 10:29:18",
 			["backups"] = {
 				{
 					["m"] = {
@@ -140,7 +145,7 @@ MacroToolkitDB = {
 					["n"] = "Main",
 				}, -- [1]
 			},
-			["lastbackup"] = "Aug 07 10:29:18",
+			["wodupgrade"] = true,
 		},
 	},
 	["profileKeys"] = {
@@ -173,6 +178,15 @@ MacroToolkitDB = {
 			},
 			["scale"] = 1,
 		},
+		["Default"] = {
+			["y"] = 336.696868896484,
+			["x"] = 456.111328125,
+			["scale"] = 1,
+			["fonts"] = {
+				["edfont"] = "2002",
+				["edsize"] = 12,
+			},
+		},
 		["Default.2016.08.06"] = {
 			["y"] = 256.367645263672,
 			["x"] = 646.180358886719,
@@ -183,15 +197,6 @@ MacroToolkitDB = {
 				["edsize"] = 14,
 			},
 			["scale"] = 1,
-		},
-		["Default"] = {
-			["y"] = 336.696868896484,
-			["x"] = 456.111328125,
-			["scale"] = 1,
-			["fonts"] = {
-				["edfont"] = "2002",
-				["edsize"] = 12,
-			},
 		},
 		["Emerald Dream"] = {
 		},

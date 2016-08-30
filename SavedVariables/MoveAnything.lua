@@ -39,11 +39,11 @@ MADB = {
 				},
 				["FocusFrameSpellBar"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOM", -- [1]
 						"FocusFrame", -- [2]
-						"BOTTOMLEFT", -- [3]
-						25, -- [4]
-						6.99999952316284, -- [5]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						0, -- [5]
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.15259173925681,
@@ -55,7 +55,7 @@ MADB = {
 						269.319702148438, -- [5]
 					},
 					["hidden"] = true,
-					["orgScale"] = 1.33299994468689,
+					["orgScale"] = 1,
 				},
 				["ArenaEnemyFrame3"] = {
 					["orgPos"] = {
@@ -308,6 +308,25 @@ MADB = {
 						-2.00001525878906, -- [5]
 					},
 				},
+				["TimeManagerClockButton"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"Minimap", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-75, -- [5]
+					},
+					["orgAlpha"] = 1,
+					["name"] = "TimeManagerClockButton",
+					["alpha"] = 0.65,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1400.03698730469, -- [4]
+						672.333374023438, -- [5]
+					},
+				},
 				["PlayerFrame"] = {
 					["orgPos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -328,25 +347,6 @@ MADB = {
 					},
 					["hidden"] = true,
 					["unit"] = "player",
-				},
-				["TimeManagerClockButton"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"Minimap", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						-75, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["name"] = "TimeManagerClockButton",
-					["alpha"] = 0.65,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						1400.03698730469, -- [4]
-						672.333374023438, -- [5]
-					},
 				},
 				["ArenaEnemyFrame1"] = {
 					["orgPos"] = {
@@ -482,11 +482,11 @@ MADB = {
 				},
 				["TargetFrameSpellBar"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOM", -- [1]
 						"TargetFrame", -- [2]
-						"BOTTOMLEFT", -- [3]
-						25, -- [4]
-						6.99999952316284, -- [5]
+						"BOTTOM", -- [3]
+						-15, -- [4]
+						10, -- [5]
 					},
 					["name"] = "TargetFrameSpellBar",
 					["hidden"] = true,

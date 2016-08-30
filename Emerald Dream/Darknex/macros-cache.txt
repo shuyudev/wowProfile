@@ -92,8 +92,7 @@ VER 3 0100000000000002 "Step" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000013 "Str/Gar" "INV_MISC_QUESTIONMARK"
 #showtooltip [spec:3]Shadowstrike;Garrote
-/use [form:0,nocombat]!Stealth
-/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,harm,spec:3]Shadowstrike;[@target,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,harm]Garrote;[@target]Garrote
+/click [btn:1]MTSB123 LeftButton;[btn:2]MTSB123 RightButton;[btn:3]MTSB123 MiddleButton;[btn:4]MTSB123 Button4;[btn:5]MTSB123 Button5
 END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip

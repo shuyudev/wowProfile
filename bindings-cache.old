@@ -13,6 +13,7 @@ bind BUTTON4 MULTIACTIONBAR4BUTTON2
 bind NUMPADDIVIDE MULTIACTIONBAR2BUTTON4
 bind PAGEUP NONE
 bind R ACTIONBUTTON4
+bind SHIFT-R NONE
 bind 1 CLICK DominosActionButton38:LeftButton
 bind 2 CLICK DominosActionButton39:LeftButton
 bind 3 CLICK DominosActionButton40:LeftButton

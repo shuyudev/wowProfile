@@ -158,8 +158,8 @@ RecountDB = {
 		["Default"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 359.734436035156,
-					["x"] = -630.993850708008,
+					["y"] = 359.734313964844,
+					["x"] = -630.993827819824,
 					["w"] = 253,
 					["h"] = 153.000015258789,
 				},
@@ -179,9 +179,9 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["MainWindowHeight"] = 153.382766723633,
-			["MainWindowWidth"] = 252.987747192383,
 			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
+			["MainWindowWidth"] = 252.987747192383,
+			["MainWindowHeight"] = 153.382766723633,
 		},
 		["Elunnex - Emerald Dream"] = {
 			["MainWindow"] = {
