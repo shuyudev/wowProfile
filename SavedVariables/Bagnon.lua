@@ -1,9 +1,38 @@
 
 Bagnon_Sets = {
-	["reagentColor"] = {
+	["tackleColor"] = {
+	},
+	["leatherColor"] = {
+	},
+	["engineerColor"] = {
+	},
+	["herbColor"] = {
+	},
+	["displayMail"] = false,
+	["inscribeColor"] = {
+	},
+	["closeCombat"] = false,
+	["players"] = {
+		["Kel'Thuzad"] = {
+		},
+		["Malygos"] = {
+		},
+		["Emerald Dream"] = {
+		},
 	},
 	["gemColor"] = {
 	},
+	["enchantColor"] = {
+	},
+	["glowAlpha"] = 0.5,
+	["normalColor"] = {
+	},
+	["mineColor"] = {
+	},
+	["displayBank"] = true,
+	["refrigeColor"] = {
+	},
+	["displayAuction"] = false,
 	["global"] = {
 		["inventory"] = {
 			["brokerObject"] = "WeakAuras",
@@ -14,16 +43,25 @@ Bagnon_Sets = {
 			},
 			["scale"] = 0.9,
 			["alpha"] = 0.8,
-			["y"] = 267.327545166016,
-			["x"] = -83.3995672225112,
 			["columns"] = 15,
-			["showBags"] = true,
+			["bagBreak"] = false,
+			["x"] = -412.616486167824,
 			["color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
 			},
+			["showBags"] = true,
 			["itemScale"] = 1,
 			["spacing"] = 1,
 			["borderColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.225961327552795, -- [4]
 			},
+			["y"] = 397.256011962891,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
@@ -63,31 +101,7 @@ Bagnon_Sets = {
 			},
 		},
 	},
-	["glowAlpha"] = 0.5,
-	["engineerColor"] = {
+	["reagentColor"] = {
 	},
-	["refrigeColor"] = {
-	},
-	["mineColor"] = {
-	},
-	["inscribeColor"] = {
-	},
-	["leatherColor"] = {
-	},
-	["tackleColor"] = {
-	},
-	["herbColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["enchantColor"] = {
-	},
-	["players"] = {
-		["Kel'Thuzad"] = {
-		},
-		["Malygos"] = {
-		},
-		["Emerald Dream"] = {
-		},
-	},
+	["displayCraft"] = false,
 }

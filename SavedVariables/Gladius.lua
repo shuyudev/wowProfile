@@ -171,6 +171,10 @@ Gladius2DB = {
 			["tagsVersion"] = 4,
 		},
 		["Default"] = {
+			["modules"] = {
+				["Announcements"] = false,
+				["Highlight"] = false,
+			},
 			["tags"] = {
 				["maxhealth"] = {
 					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nend",
@@ -245,6 +249,7 @@ Gladius2DB = {
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 			},
+			["timerOmniCC"] = true,
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["locked"] = true,

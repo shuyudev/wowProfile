@@ -33,7 +33,7 @@ VER 3 0000000000000005 "Target" "132212"
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /cleartarget [nomod]
-/targetenemyplayer
-/targetenemy [@target,noexists]
+/targetenemy
 /cleartarget [mod:shift]
+/startattack [mod:alt]
 END

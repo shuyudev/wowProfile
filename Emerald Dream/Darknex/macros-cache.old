@@ -1,3 +1,10 @@
+VER 3 010000000000001A "Aoe" "INV_Misc_QuestionMark"
+#showtooltip
+/targetenemy [@target,noexists]
+/use [spec:3,mod:alt,@target,harm,form:0,combat]Shadow Dance
+/use [spec:3]Shuriken Storm;[spec:1]Fan of Knives
+/startattack
+END
 VER 3 0100000000000009 "Blind" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [mod:ctrl,@focus]Shadowstep;[mod:alt,@target]Shadowstep
@@ -13,6 +20,7 @@ END
 VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [form:0,nocombat]!Stealth
+/use [form:0,combat,spec:3,@target,harm]Shadow Dance
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
@@ -20,19 +28,6 @@ VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
 /cast [form:0, nocombat]!Stealth
 /cast [form:0]Shadow Dance
 /cast [mod:shift,@focus]Cheap Shot;[@mouseover,exists,harm]Cheap Shot;[@target]Cheap Shot
-END
-VER 3 0100000000000008 "Dance2" "INV_MISC_QUESTIONMARK"
-#showtooptip Shadow Dance
-/use [form:0,nocombat]!Stealth
-/use [form:0]Shadow Dance
-/use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;[@target]Shadowstrike
-END
-VER 3 010000000000000B "Dance3" "INV_MISC_QUESTIONMARK"
-#showtooptip Shadow Dance
-/use [form:0,nocombat]!Stealth
-/use [form:0]Shadow Dance
-/use [mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
-/changeactionbar 1
 END
 VER 3 0100000000000012 "Dance4" "INV_MISC_QUESTIONMARK"
 #showtooptip [mod:alt,form:0]Shadow Dance;Symbols of Death
@@ -81,7 +76,7 @@ VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000004 "Sap" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [mod:ctrl,spec:1/3]Shadowstep
+/use [form:0,combat,spec:3,@target,harm]Shadow Dance
 /use [mod:shift,@focus,spec:2,nostealth]Gouge;[@mouseover,harm,spec:2,nostealth]Gouge;[spec:2,nostealth]Gouge;[mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
 /targetenemy [@target,noexists]
 END
@@ -92,8 +87,7 @@ VER 3 0100000000000002 "Step" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000013 "Str/Gar" "INV_MISC_QUESTIONMARK"
 #showtooltip [spec:3]Shadowstrike;Garrote
-/use [form:0,nocombat]!Stealth
-/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,harm,spec:3]Shadowstrike;[@target,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,harm]Garrote;[@target]Garrote
+/click [btn:1]MTSB123 LeftButton;[btn:2]MTSB123 RightButton;[btn:3]MTSB123 MiddleButton;[btn:4]MTSB123 Button4;[btn:5]MTSB123 Button5
 END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip

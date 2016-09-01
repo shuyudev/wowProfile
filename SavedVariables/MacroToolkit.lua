@@ -13,9 +13,9 @@ MacroToolkitDB = {
 		["Darknex - Emerald Dream"] = {
 			["extended"] = {
 				["123"] = {
-					["icon"] = "1373912",
 					["name"] = "Str/Gar",
-					["body"] = "#showtooltip [spec:3]Shadowstrike;Garrote\n/use [form:0,nocombat]!Stealth\n/use [form:0,combat,spec:3]Shadow Dance\n/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,exists,spec:3]Shadowstrike;[@target,exists,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,exists]Garrote;[@target,exists]Garrote",
+					["icon"] = "1373912",
+					["body"] = "#showtooltip [spec:3]Shadowstrike;Garrote\n/use [form:0,nocombat]!Stealth\n/use [form:0,combat,spec:3,@target,harm]Shadow Dance\n/use [mod:shift,@focus,spec:3]Shadowstrike;[@mouseover,exists,spec:3]Shadowstrike;[@target,exists,spec:3]Shadowstrike;[mod:shift,@focus]Garrote;[@mouseover,exists]Garrote;[@target,exists]Garrote",
 				},
 				["122"] = {
 					["icon"] = "134400",
@@ -188,9 +188,9 @@ MacroToolkitDB = {
 			},
 		},
 		["Default.2016.08.06"] = {
-			["y"] = 256.367645263672,
-			["x"] = 646.180358886719,
-			["height"] = 556.74072265625,
+			["y"] = 257.157775878906,
+			["x"] = 645.390258789063,
+			["height"] = 555.950622558594,
 			["override"] = true,
 			["fonts"] = {
 				["edfont"] = "2002",

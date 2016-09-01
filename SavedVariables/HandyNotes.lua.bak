@@ -1,0 +1,32 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+		["Darknex - Emerald Dream"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["global"] = {
+		["Dalaran70"] = {
+			[46272627] = {
+				["title"] = "Entry-train",
+				["cont"] = false,
+				["level"] = 10,
+				["icon"] = 7,
+				["desc"] = "",
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+	},
+	["profiles"] = {
+		["Darknex - Emerald Dream"] = {
+		},
+	},
+}

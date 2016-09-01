@@ -1,3 +1,10 @@
+VER 3 010000000000001A "Aoe" "INV_Misc_QuestionMark"
+#showtooltip
+/targetenemy [@target,noexists]
+/use [spec:3,mod:alt,@target,harm,form:0,combat]Shadow Dance
+/use [spec:3]Shuriken Storm;[spec:1]Fan of Knives
+/startattack
+END
 VER 3 0100000000000009 "Blind" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [mod:ctrl,@focus]Shadowstep;[mod:alt,@target]Shadowstep
@@ -13,6 +20,7 @@ END
 VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [form:0,nocombat]!Stealth
+/use [form:0,combat,spec:3,@target,harm]Shadow Dance
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
@@ -20,19 +28,6 @@ VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
 /cast [form:0, nocombat]!Stealth
 /cast [form:0]Shadow Dance
 /cast [mod:shift,@focus]Cheap Shot;[@mouseover,exists,harm]Cheap Shot;[@target]Cheap Shot
-END
-VER 3 0100000000000008 "Dance2" "INV_MISC_QUESTIONMARK"
-#showtooptip Shadow Dance
-/use [form:0,nocombat]!Stealth
-/use [form:0]Shadow Dance
-/use [mod:shift,@focus]Shadowstrike;[@mouseover,harm]Shadowstrike;[@target]Shadowstrike
-END
-VER 3 010000000000000B "Dance3" "INV_MISC_QUESTIONMARK"
-#showtooptip Shadow Dance
-/use [form:0,nocombat]!Stealth
-/use [form:0]Shadow Dance
-/use [mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
-/changeactionbar 1
 END
 VER 3 0100000000000012 "Dance4" "INV_MISC_QUESTIONMARK"
 #showtooptip [mod:alt,form:0]Shadow Dance;Symbols of Death
@@ -67,7 +62,7 @@ VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 /use [nocombat]!Stealth
-/use [stealth,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
+/use [form:1/2,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
 /stopattack [stealth]
 /stopmacro [stealth][nocombat][@target,noharm]
 /use [spec:3,form:0]Backstab;[spec:2]Saber Slash;Mutilate
@@ -77,11 +72,17 @@ VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 /use [form:0,nocombat]!Stealth
 /cleartarget [mod:shift]
 /targetenemy [mod:shift]
-/use [nostealth]Vanish;[@mouseover,exists]Pick Pocket;Pick Pocket
+/use [form:0,nostealth,combat]Vanish;[@mouseover,exists]Pick Pocket;Pick Pocket
+END
+VER 3 010000000000001B "Re" "INV_Misc_QuestionMark"
+#showtooltip
+/use !stealth
+/use [stealth]Symbols of Death
+/cancelaura [stealth]stealth
 END
 VER 3 0100000000000004 "Sap" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [mod:ctrl,spec:1/3]Shadowstep
+/use [form:0,combat,spec:3,@target,harm]Shadow Dance
 /use [mod:shift,@focus,spec:2,nostealth]Gouge;[@mouseover,harm,spec:2,nostealth]Gouge;[spec:2,nostealth]Gouge;[mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
 /targetenemy [@target,noexists]
 END

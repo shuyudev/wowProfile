@@ -39,11 +39,11 @@ MADB = {
 				},
 				["FocusFrameSpellBar"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPLEFT", -- [1]
 						"FocusFrame", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"BOTTOMLEFT", -- [3]
+						25, -- [4]
+						6.99999952316284, -- [5]
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.15259173925681,
@@ -55,7 +55,7 @@ MADB = {
 						269.319702148438, -- [5]
 					},
 					["hidden"] = true,
-					["orgScale"] = 1,
+					["orgScale"] = 1.33299994468689,
 				},
 				["ArenaEnemyFrame3"] = {
 					["orgPos"] = {
@@ -157,7 +157,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						255.000015258789, -- [5]
+						264, -- [5]
 					},
 					["name"] = "ZoneAbilityFrame",
 					["pos"] = {
@@ -253,6 +253,24 @@ MADB = {
 						241.876586914063, -- [5]
 					},
 				},
+				["PlayerDebuffsMover"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"BuffFrame", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0, -- [4]
+						-60, -- [5]
+					},
+					["name"] = "PlayerDebuffsMover",
+					["hidden"] = true,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1282.037109375, -- [4]
+						700.333374023438, -- [5]
+					},
+				},
 				["BattlefieldMinimap"] = {
 					["orgPos"] = {
 						"TOPLEFT", -- [1]
@@ -266,8 +284,8 @@ MADB = {
 						"TOPLEFT", -- [1]
 						"BattlefieldMinimapTab", -- [2]
 						"BOTTOMLEFT", -- [3]
-						-1254.71618652344, -- [4]
-						-59.5191497802734, -- [5]
+						-1255.50638580322, -- [4]
+						-70.5809478759766, -- [5]
 					},
 				},
 				["TalkingHeadFrame"] = {
@@ -409,7 +427,6 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.35532085712139,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -417,6 +434,7 @@ MADB = {
 						31.0436267852783, -- [4]
 						117.986152648926, -- [5]
 					},
+					["orgScale"] = 1,
 				},
 				["MinimapBackdrop"] = {
 					["orgPos"] = {
@@ -482,11 +500,11 @@ MADB = {
 				},
 				["TargetFrameSpellBar"] = {
 					["orgPos"] = {
-						"BOTTOM", -- [1]
+						"TOPLEFT", -- [1]
 						"TargetFrame", -- [2]
-						"BOTTOM", -- [3]
-						-15, -- [4]
-						10, -- [5]
+						"BOTTOMLEFT", -- [3]
+						25, -- [4]
+						6.99999952316284, -- [5]
 					},
 					["name"] = "TargetFrameSpellBar",
 					["hidden"] = true,

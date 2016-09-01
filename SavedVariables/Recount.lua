@@ -5,7 +5,7 @@ RecountDB = {
 		["Därknex - Kel'Thuzad"] = "Default",
 		["Felnex - Emerald Dream"] = "Default",
 		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+		["Darknex - Emerald Dream"] = "Default",
 		["Elunex - Malygos"] = "Default",
 		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
 		["Shädowx - Emerald Dream"] = "Shädowx - Emerald Dream",
@@ -75,12 +75,15 @@ RecountDB = {
 			["MainWindow"] = {
 				["Position"] = {
 					["y"] = -352.166694641113,
-					["x"] = -597.018524169922,
+					["x"] = -597.018539428711,
 					["w"] = 253,
 					["h"] = 152.999984741211,
 				},
 			},
 			["AutoDeleteNewInstance"] = false,
+			["LastInstanceName"] = "The Tiger's Peak",
+			["DeleteJoinGroup"] = false,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -91,13 +94,10 @@ RecountDB = {
 					},
 				},
 			},
-			["DeleteJoinGroup"] = false,
 			["Locked"] = true,
-			["MainWindowVis"] = false,
-			["LastInstanceName"] = "The Tiger's Peak",
-			["CurDataSet"] = "OverallData",
-			["MainWindowWidth"] = 252.987747192383,
 			["MainWindowHeight"] = 153.382766723633,
+			["MainWindowWidth"] = 252.987747192383,
+			["Font"] = "AR ZhongkaiGBK Medium",
 		},
 		["Elunex - Malygos"] = {
 			["MainWindow"] = {
@@ -158,17 +158,27 @@ RecountDB = {
 		["Default"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 359.734313964844,
-					["x"] = -630.993827819824,
-					["w"] = 253,
-					["h"] = 153.000015258789,
+					["y"] = 381.166381835938,
+					["x"] = -654.154609680176,
+					["w"] = 209,
+					["h"] = 111.000007629395,
 				},
 			},
-			["AutoDeleteNewInstance"] = false,
-			["LastInstanceName"] = "The Tiger's Peak",
-			["DeleteJoinGroup"] = false,
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
+				["Other Windows"] = {
+					["Title"] = {
+						["a"] = 0.542200237512589,
+					},
+				},
+				["Window"] = {
+					["Background"] = {
+						["a"] = 0,
+					},
+					["Title"] = {
+						["a"] = 0.371259868144989,
+						["b"] = 0.101960784313725,
+					},
+				},
 				["Bar"] = {
 					["Bar Text"] = {
 						["a"] = 1,
@@ -179,9 +189,11 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
+			["LastInstanceName"] = "Dalaran Sewers",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowHeight"] = 111.160507202148,
+			["MainWindowWidth"] = 209.036956787109,
 			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
-			["MainWindowWidth"] = 252.987747192383,
-			["MainWindowHeight"] = 153.382766723633,
 		},
 		["Elunnex - Emerald Dream"] = {
 			["MainWindow"] = {
