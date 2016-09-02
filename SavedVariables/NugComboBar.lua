@@ -1,10 +1,11 @@
 
 NugComboBarDB_Global = {
 	["preset3dlayer2"] = "void",
-	["y"] = -194.370513916016,
-	["x"] = -67.9502410888672,
+	["y"] = -192.790298461914,
+	["x"] = -69.5301895141602,
 	["charspec"] = {
 	},
+	["shadowDance"] = false,
 	["soundChannel"] = "Master",
 	["showAlways"] = true,
 	["alpha"] = 0.6,

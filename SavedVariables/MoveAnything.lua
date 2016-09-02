@@ -27,8 +27,6 @@ MADB = {
 						}, -- [2]
 					},
 					["name"] = "ArenaEnemyFrame4",
-					["unit"] = "arena4",
-					["hidden"] = true,
 					["pos"] = {
 						"TOP", -- [1]
 						"ArenaEnemyFrame3", -- [2]
@@ -36,6 +34,8 @@ MADB = {
 						0, -- [4]
 						-20, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena4",
 				},
 				["FocusFrameSpellBar"] = {
 					["orgPos"] = {
@@ -47,8 +47,6 @@ MADB = {
 					},
 					["name"] = "FocusFrameSpellBar",
 					["scale"] = 1.15259173925681,
-					["orgScale"] = 1.33299994468689,
-					["hidden"] = true,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -56,6 +54,8 @@ MADB = {
 						28.5857524871826, -- [4]
 						269.319702148438, -- [5]
 					},
+					["hidden"] = true,
+					["orgScale"] = 1.33299994468689,
 				},
 				["ArenaEnemyFrame3"] = {
 					["orgPos"] = {
@@ -75,8 +75,6 @@ MADB = {
 						}, -- [2]
 					},
 					["name"] = "ArenaEnemyFrame3",
-					["unit"] = "arena3",
-					["hidden"] = true,
 					["pos"] = {
 						"TOP", -- [1]
 						"ArenaEnemyFrame2", -- [2]
@@ -84,6 +82,8 @@ MADB = {
 						16, -- [4]
 						-19.9999389648438, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena3",
 				},
 				["ArenaEnemyFrame2"] = {
 					["orgPos"] = {
@@ -103,8 +103,6 @@ MADB = {
 						}, -- [2]
 					},
 					["name"] = "ArenaEnemyFrame2",
-					["unit"] = "arena2",
-					["hidden"] = true,
 					["pos"] = {
 						"TOP", -- [1]
 						"ArenaEnemyFrame1", -- [2]
@@ -112,6 +110,8 @@ MADB = {
 						0, -- [4]
 						-20, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena2",
 				},
 				["TargetFrame"] = {
 					["orgPos"] = {
@@ -121,8 +121,8 @@ MADB = {
 						282, -- [4]
 						161.000015258789, -- [5]
 					},
-					["name"] = "TargetFrame",
 					["orgAlpha"] = 0.949019607843137,
+					["name"] = "TargetFrame",
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -140,8 +140,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "MinimapBorderTop",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.25,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -176,8 +176,8 @@ MADB = {
 						-249, -- [4]
 						178, -- [5]
 					},
-					["name"] = "TargetFrameToT",
 					["orgAlpha"] = 1,
+					["name"] = "TargetFrameToT",
 					["alpha"] = 0.6,
 					["pos"] = {
 						"BOTTOMRIGHT", -- [1]
@@ -195,8 +195,8 @@ MADB = {
 						126.000007629395, -- [4]
 						232.000015258789, -- [5]
 					},
-					["name"] = "FocusFrame",
 					["orgAlpha"] = 0.949019607843137,
+					["name"] = "FocusFrame",
 					["alpha"] = 0.9,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -223,8 +223,8 @@ MADB = {
 							0, -- [5]
 						}, -- [2]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "MinimapBorder",
+					["orgAlpha"] = 1,
 					["alpha"] = 0,
 					["pos"] = {
 						"TOPLEFT", -- [1]
@@ -242,8 +242,8 @@ MADB = {
 						0, -- [4]
 						0, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "LossOfControlFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.7,
 					["pos"] = {
 						"CENTER", -- [1]
@@ -253,32 +253,22 @@ MADB = {
 						241.876586914063, -- [5]
 					},
 				},
-				["ArenaEnemyFrame5"] = {
+				["PlayerDebuffsMover"] = {
 					["orgPos"] = {
-						{
-							"TOP", -- [1]
-							"ArenaEnemyFrame4", -- [2]
-							"BOTTOM", -- [3]
-							0, -- [4]
-							-20, -- [5]
-						}, -- [1]
-						{
-							"RIGHT", -- [1]
-							"ArenaEnemyFrames", -- [2]
-							"RIGHT", -- [3]
-							-2, -- [4]
-							0, -- [5]
-						}, -- [2]
+						"TOPRIGHT", -- [1]
+						"BuffFrame", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						0, -- [4]
+						-60, -- [5]
 					},
-					["name"] = "ArenaEnemyFrame5",
-					["unit"] = "arena5",
+					["name"] = "PlayerDebuffsMover",
 					["hidden"] = true,
 					["pos"] = {
-						"TOP", -- [1]
-						"ArenaEnemyFrame4", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						-20, -- [5]
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						1282.037109375, -- [4]
+						700.333374023438, -- [5]
 					},
 				},
 				["BattlefieldMinimap"] = {
@@ -306,8 +296,8 @@ MADB = {
 						0, -- [4]
 						96, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "TalkingHeadFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.8,
 					["pos"] = {
 						"BOTTOM", -- [1]
@@ -325,8 +315,8 @@ MADB = {
 						20, -- [4]
 						-2, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "GameTimeFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.6,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
@@ -334,27 +324,6 @@ MADB = {
 						"TOPRIGHT", -- [3]
 						20.0000152587891, -- [4]
 						-2.00001525878906, -- [5]
-					},
-				},
-				["PlayerFrame"] = {
-					["orgPos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						188, -- [4]
-						37, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["hidden"] = true,
-					["name"] = "PlayerFrame",
-					["unit"] = "player",
-					["alpha"] = 0.5,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						187.802490234375, -- [4]
-						37.1360054016113, -- [5]
 					},
 				},
 				["TimeManagerClockButton"] = {
@@ -365,8 +334,8 @@ MADB = {
 						0, -- [4]
 						-75, -- [5]
 					},
-					["name"] = "TimeManagerClockButton",
 					["orgAlpha"] = 1,
+					["name"] = "TimeManagerClockButton",
 					["alpha"] = 0.65,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
@@ -376,109 +345,26 @@ MADB = {
 						672.333374023438, -- [5]
 					},
 				},
-				["QuestLogPopupDetailFrame"] = {
-					["orgScale"] = 1,
+				["PlayerFrame"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"BOTTOMLEFT", -- [3]
+						188, -- [4]
+						37, -- [5]
 					},
-					["name"] = "QuestLogPopupDetailFrame",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 1.39038401947924,
-					["orgAlpha"] = 0.949019607843137,
-					["alpha"] = 1,
+					["name"] = "PlayerFrame",
+					["alpha"] = 0.5,
+					["orgAlpha"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						12.6441535949707, -- [4]
-						105.912101745605, -- [5]
+						187.802490234375, -- [4]
+						37.1360054016113, -- [5]
 					},
-				},
-				["MiniMapTracking"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPLEFT", -- [3]
-						9, -- [4]
-						-45.0000038146973, -- [5]
-					},
-					["name"] = "MiniMapTracking",
-					["orgAlpha"] = 1,
-					["alpha"] = 0.7,
-					["pos"] = {
-						"TOPLEFT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPLEFT", -- [3]
-						9.0001220703125, -- [4]
-						-45.0000610351563, -- [5]
-					},
-				},
-				["MinimapBackdrop"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"MinimapCluster", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						-20, -- [5]
-					},
-					["name"] = "MinimapBackdrop",
-					["pos"] = {
-						"CENTER", -- [1]
-						"MinimapCluster", -- [2]
-						"CENTER", -- [3]
-						-3.337860107421880e-006, -- [4]
-						-20.0000038146973, -- [5]
-					},
-				},
-				["MiniMapWorldMapButton"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						23, -- [5]
-					},
-					["orgAlpha"] = 1,
-					["name"] = "MiniMapWorldMapButton",
-					["alpha"] = 0.65,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapBackdrop", -- [2]
-						"TOPRIGHT", -- [3]
-						-2, -- [4]
-						22.9999847412109, -- [5]
-					},
-				},
-				["QuestFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						31.0000019073486, -- [4]
-						-16, -- [5]
-					},
-					["name"] = "QuestFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 1.35532085712139,
-					["orgScale"] = 1,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						31.0436267852783, -- [4]
-						117.986152648926, -- [5]
-					},
+					["hidden"] = true,
+					["unit"] = "player",
 				},
 				["ArenaEnemyFrame1"] = {
 					["orgPos"] = {
@@ -498,8 +384,6 @@ MADB = {
 						}, -- [2]
 					},
 					["name"] = "ArenaEnemyFrame1",
-					["unit"] = "arena1",
-					["hidden"] = true,
 					["pos"] = {
 						"TOP", -- [1]
 						"ArenaEnemyFrames", -- [2]
@@ -507,6 +391,112 @@ MADB = {
 						-73.5, -- [4]
 						0, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena1",
+				},
+				["QuestFrame"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						31.0000019073486, -- [4]
+						-16, -- [5]
+					},
+					["name"] = "QuestFrame",
+					["UIPanelWindows"] = {
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["scale"] = 1.35532085712139,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						31.0436267852783, -- [4]
+						117.986152648926, -- [5]
+					},
+					["orgScale"] = 1,
+				},
+				["MiniMapWorldMapButton"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						23, -- [5]
+					},
+					["name"] = "MiniMapWorldMapButton",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.65,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPRIGHT", -- [3]
+						-2, -- [4]
+						22.9999847412109, -- [5]
+					},
+				},
+				["MinimapBackdrop"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"MinimapCluster", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						-20, -- [5]
+					},
+					["name"] = "MinimapBackdrop",
+					["pos"] = {
+						"CENTER", -- [1]
+						"MinimapCluster", -- [2]
+						"CENTER", -- [3]
+						-3.337860107421880e-006, -- [4]
+						-20.0000038146973, -- [5]
+					},
+				},
+				["MiniMapTracking"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPLEFT", -- [3]
+						9, -- [4]
+						-45.0000038146973, -- [5]
+					},
+					["orgAlpha"] = 1,
+					["name"] = "MiniMapTracking",
+					["alpha"] = 0.7,
+					["pos"] = {
+						"TOPLEFT", -- [1]
+						"MinimapBackdrop", -- [2]
+						"TOPLEFT", -- [3]
+						9.0001220703125, -- [4]
+						-45.0000610351563, -- [5]
+					},
+				},
+				["QuestLogPopupDetailFrame"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["orgAlpha"] = 0.949019607843137,
+					["UIPanelWindows"] = {
+						["whileDead"] = 1,
+						["pushable"] = 0,
+						["area"] = "left",
+					},
+					["scale"] = 1.39038401947924,
+					["alpha"] = 1,
+					["name"] = "QuestLogPopupDetailFrame",
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						12.6441535949707, -- [4]
+						105.912101745605, -- [5]
+					},
+					["orgScale"] = 1,
 				},
 				["TargetFrameSpellBar"] = {
 					["orgPos"] = {
@@ -526,30 +516,40 @@ MADB = {
 						238.86360168457, -- [5]
 					},
 				},
-				["PlayerDebuffsMover"] = {
+				["ArenaEnemyFrame5"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"BuffFrame", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						0, -- [4]
-						-60, -- [5]
+						{
+							"TOP", -- [1]
+							"ArenaEnemyFrame4", -- [2]
+							"BOTTOM", -- [3]
+							0, -- [4]
+							-20, -- [5]
+						}, -- [1]
+						{
+							"RIGHT", -- [1]
+							"ArenaEnemyFrames", -- [2]
+							"RIGHT", -- [3]
+							-2, -- [4]
+							0, -- [5]
+						}, -- [2]
 					},
-					["name"] = "PlayerDebuffsMover",
-					["hidden"] = true,
+					["name"] = "ArenaEnemyFrame5",
 					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						1282.037109375, -- [4]
-						700.333374023438, -- [5]
+						"TOP", -- [1]
+						"ArenaEnemyFrame4", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						-20, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena5",
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["squareMM"] = false,
-	["playSound"] = false,
-	["noBags"] = false,
 	["tooltips"] = true,
+	["squareMM"] = false,
+	["noBags"] = false,
+	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }

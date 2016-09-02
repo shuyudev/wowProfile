@@ -19,8 +19,7 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [form:0,nocombat]!Stealth
-/use [form:0,combat,spec:3,@target,harm]Shadow Dance
+/use [form:0,nocombat]!Stealth;[form:0,spec:3,@target,harm]Shadow Dance
 /use [mod:shift,@focus]Cheap Shot;[@mouseover,harm]Cheap Shot;Cheap Shot
 END
 VER 3 010000000000000A "Dance1" "INV_MISC_QUESTIONMARK"
@@ -69,10 +68,10 @@ VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 #showtooltip Vanish
-/use [form:0,nocombat]!Stealth
+/use [form:0,nocombat]!Stealth;[mod:ctrl]Vanish;[form:0]Vanish
 /cleartarget [mod:shift]
 /targetenemy [mod:shift]
-/use [form:0,nostealth,combat]Vanish;[@mouseover,exists]Pick Pocket;Pick Pocket
+/use [@mouseover,exists]Pick Pocket;Pick Pocket
 END
 VER 3 010000000000001B "Re" "INV_Misc_QuestionMark"
 #showtooltip
@@ -81,9 +80,8 @@ VER 3 010000000000001B "Re" "INV_Misc_QuestionMark"
 /cancelaura [stealth]stealth
 END
 VER 3 0100000000000004 "Sap" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/use [form:0,combat,spec:3,@target,harm]Shadow Dance
-/use [mod:shift,@focus,spec:2,nostealth]Gouge;[@mouseover,harm,spec:2,nostealth]Gouge;[spec:2,nostealth]Gouge;[mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
+/use [form:0,nocombat]!Stealth;[form:0,spec:3,@target,harm]Shadow Dance
+/use [mod:shift,@focus,spec:2,form:0]Gouge;[@mouseover,harm,spec:2,form:0]Gouge;[spec:2,form:0]Gouge;[mod:shift,@focus]Sap;[@mouseover,harm]Sap;Sap
 /targetenemy [@target,noexists]
 END
 VER 3 0100000000000002 "Step" "INV_MISC_QUESTIONMARK"

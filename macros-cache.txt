@@ -1,3 +1,11 @@
+VER 3 000000000000000C "15" "INV_Misc_QuestionMark"
+#showtooltip
+/use 15
+END
+VER 3 000000000000000D "6" "INV_Misc_QuestionMark"
+#showtooltip
+/use 6
+END
 VER 3 0000000000000009 "Band" "INV_Misc_QuestionMark"
 #showtooltip
 /use Antiseptic Bandage
@@ -12,14 +20,15 @@ VER 3 000000000000000B "Err" "INV_Misc_QuestionMark"
 /console scriptErrors 1
 END
 VER 3 0000000000000008 "Focus" "458724"
-/focus [@mouseover,exists]
-/stopmacro [@mouseover,exists]
-/focus [@target,exists]
 /clearfocus [mod:shift]
+/focus [mod:alt,@target,exists]
+/focus [nomod,@mouseover,exists]
+/stopmacro [nomod,@mouseover,exists]
+/focus [nomod,@target,exists]
 END
 VER 3 000000000000000A "Mount" "132251"
 /dismount
-/use [mod:shift]Azure Water Strider;[mod:ctrl,flyable]Icebound Frostbrood Vanquisher;[mod:ctrl,noflyable]Ochre Skeletal Warhorse
+/use [mod:shift]Azure Water Strider;[btn:2,flyable]Icebound Frostbrood Vanquisher;[btn:2,noflyable]Ochre Skeletal Warhorse
 /stopmacro [mod:shift/ctrl]
 /run C_MountJournal.SummonByID(0)
 END
@@ -32,7 +41,6 @@ VER 3 0000000000000003 "T2" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0000000000000005 "Target" "132212"
-/focus [mod:alt,@target,exists]
 /stopattack
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]

@@ -8,6 +8,9 @@ END
 VER 3 0000000000000007 "bar2" "134804"
 /changeactionbar [nomod]2
 END
+VER 3 000000000000000B "Err" "INV_Misc_QuestionMark"
+/console scriptErrors 1
+END
 VER 3 0000000000000008 "Focus" "458724"
 /focus [@mouseover,exists]
 /stopmacro [@mouseover,exists]

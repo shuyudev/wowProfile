@@ -19,7 +19,7 @@ TipTac_Config = {
 	["hideDefaultBar"] = true,
 	["healthBar"] = true,
 	["colRace"] = "|cffffffff",
-	["nameType"] = "normal",
+	["mouseOffsetX"] = 0,
 	["tipBorderColor"] = {
 		0.3, -- [1]
 		0.3, -- [2]
@@ -29,53 +29,53 @@ TipTac_Config = {
 	["classification_normal"] = "%s ",
 	["colLevel"] = "|cffc0c0c0",
 	["healthBarClassColor"] = true,
-	["anchorFrameTipPoint"] = "TOPRIGHT",
+	["anchorFrameUnitType"] = "normal",
 	["anchorFrameUnitPoint"] = "BOTTOMRIGHT",
 	["reactColoredBorder"] = false,
 	["classification_minus"] = "-%s ",
 	["barFontFlags"] = "OUTLINE",
-	["hideWorldTips"] = true,
-	["fontSizeDelta"] = 2,
-	["gradientTip"] = false,
+	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+	["healthBarText"] = "value",
+	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
 	["fontSize"] = 12,
 	["anchorWorldTipType"] = "normal",
-	["classification_rare"] = "%s|r (Rare) ",
 	["colGuild"] = "|c00000406",
+	["colorGuildByReaction"] = true,
+	["left"] = 702.419494628906,
 	["optionsBottom"] = 296.135864257813,
-	["left"] = 144.592666625977,
-	["preFadeTime"] = 0.1,
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["backdropInsets"] = 4,
+	["colSameGuild"] = "|cffff32ff",
 	["reactColoredBackdrop"] = false,
 	["anchorWorldUnitPoint"] = "BOTTOMRIGHT",
 	["classification_trivial"] = "~%s ",
-	["backdropInsets"] = 4,
-	["healthBarColor"] = {
-		0.3, -- [1]
-		0.9, -- [2]
-		0.3, -- [3]
-		1, -- [4]
-	},
-	["colorNameByClass"] = false,
-	["colSameGuild"] = "|cffff32ff",
-	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
+	["classification_worldboss"] = "%s|r (Boss) ",
+	["fadeTime"] = 0.1,
 	["manaBar"] = false,
+	["classColoredBorder"] = false,
+	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
+	["colorNameByClass"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
 		0.8, -- [2]
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["classColoredBorder"] = false,
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["anchorWorldUnitType"] = "normal",
-	["fadeTime"] = 0.1,
+	["healthBarColor"] = {
+		0.3, -- [1]
+		0.9, -- [2]
+		0.3, -- [3]
+		1, -- [4]
+	},
 	["targetYouText"] = "<<YOU>>",
-	["classification_worldboss"] = "%s|r (Boss) ",
-	["top"] = 281.579956054688,
-	["colorGuildByReaction"] = true,
-	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
-	["healthBarText"] = "value",
-	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+	["preFadeTime"] = 0.1,
+	["top"] = 853.333374023438,
+	["classification_rare"] = "%s|r (Rare) ",
+	["gradientTip"] = false,
+	["fontSizeDelta"] = 2,
+	["hideWorldTips"] = true,
 	["barFontSize"] = 12,
-	["anchorFrameUnitType"] = "normal",
-	["mouseOffsetX"] = 0,
+	["anchorFrameTipPoint"] = "TOPRIGHT",
+	["nameType"] = "normal",
 }

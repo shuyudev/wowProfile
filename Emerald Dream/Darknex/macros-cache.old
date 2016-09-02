@@ -97,5 +97,6 @@ VER 3 0100000000000013 "Str/Gar" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip
-/use [mod:alt,@mouseover,help]Tricks of the Trade;[mod:alt]Tricks of the Trade;[mod:shift]Goblin Glider Kit;[spec:1]Poisoned Knife;[spec:3]Shuriken Toss;Pistol Shot
+/use [mod:alt,@mouseover,help]Tricks of the Trade;[mod:alt]Tricks of the Trade;[mod:shift]15;[spec:1]Poisoned Knife;[spec:3]Shuriken Toss;Pistol Shot
+/use [btn:2]Goblin Glider Kit
 END
