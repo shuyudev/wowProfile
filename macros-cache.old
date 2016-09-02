@@ -29,11 +29,11 @@ VER 3 0000000000000003 "T2" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0000000000000005 "Target" "132212"
+/focus [mod:alt,@target,exists]
 /stopattack
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /cleartarget [nomod]
 /targetenemy
 /cleartarget [mod:shift]
-/startattack [mod:alt]
 END

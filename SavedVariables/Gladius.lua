@@ -4,18 +4,18 @@ Gladius2DB = {
 		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
 		["Naxxes - 燃烧之刃"] = "Naxxes - 燃烧之刃",
 		["Felnex - Emerald Dream"] = "Default",
-		["Darknex - Emerald Dream"] = "Default",
-		["Neroix - 燃烧之刃"] = "Neroix - 燃烧之刃",
-		["Elunex - Malygos"] = "Default",
-		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
-		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
-		["Shädowx - Emerald Dream"] = "Default",
-		["Neroix - Emerald Dream"] = "Default",
-		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
-		["Därknex - Kel'Thuzad"] = "Default",
-		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
-		["Darknex - 燃烧之刃"] = "Darknex - 燃烧之刃",
 		["Gorlordis - Emerald Dream"] = "Gorlordis - Emerald Dream",
+		["Darknex - 燃烧之刃"] = "Darknex - 燃烧之刃",
+		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
+		["Elunex - Malygos"] = "Default",
+		["Därknex - Kel'Thuzad"] = "Default",
+		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
+		["Neroix - Emerald Dream"] = "Default",
+		["Shädowx - Emerald Dream"] = "Default",
+		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
+		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
+		["Neroix - 燃烧之刃"] = "Neroix - 燃烧之刃",
+		["Darknex - Emerald Dream"] = "Default",
 	},
 	["profiles"] = {
 		["Shadowzxz - Emerald Dream"] = {
@@ -36,29 +36,29 @@ Gladius2DB = {
 		["Neroix - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 420.911048419977,
-			},
 			["x"] = {
 				["arena1"] = 586.488961514129,
 			},
+			["y"] = {
+				["arena1"] = 420.911048419977,
+			},
 		},
-		["Darknex - Emerald Dream"] = {
+		["Gorlordis - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 586.600033288531,
-			},
 			["x"] = {
-				["arena1"] = 836.088936591441,
+				["arena1"] = 1212.26667931168,
+			},
+			["y"] = {
+				["arena1"] = 528.288944745356,
 			},
 		},
-		["Neroix - 燃烧之刃"] = {
+		["Darknex - 燃烧之刃"] = {
 			["y"] = {
-				["arena1"] = 568.82223224581,
+				["arena1"] = 571.666702385301,
 			},
 			["x"] = {
-				["arena1"] = 1048.71090971865,
+				["arena1"] = 1049.42150540295,
 			},
 			["tags"] = {
 				["maxhealth"] = {
@@ -121,17 +121,17 @@ Gladius2DB = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nlocal maxHealth = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nreturn strformat(\"%.1f%%\", (health / maxHealth * 100))\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["health"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
-					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
+				["maxpower"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
+					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
 				},
 				["maxhealth:short"] = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nif (health > 999) then\nreturn strformat(\"%.1fk\", (health / 1000))\nelse\nreturn health\nend\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["maxpower"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
-					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
+				["health"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
+					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 			},
 			["auraVersion"] = 1,
@@ -141,30 +141,30 @@ Gladius2DB = {
 		["Eavey - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 492.02236245414,
-			},
 			["x"] = {
 				["arena1"] = 1035.200143475,
 			},
+			["y"] = {
+				["arena1"] = 492.02236245414,
+			},
+		},
+		["Därknex - Kel'Thuzad"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
 		},
 		["Elunex - Malygos"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 		},
-		["Marnethy - Emerald Dream"] = {
+		["Elunnex - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["x"] = {
-				["arena1"] = 1121.95543902833,
+				["arena1"] = 1113.42235819969,
 			},
 			["y"] = {
-				["arena1"] = 563.133346898467,
+				["arena1"] = 538.95557043935,
 			},
-		},
-		["Shädowx - Emerald Dream"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 		},
 		["Felnex - Emerald Dream"] = {
 			["auraVersion"] = 1,
@@ -236,17 +236,17 @@ Gladius2DB = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nlocal maxHealth = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nreturn strformat(\"%.1f%%\", (health / maxHealth * 100))\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["maxpower"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
-					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
+				["health"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
+					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 				["maxhealth:short"] = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nif (health > 999) then\nreturn strformat(\"%.1fk\", (health / 1000))\nelse\nreturn health\nend\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["health"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
-					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
+				["maxpower"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
+					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
 				},
 			},
 			["timerOmniCC"] = true,
@@ -262,36 +262,36 @@ Gladius2DB = {
 			["direction"] = 2,
 			["frameScale"] = 0.9,
 		},
-		["Elunnex - Emerald Dream"] = {
+		["Shädowx - Emerald Dream"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
+		["Marnethy - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 538.95557043935,
+				["arena1"] = 563.133346898467,
 			},
 			["x"] = {
-				["arena1"] = 1113.42235819969,
+				["arena1"] = 1121.95543902833,
 			},
-		},
-		["Därknex - Kel'Thuzad"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 		},
 		["Ruthala - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 563.133291966828,
-			},
 			["x"] = {
 				["arena1"] = 1117.68900847729,
 			},
-		},
-		["Darknex - 燃烧之刃"] = {
 			["y"] = {
-				["arena1"] = 571.666702385301,
+				["arena1"] = 563.133291966828,
+			},
+		},
+		["Neroix - 燃烧之刃"] = {
+			["y"] = {
+				["arena1"] = 568.82223224581,
 			},
 			["x"] = {
-				["arena1"] = 1049.42150540295,
+				["arena1"] = 1048.71090971865,
 			},
 			["tags"] = {
 				["maxhealth"] = {
@@ -354,31 +354,31 @@ Gladius2DB = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nlocal maxHealth = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nreturn strformat(\"%.1f%%\", (health / maxHealth * 100))\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["health"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
-					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
+				["maxpower"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
+					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
 				},
 				["maxhealth:short"] = {
 					["func"] = "function(unit)\nlocal health = not Gladius.test and UnitHealthMax(unit) or Gladius.testing[unit].maxHealth\nif (health > 999) then\nreturn strformat(\"%.1fk\", (health / 1000))\nelse\nreturn health\nend\nend",
 					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
-				["maxpower"] = {
-					["func"] = "function(unit)\nreturn not Gladius.test and UnitPowerMax(unit) or Gladius.testing[unit].maxPower\nend",
-					["events"] = "UNIT_MAXPOWER UNIT_DISPLAYPOWER UNIT_NAME_UPDATE",
+				["health"] = {
+					["func"] = "function(unit)\nreturn not Gladius.test and UnitHealth(unit) or Gladius.testing[unit].health\nend",
+					["events"] = "UNIT_HEALTH UNIT_MAXHEALTH UNIT_NAME_UPDATE",
 				},
 			},
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
 			["locked"] = true,
 		},
-		["Gorlordis - Emerald Dream"] = {
+		["Darknex - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 528.288944745356,
-			},
 			["x"] = {
-				["arena1"] = 1212.26667931168,
+				["arena1"] = 836.088936591441,
+			},
+			["y"] = {
+				["arena1"] = 586.600033288531,
 			},
 		},
 	},

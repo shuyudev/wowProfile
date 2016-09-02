@@ -62,7 +62,7 @@ VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 /use [nocombat]!Stealth
-/use [stealth,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
+/use [form:1/2,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
 /stopattack [stealth]
 /stopmacro [stealth][nocombat][@target,noharm]
 /use [spec:3,form:0]Backstab;[spec:2]Saber Slash;Mutilate
@@ -72,7 +72,13 @@ VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 /use [form:0,nocombat]!Stealth
 /cleartarget [mod:shift]
 /targetenemy [mod:shift]
-/use [nostealth]Vanish;[@mouseover,exists]Pick Pocket;Pick Pocket
+/use [form:0,nostealth,combat]Vanish;[@mouseover,exists]Pick Pocket;Pick Pocket
+END
+VER 3 010000000000001B "Re" "INV_Misc_QuestionMark"
+#showtooltip
+/use !stealth
+/use [stealth]Symbols of Death
+/cancelaura [stealth]stealth
 END
 VER 3 0100000000000004 "Sap" "INV_MISC_QUESTIONMARK"
 #showtooltip

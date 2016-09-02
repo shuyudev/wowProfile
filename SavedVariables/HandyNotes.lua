@@ -11,9 +11,6 @@ HandyNotesDB = {
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["profileKeys"] = {
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["global"] = {
 		["Dalaran70"] = {
 			[46272627] = {
@@ -31,6 +28,9 @@ HandyNotes_HandyNotesDB = {
 				["desc"] = "",
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {
