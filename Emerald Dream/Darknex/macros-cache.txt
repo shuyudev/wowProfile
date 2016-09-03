@@ -14,8 +14,6 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [spec:1]Vendetta;[spec:2]Adrenaline Rush;[spec:3]Shadow Blades
 /use [spec:1]Exsanguinate
-/use [spec:3,form:0]Shadow Dance
-/use [mod:shift]Cheap Shot
 END
 VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 #showtooltip

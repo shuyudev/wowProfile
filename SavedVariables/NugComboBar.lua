@@ -8,7 +8,7 @@ NugComboBarDB_Global = {
 	["shadowDance"] = false,
 	["soundChannel"] = "Master",
 	["showAlways"] = true,
-	["alpha"] = 0.6,
+	["alpha"] = 0.3,
 	["preset3dpointbar2"] = "void2",
 	["preset3d"] = "funnelRed",
 }
