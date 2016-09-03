@@ -11,15 +11,12 @@ HandyNotesDB = {
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["profileKeys"] = {
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["global"] = {
 		["Azsuna"] = {
 			[58701410] = {
-				["title"] = "portal",
 				["cont"] = false,
 				["icon"] = 1,
+				["title"] = "portal",
 				["desc"] = "",
 			},
 		},
@@ -39,6 +36,9 @@ HandyNotes_HandyNotesDB = {
 				["desc"] = "",
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {
