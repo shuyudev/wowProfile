@@ -364,14 +364,14 @@ Quartz3DB = {
 	["profiles"] = {
 		["Default.2016.08.05"] = {
 			["modules"] = {
-				["Interrupt"] = false,
+				["Timer"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Timer"] = false,
+				["Interrupt"] = false,
 				["Flight"] = false,
-				["Mirror"] = false,
 				["Range"] = false,
+				["Mirror"] = false,
 			},
 		},
 		["rog.2014.10.20"] = {
@@ -387,14 +387,14 @@ Quartz3DB = {
 		},
 		["wlk.2014.10.20"] = {
 			["modules"] = {
-				["Mirror"] = false,
+				["Range"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
-				["Flight"] = false,
-				["Range"] = false,
 				["Timer"] = false,
+				["Flight"] = false,
+				["Mirror"] = false,
+				["Interrupt"] = false,
 			},
 		},
 		["燃烧之刃"] = {
@@ -423,26 +423,26 @@ Quartz3DB = {
 		},
 		["Default"] = {
 			["modules"] = {
-				["Timer"] = false,
-				["Buff"] = false,
 				["Interrupt"] = false,
+				["Buff"] = false,
+				["Timer"] = false,
 				["Flight"] = false,
-				["Pet"] = false,
 				["Mirror"] = false,
+				["Pet"] = false,
 			},
 		},
 		["Darknex - 燃烧之刃"] = {
 		},
 		["Darknex - Emerald Dream"] = {
 			["modules"] = {
-				["Range"] = false,
+				["Mirror"] = false,
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
-				["Interrupt"] = false,
-				["Flight"] = false,
-				["Mirror"] = false,
 				["Timer"] = false,
+				["Flight"] = false,
+				["Range"] = false,
+				["Interrupt"] = false,
 			},
 		},
 	},

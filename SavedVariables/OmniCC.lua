@@ -1,22 +1,23 @@
 
 OmniCC4Config = {
+	["engine"] = "AniUpdater",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
 			["fontFace"] = "Fonts\\SKURRI.TTF",
 			["fontSize"] = 13,
 			["effect"] = "none",
-			["minDuration"] = 2,
+			["yOff"] = 0,
 			["minEffectDuration"] = 30,
 			["minSize"] = 0.5,
 			["spiralOpacity"] = 0.959999978542328,
-			["yOff"] = 0,
+			["scaleText"] = false,
 			["xOff"] = 0,
 			["tenthsDuration"] = 7,
 			["fontOutline"] = "OUTLINE",
 			["anchor"] = "BOTTOMLEFT",
 			["mmSSDuration"] = 0,
-			["scaleText"] = false,
+			["minDuration"] = 2,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -110,22 +111,20 @@ OmniCC4Config = {
 				},
 			},
 			["effect"] = "pulse",
-			["scaleText"] = true,
+			["minDuration"] = 2,
 			["mmSSDuration"] = 0,
 			["anchor"] = "CENTER",
 			["spiralOpacity"] = 1,
-			["minDuration"] = 2,
+			["yOff"] = 0,
 			["xOff"] = 0,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["minSize"] = 0.5,
 			["minEffectDuration"] = 30,
-			["yOff"] = 0,
+			["scaleText"] = true,
 			["fontSize"] = 18,
 		},
 	},
-	["engine"] = "AniUpdater",
-	["version"] = "7.0.1",
 	["groups"] = {
 		{
 			["id"] = "Ignore",
@@ -136,4 +135,5 @@ OmniCC4Config = {
 			["enabled"] = true,
 		}, -- [1]
 	},
+	["version"] = "7.0.1",
 }

@@ -17,7 +17,7 @@ Postal3DB = {
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Darknex|Emerald Dream|Horde|109|ROGUE", -- [1]
+				"Darknex|Emerald Dream|Horde|110|ROGUE", -- [1]
 				"Därknex|Kel'Thuzad|Alliance|1|HUNTER", -- [2]
 				"Eavey|Emerald Dream|Horde|1|HUNTER", -- [3]
 				"Elunex|Malygos|Alliance|100|DRUID", -- [4]

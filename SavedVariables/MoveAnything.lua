@@ -157,7 +157,7 @@ MADB = {
 						"UIParent", -- [2]
 						"BOTTOM", -- [3]
 						0, -- [4]
-						264, -- [5]
+						255.000015258789, -- [5]
 					},
 					["name"] = "ZoneAbilityFrame",
 					["pos"] = {
@@ -307,33 +307,24 @@ MADB = {
 						685.172912597656, -- [5]
 					},
 				},
-				["ArenaEnemyFrame5"] = {
+				["GameTimeFrame"] = {
 					["orgPos"] = {
-						{
-							"TOP", -- [1]
-							"ArenaEnemyFrame4", -- [2]
-							"BOTTOM", -- [3]
-							0, -- [4]
-							-20, -- [5]
-						}, -- [1]
-						{
-							"RIGHT", -- [1]
-							"ArenaEnemyFrames", -- [2]
-							"RIGHT", -- [3]
-							-2, -- [4]
-							0, -- [5]
-						}, -- [2]
+						"TOPRIGHT", -- [1]
+						"Minimap", -- [2]
+						"TOPRIGHT", -- [3]
+						20, -- [4]
+						-2, -- [5]
 					},
-					["name"] = "ArenaEnemyFrame5",
+					["name"] = "GameTimeFrame",
+					["orgAlpha"] = 1,
+					["alpha"] = 0.6,
 					["pos"] = {
-						"TOP", -- [1]
-						"ArenaEnemyFrame4", -- [2]
-						"BOTTOM", -- [3]
-						0, -- [4]
-						-20, -- [5]
+						"TOPRIGHT", -- [1]
+						"Minimap", -- [2]
+						"TOPRIGHT", -- [3]
+						20.0000152587891, -- [4]
+						-2.00001525878906, -- [5]
 					},
-					["hidden"] = true,
-					["unit"] = "arena5",
 				},
 				["TimeManagerClockButton"] = {
 					["orgPos"] = {
@@ -525,24 +516,33 @@ MADB = {
 						238.86360168457, -- [5]
 					},
 				},
-				["GameTimeFrame"] = {
+				["ArenaEnemyFrame5"] = {
 					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"Minimap", -- [2]
-						"TOPRIGHT", -- [3]
-						20, -- [4]
-						-2, -- [5]
+						{
+							"TOP", -- [1]
+							"ArenaEnemyFrame4", -- [2]
+							"BOTTOM", -- [3]
+							0, -- [4]
+							-20, -- [5]
+						}, -- [1]
+						{
+							"RIGHT", -- [1]
+							"ArenaEnemyFrames", -- [2]
+							"RIGHT", -- [3]
+							-2, -- [4]
+							0, -- [5]
+						}, -- [2]
 					},
-					["name"] = "GameTimeFrame",
-					["orgAlpha"] = 1,
-					["alpha"] = 0.6,
+					["name"] = "ArenaEnemyFrame5",
 					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"Minimap", -- [2]
-						"TOPRIGHT", -- [3]
-						20.0000152587891, -- [4]
-						-2.00001525878906, -- [5]
+						"TOP", -- [1]
+						"ArenaEnemyFrame4", -- [2]
+						"BOTTOM", -- [3]
+						0, -- [4]
+						-20, -- [5]
 					},
+					["hidden"] = true,
+					["unit"] = "arena5",
 				},
 			},
 		},

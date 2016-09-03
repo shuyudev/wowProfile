@@ -39,19 +39,19 @@ TipTac_Config = {
 	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
 	["fontSize"] = 12,
 	["anchorWorldTipType"] = "normal",
-	["colorGuildByReaction"] = true,
 	["colGuild"] = "|c00000406",
+	["colorGuildByReaction"] = true,
 	["left"] = 702.419494628906,
 	["optionsBottom"] = 296.135864257813,
-	["classification_worldboss"] = "%s|r (Boss) ",
-	["classColoredBorder"] = false,
+	["backdropInsets"] = 4,
+	["colSameGuild"] = "|cffff32ff",
 	["reactColoredBackdrop"] = false,
 	["anchorWorldUnitPoint"] = "BOTTOMRIGHT",
 	["classification_trivial"] = "~%s ",
-	["backdropInsets"] = 4,
+	["classification_worldboss"] = "%s|r (Boss) ",
 	["fadeTime"] = 0.1,
 	["manaBar"] = false,
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["classColoredBorder"] = false,
 	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
 	["colorNameByClass"] = false,
 	["gradientColor"] = {
@@ -60,7 +60,7 @@ TipTac_Config = {
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["colSameGuild"] = "|cffff32ff",
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["anchorWorldUnitType"] = "normal",
 	["healthBarColor"] = {
 		0.3, -- [1]

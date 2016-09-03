@@ -148,6 +148,10 @@ Gladius2DB = {
 				["arena1"] = 1035.200143475,
 			},
 		},
+		["Elunex - Malygos"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+		},
 		["Marnethy - Emerald Dream"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
@@ -157,10 +161,6 @@ Gladius2DB = {
 			["y"] = {
 				["arena1"] = 563.133346898467,
 			},
-		},
-		["Elunex - Malygos"] = {
-			["auraVersion"] = 1,
-			["tagsVersion"] = 4,
 		},
 		["Shädowx - Emerald Dream"] = {
 			["auraVersion"] = 1,

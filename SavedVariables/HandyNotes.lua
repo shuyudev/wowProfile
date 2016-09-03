@@ -15,6 +15,14 @@ HandyNotes_HandyNotesDB = {
 		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["global"] = {
+		["Azsuna"] = {
+			[58701410] = {
+				["title"] = "portal",
+				["cont"] = false,
+				["icon"] = 1,
+				["desc"] = "",
+			},
+		},
 		["Dalaran70"] = {
 			[46272627] = {
 				["title"] = "Entry-train",
@@ -28,14 +36,6 @@ HandyNotes_HandyNotesDB = {
 				["cont"] = false,
 				["level"] = 10,
 				["icon"] = 7,
-				["desc"] = "",
-			},
-		},
-		["Azsuna"] = {
-			[58701410] = {
-				["cont"] = false,
-				["icon"] = 1,
-				["title"] = "portal",
 				["desc"] = "",
 			},
 		},

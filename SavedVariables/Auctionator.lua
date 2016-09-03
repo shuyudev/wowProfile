@@ -2,13 +2,13 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_50000"] = 500,
 	["_2000"] = 100,
-	["LOG_DE_DATA_X"] = true,
 	["_500"] = 5,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
 	["STARTING_DISCOUNT"] = 5,
-	["_5000000"] = 10000,
+	["_1000000"] = 2500,
 	["_10000"] = 200,
+	["LOG_DE_DATA_X"] = true,
+	["_200000"] = 1000,
+	["_5000000"] = 10000,
 }
 AUCTIONATOR_PRICING_HISTORY = {
 	["Ghost Iron Ore"] = {
@@ -24,9 +24,9 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "83064:0:0:0",
 		["4226424"] = "16400:6",
 	},
-	["Krasarang Paddlefish"] = {
-		["is"] = "74865:0:0:0",
-		["4226424"] = "28200:9",
+	["Mote of Harmony"] = {
+		["is"] = "89112:0:0:0",
+		["4226425"] = "41000:8",
 	},
 	["Tiger Gourami"] = {
 		["is"] = "74861:0:0:0",
@@ -40,17 +40,17 @@ AUCTIONATOR_PRICING_HISTORY = {
 		["is"] = "74866:0:0:0",
 		["4226424"] = "3800:31",
 	},
-	["Mote of Harmony"] = {
-		["is"] = "89112:0:0:0",
-		["4226425"] = "41000:8",
+	["Emperor Salmon"] = {
+		["is"] = "74859:0:0:0",
+		["4226424"] = "49200:11",
 	},
 	["Ghost Iron Nugget"] = {
 		["is"] = "97512:0:0:0",
 		["4226424"] = "2100:121",
 	},
-	["Emperor Salmon"] = {
-		["is"] = "74859:0:0:0",
-		["4226424"] = "49200:11",
+	["Krasarang Paddlefish"] = {
+		["is"] = "74865:0:0:0",
+		["4226424"] = "28200:9",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -386,13 +386,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104127:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of the Heavens"] = {
-			["H2115"] = 279800,
-			["mr"] = 279800,
-			["sc"] = 5,
-			["id"] = "79538:0:0:0",
-			["cc"] = 16,
-		},
 		["Felwort"] = {
 			["mr"] = 23500000,
 			["cc"] = 7,
@@ -407,33 +400,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2119"] = 23940000,
 			["sc"] = 2,
 		},
-		["Moss Agate"] = {
-			["mr"] = 49800,
-			["cc"] = 7,
-			["id"] = "1206:0:0:0",
-			["H2092"] = 49800,
-			["sc"] = 4,
-		},
-		["Imbued Silkweave Bracers of the Adaptable"] = {
-			["mr"] = 74450000,
-			["cc"] = 4,
-			["id"] = "127002:0:0:0",
-			["H2119"] = 74450000,
-			["sc"] = 1,
-		},
-		["Linen Cloth"] = {
-			["mr"] = 499,
-			["cc"] = 7,
-			["id"] = "2589:0:0:0",
-			["H2092"] = 499,
-			["sc"] = 5,
-		},
 		["Glyph of the Sha"] = {
 			["H2115"] = 281853,
 			["mr"] = 281853,
 			["sc"] = 5,
 			["id"] = "104120:0:0:0",
 			["cc"] = 16,
+		},
+		["Moss Agate"] = {
+			["mr"] = 49800,
+			["cc"] = 7,
+			["id"] = "1206:0:0:0",
+			["H2092"] = 49800,
+			["sc"] = 4,
 		},
 		["Technique: Glyph of Lingering Ancestors"] = {
 			["H2115"] = 2142500,
@@ -442,11 +421,32 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104235:0:0:0",
 			["cc"] = 9,
 		},
+		["Linen Cloth"] = {
+			["mr"] = 499,
+			["cc"] = 7,
+			["id"] = "2589:0:0:0",
+			["H2092"] = 499,
+			["sc"] = 5,
+		},
 		["Glyph of Shackle Undead"] = {
 			["H2115"] = 358998,
 			["mr"] = 358998,
 			["sc"] = 5,
 			["id"] = "43373:0:0:0",
+			["cc"] = 16,
+		},
+		["Spinefish"] = {
+			["mr"] = 16600,
+			["cc"] = 7,
+			["id"] = "83064:0:0:0",
+			["H2098"] = 16600,
+			["sc"] = 11,
+		},
+		["Glyph of the Sentinel"] = {
+			["H2115"] = 29500000,
+			["mr"] = 29500000,
+			["sc"] = 11,
+			["id"] = "129021:0:0:0",
 			["cc"] = 16,
 		},
 		["Windwool Cloth"] = {
@@ -456,12 +456,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 4900,
 			["sc"] = 5,
 		},
-		["Spinefish"] = {
-			["mr"] = 16600,
-			["cc"] = 7,
-			["id"] = "83064:0:0:0",
-			["H2098"] = 16600,
+		["Technique: Glyph of Skeleton"] = {
+			["mr"] = 325831414,
 			["sc"] = 11,
+			["id"] = "104219:0:0:0",
+			["cc"] = 9,
+			["H2112"] = 325831414,
 		},
 		["Glyph of Foul Menagerie"] = {
 			["H2115"] = 80000,
@@ -470,11 +470,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "43551:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of Shadow"] = {
-			["H2115"] = 318674,
-			["mr"] = 318674,
-			["sc"] = 5,
-			["id"] = "77101:0:0:0",
+		["Glyph of Deluge"] = {
+			["H2115"] = 118797,
+			["mr"] = 118797,
+			["sc"] = 7,
+			["id"] = "45775:0:0:0",
 			["cc"] = 16,
 		},
 		["Glyph of Winged Vengeance"] = {
@@ -484,18 +484,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "43366:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of Pillar of Light"] = {
-			["H2115"] = 992497,
-			["mr"] = 992497,
+		["Glyph of the Luminous Charger"] = {
+			["H2115"] = 385895,
+			["mr"] = 385895,
 			["sc"] = 2,
-			["id"] = "104108:0:0:0",
+			["id"] = "41100:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of the Sentinel"] = {
-			["H2115"] = 29500000,
-			["mr"] = 29500000,
-			["sc"] = 11,
-			["id"] = "129021:0:0:0",
+		["Glyph of Shadow"] = {
+			["H2115"] = 318674,
+			["mr"] = 318674,
+			["sc"] = 5,
+			["id"] = "77101:0:0:0",
 			["cc"] = 16,
 		},
 		["Technique: Glyph of Evaporation"] = {
@@ -505,20 +505,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104224:0:0:0",
 			["cc"] = 9,
 		},
-		["Technique: Glyph of Skeleton"] = {
-			["mr"] = 325831414,
-			["sc"] = 11,
-			["id"] = "104219:0:0:0",
-			["cc"] = 9,
-			["H2112"] = 325831414,
+		["Glyph of Pillar of Light"] = {
+			["H2115"] = 992497,
+			["mr"] = 992497,
+			["sc"] = 2,
+			["id"] = "104108:0:0:0",
+			["cc"] = 16,
 		},
-		["Bronze Bar"] = {
-			["mr"] = 115500,
-			["cc"] = 7,
-			["id"] = "2841:0:0:0",
-			["H2092"] = 123750,
+		["Glyph of Spirit Raptors"] = {
+			["H2115"] = 188000,
+			["mr"] = 188000,
 			["sc"] = 7,
-			["L2092"] = 115500,
+			["id"] = "104126:0:0:0",
+			["cc"] = 16,
 		},
 		["Emperor Salmon"] = {
 			["mr"] = 49400,
@@ -527,12 +526,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2098"] = 49400,
 			["sc"] = 8,
 		},
-		["Glyph of Deluge"] = {
-			["H2115"] = 118797,
-			["mr"] = 118797,
-			["sc"] = 7,
-			["id"] = "45775:0:0:0",
-			["cc"] = 16,
+		["Giant Mantis Shrimp"] = {
+			["mr"] = 33000,
+			["cc"] = 7,
+			["id"] = "74857:0:0:0",
+			["H2099"] = 33000,
+			["sc"] = 8,
 		},
 		["Glyph of Tattered Wings"] = {
 			["H2115"] = 49990000,
@@ -541,18 +540,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "139436:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of Mighty Victory"] = {
-			["H2115"] = 114300,
-			["mr"] = 114300,
-			["sc"] = 1,
-			["id"] = "43400:0:0:0",
+		["Glyph of the Unbound Elemental"] = {
+			["H2115"] = 123999,
+			["mr"] = 123999,
+			["sc"] = 8,
+			["id"] = "104104:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of the Luminous Charger"] = {
-			["H2115"] = 385895,
-			["mr"] = 385895,
-			["sc"] = 2,
-			["id"] = "41100:0:0:0",
+		["Glyph of the Ursol Chameleon"] = {
+			["H2115"] = 251585,
+			["mr"] = 251585,
+			["sc"] = 11,
+			["id"] = "43334:0:0:0",
 			["cc"] = 16,
 		},
 		["Blackrock Ore"] = {
@@ -562,18 +561,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 22200,
 			["sc"] = 7,
 		},
-		["Giant Mantis Shrimp"] = {
-			["mr"] = 33000,
+		["Silver Bar"] = {
+			["mr"] = 49600,
 			["cc"] = 7,
-			["id"] = "74857:0:0:0",
-			["H2099"] = 33000,
-			["sc"] = 8,
+			["id"] = "2842:0:0:0",
+			["H2092"] = 49600,
+			["sc"] = 7,
 		},
-		["Glyph of the Geist"] = {
-			["H2115"] = 178500,
-			["mr"] = 178500,
-			["sc"] = 6,
-			["id"] = "43535:0:0:0",
+		["Glyph of the Val'kyr"] = {
+			["H2115"] = 119494,
+			["mr"] = 119494,
+			["sc"] = 5,
+			["id"] = "87277:0:0:0",
 			["cc"] = 16,
 		},
 		["Hexweave Bag"] = {
@@ -583,19 +582,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["cc"] = 1,
 			["id"] = "114821:0:0:0",
 		},
-		["Glyph of the Val'kyr"] = {
-			["H2115"] = 119494,
-			["mr"] = 119494,
-			["sc"] = 5,
-			["id"] = "87277:0:0:0",
+		["Glyph of Evaporation"] = {
+			["H2115"] = 108800,
+			["mr"] = 108800,
+			["sc"] = 8,
+			["id"] = "104105:0:0:0",
 			["cc"] = 16,
-		},
-		["Technique: Glyph of the Weaponmaster"] = {
-			["H2115"] = 44989998,
-			["mr"] = 44989998,
-			["sc"] = 11,
-			["id"] = "104245:0:0:0",
-			["cc"] = 9,
 		},
 		["Glyph of the Skeleton"] = {
 			["H2115"] = 409999,
@@ -604,12 +596,19 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104099:0:0:0",
 			["cc"] = 16,
 		},
-		["Wool Cloth"] = {
-			["mr"] = 1985,
-			["cc"] = 7,
-			["id"] = "2592:0:0:0",
-			["H2092"] = 1985,
-			["sc"] = 5,
+		["Glyph of Fallow Wings"] = {
+			["H2115"] = 49500000,
+			["mr"] = 49500000,
+			["sc"] = 12,
+			["id"] = "139417:0:0:0",
+			["cc"] = 16,
+		},
+		["Glyph of Hawk Feast"] = {
+			["H2115"] = 119000,
+			["mr"] = 119000,
+			["sc"] = 1,
+			["id"] = "80587:0:0:0",
+			["cc"] = 16,
 		},
 		["Tiger Gourami"] = {
 			["mr"] = 18800,
@@ -625,11 +624,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["H2092"] = 9100,
 			["sc"] = 7,
 		},
-		["Glyph of Hawk Feast"] = {
-			["H2115"] = 119000,
-			["mr"] = 119000,
-			["sc"] = 1,
-			["id"] = "80587:0:0:0",
+		["Glyph of the Heavens"] = {
+			["H2115"] = 279800,
+			["mr"] = 279800,
+			["sc"] = 5,
+			["id"] = "79538:0:0:0",
 			["cc"] = 16,
 		},
 		["Sea Scorpion Segment"] = {
@@ -639,25 +638,25 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "109142:0:0:0",
 			["sc"] = 8,
 		},
-		["Glyph of Evaporation"] = {
-			["H2115"] = 108800,
-			["mr"] = 108800,
-			["sc"] = 8,
-			["id"] = "104105:0:0:0",
-			["cc"] = 16,
-		},
-		["Glyph of Fallow Wings"] = {
-			["H2115"] = 49500000,
-			["mr"] = 49500000,
-			["sc"] = 12,
-			["id"] = "139417:0:0:0",
-			["cc"] = 16,
+		["Technique: Glyph of the Weaponmaster"] = {
+			["H2115"] = 44989998,
+			["mr"] = 44989998,
+			["sc"] = 11,
+			["id"] = "104245:0:0:0",
+			["cc"] = 9,
 		},
 		["Bolt of Windwool Cloth"] = {
 			["mr"] = 61500,
 			["cc"] = 7,
 			["id"] = "82441:0:0:0",
 			["H2092"] = 61500,
+			["sc"] = 5,
+		},
+		["Wool Cloth"] = {
+			["mr"] = 1985,
+			["cc"] = 7,
+			["id"] = "2592:0:0:0",
+			["H2092"] = 1985,
 			["sc"] = 5,
 		},
 		["Glyph of Crittermorph"] = {
@@ -667,12 +666,12 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "42751:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of the Unbound Elemental"] = {
-			["H2115"] = 123999,
-			["mr"] = 123999,
-			["sc"] = 8,
-			["id"] = "104104:0:0:0",
-			["cc"] = 16,
+		["Imbued Silkweave Bracers of the Adaptable"] = {
+			["mr"] = 74450000,
+			["cc"] = 4,
+			["id"] = "127002:0:0:0",
+			["H2119"] = 74450000,
+			["sc"] = 1,
 		},
 		["Felwort Seed"] = {
 			["mr"] = 100000000,
@@ -695,6 +694,28 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104227:0:0:0",
 			["cc"] = 9,
 		},
+		["Glyph of the Geist"] = {
+			["H2115"] = 178500,
+			["mr"] = 178500,
+			["sc"] = 6,
+			["id"] = "43535:0:0:0",
+			["cc"] = 16,
+		},
+		["Bronze Bar"] = {
+			["mr"] = 115500,
+			["cc"] = 7,
+			["id"] = "2841:0:0:0",
+			["H2092"] = 123750,
+			["sc"] = 7,
+			["L2092"] = 115500,
+		},
+		["Glyph of Mighty Victory"] = {
+			["H2115"] = 114300,
+			["mr"] = 114300,
+			["sc"] = 1,
+			["id"] = "43400:0:0:0",
+			["cc"] = 16,
+		},
 		["Solid Stone"] = {
 			["mr"] = 799,
 			["cc"] = 7,
@@ -707,27 +728,6 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["mr"] = 135000,
 			["sc"] = 1,
 			["id"] = "49084:0:0:0",
-			["cc"] = 16,
-		},
-		["Silver Bar"] = {
-			["mr"] = 49600,
-			["cc"] = 7,
-			["id"] = "2842:0:0:0",
-			["H2092"] = 49600,
-			["sc"] = 7,
-		},
-		["Glyph of the Ursol Chameleon"] = {
-			["H2115"] = 251585,
-			["mr"] = 251585,
-			["sc"] = 11,
-			["id"] = "43334:0:0:0",
-			["cc"] = 16,
-		},
-		["Glyph of Spirit Raptors"] = {
-			["H2115"] = 188000,
-			["mr"] = 188000,
-			["sc"] = 7,
-			["id"] = "104126:0:0:0",
 			["cc"] = 16,
 		},
 		["Glyph of the Orca"] = {
@@ -956,18 +956,18 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "43398:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of Evaporation"] = {
-			["H2111"] = 289392,
-			["mr"] = 289392,
-			["sc"] = 8,
-			["id"] = "104105:0:0:0",
-			["cc"] = 16,
-		},
 		["Glyph of Crittermorph"] = {
 			["H2111"] = 289492,
 			["mr"] = 289492,
 			["sc"] = 8,
 			["id"] = "42751:0:0:0",
+			["cc"] = 16,
+		},
+		["Glyph of Evaporation"] = {
+			["H2111"] = 289392,
+			["mr"] = 289392,
+			["sc"] = 8,
+			["id"] = "104105:0:0:0",
 			["cc"] = 16,
 		},
 		["Glyph of Thunder Strike"] = {
@@ -984,11 +984,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "40919:0:0:0",
 			["cc"] = 16,
 		},
-		["Glyph of Fighting Pose"] = {
-			["H2111"] = 111499,
-			["mr"] = 111499,
+		["Glyph of Crackling Tiger Lightning"] = {
+			["H2111"] = 176265,
+			["mr"] = 176265,
 			["sc"] = 10,
-			["id"] = "87888:0:0:0",
+			["id"] = "87881:0:0:0",
 			["cc"] = 16,
 		},
 		["Glyph of Rising Tiger Kick"] = {
@@ -1033,11 +1033,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 			["id"] = "104235:0:0:0",
 			["cc"] = 9,
 		},
-		["Glyph of Crackling Tiger Lightning"] = {
-			["H2111"] = 176265,
-			["mr"] = 176265,
+		["Glyph of Fighting Pose"] = {
+			["H2111"] = 111499,
+			["mr"] = 111499,
 			["sc"] = 10,
-			["id"] = "87881:0:0:0",
+			["id"] = "87888:0:0:0",
 			["cc"] = 16,
 		},
 		["Glyph of the Luminous Charger"] = {
