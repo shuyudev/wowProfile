@@ -294,8 +294,8 @@ MADB = {
 						"TOPLEFT", -- [1]
 						"BattlefieldMinimapTab", -- [2]
 						"BOTTOMLEFT", -- [3]
-						-1255.50638580322, -- [4]
-						-70.5809478759766, -- [5]
+						-1253.92595672607, -- [4]
+						-60.3091278076172, -- [5]
 					},
 				},
 				["TalkingHeadFrame"] = {
@@ -306,8 +306,8 @@ MADB = {
 						0, -- [4]
 						96, -- [5]
 					},
-					["orgAlpha"] = 1,
 					["name"] = "TalkingHeadFrame",
+					["orgAlpha"] = 1,
 					["alpha"] = 0.8,
 					["pos"] = {
 						"BOTTOM", -- [1]
@@ -398,8 +398,8 @@ MADB = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						12.6441535949707, -- [4]
-						105.912101745605, -- [5]
+						24.5779571533203, -- [4]
+						38.8554191589356, -- [5]
 					},
 				},
 				["MiniMapTracking"] = {
@@ -459,11 +459,11 @@ MADB = {
 				},
 				["QuestFrame"] = {
 					["orgPos"] = {
-						"TOPLEFT", -- [1]
+						"LEFT", -- [1]
 						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						31.0000019073486, -- [4]
-						-16, -- [5]
+						"LEFT", -- [3]
+						25, -- [4]
+						-15, -- [5]
 					},
 					["name"] = "QuestFrame",
 					["UIPanelWindows"] = {
@@ -476,8 +476,8 @@ MADB = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
 						"BOTTOMLEFT", -- [3]
-						31.0436267852783, -- [4]
-						117.986152648926, -- [5]
+						24.630859375, -- [4]
+						52.1095275878906, -- [5]
 					},
 				},
 				["ArenaEnemyFrame1"] = {

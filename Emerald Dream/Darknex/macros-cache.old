@@ -14,8 +14,6 @@ VER 3 0100000000000006 "Burst" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [spec:1]Vendetta;[spec:2]Adrenaline Rush;[spec:3]Shadow Blades
 /use [spec:1]Exsanguinate
-/use [spec:3,form:0]Shadow Dance
-/use [mod:shift]Cheap Shot
 END
 VER 3 0100000000000005 "Cheap" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -73,11 +71,11 @@ VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 /targetenemy [mod:shift]
 /use [@mouseover,exists]Pick Pocket;Pick Pocket
 END
-VER 3 010000000000001B "Re" "INV_Misc_QuestionMark"
+VER 3 010000000000001B "Run" "INV_Misc_QuestionMark"
 #showtooltip
-/use !stealth
-/use [stealth]Symbols of Death
-/cancelaura [stealth]stealth
+/stopattack
+/use Sprint
+/startattack [mod:alt]
 END
 VER 3 0100000000000004 "Sap" "INV_MISC_QUESTIONMARK"
 /use [form:0,nocombat]!Stealth;[form:0,spec:3,@target,harm]Shadow Dance

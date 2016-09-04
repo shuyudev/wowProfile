@@ -12,11 +12,25 @@ HandyNotesDB = {
 }
 HandyNotes_HandyNotesDB = {
 	["global"] = {
-		["Azsuna"] = {
-			[58701410] = {
+		["Suramar"] = {
+			[29295071] = {
+				["title"] = "CAVE",
 				["cont"] = false,
 				["icon"] = 1,
+				["desc"] = "",
+			},
+		},
+		["Azsuna"] = {
+			[58701410] = {
+				["icon"] = 1,
 				["title"] = "portal",
+				["cont"] = false,
+				["desc"] = "",
+			},
+			[64005290] = {
+				["title"] = "cave",
+				["cont"] = false,
+				["icon"] = 1,
 				["desc"] = "",
 			},
 		},

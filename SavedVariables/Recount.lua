@@ -186,7 +186,7 @@ RecountDB = {
 			["CurDataSet"] = "LastFightData",
 			["MainWindowHeight"] = 111.000007629395,
 			["MainWindowWidth"] = 226.382766723633,
-			["LastInstanceName"] = "The Maw of Nashal",
+			["LastInstanceName"] = "Vault of the Wardens",
 		},
 		["Shädowx - Emerald Dream"] = {
 			["MainWindowVis"] = false,

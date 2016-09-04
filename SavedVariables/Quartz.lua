@@ -13,6 +13,16 @@ Quartz3DB = {
 					["swingposition"] = "bottom",
 					["swingalpha"] = 0.85,
 				},
+				["Slick.2016.08.12"] = {
+					["barcolor"] = {
+						0.905882352941177, -- [1]
+						0.56078431372549, -- [2]
+						0.36078431372549, -- [3]
+						1, -- [4]
+					},
+					["swingposition"] = "bottom",
+					["swingalpha"] = 0.85,
+				},
 			},
 		},
 		["Buff"] = {
@@ -20,6 +30,14 @@ Quartz3DB = {
 		["Interrupt"] = {
 			["profiles"] = {
 				["Default"] = {
+					["interruptcolor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+				},
+				["Slick.2016.08.12"] = {
 					["interruptcolor"] = {
 						nil, -- [1]
 						nil, -- [2]
@@ -58,10 +76,13 @@ Quartz3DB = {
 					["x"] = 658.5185546875,
 				},
 				["Slick.2016.08.12"] = {
-					["w"] = 150,
-					["x"] = 321.925537109375,
+					["h"] = 20,
+					["w"] = 120,
+					["x"] = 338.51806640625,
+					["iconposition"] = "right",
 					["border"] = "None",
-					["y"] = 139.852081298828,
+					["texture"] = "BantoBar",
+					["y"] = 131.950973510742,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 99.3087768554688,
@@ -120,10 +141,10 @@ Quartz3DB = {
 				},
 				["Slick.2016.08.12"] = {
 					["targetname"] = true,
-					["y"] = 119.233551025391,
+					["y"] = 114.493133544922,
 					["iconposition"] = "right",
 					["border"] = "None",
-					["x"] = 638.728271484375,
+					["x"] = 634.77783203125,
 					["texture"] = "BantoBar",
 				},
 				["dur.2014.10.22"] = {
@@ -197,12 +218,12 @@ Quartz3DB = {
 				["Slick.2016.08.12"] = {
 					["showtarget"] = false,
 					["w"] = 170,
-					["y"] = 469.999420166016,
+					["y"] = 471.579956054688,
 					["iconposition"] = "right",
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 343.370666503906,
+					["x"] = 342.580627441406,
 				},
 				["dur.2014.10.22"] = {
 					["y"] = 449.111053466797,
@@ -277,7 +298,7 @@ Quartz3DB = {
 					["border"] = "None",
 					["fontsize"] = 16,
 					["texture"] = "BantoBar",
-					["x"] = 401.840240478516,
+					["x"] = 386.037780761719,
 					["noInterruptChangeBorder"] = true,
 				},
 				["dur.2014.10.22"] = {
@@ -322,11 +343,28 @@ Quartz3DB = {
 						1, -- [4]
 					},
 				},
+				["Slick.2016.08.12"] = {
+					["rangecolor"] = {
+						nil, -- [1]
+						0.282352941176471, -- [2]
+						0.301960784313726, -- [3]
+						1, -- [4]
+					},
+				},
 			},
 		},
 		["Latency"] = {
 			["profiles"] = {
 				["Default"] = {
+					["lagcolor"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						1, -- [4]
+					},
+					["lagembed"] = true,
+				},
+				["Slick.2016.08.12"] = {
 					["lagcolor"] = {
 						nil, -- [1]
 						nil, -- [2]
@@ -403,14 +441,11 @@ Quartz3DB = {
 		},
 		["Slick.2016.08.12"] = {
 			["modules"] = {
-				["Swing"] = false,
 				["Buff"] = false,
 				["Interrupt"] = false,
 				["Flight"] = false,
-				["Range"] = false,
-				["GCD"] = false,
-				["Timer"] = false,
 				["Mirror"] = false,
+				["Timer"] = false,
 			},
 		},
 		["dur.2014.10.22"] = {

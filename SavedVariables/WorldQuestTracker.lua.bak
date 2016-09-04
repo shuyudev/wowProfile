@@ -1,0 +1,21 @@
+
+WQTrackerDB = {
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["quests_tracked"] = {
+				["Player-162-08FDA7BF"] = {
+				},
+			},
+			["player_names"] = {
+				["Player-162-08FDA7BF"] = {
+					["class"] = "ROGUE",
+					["name"] = "Darknex",
+					["realm"] = "Emerald Dream",
+				},
+			},
+		},
+	},
+}

@@ -19,6 +19,11 @@ END
 VER 3 000000000000000B "Err" "INV_Misc_QuestionMark"
 /console scriptErrors 1
 END
+VER 3 000000000000000E "Fish" "INV_Misc_QuestionMark"
+#showtooltip Fishing
+/use Detection
+/use Fishing
+END
 VER 3 0000000000000008 "Focus" "458724"
 /clearfocus [mod:shift]
 /focus [mod:alt,@target,exists]
@@ -41,7 +46,7 @@ VER 3 0000000000000003 "T2" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0000000000000005 "Target" "132212"
-/stopattack
+/stopattack [nomod:alt]
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /cleartarget [nomod]
