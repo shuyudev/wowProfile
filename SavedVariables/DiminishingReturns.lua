@@ -12,7 +12,12 @@ DiminishingReturnsDB = {
 				},
 			},
 		},
-		["Gladius"] = {
+		["Blizzard_ArenaUI"] = {
+			["profiles"] = {
+				["Darknex - Emerald Dream"] = {
+					["enabled"] = false,
+				},
+			},
 		},
 		["Blizzard"] = {
 			["profiles"] = {
@@ -32,12 +37,7 @@ DiminishingReturnsDB = {
 				},
 			},
 		},
-		["Blizzard_ArenaUI"] = {
-			["profiles"] = {
-				["Darknex - Emerald Dream"] = {
-					["enabled"] = false,
-				},
-			},
+		["Gladius"] = {
 		},
 	},
 	["profileKeys"] = {

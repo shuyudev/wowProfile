@@ -1,20 +1,23 @@
 
 OmniCC4Config = {
-	["groups"] = {
-		{
-			["id"] = "Ignore",
-			["rules"] = {
-				"LossOfControl", -- [1]
-				"TotemFrame", -- [2]
-			},
-			["enabled"] = true,
-		}, -- [1]
-	},
-	["version"] = "7.0.1",
+	["engine"] = "AniUpdater",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
 			["fontFace"] = "Fonts\\SKURRI.TTF",
+			["fontSize"] = 13,
+			["effect"] = "none",
+			["scaleText"] = false,
+			["minEffectDuration"] = 30,
+			["minSize"] = 0.5,
+			["spiralOpacity"] = 0.959999978542328,
+			["minDuration"] = 2,
+			["xOff"] = 0,
+			["tenthsDuration"] = 7,
+			["fontOutline"] = "OUTLINE",
+			["anchor"] = "BOTTOMLEFT",
+			["mmSSDuration"] = 0,
+			["yOff"] = 0,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -59,36 +62,10 @@ OmniCC4Config = {
 					["b"] = 0.1,
 				},
 			},
-			["effect"] = "none",
-			["minDuration"] = 2,
-			["mmSSDuration"] = 0,
-			["anchor"] = "BOTTOMLEFT",
-			["spiralOpacity"] = 0.959999978542328,
-			["yOff"] = 0,
-			["xOff"] = 0,
-			["tenthsDuration"] = 7,
-			["fontOutline"] = "OUTLINE",
-			["minSize"] = 0.5,
-			["minEffectDuration"] = 30,
-			["scaleText"] = false,
-			["fontSize"] = 13,
 		},
 		["Ignore"] = {
 			["enabled"] = false,
 			["fontFace"] = "Fonts\\blei00d.TTF",
-			["fontSize"] = 18,
-			["effect"] = "pulse",
-			["scaleText"] = true,
-			["minEffectDuration"] = 30,
-			["minSize"] = 0.5,
-			["spiralOpacity"] = 1,
-			["minDuration"] = 2,
-			["xOff"] = 0,
-			["tenthsDuration"] = 0,
-			["fontOutline"] = "OUTLINE",
-			["anchor"] = "CENTER",
-			["mmSSDuration"] = 0,
-			["yOff"] = 0,
 			["styles"] = {
 				["seconds"] = {
 					["a"] = 1,
@@ -133,7 +110,30 @@ OmniCC4Config = {
 					["b"] = 0.1,
 				},
 			},
+			["effect"] = "pulse",
+			["yOff"] = 0,
+			["mmSSDuration"] = 0,
+			["anchor"] = "CENTER",
+			["spiralOpacity"] = 1,
+			["scaleText"] = true,
+			["xOff"] = 0,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30,
+			["minDuration"] = 2,
+			["fontSize"] = 18,
 		},
 	},
-	["engine"] = "AniUpdater",
+	["groups"] = {
+		{
+			["id"] = "Ignore",
+			["rules"] = {
+				"LossOfControl", -- [1]
+				"TotemFrame", -- [2]
+			},
+			["enabled"] = true,
+		}, -- [1]
+	},
+	["version"] = "7.0.1",
 }
