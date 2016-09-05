@@ -140,6 +140,11 @@ ChatterDB = {
 			},
 		},
 		["Buttons"] = {
+			["profiles"] = {
+				["Default"] = {
+					["scrollReminder"] = true,
+				},
+			},
 		},
 		["Server Positioning"] = {
 		},
@@ -176,36 +181,36 @@ ChatterDB = {
 				["Emerald Dream"] = {
 					["history"] = {
 						"/wa", -- [1]
-						"/wa", -- [2]
-						"/reload", -- [3]
+						"/reload", -- [2]
+						"/wa", -- [3]
 						"/wa", -- [4]
 						"/wa", -- [5]
-						"/reload", -- [6]
+						"/wa", -- [6]
 						"/wa", -- [7]
-						"/reload", -- [8]
+						"/wa", -- [8]
 						"/wa", -- [9]
-						"/reload", -- [10]
-						"/wa", -- [11]
-						"/reload", -- [12]
+						"/wa", -- [10]
+						"/reload", -- [11]
+						"/wa", -- [12]
 						"/wa", -- [13]
-						"/wa", -- [14]
-						"/reload", -- [15]
+						"/reload", -- [14]
+						"/wa", -- [15]
 						"/wa", -- [16]
 						"/wa", -- [17]
-						"/wa", -- [18]
-						"/wa", -- [19]
+						"/reload", -- [18]
+						"/reload", -- [19]
 						"/wa", -- [20]
 						"/wa", -- [21]
 						"/wa", -- [22]
-						"/wa", -- [23]
-						"/reload", -- [24]
-						"/wa", -- [25]
+						"/reload", -- [23]
+						"/wa", -- [24]
+						"/reload", -- [25]
 						"/wa", -- [26]
 						"/reload", -- [27]
-						"/wa", -- [28]
-						"/wa", -- [29]
-						"/wa", -- [30]
-						"/reload", -- [31]
+						"/WA", -- [28]
+						"/PIT", -- [29]
+						"/i LOL", -- [30]
+						"/wa", -- [31]
 						"/reload", -- [32]
 					},
 				},
@@ -222,6 +227,7 @@ ChatterDB = {
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
+				["Disable Buttons"] = true,
 				["Borders/Background"] = true,
 				["Invite Links"] = false,
 				["Automatic Whisper Windows"] = true,

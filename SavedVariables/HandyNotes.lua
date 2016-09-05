@@ -14,23 +14,9 @@ HandyNotes_HandyNotesDB = {
 	["global"] = {
 		["Suramar"] = {
 			[29295071] = {
-				["cont"] = false,
 				["icon"] = 1,
 				["title"] = "CAVE",
-				["desc"] = "",
-			},
-		},
-		["Azsuna"] = {
-			[58701410] = {
-				["title"] = "portal",
 				["cont"] = false,
-				["icon"] = 1,
-				["desc"] = "",
-			},
-			[64005290] = {
-				["cont"] = false,
-				["icon"] = 1,
-				["title"] = "cave",
 				["desc"] = "",
 			},
 		},
@@ -47,6 +33,20 @@ HandyNotes_HandyNotesDB = {
 				["cont"] = false,
 				["level"] = 10,
 				["icon"] = 7,
+				["desc"] = "",
+			},
+		},
+		["Azsuna"] = {
+			[58701410] = {
+				["cont"] = false,
+				["icon"] = 1,
+				["title"] = "portal",
+				["desc"] = "",
+			},
+			[64005290] = {
+				["icon"] = 1,
+				["title"] = "cave",
+				["cont"] = false,
 				["desc"] = "",
 			},
 		},

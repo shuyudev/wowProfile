@@ -183,9 +183,9 @@ RecountDB = {
 			["BarTextColorSwap"] = false,
 			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
 			["CurDataSet"] = "LastFightData",
-			["MainWindowHeight"] = 111.000007629395,
+			["LastInstanceName"] = "Black Rook Hold",
 			["MainWindowWidth"] = 226.382766723633,
-			["LastInstanceName"] = "Halls of Valor",
+			["MainWindowHeight"] = 111.000007629395,
 		},
 		["Shädowx - Emerald Dream"] = {
 			["MainWindowVis"] = false,

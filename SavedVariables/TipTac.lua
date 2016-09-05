@@ -44,7 +44,7 @@ TipTac_Config = {
 	["optionsBottom"] = 296.135864257813,
 	["left"] = 702.419494628906,
 	["preFadeTime"] = 0.1,
-	["colSameGuild"] = "|cffff32ff",
+	["classColoredBorder"] = false,
 	["reactColoredBackdrop"] = false,
 	["anchorWorldUnitPoint"] = "BOTTOMRIGHT",
 	["classification_trivial"] = "~%s ",
@@ -56,7 +56,7 @@ TipTac_Config = {
 		1, -- [4]
 	},
 	["colorNameByClass"] = false,
-	["classColoredBorder"] = false,
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
 	["manaBar"] = false,
 	["gradientColor"] = {
@@ -65,7 +65,7 @@ TipTac_Config = {
 		0.8, -- [3]
 		0.2, -- [4]
 	},
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["colSameGuild"] = "|cffff32ff",
 	["anchorWorldUnitType"] = "normal",
 	["fadeTime"] = 0.1,
 	["targetYouText"] = "<<YOU>>",

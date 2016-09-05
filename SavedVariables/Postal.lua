@@ -63,7 +63,8 @@ Postal3DB = {
 		["Darknex - Emerald Dream"] = {
 			["BlackBook"] = {
 				["recent"] = {
-					"Felnex|Emerald Dream|Horde", -- [1]
+					"Drahein|Emerald Dream|Horde", -- [1]
+					"Felnex|Emerald Dream|Horde", -- [2]
 				},
 			},
 		},

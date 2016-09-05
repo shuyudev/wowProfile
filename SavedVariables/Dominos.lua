@@ -159,59 +159,67 @@ DominosDB = {
 							"macro|121", -- [1]
 							"macro|127", -- [2]
 							"macro|132", -- [3]
-							"macro|137", -- [4]
+							"spell|51690|spell", -- [4]
 							"macro|128", -- [5]
 							nil, -- [6]
 							"spell|152150|spell", -- [7]
 							"macro|126", -- [8]
 							nil, -- [9]
-							"spell|202665|spell", -- [10]
-							[13] = "item|114943",
-							[19] = "macro|1",
-							[20] = "macro|1",
-							[21] = "macro|1",
-							[22] = "macro|1",
-							[25] = "macro|134",
-							[26] = "macro|133",
+							"spell|209782|spell", -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							"item|114943", -- [13]
+							"macro|2", -- [14]
+							"item|138479", -- [15]
+							"item|141026", -- [16]
+							"item|7676", -- [17]
+							"item|136569", -- [18]
+							"macro|1", -- [19]
+							"macro|1", -- [20]
+							"macro|1", -- [21]
+							"macro|1", -- [22]
 							[27] = "spell|31224|spell",
-							[28] = "macro|123",
-							[29] = "macro|122",
-							[30] = "spell|5277|spell",
-							[31] = "macro|123",
-							[75] = "macro|132",
-							[76] = "macro|137",
+							[75] = "spell|212283|spell",
+							[76] = "spell|51690|spell",
 							[39] = "macro|138",
+							[55] = "spell|20577|spell",
+							[28] = "macro|123",
+							[111] = "item|132523",
+							[77] = "macro|128",
 							[56] = "macro|3",
+							[86] = "spell|7744|spell",
+							[171] = "spell|0|spell",
 							[112] = "item|141605",
+							[102] = "spell|1725|spell",
 							[97] = "macro|131",
-							[98] = "macro|129",
+							[57] = "item|113509",
+							[113] = "item|140192",
+							[25] = "macro|134",
+							[29] = "macro|122",
 							[42] = "macro|130",
 							[99] = "macro|124",
-							[58] = "item|133561",
-							[86] = "spell|7744|spell",
+							[98] = "macro|129",
 							[100] = "macro|136",
-							[77] = "macro|128",
+							[169] = "spell|209364|spell",
 							[85] = "spell|195710|spell",
 							[101] = "macro|135",
-							[59] = "macro|7",
-							[55] = "spell|20577|spell",
+							[59] = "spell|199740|spell",
 							[170] = "spell|0|spell",
-							[102] = "spell|1725|spell",
-							[171] = "spell|0|spell",
-							[169] = "spell|202477|spell",
+							[26] = "macro|133",
+							[30] = "spell|5277|spell",
 							[172] = "spell|0|spell",
 							[52] = "macro|12",
 							[173] = "spell|0|spell",
-							[57] = "item|113509",
 							[174] = "spell|0|spell",
+							[60] = "macro|6",
 							[175] = "spell|0|spell",
-							[73] = "spell|197835|spell",
+							[73] = "spell|13877|spell",
 							[176] = "spell|0|spell",
 							[53] = "macro|8",
 							[177] = "spell|0|spell",
 							[74] = "macro|127",
 							[178] = "spell|0|spell",
-							[60] = "macro|6",
+							[110] = "item|138479",
 						},
 					},
 				},
@@ -241,30 +249,30 @@ DominosDB = {
 							[87] = "spell|185311|spell",
 							[66] = "spell|161332|spell",
 							[103] = "spell|152150|spell",
-							[38] = "macro|126",
+							[74] = "spell|212283|spell",
 							[97] = "macro|130",
 							[99] = "macro|136",
 							[101] = "macro|121",
 							[72] = "companion|32297|MOUNT",
-							[105] = "spell|13877|spell",
+							[38] = "macro|126",
 							[76] = "spell|921|spell",
 							[37] = "macro|129",
 							[75] = "spell|1725|spell",
 							[27] = "spell|31224|spell",
-							[26] = "spell|1856|spell",
+							[69] = "spell|161332|spell",
 							[86] = "spell|195710|spell",
 							[88] = "spell|7744|spell",
-							[69] = "spell|161332|spell",
+							[100] = "spell|13750|spell",
 							[98] = "macro|133",
 							[65] = "macro|4",
 							[25] = "spell|2983|spell",
 							[67] = "spell|20577|spell",
-							[100] = "spell|13750|spell",
+							[26] = "spell|1856|spell",
 							[71] = "macro|1",
 							[73] = "spell|8676|spell",
 							[106] = "spell|1725|spell",
 							[28] = "spell|199754|spell",
-							[74] = "spell|212283|spell",
+							[105] = "spell|13877|spell",
 							[29] = "spell|57934|spell",
 							[68] = "item|113509",
 						},
@@ -1158,9 +1166,9 @@ DominosDB = {
 					["anchor"] = "petRT",
 					["padding"] = 0,
 					["display"] = {
+						["icon"] = true,
 						["time"] = true,
 						["border"] = false,
-						["icon"] = true,
 					},
 					["height"] = 8,
 				},
@@ -4518,11 +4526,11 @@ DominosDB = {
 					["alpha"] = 0.75,
 					["y"] = 56,
 					["padW"] = 10,
-					["x"] = -303,
+					["showstates"] = "",
 					["anchor"] = "9LT",
 					["spacing"] = 6,
 					["padH"] = 10,
-					["showstates"] = "",
+					["fadeAlpha"] = 0.75,
 					["pages"] = {
 						["MAGE"] = {
 						},
@@ -4534,7 +4542,7 @@ DominosDB = {
 						["ROGUE"] = {
 						},
 					},
-					["fadeAlpha"] = 0.75,
+					["x"] = -303,
 				}, -- [4]
 				{
 					["showInPetBattleUI"] = false,
@@ -4682,15 +4690,15 @@ DominosDB = {
 					["scale"] = 0.95,
 					["showInOverrideUI"] = false,
 					["alpha"] = 0.75,
-					["showstates"] = "",
+					["fadeAlpha"] = 0.75,
 					["padW"] = 10,
-					["x"] = -301,
+					["showstates"] = "",
 					["anchor"] = "7LT",
 					["clickThrough"] = false,
 					["padH"] = 10,
 					["spacing"] = 6,
 					["numButtons"] = 2,
-					["fadeAlpha"] = 0.75,
+					["x"] = -301,
 				}, -- [10]
 				["artifact"] = {
 					["point"] = "BOTTOMLEFT",

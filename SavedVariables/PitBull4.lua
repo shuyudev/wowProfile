@@ -348,8 +348,17 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
+						["Party"] = {
+							["enabled"] = false,
+						},
+						["普通"] = {
+							["location"] = "out_left",
+						},
+						["Focus"] = {
+							["enabled"] = false,
+						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
@@ -459,15 +468,9 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-						},
-						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -476,8 +479,8 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["location"] = "out_left",
+						["Target"] = {
+							["enabled"] = false,
 						},
 					},
 				},
@@ -525,18 +528,15 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
-						["Party"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-						},
-						["普通"] = {
-							["location"] = "out_left",
 						},
 						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -545,8 +545,8 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["location"] = "out_left",
 						},
 					},
 				},
@@ -746,16 +746,16 @@ PitBull4DB = {
 				},
 				["Slick.2016.08.12"] = {
 					["layouts"] = {
-						["Target"] = {
-							["out_of_range_opacity"] = 0.65,
-							["custom_spell"] = "Blind",
-						},
 						["Party"] = {
 							["check_method"] = "duel",
 							["out_of_range_opacity"] = 0.75,
 						},
 						["Focus"] = {
 							["enabled"] = true,
+							["out_of_range_opacity"] = 0.65,
+							["custom_spell"] = "Blind",
+						},
+						["Target"] = {
 							["out_of_range_opacity"] = 0.65,
 							["custom_spell"] = "Blind",
 						},
@@ -866,13 +866,17 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Target"] = {
-							["out_of_range_opacity"] = 0.5,
-							["custom_spell"] = "Blind",
+							["out_of_range_opacity"] = 0.75,
+							["check_method"] = "duel",
 						},
 						["Party"] = {
+							["out_of_range_opacity"] = 0.75,
+							["check_method"] = "duel",
+						},
+						["Focus"] = {
 							["out_of_range_opacity"] = 0.75,
 							["check_method"] = "duel",
 						},
@@ -951,17 +955,13 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Target"] = {
-							["out_of_range_opacity"] = 0.75,
-							["check_method"] = "duel",
+							["out_of_range_opacity"] = 0.5,
+							["custom_spell"] = "Blind",
 						},
 						["Party"] = {
-							["out_of_range_opacity"] = 0.75,
-							["check_method"] = "duel",
-						},
-						["Focus"] = {
 							["out_of_range_opacity"] = 0.75,
 							["check_method"] = "duel",
 						},
@@ -999,7 +999,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Target"] = {
 							["out_of_range_opacity"] = 0.75,
@@ -1736,7 +1736,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["location"] = "edge_left",
@@ -1746,14 +1746,12 @@ PitBull4DB = {
 							["location"] = "edge_left",
 							["position"] = 14,
 						},
-						["pet"] = {
-							["location"] = "edge_left",
+						["Focus"] = {
+							["location"] = "edge_right",
 							["position"] = 14,
 						},
-						["Target"] = {
-							["location"] = "edge_bottom_right",
-							["size"] = 1.45000004768372,
-							["position"] = 14,
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -1761,8 +1759,9 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
+						["Target"] = {
+							["location"] = "edge_right",
+							["position"] = 14,
 						},
 					},
 				},
@@ -1892,7 +1891,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["location"] = "edge_left",
@@ -1902,12 +1901,14 @@ PitBull4DB = {
 							["location"] = "edge_left",
 							["position"] = 14,
 						},
-						["Focus"] = {
+						["pet"] = {
+							["location"] = "edge_left",
 							["position"] = 14,
-							["size"] = 1.45000004768372,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
+						["Target"] = {
+							["location"] = "edge_bottom_right",
+							["size"] = 1.45000004768372,
+							["position"] = 14,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -1915,10 +1916,8 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
-							["location"] = "edge_bottom_right",
-							["position"] = 14,
-							["size"] = 1.45000004768372,
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 					},
 				},
@@ -1982,7 +1981,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["location"] = "edge_left",
@@ -1993,8 +1992,8 @@ PitBull4DB = {
 							["position"] = 14,
 						},
 						["Focus"] = {
-							["location"] = "edge_right",
 							["position"] = 14,
+							["size"] = 1.45000004768372,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -2006,8 +2005,9 @@ PitBull4DB = {
 							["enabled"] = false,
 						},
 						["Target"] = {
-							["location"] = "edge_right",
+							["location"] = "edge_bottom_right",
 							["position"] = 14,
+							["size"] = 1.45000004768372,
 						},
 					},
 				},
@@ -2583,7 +2583,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["position"] = 18,
@@ -2591,13 +2591,16 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["pet"] = {
+						["普通"] = {
+							["position"] = 1.00001,
+						},
+						["Focus"] = {
+							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["size"] = 1.2,
-							["position"] = 18,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -2607,9 +2610,9 @@ PitBull4DB = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 					},
 				},
@@ -2753,7 +2756,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["position"] = 18,
@@ -2761,16 +2764,12 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00001,
-						},
-						["Focus"] = {
-							["enabled"] = false,
+						["pet"] = {
 							["position"] = 18,
 						},
 						["Target"] = {
 							["enabled"] = false,
+							["size"] = 1.2,
 							["position"] = 18,
 						},
 						["Mini"] = {
@@ -2781,7 +2780,8 @@ PitBull4DB = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["普通"] = {
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 					},
@@ -2853,7 +2853,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["position"] = 18,
@@ -2861,16 +2861,17 @@ PitBull4DB = {
 						["Party"] = {
 							["position"] = 18,
 						},
-						["普通"] = {
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 							["position"] = 1.00001,
 						},
 						["Focus"] = {
 							["enabled"] = false,
 							["position"] = 18,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
-							["position"] = 1.00001,
+							["position"] = 18,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -2880,9 +2881,8 @@ PitBull4DB = {
 							["enabled"] = false,
 							["position"] = 1.00001,
 						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 18,
+						["普通"] = {
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -3659,6 +3659,8 @@ PitBull4DB = {
 				},
 			},
 		},
+		["HostilityFader"] = {
+		},
 		["Chi"] = {
 			["profiles"] = {
 				["Zenez - 燃烧之刃"] = {
@@ -3669,49 +3671,6 @@ PitBull4DB = {
 				["Default"] = {
 					["global"] = {
 						["enabled"] = false,
-					},
-				},
-			},
-		},
-		["DeadIcon"] = {
-			["profiles"] = {
-				["my"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left_top",
-							["position"] = 17,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00001,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left_top",
-							["position"] = 17,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00001,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "out_left_top",
-							["position"] = 17,
-							["size"] = 1.5,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00001,
-						},
 					},
 				},
 			},
@@ -32165,7 +32124,48 @@ PitBull4DB = {
 				},
 			},
 		},
-		["HostilityFader"] = {
+		["DeadIcon"] = {
+			["profiles"] = {
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left_top",
+							["position"] = 17,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left_top",
+							["position"] = 17,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["普通"] = {
+							["location"] = "out_left_top",
+							["position"] = 17,
+							["size"] = 1.5,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+							["position"] = 1.00001,
+						},
+					},
+				},
+			},
 		},
 		["MasterLooterIcon"] = {
 			["profiles"] = {
@@ -32421,6 +32421,15 @@ PitBull4DB = {
 						["Self"] = {
 							["enabled"] = false,
 						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["pet"] = {
+							["enabled"] = false,
+						},
 						["Party"] = {
 							["color"] = {
 								nil, -- [1]
@@ -32434,15 +32443,6 @@ PitBull4DB = {
 						["Focus"] = {
 							["show_target"] = false,
 							["texture"] = "Blizzard Collections Background",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["pet"] = {
-							["enabled"] = false,
 						},
 					},
 				},
@@ -32767,7 +32767,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
@@ -32779,17 +32779,13 @@ PitBull4DB = {
 								0.611764705882353, -- [3]
 							},
 						},
-						["Focus"] = {
-							["color"] = {
-								nil, -- [1]
-								0.545098039215686, -- [2]
-								0.611764705882353, -- [3]
-							},
-						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
+							["enabled"] = false,
+						},
+						["pet"] = {
 							["enabled"] = false,
 						},
 					},
@@ -32848,12 +32844,19 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
 						},
 						["Party"] = {
+							["color"] = {
+								nil, -- [1]
+								0.545098039215686, -- [2]
+								0.611764705882353, -- [3]
+							},
+						},
+						["Focus"] = {
 							["color"] = {
 								nil, -- [1]
 								0.545098039215686, -- [2]
@@ -32866,12 +32869,9 @@ PitBull4DB = {
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["pet"] = {
-							["enabled"] = false,
-						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
@@ -33758,14 +33758,13 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
-							["enabled"] = false,
-							["position"] = 15,
 							["location"] = "center",
-							["attach_to"] = "Portrait",
 							["size"] = 1,
+							["attach_to"] = "Portrait",
+							["position"] = 15,
 						},
 						["Party"] = {
 							["location"] = "center",
@@ -33773,17 +33772,14 @@ PitBull4DB = {
 							["attach_to"] = "Portrait",
 							["position"] = 15,
 						},
-						["pet"] = {
-							["enabled"] = false,
-							["position"] = 15,
+						["Focus"] = {
 							["location"] = "center",
-							["attach_to"] = "Portrait",
 							["size"] = 1,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "out_left",
+							["attach_to"] = "Portrait",
 							["position"] = 15,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -33793,8 +33789,10 @@ PitBull4DB = {
 							["attach_to"] = "Portrait",
 							["size"] = 1,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
+							["location"] = "out_left",
+							["position"] = 15,
 						},
 					},
 				},
@@ -33958,28 +33956,32 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
-							["location"] = "center",
+							["enabled"] = false,
 							["position"] = 15,
+							["location"] = "center",
 							["attach_to"] = "Portrait",
 							["size"] = 1,
 						},
 						["Party"] = {
 							["location"] = "center",
-							["position"] = 15,
-							["attach_to"] = "Portrait",
 							["size"] = 1,
-						},
-						["Focus"] = {
-							["location"] = "center",
-							["position"] = 15,
 							["attach_to"] = "Portrait",
-							["size"] = 1,
+							["position"] = 15,
 						},
-						["Mini_Party_tar"] = {
+						["pet"] = {
 							["enabled"] = false,
+							["position"] = 15,
+							["location"] = "center",
+							["attach_to"] = "Portrait",
+							["size"] = 1,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "out_left",
+							["position"] = 15,
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -33989,10 +33991,8 @@ PitBull4DB = {
 							["attach_to"] = "Portrait",
 							["size"] = 1,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["location"] = "out_left",
-							["position"] = 15,
 						},
 					},
 				},
@@ -34073,25 +34073,25 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Party"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Focus"] = {
 							["location"] = "center",
-							["size"] = 1,
-							["attach_to"] = "Portrait",
 							["position"] = 15,
+							["attach_to"] = "Portrait",
+							["size"] = 1,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -34362,9 +34362,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34390,9 +34390,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34412,9 +34412,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -34424,9 +34424,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "two_dimensional",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -34463,9 +34463,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34503,9 +34503,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34543,9 +34543,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34571,9 +34571,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34593,9 +34593,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "two_dimensional",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -34605,9 +34605,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "two_dimensional",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -34638,9 +34638,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["fallback_style"] = "class",
 							["style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34725,9 +34725,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34765,9 +34765,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34804,9 +34804,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34844,9 +34844,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34884,9 +34884,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34912,9 +34912,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34934,9 +34934,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "two_dimensional",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -34946,9 +34946,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "two_dimensional",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -34957,7 +34957,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = true,
@@ -34966,17 +34966,22 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = true,
 							["fallback_style"] = "class",
+							["side"] = "right",
 							["style"] = "class",
 							["full_body"] = true,
 						},
-						["pet"] = {
-							["enabled"] = true,
-							["fallback_style"] = "class",
-						},
-						["Target"] = {
+						["Focus"] = {
 							["enabled"] = true,
 							["fallback_style"] = "class",
 							["side"] = "right",
+							["style"] = "two_dimensional",
+							["full_body"] = true,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = true,
+							["side"] = "right",
+							["fallback_style"] = "class",
+							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -34987,9 +34992,8 @@ PitBull4DB = {
 							["enabled"] = true,
 							["fallback_style"] = "hide",
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = true,
-							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
 						},
@@ -35015,9 +35019,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["side"] = "right",
 							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35055,9 +35059,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35083,9 +35087,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35105,9 +35109,9 @@ PitBull4DB = {
 						},
 						["FocusAsTar"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "two_dimensional",
 						},
 						["Focus"] = {
 							["enabled"] = true,
@@ -35117,9 +35121,9 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
+							["style"] = "two_dimensional",
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "two_dimensional",
 						},
 						["Mini_FocusTar"] = {
 							["enabled"] = true,
@@ -35148,9 +35152,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35168,7 +35172,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = true,
@@ -35176,21 +35180,18 @@ PitBull4DB = {
 						},
 						["Party"] = {
 							["enabled"] = true,
-							["style"] = "class",
 							["fallback_style"] = "class",
+							["style"] = "class",
 							["full_body"] = true,
 						},
-						["Focus"] = {
+						["pet"] = {
 							["enabled"] = true,
-							["style"] = "class",
 							["fallback_style"] = "class",
-							["full_body"] = true,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = true,
 							["fallback_style"] = "class",
 							["side"] = "right",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35201,9 +35202,10 @@ PitBull4DB = {
 							["enabled"] = true,
 							["fallback_style"] = "hide",
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = true,
 							["side"] = "right",
+							["style"] = "class",
 							["fallback_style"] = "class",
 						},
 					},
@@ -35227,9 +35229,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35266,9 +35268,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["side"] = "right",
 							["fallback_style"] = "class",
-							["style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35286,7 +35288,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = true,
@@ -35294,22 +35296,20 @@ PitBull4DB = {
 						},
 						["Party"] = {
 							["enabled"] = true,
-							["fallback_style"] = "class",
-							["side"] = "right",
 							["style"] = "class",
+							["fallback_style"] = "class",
 							["full_body"] = true,
 						},
 						["Focus"] = {
 							["enabled"] = true,
+							["style"] = "class",
 							["fallback_style"] = "class",
-							["side"] = "right",
-							["style"] = "two_dimensional",
 							["full_body"] = true,
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
-							["fallback_style"] = "class",
 							["style"] = "class",
+							["fallback_style"] = "class",
 							["side"] = "right",
 						},
 						["Mini"] = {
@@ -35323,8 +35323,8 @@ PitBull4DB = {
 						},
 						["Target"] = {
 							["enabled"] = true,
-							["fallback_style"] = "class",
 							["side"] = "right",
+							["fallback_style"] = "class",
 						},
 					},
 				},
@@ -35348,9 +35348,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["side"] = "right",
 							["style"] = "class",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -35387,9 +35387,9 @@ PitBull4DB = {
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = true,
+							["fallback_style"] = "class",
 							["style"] = "class",
 							["side"] = "right",
-							["fallback_style"] = "class",
 						},
 						["Mini"] = {
 							["enabled"] = true,
@@ -36040,936 +36040,11 @@ PitBull4DB = {
 				},
 			},
 		},
-		["RestIcon"] = {
+		["Runes"] = {
 			["profiles"] = {
-				["Evillix - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Warlock_Draft"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["Jinzakk - 黑龍軍團"] = {
-					["layouts"] = {
-						["普通"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["簡單"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["ROGUE"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
 				["dk.2014.10.30"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Durix - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Zenez - 燃烧之刃"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["Darknex - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Slick.2016.08.12"] = {
-					["layouts"] = {
-						["Self"] = {
-							["position"] = 27,
-							["location"] = "edge_bottom_right",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["position"] = 27,
-							["location"] = "edge_top_right",
-						},
-						["BuffOnly"] = {
-							["position"] = 27,
-							["location"] = "edge_bottom_right",
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["position"] = 27,
-							["location"] = "edge_top_right",
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 27,
-							["location"] = "edge_top_right",
-						},
-						["pet"] = {
-							["position"] = 27,
-							["location"] = "edge_top_right",
-						},
-					},
-				},
-				["Draculax - 銀翼要塞"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Draculax - 黑龍軍團"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Default.2016.08.05"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Darknex_110408"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["HUNTER"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Rogue_Style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["pet"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["术士"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["wlk.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["FocusAsTar"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_FocusTar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-					},
-				},
-				["Warlock"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["rog.2014.10.20"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["test"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Darknex-test1"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Darknex-2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-					},
-				},
-				["Darknex - Emerald Dream"] = {
-					["layouts"] = {
-						["Self"] = {
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Party"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Pet"] = {
-							["enabled"] = false,
-							["position"] = 1.00004,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["location"] = "edge_top_right",
-							["position"] = 27,
-						},
+					["global"] = {
+						["enabled"] = false,
 					},
 				},
 			},
@@ -37530,47 +36605,36 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
-							["color_by_class"] = true,
-							["deficit"] = true,
-							["reverse"] = true,
-							["auto_hide"] = true,
-							["position"] = 2,
 							["enabled"] = false,
-							["size"] = 3,
 						},
 						["Party"] = {
 							["icon_on_left"] = false,
 							["size"] = 2,
 						},
-						["pet"] = {
-							["color_by_class"] = true,
-							["deficit"] = true,
-							["reverse"] = true,
-							["auto_hide"] = true,
-							["position"] = 2,
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["size"] = 3,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["icon_on_left"] = false,
+							["texture"] = "BantoBar",
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["side"] = "right",
 							["position"] = 2,
-							["auto_hide"] = true,
+							["icon_on_left"] = false,
 							["texture"] = "BantoBar",
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
-							["auto_hide"] = true,
-							["size"] = 4,
-							["position"] = 2,
-							["texture"] = "BantoBar",
+							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["普通"] = {
 							["enabled"] = false,
 						},
 					},
@@ -37720,40 +36784,48 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
+							["color_by_class"] = true,
+							["deficit"] = true,
+							["reverse"] = true,
+							["auto_hide"] = true,
+							["position"] = 2,
 							["enabled"] = false,
-							["position"] = 6,
+							["size"] = 3,
 						},
 						["Party"] = {
 							["icon_on_left"] = false,
 							["size"] = 2,
 						},
-						["Mini_Party_tar"] = {
+						["pet"] = {
+							["color_by_class"] = true,
+							["deficit"] = true,
+							["reverse"] = true,
+							["auto_hide"] = true,
+							["position"] = 2,
 							["enabled"] = false,
-						},
-						["Focus"] = {
-							["enabled"] = false,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
+							["size"] = 3,
 						},
 						["Target"] = {
+							["enabled"] = false,
+							["side"] = "right",
+							["position"] = 2,
 							["auto_hide"] = true,
 							["texture"] = "BantoBar",
-							["enabled"] = false,
-							["position"] = 2,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["普通"] = {
-							["enabled"] = false,
-						},
 						["Pet"] = {
 							["auto_hide"] = true,
-							["texture"] = "BantoBar",
+							["size"] = 4,
 							["position"] = 2,
+							["texture"] = "BantoBar",
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 					},
 				},
@@ -37837,10 +36909,11 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
+							["position"] = 6,
 						},
 						["Party"] = {
 							["icon_on_left"] = false,
@@ -37855,19 +36928,21 @@ PitBull4DB = {
 							["texture"] = "BantoBar",
 						},
 						["Target"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
 							["enabled"] = false,
 							["position"] = 2,
-							["icon_on_left"] = false,
-							["texture"] = "BantoBar",
 						},
 						["Mini"] = {
 							["enabled"] = false,
 						},
-						["Pet"] = {
-							["enabled"] = false,
-						},
 						["普通"] = {
 							["enabled"] = false,
+						},
+						["Pet"] = {
+							["auto_hide"] = true,
+							["texture"] = "BantoBar",
+							["position"] = 2,
 						},
 					},
 				},
@@ -38089,10 +37164,10 @@ PitBull4DB = {
 						["player"] = false,
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["global"] = {
-						["player"] = false,
 						["runebar"] = false,
+						["player"] = false,
 					},
 				},
 				["rog.2014.10.20"] = {
@@ -38107,14 +37182,14 @@ PitBull4DB = {
 						["player"] = false,
 					},
 				},
-				["Default"] = {
-					["global"] = {
-						["runebar"] = false,
-						["player"] = false,
-					},
-				},
 				["Darknex-test1"] = {
 					["global"] = {
+						["runebar"] = false,
+					},
+				},
+				["default"] = {
+					["global"] = {
+						["player"] = false,
 						["runebar"] = false,
 					},
 				},
@@ -38158,16 +37233,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -38177,7 +37252,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -38249,13 +37324,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38264,8 +37339,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38340,13 +37415,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38355,8 +37430,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38434,13 +37509,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38449,8 +37524,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38468,20 +37543,20 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["cooldown_text"] = {
-								["other_debuffs"] = true,
-								["my_buffs"] = true,
-								["other_buffs"] = true,
 								["my_debuffs"] = true,
+								["other_debuffs"] = true,
+								["other_buffs"] = true,
+								["my_buffs"] = true,
 							},
 							["highlight"] = false,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38490,8 +37565,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38580,12 +37655,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["劍刃亂舞"] = false,
 									["能量刺激"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["劍刃亂舞"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -38624,16 +37699,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -38643,11 +37720,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -38684,13 +37759,13 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38699,7 +37774,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -38743,13 +37818,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38758,7 +37833,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -38836,13 +37911,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38851,7 +37926,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -38940,13 +38015,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -38955,7 +38030,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -39032,13 +38107,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39047,7 +38122,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -39181,12 +38256,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -39222,14 +38297,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -39243,9 +38316,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -39287,16 +38362,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -39306,7 +38381,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -39382,13 +38457,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39397,8 +38472,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39473,13 +38548,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39488,8 +38563,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39510,13 +38585,13 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39525,8 +38600,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39618,13 +38693,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39633,8 +38708,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39719,12 +38794,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -39763,16 +38838,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -39782,7 +38857,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -39826,12 +38901,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -39841,8 +38916,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39917,12 +38992,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -39932,8 +39007,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -39987,29 +39062,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -40024,6 +39076,29 @@ PitBull4DB = {
 									["growth"] = "left_up",
 								},
 							},
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -40058,12 +39133,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -40073,8 +39148,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40204,12 +39279,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -40248,14 +39323,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -40269,9 +39342,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -40311,13 +39386,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40326,8 +39401,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40402,13 +39477,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40417,8 +39492,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40472,6 +39547,28 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -40487,28 +39584,6 @@ PitBull4DB = {
 								},
 							},
 							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -40547,13 +39622,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40562,8 +39637,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40737,14 +39812,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -40758,9 +39831,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -40797,13 +39872,13 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40812,7 +39887,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -40888,13 +39963,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -40903,7 +39978,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -40994,13 +40069,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41009,7 +40084,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41085,13 +40160,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41100,7 +40175,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41190,13 +40265,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41205,7 +40280,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41336,16 +40411,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -41355,7 +40430,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -41395,12 +40470,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41410,8 +40485,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41484,12 +40559,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41499,8 +40574,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41553,19 +40628,19 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["cooldown_text"] = {
-								["other_debuffs"] = true,
-								["my_debuffs"] = true,
-								["other_buffs"] = true,
 								["my_buffs"] = true,
+								["other_debuffs"] = true,
+								["other_buffs"] = true,
+								["my_debuffs"] = true,
 							},
 							["highlight"] = false,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41575,8 +40650,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41622,12 +40697,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -41637,8 +40712,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -41756,12 +40831,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -41971,10 +41046,10 @@ PitBull4DB = {
 									["side"] = "RIGHT",
 									["growth"] = "up_right",
 									["width"] = 40,
-									["offset_x"] = 20,
 									["new_row_size"] = true,
-									["col_spacing"] = 3,
 									["row_spacing"] = 3,
+									["col_spacing"] = 3,
+									["offset_x"] = 20,
 								},
 							},
 							["enabled_buffs"] = false,
@@ -42408,7 +41483,7 @@ PitBull4DB = {
 								["debuff"] = {
 									["width_percent"] = 1,
 									["size_to_fit"] = false,
-									["my_size"] = 27,
+									["my_size"] = 32,
 									["offset_y"] = 5,
 									["anchor"] = "TOPRIGHT",
 									["size"] = 26,
@@ -42656,16 +41731,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -42675,11 +41752,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -42712,12 +41787,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -42727,8 +41802,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -42803,12 +41878,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -42818,8 +41893,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -42896,12 +41971,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -42911,8 +41986,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -42988,12 +42063,12 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43003,8 +42078,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43087,12 +42162,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -43131,14 +42206,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -43152,9 +42225,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -43219,13 +42294,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43234,7 +42309,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43310,13 +42385,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43325,7 +42400,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43404,13 +42479,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43419,7 +42494,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43451,13 +42526,13 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43466,7 +42541,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43550,12 +42625,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["能量刺激"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -43594,16 +42669,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -43613,11 +42690,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -43689,12 +42764,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43704,8 +42779,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43790,12 +42865,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43805,8 +42880,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -43828,6 +42903,7 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
+							["enabled_buffs"] = false,
 							["layout"] = {
 								["buff"] = {
 									["size_to_fit"] = false,
@@ -43843,12 +42919,12 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43858,13 +42934,12 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
 							},
-							["enabled_buffs"] = false,
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -43935,12 +43010,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -43950,8 +43025,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44036,12 +43111,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -44080,16 +43155,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -44099,7 +43174,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -44134,12 +43209,12 @@ PitBull4DB = {
 							["max_buffs"] = 8,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44149,8 +43224,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44225,12 +43300,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44240,8 +43315,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44307,12 +43382,12 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44322,8 +43397,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44363,12 +43438,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44378,8 +43453,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44497,12 +43572,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["劍刃亂舞"] = false,
 									["能量刺激"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["劍刃亂舞"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -44541,16 +43616,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -44560,11 +43637,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -44604,13 +43679,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44619,7 +43694,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44695,13 +43770,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44710,7 +43785,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44788,13 +43863,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44803,7 +43878,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -44867,13 +43942,13 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -44882,7 +43957,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45023,16 +44098,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -45042,11 +44119,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -45083,13 +44158,13 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45098,7 +44173,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45174,13 +44249,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45189,7 +44264,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45280,13 +44355,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45295,7 +44370,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45371,13 +44446,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45386,7 +44461,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45476,13 +44551,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45491,7 +44566,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -45580,87 +44655,38 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["疾跑"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
+							["enabled"] = false,
 							["cooldown_text"] = {
-								["other_debuffs"] = true,
+								["my_debuffs"] = true,
 								["weapon_buffs"] = true,
 								["my_buffs"] = true,
-								["other_buffs"] = true,
-								["my_debuffs"] = true,
 							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 1,
-									["size_to_fit"] = false,
-									["growth"] = "up_right",
-									["my_size"] = 17,
-									["offset_x"] = 20,
-									["row_spacing"] = 3,
-									["width"] = 40,
-									["new_row_size"] = true,
-									["col_spacing"] = 3,
-									["size"] = 34,
-								},
-								["buff"] = {
-									["side"] = "LEFT",
-									["width_percent"] = 1,
-									["my_size"] = 30,
-									["size_to_fit"] = false,
-									["growth"] = "down_left",
-									["width"] = 70,
-									["width_type"] = "fixed",
-									["offset_y"] = 5,
-									["new_row_size"] = true,
-									["row_spacing"] = 3,
-									["anchor"] = "TOPLEFT",
-									["offset_x"] = -20,
-									["col_spacing"] = 3,
-									["size"] = 20,
-								},
-							},
-							["enabled_buffs"] = false,
 							["max_debuffs"] = 12,
 							["max_buffs"] = 8,
 							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["friend"] = {
-										["enabled"] = false,
-									},
+							["layout"] = {
+								["buff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
 								},
-								["my_buffs"] = {
-									["friend"] = {
-										["enabled"] = false,
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["weapon_buffs"] = {
-									["custom_color"] = {
-										0, -- [1]
-										1, -- [2]
-										0.0470588235294118, -- [3]
-										1, -- [4]
-									},
-									["color_type"] = "custom",
+								["debuff"] = {
+									["size"] = 24,
+									["my_size"] = 30,
 								},
 							},
 							["cooldown"] = {
@@ -45675,14 +44701,12 @@ PitBull4DB = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
-										["size"] = 0.6,
+										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -45692,12 +44716,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 5,
-										["anchor"] = "TOPRIGHT",
-									},
+								["my_buffs"] = {
 									["cooldown_text"] = {
+										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
@@ -45707,62 +44728,25 @@ PitBull4DB = {
 						["Party"] = {
 							["highlight"] = false,
 							["layout"] = {
-								["debuff"] = {
-									["size"] = 20,
-									["offset_x"] = 180,
-									["offset_y"] = -21,
-									["width_percent"] = 0.71,
-									["anchor"] = "TOPLEFT",
-									["side"] = "TOP",
-									["growth"] = "right_down",
-									["my_size"] = 20,
-								},
 								["buff"] = {
+									["size"] = 15,
+									["growth"] = "left_up",
 									["side"] = "TOP",
+									["filter"] = "!B",
+									["anchor"] = "TOPRIGHT",
 									["width_percent"] = 0.25,
 									["frame_level"] = 4,
 									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["growth"] = "left_down",
-									["size"] = 15,
+								},
+								["debuff"] = {
+									["width_percent"] = 0.71,
+									["anchor"] = "BOTTOMLEFT",
+									["size"] = 20,
+									["growth"] = "right_down",
+									["my_size"] = 20,
 								},
 							},
 							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 18,
-							["max_buffs"] = 9,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
 							["texts"] = {
 								["other_debuffs"] = {
 									["cooldown_text"] = {
@@ -45799,59 +44783,19 @@ PitBull4DB = {
 									},
 								},
 							},
-						},
-						["pet"] = {
-							["cooldown_text"] = {
-								["other_debuffs"] = true,
-								["weapon_buffs"] = true,
-								["my_buffs"] = true,
-								["other_buffs"] = true,
-								["my_debuffs"] = true,
-							},
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 1,
-									["size_to_fit"] = false,
-									["growth"] = "up_right",
-									["my_size"] = 17,
-									["offset_x"] = 20,
-									["row_spacing"] = 3,
-									["width"] = 40,
-									["new_row_size"] = true,
-									["col_spacing"] = 3,
-									["size"] = 34,
-								},
-								["buff"] = {
-									["side"] = "LEFT",
-									["width_percent"] = 1,
-									["my_size"] = 30,
-									["size_to_fit"] = false,
-									["growth"] = "down_left",
-									["width"] = 70,
-									["width_type"] = "fixed",
-									["offset_y"] = 5,
-									["new_row_size"] = true,
-									["row_spacing"] = 3,
-									["anchor"] = "TOPLEFT",
-									["offset_x"] = -20,
-									["col_spacing"] = 3,
-									["size"] = 20,
-								},
-							},
-							["enabled_buffs"] = false,
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 18,
+							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
 								["my_debuffs"] = {
-									["friend"] = {
-										["enabled"] = false,
+									["enemy"] = {
+										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
-										["enabled"] = false,
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
 									},
 								},
 								["other_buffs"] = {
@@ -45859,94 +44803,87 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["weapon_buffs"] = {
-									["custom_color"] = {
-										0, -- [1]
-										1, -- [2]
-										0.0470588235294118, -- [3]
-										1, -- [4]
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
 									},
-									["color_type"] = "custom",
 								},
 							},
 							["cooldown"] = {
-								["other_debuffs"] = false,
 								["weapon_buffs"] = false,
-								["my_buffs"] = false,
-								["other_buffs"] = false,
-								["my_debuffs"] = false,
 							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Focus"] = {
+							["highlight"] = false,
+							["layout"] = {
+								["buff"] = {
+									["my_size"] = 18,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["width_percent"] = 0.75,
+								},
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 1,
+									["anchor"] = "TOPRIGHT",
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
+								},
+							},
+							["enabled_weapons"] = false,
 							["texts"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
-										["size"] = 0.6,
+										["size"] = 1,
 									},
 								},
 								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["offset_y"] = -15,
+										["size"] = 0.7,
 									},
 								},
-								["weapon_buffs"] = {
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["other_debuffs"] = {
-									["count"] = {
-										["offset_y"] = 5,
-										["anchor"] = "TOPRIGHT",
-									},
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["size"] = 0.7,
 									},
 								},
 							},
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-						},
-						["Pet"] = {
-							["max_debuffs"] = 8,
-							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["side"] = "LEFT",
-									["width_percent"] = 1,
-									["size_to_fit"] = false,
-									["growth"] = "up_left",
-									["my_size"] = 30,
-									["offset_x"] = -15,
-									["anchor"] = "TOPLEFT",
-									["new_row_size"] = true,
-									["col_spacing"] = 3,
-									["size"] = 30,
-								},
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 14,
+							["zoom_aura"] = true,
 							["borders"] = {
 								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -45955,102 +44892,48 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
 							},
-							["enabled_weapons"] = false,
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
 						},
 						["Target"] = {
-							["cooldown_text"] = {
-								["other_buffs"] = true,
-								["other_debuffs"] = true,
-							},
 							["highlight"] = false,
 							["highlight_filters_color_by_type"] = {
 								false, -- [1]
 							},
 							["layout"] = {
+								["buff"] = {
+									["sort"] = false,
+									["width_percent"] = 0.78,
+									["size"] = 18,
+									["frame_level"] = 4,
+									["my_size"] = 18,
+								},
 								["debuff"] = {
 									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["my_size"] = 26,
-									["size_to_fit"] = false,
-									["growth"] = "left_up",
-									["width"] = 200,
-									["width_type"] = "fixed",
-									["offset_y"] = 5,
-									["row_spacing"] = 2,
-									["new_row_size"] = true,
+									["width_percent"] = 1,
 									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -10,
-									["col_spacing"] = 2,
-									["size"] = 26,
-								},
-								["buff"] = {
-									["growth"] = "up_right",
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["width"] = 80,
-									["size_to_fit"] = false,
-									["frame_level"] = 4,
-									["my_size"] = 28,
-									["offset_x"] = 5,
-									["new_row_size"] = true,
-									["width_type"] = "fixed",
-									["row_spacing"] = 3,
-									["anchor"] = "BOTTOMRIGHT",
-									["offset_y"] = -8,
-									["col_spacing"] = 3,
-									["size"] = 28,
+									["size"] = 18,
+									["growth"] = "left_up",
+									["my_size"] = 24,
 								},
 							},
 							["enabled_weapons"] = false,
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 14,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["other_debuffs"] = false,
-								["weapon_buffs"] = false,
-								["other_buffs"] = false,
-							},
 							["texts"] = {
 								["other_debuffs"] = {
-									["count"] = {
-										["anchor"] = "TOPRIGHT",
-									},
 									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
 									},
 								},
 								["weapon_buffs"] = {
@@ -46069,19 +44952,13 @@ PitBull4DB = {
 									},
 								},
 								["other_buffs"] = {
-									["count"] = {
-										["offset_y"] = 5,
-										["anchor"] = "TOPRIGHT",
-									},
 									["cooldown_text"] = {
 										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["offset_y"] = -10,
+										["size"] = 0.7,
 									},
 								},
 								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -46089,6 +44966,84 @@ PitBull4DB = {
 									},
 								},
 							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 20,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["weapon_buffs"] = false,
+							},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+						},
+						["Mini"] = {
+							["enabled"] = false,
+						},
+						["Pet"] = {
+							["cooldown_text"] = {
+								["my_debuffs"] = true,
+								["other_debuffs"] = true,
+								["other_buffs"] = true,
+								["my_buffs"] = true,
+							},
+							["highlight"] = false,
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["anchor"] = "BOTTOMLEFT",
+									["growth"] = "right_down",
+									["width_percent"] = 0.77,
+								},
+							},
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
 						},
 					},
 					["global"] = {
@@ -46104,15 +45059,15 @@ PitBull4DB = {
 									["隱形術"] = true,
 									["力量祝福"] = false,
 									["真言術:盾"] = true,
-									["冰錮堅韌"] = true,
+									["精通光環"] = true,
 									["反魔法護罩"] = true,
 									["痛苦鎮壓"] = true,
-									["寒冰護體"] = true,
-									["聖佑術"] = true,
-									["閃避"] = true,
-									["自由聖禦"] = true,
 									["反擊風暴"] = true,
-									["精通光環"] = true,
+									["聖佑術"] = true,
+									["自由聖禦"] = true,
+									["閃避"] = true,
+									["冰錮堅韌"] = true,
+									["寒冰護體"] = true,
 								},
 							},
 							["*B"] = {
@@ -46121,18 +45076,18 @@ PitBull4DB = {
 									["腎擊"] = true,
 									["自律"] = true,
 									["死亡纏繞"] = true,
-									["致盲"] = true,
-									["鑿擊"] = true,
+									["制裁之錘"] = true,
+									["強化變形術"] = true,
 									["震盪猛擊"] = true,
 									["絞殺"] = true,
 									["颶風術"] = true,
 									["悶棍"] = true,
 									["噬溫酷寒"] = true,
-									["強化變形術"] = true,
-									["變形術"] = true,
+									["鑿擊"] = true,
+									["魅惑"] = true,
 									["恐懼術"] = true,
 									["懺悔"] = true,
-									["魅惑"] = true,
+									["變形術"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
@@ -46144,7 +45099,7 @@ PitBull4DB = {
 									["震蕩波"] = true,
 									["破膽怒吼"] = true,
 									["心靈恐慌"] = true,
-									["制裁之錘"] = true,
+									["致盲"] = true,
 									["啃食"] = true,
 									["極度冰凍"] = true,
 								},
@@ -46162,12 +45117,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
-									["劍刃亂舞"] = false,
-									["能量刺激"] = false,
+									["暗影閃現"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -46206,14 +45161,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -46227,9 +45180,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -46269,13 +45224,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46284,7 +45239,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -46360,13 +45315,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46375,7 +45330,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -46430,6 +45385,28 @@ PitBull4DB = {
 						["Pet"] = {
 							["highlight"] = false,
 							["max_debuffs"] = 8,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
 							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
@@ -46443,28 +45420,6 @@ PitBull4DB = {
 									["size_to_fit"] = false,
 									["side"] = "LEFT",
 									["growth"] = "left_up",
-								},
-							},
-							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
 								},
 							},
 							["enabled_weapons"] = false,
@@ -46501,13 +45456,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46516,7 +45471,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -46691,16 +45646,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -46710,7 +45665,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -46754,13 +45709,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46769,8 +45724,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46855,13 +45810,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46870,8 +45825,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -46925,29 +45880,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -46962,6 +45894,29 @@ PitBull4DB = {
 									["growth"] = "left_up",
 								},
 							},
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -46996,13 +45951,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47011,8 +45966,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47133,12 +46088,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -47177,16 +46132,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -47196,11 +46153,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -47237,13 +46192,13 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47252,7 +46207,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -47328,13 +46283,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47343,7 +46298,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -47389,13 +46344,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47404,7 +46359,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -47525,13 +46480,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47540,7 +46495,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -47630,13 +46585,13 @@ PitBull4DB = {
 							["max_buffs"] = 15,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47645,7 +46600,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -47734,12 +46689,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -47778,16 +46733,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -47797,7 +46752,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -47841,13 +46796,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47856,8 +46811,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47932,13 +46887,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -47947,8 +46902,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -48002,29 +46957,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
 							["layout"] = {
 								["debuff"] = {
 									["side"] = "RIGHT",
@@ -48039,6 +46971,29 @@ PitBull4DB = {
 									["growth"] = "left_up",
 								},
 							},
+							["borders"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -48073,13 +47028,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -48088,8 +47043,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -48231,30 +47186,77 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
-							["enabled"] = false,
 							["cooldown_text"] = {
-								["my_buffs"] = true,
+								["other_debuffs"] = true,
 								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+								["other_buffs"] = true,
 								["my_debuffs"] = true,
 							},
-							["enabled_buffs"] = false,
 							["layout"] = {
-								["buff"] = {
-									["my_size"] = 30,
-									["size"] = 24,
-								},
 								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 1,
+									["size_to_fit"] = false,
+									["growth"] = "up_right",
+									["my_size"] = 17,
+									["offset_x"] = 20,
+									["row_spacing"] = 3,
+									["width"] = 40,
+									["new_row_size"] = true,
+									["col_spacing"] = 3,
+									["size"] = 34,
+								},
+								["buff"] = {
+									["side"] = "LEFT",
+									["width_percent"] = 1,
 									["my_size"] = 30,
-									["size"] = 24,
+									["size_to_fit"] = false,
+									["growth"] = "down_left",
+									["width"] = 70,
+									["width_type"] = "fixed",
+									["offset_y"] = 5,
+									["new_row_size"] = true,
+									["row_spacing"] = 3,
+									["anchor"] = "TOPLEFT",
+									["offset_x"] = -20,
+									["col_spacing"] = 3,
+									["size"] = 20,
 								},
 							},
+							["enabled_buffs"] = false,
 							["max_debuffs"] = 12,
-							["enabled_debuffs"] = false,
-							["zoom_aura"] = true,
 							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["friend"] = {
+										["enabled"] = false,
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["enabled"] = false,
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["weapon_buffs"] = {
+									["custom_color"] = {
+										0, -- [1]
+										1, -- [2]
+										0.0470588235294118, -- [3]
+										1, -- [4]
+									},
+									["color_type"] = "custom",
+								},
+							},
 							["cooldown"] = {
 								["other_debuffs"] = false,
 								["weapon_buffs"] = false,
@@ -48263,16 +47265,21 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 5,
+										["anchor"] = "TOPRIGHT",
+									},
 									["cooldown_text"] = {
-										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.6,
 									},
 								},
 								["weapon_buffs"] = {
@@ -48294,76 +47301,44 @@ PitBull4DB = {
 						["Party"] = {
 							["highlight"] = false,
 							["layout"] = {
-								["buff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.25,
-									["growth"] = "left_down",
-									["my_size"] = 15,
-									["offset_y"] = -15,
-									["anchor"] = "TOPRIGHT",
-									["offset_x"] = -180,
-									["frame_level"] = 4,
-									["size"] = 15,
-								},
 								["debuff"] = {
-									["my_size"] = 20,
-									["offset_y"] = -21,
+									["size"] = 20,
 									["offset_x"] = 180,
+									["offset_y"] = -21,
 									["width_percent"] = 0.71,
 									["anchor"] = "TOPLEFT",
 									["side"] = "TOP",
 									["growth"] = "right_down",
-									["size"] = 20,
+									["my_size"] = 20,
+								},
+								["buff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.25,
+									["frame_level"] = 4,
+									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["growth"] = "left_down",
+									["size"] = 15,
 								},
 							},
 							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
 							},
 							["highlight_style"] = "thinborder",
 							["max_debuffs"] = 18,
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -48382,201 +47357,155 @@ PitBull4DB = {
 							["cooldown"] = {
 								["weapon_buffs"] = false,
 							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
+							["texts"] = {
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+										["size"] = 0.7,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["cooldown_text"] = {
+										["offset_y"] = -15,
+										["size"] = 0.7,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
+									},
+								},
+							},
+						},
+						["pet"] = {
+							["cooldown_text"] = {
+								["other_debuffs"] = true,
+								["weapon_buffs"] = true,
+								["my_buffs"] = true,
+								["other_buffs"] = true,
+								["my_debuffs"] = true,
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 1,
+									["size_to_fit"] = false,
+									["growth"] = "up_right",
+									["my_size"] = 17,
+									["offset_x"] = 20,
+									["row_spacing"] = 3,
+									["width"] = 40,
+									["new_row_size"] = true,
+									["col_spacing"] = 3,
+									["size"] = 34,
+								},
+								["buff"] = {
+									["side"] = "LEFT",
+									["width_percent"] = 1,
+									["my_size"] = 30,
+									["size_to_fit"] = false,
+									["growth"] = "down_left",
+									["width"] = 70,
+									["width_type"] = "fixed",
+									["offset_y"] = 5,
+									["new_row_size"] = true,
+									["row_spacing"] = 3,
+									["anchor"] = "TOPLEFT",
+									["offset_x"] = -20,
+									["col_spacing"] = 3,
+									["size"] = 20,
+								},
+							},
+							["enabled_buffs"] = false,
+							["max_debuffs"] = 12,
+							["max_buffs"] = 8,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["my_debuffs"] = {
+									["friend"] = {
+										["enabled"] = false,
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["enabled"] = false,
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["weapon_buffs"] = {
+									["custom_color"] = {
+										0, -- [1]
+										1, -- [2]
+										0.0470588235294118, -- [3]
+										1, -- [4]
+									},
+									["color_type"] = "custom",
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["my_buffs"] = false,
+								["other_buffs"] = false,
+								["my_debuffs"] = false,
+							},
+							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 5,
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_debuffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.6,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
 							},
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
-						},
-						["Focus"] = {
-							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["my_size"] = 18,
-									["width_percent"] = 0.56,
-									["anchor"] = "BOTTOMRIGHT",
-									["growth"] = "left_down",
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 1,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 24,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["offset_y"] = -15,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 14,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
-						},
-						["Target"] = {
-							["highlight"] = false,
-							["highlight_filters_color_by_type"] = {
-								false, -- [1]
-							},
-							["layout"] = {
-								["buff"] = {
-									["sort"] = false,
-									["width_percent"] = 0.78,
-									["my_size"] = 18,
-									["frame_level"] = 4,
-									["size"] = 18,
-								},
-								["debuff"] = {
-									["side"] = "TOP",
-									["width_percent"] = 0.63,
-									["anchor"] = "TOPRIGHT",
-									["my_size"] = 26,
-									["growth"] = "left_up",
-									["size"] = 18,
-								},
-							},
-							["enabled_weapons"] = false,
-							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-										["size"] = 0.7,
-									},
-								},
-								["weapon_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["other_buffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "BOTTOM",
-										["offset_y"] = -10,
-										["size"] = 0.7,
-									},
-								},
-								["my_debuffs"] = {
-									["count"] = {
-										["offset_x"] = 5,
-									},
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 0.7,
-									},
-								},
-							},
-							["highlight_style"] = "thinborder",
-							["max_debuffs"] = 20,
-							["max_buffs"] = 20,
-							["zoom_aura"] = true,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["cooldown"] = {
-								["weapon_buffs"] = false,
-							},
-							["highlight_filters"] = {
-								nil, -- [1]
-								"!J", -- [2]
-							},
 						},
 						["Mini"] = {
 							["enabled"] = false,
@@ -48584,27 +47513,13 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["layout"] = {
-								["buff"] = {
-									["size_to_fit"] = false,
-									["side"] = "LEFT",
-									["growth"] = "left_up",
-								},
-								["debuff"] = {
-									["side"] = "RIGHT",
-									["width_percent"] = 0.78,
-									["my_size"] = 23,
-									["growth"] = "right_up",
-									["size"] = 23,
-								},
-							},
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -48621,14 +47536,150 @@ PitBull4DB = {
 								},
 							},
 							["enabled_buffs"] = false,
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "LEFT",
+									["width_percent"] = 1,
+									["size_to_fit"] = false,
+									["growth"] = "up_left",
+									["my_size"] = 30,
+									["offset_x"] = -15,
+									["anchor"] = "TOPLEFT",
+									["new_row_size"] = true,
+									["col_spacing"] = 3,
+									["size"] = 30,
+								},
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+							},
 							["enabled_weapons"] = false,
 						},
-						["普通"] = {
+						["Target"] = {
+							["cooldown_text"] = {
+								["other_buffs"] = true,
+								["other_debuffs"] = true,
+							},
+							["highlight"] = false,
+							["highlight_filters_color_by_type"] = {
+								false, -- [1]
+							},
+							["layout"] = {
+								["debuff"] = {
+									["side"] = "TOP",
+									["width_percent"] = 0.63,
+									["my_size"] = 26,
+									["size_to_fit"] = false,
+									["growth"] = "left_up",
+									["width"] = 200,
+									["width_type"] = "fixed",
+									["offset_y"] = 5,
+									["row_spacing"] = 2,
+									["new_row_size"] = true,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -10,
+									["col_spacing"] = 2,
+									["size"] = 26,
+								},
+								["buff"] = {
+									["growth"] = "up_right",
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["width"] = 80,
+									["size_to_fit"] = false,
+									["frame_level"] = 4,
+									["my_size"] = 28,
+									["offset_x"] = 5,
+									["new_row_size"] = true,
+									["width_type"] = "fixed",
+									["row_spacing"] = 3,
+									["anchor"] = "BOTTOMRIGHT",
+									["offset_y"] = -8,
+									["col_spacing"] = 3,
+									["size"] = 28,
+								},
+							},
+							["enabled_weapons"] = false,
+							["highlight_filters"] = {
+								nil, -- [1]
+								"!J", -- [2]
+							},
+							["highlight_style"] = "thinborder",
+							["max_debuffs"] = 14,
+							["max_buffs"] = 20,
+							["zoom_aura"] = true,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["cooldown"] = {
+								["other_debuffs"] = false,
+								["weapon_buffs"] = false,
+								["other_buffs"] = false,
+							},
 							["texts"] = {
+								["other_debuffs"] = {
+									["count"] = {
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["my_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["offset_y"] = -10,
+										["size"] = 0.7,
+									},
+								},
+								["other_buffs"] = {
+									["count"] = {
+										["offset_y"] = 5,
+										["anchor"] = "TOPRIGHT",
+									},
+									["cooldown_text"] = {
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
 								["my_debuffs"] = {
 									["count"] = {
-										["offset_y"] = 15,
-										["anchor"] = "TOP",
+										["offset_x"] = 5,
+									},
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 0.7,
 									},
 								},
 							},
@@ -48638,7 +47689,7 @@ PitBull4DB = {
 						["filters"] = {
 							["*A"] = {
 								["name_list"] = {
-									["痛苦鎮壓"] = true,
+									["獸心"] = true,
 									["保護聖禦"] = true,
 									["影散"] = true,
 									["聖盾術"] = true,
@@ -48649,12 +47700,12 @@ PitBull4DB = {
 									["真言術:盾"] = true,
 									["冰錮堅韌"] = true,
 									["反魔法護罩"] = true,
+									["痛苦鎮壓"] = true,
 									["寒冰護體"] = true,
-									["自由聖禦"] = true,
 									["聖佑術"] = true,
 									["閃避"] = true,
+									["自由聖禦"] = true,
 									["反擊風暴"] = true,
-									["獸心"] = true,
 									["精通光環"] = true,
 								},
 							},
@@ -48664,31 +47715,31 @@ PitBull4DB = {
 									["腎擊"] = true,
 									["自律"] = true,
 									["死亡纏繞"] = true,
-									["制裁之錘"] = true,
+									["致盲"] = true,
 									["鑿擊"] = true,
 									["震盪猛擊"] = true,
 									["絞殺"] = true,
 									["颶風術"] = true,
 									["悶棍"] = true,
-									["啃食"] = true,
-									["致盲"] = true,
+									["噬溫酷寒"] = true,
+									["強化變形術"] = true,
+									["變形術"] = true,
 									["恐懼術"] = true,
-									["心靈恐慌"] = true,
 									["懺悔"] = true,
 									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
 									["低溫"] = true,
-									["破膽怒吼"] = true,
+									["星湧術"] = true,
 									["丟倒在地"] = true,
 									["絞喉 - 沉默"] = true,
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
-									["星湧術"] = true,
-									["變形術"] = true,
-									["強化變形術"] = true,
-									["噬溫酷寒"] = true,
+									["破膽怒吼"] = true,
+									["心靈恐慌"] = true,
+									["制裁之錘"] = true,
+									["啃食"] = true,
 									["極度冰凍"] = true,
 								},
 							},
@@ -48699,18 +47750,18 @@ PitBull4DB = {
 							},
 							[";0"] = {
 								["name_list"] = {
-									["食屍"] = false,
 									["亡靈意志"] = false,
+									["食屍"] = false,
 								},
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
-									["劍刃亂舞"] = false,
-									["切割"] = false,
-									["冷酷"] = false,
 									["暗影閃現"] = false,
 									["疾跑"] = false,
+									["切割"] = false,
+									["冷酷"] = false,
+									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -48749,16 +47800,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -48768,7 +47819,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -48844,12 +47895,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -48859,8 +47910,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -48945,12 +47996,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -48960,8 +48011,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -48983,29 +48034,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
-							["enabled_buffs"] = false,
 							["layout"] = {
 								["buff"] = {
 									["size_to_fit"] = false,
@@ -49020,6 +48048,29 @@ PitBull4DB = {
 									["my_size"] = 23,
 								},
 							},
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
+							["enabled_buffs"] = false,
 							["enabled_weapons"] = false,
 						},
 						["Target"] = {
@@ -49090,12 +48141,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -49105,8 +48156,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49191,12 +48242,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["劍刃亂舞"] = false,
 									["能量刺激"] = false,
+									["疾跑"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["疾跑"] = false,
+									["劍刃亂舞"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -49281,16 +48332,18 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 								["weapon_buffs"] = {
@@ -49300,11 +48353,9 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
 							},
@@ -49318,29 +48369,6 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
-							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
 							["layout"] = {
 								["buff"] = {
 									["size_to_fit"] = false,
@@ -49353,6 +48381,29 @@ PitBull4DB = {
 									["size"] = 23,
 									["growth"] = "right_up",
 									["my_size"] = 23,
+								},
+							},
+							["enabled_buffs"] = false,
+							["borders"] = {
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
 								},
 							},
 							["enabled_weapons"] = false,
@@ -49424,12 +48475,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -49439,8 +48490,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49515,12 +48566,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -49530,8 +48581,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49554,16 +48605,16 @@ PitBull4DB = {
 									["width"] = 120,
 									["side"] = "RIGHT",
 									["width_percent"] = 0.78,
-									["offset_x"] = 5,
+									["width_type"] = "fixed",
 									["size_to_fit"] = false,
 									["growth"] = "down_right",
 									["my_size"] = 26,
-									["new_row_size"] = true,
+									["offset_x"] = 5,
+									["row_spacing"] = 3,
 									["offset_y"] = 15,
-									["width_type"] = "fixed",
 									["frame_level"] = 4,
 									["anchor"] = "TOPRIGHT",
-									["row_spacing"] = 3,
+									["new_row_size"] = true,
 									["col_spacing"] = 3,
 									["size"] = 26,
 								},
@@ -49630,12 +48681,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
+								["my_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -49645,8 +48696,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49751,40 +48802,42 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["能量刺激"] = false,
 									["疾跑"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
 							["cooldown_text"] = {
-								["my_debuffs"] = true,
-								["weapon_buffs"] = true,
 								["my_buffs"] = true,
+								["weapon_buffs"] = true,
+								["my_debuffs"] = true,
 							},
-							["max_debuffs"] = 12,
-							["max_buffs"] = 8,
-							["zoom_aura"] = true,
+							["enabled_buffs"] = false,
 							["layout"] = {
 								["buff"] = {
-									["size"] = 24,
 									["my_size"] = 30,
+									["size"] = 24,
 								},
 								["debuff"] = {
-									["size"] = 24,
 									["my_size"] = 30,
+									["size"] = 24,
 								},
 							},
+							["max_debuffs"] = 12,
+							["enabled_debuffs"] = false,
+							["zoom_aura"] = true,
+							["max_buffs"] = 8,
 							["cooldown"] = {
 								["other_debuffs"] = false,
 								["weapon_buffs"] = false,
@@ -49793,19 +48846,7 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
 								["my_buffs"] = {
-									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
-									},
-								},
-								["weapon_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -49819,27 +48860,43 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
+								["weapon_buffs"] = {
+									["cooldown_text"] = {
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
+									},
+								},
 							},
 						},
 						["Party"] = {
 							["highlight"] = false,
 							["layout"] = {
 								["buff"] = {
-									["size"] = 15,
-									["growth"] = "left_up",
 									["side"] = "TOP",
-									["filter"] = "!B",
-									["anchor"] = "TOPRIGHT",
 									["width_percent"] = 0.25,
-									["frame_level"] = 4,
+									["growth"] = "left_down",
 									["my_size"] = 15,
+									["offset_y"] = -15,
+									["anchor"] = "TOPRIGHT",
+									["offset_x"] = -180,
+									["frame_level"] = 4,
+									["size"] = 15,
 								},
 								["debuff"] = {
-									["width_percent"] = 0.71,
-									["anchor"] = "BOTTOMLEFT",
-									["size"] = 20,
-									["growth"] = "right_down",
 									["my_size"] = 20,
+									["offset_y"] = -21,
+									["offset_x"] = 180,
+									["width_percent"] = 0.71,
+									["anchor"] = "TOPLEFT",
+									["side"] = "TOP",
+									["growth"] = "right_down",
+									["size"] = 20,
 								},
 							},
 							["enabled_weapons"] = false,
@@ -49884,13 +48941,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49899,7 +48956,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -49913,22 +48970,27 @@ PitBull4DB = {
 								"!J", -- [2]
 							},
 						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+						},
 						["Focus"] = {
 							["highlight"] = false,
 							["layout"] = {
 								["buff"] = {
 									["my_size"] = 18,
-									["size"] = 18,
+									["width_percent"] = 0.56,
+									["anchor"] = "BOTTOMRIGHT",
+									["growth"] = "left_down",
 									["frame_level"] = 4,
-									["width_percent"] = 0.75,
+									["size"] = 18,
 								},
 								["debuff"] = {
 									["side"] = "TOP",
 									["width_percent"] = 1,
 									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
-									["growth"] = "left_up",
 									["my_size"] = 24,
+									["growth"] = "left_up",
+									["size"] = 18,
 								},
 							},
 							["enabled_weapons"] = false,
@@ -49973,13 +49035,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -49988,7 +49050,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50011,17 +49073,17 @@ PitBull4DB = {
 								["buff"] = {
 									["sort"] = false,
 									["width_percent"] = 0.78,
-									["size"] = 18,
-									["frame_level"] = 4,
 									["my_size"] = 18,
+									["frame_level"] = 4,
+									["size"] = 18,
 								},
 								["debuff"] = {
 									["side"] = "TOP",
-									["width_percent"] = 1,
+									["width_percent"] = 0.63,
 									["anchor"] = "TOPRIGHT",
-									["size"] = 18,
+									["my_size"] = 26,
 									["growth"] = "left_up",
-									["my_size"] = 24,
+									["size"] = 18,
 								},
 							},
 							["enabled_weapons"] = false,
@@ -50055,6 +49117,9 @@ PitBull4DB = {
 									},
 								},
 								["my_debuffs"] = {
+									["count"] = {
+										["offset_x"] = 5,
+									},
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -50067,13 +49132,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50082,7 +49147,7 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50100,25 +49165,25 @@ PitBull4DB = {
 							["enabled"] = false,
 						},
 						["Pet"] = {
-							["cooldown_text"] = {
-								["other_debuffs"] = true,
-								["my_buffs"] = true,
-								["other_buffs"] = true,
-								["my_debuffs"] = true,
-							},
+							["max_debuffs"] = 8,
 							["highlight"] = false,
+							["enabled_buffs"] = false,
+							["layout"] = {
+								["buff"] = {
+									["size_to_fit"] = false,
+									["side"] = "LEFT",
+									["growth"] = "left_up",
+								},
+								["debuff"] = {
+									["side"] = "RIGHT",
+									["width_percent"] = 0.78,
+									["my_size"] = 23,
+									["growth"] = "right_up",
+									["size"] = 23,
+								},
+							},
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
 								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
 									["friend"] = {
 										["color_type"] = "type",
 									},
@@ -50128,25 +49193,35 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-							},
-							["enabled_buffs"] = false,
-							["layout"] = {
-								["debuff"] = {
-									["anchor"] = "BOTTOMLEFT",
-									["growth"] = "right_down",
-									["width_percent"] = 0.77,
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
 								},
 							},
+							["enabled_weapons"] = false,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
+						["普通"] = {
+							["texts"] = {
+								["my_debuffs"] = {
+									["count"] = {
+										["offset_y"] = 15,
+										["anchor"] = "TOP",
+									},
+								},
+							},
 						},
 					},
 					["global"] = {
 						["filters"] = {
 							["*A"] = {
 								["name_list"] = {
-									["獸心"] = true,
+									["痛苦鎮壓"] = true,
 									["保護聖禦"] = true,
 									["影散"] = true,
 									["聖盾術"] = true,
@@ -50155,15 +49230,15 @@ PitBull4DB = {
 									["隱形術"] = true,
 									["力量祝福"] = false,
 									["真言術:盾"] = true,
-									["精通光環"] = true,
-									["反魔法護罩"] = true,
-									["痛苦鎮壓"] = true,
-									["反擊風暴"] = true,
-									["聖佑術"] = true,
-									["自由聖禦"] = true,
-									["閃避"] = true,
 									["冰錮堅韌"] = true,
+									["反魔法護罩"] = true,
 									["寒冰護體"] = true,
+									["自由聖禦"] = true,
+									["聖佑術"] = true,
+									["閃避"] = true,
+									["反擊風暴"] = true,
+									["獸心"] = true,
+									["精通光環"] = true,
 								},
 							},
 							["*B"] = {
@@ -50173,30 +49248,30 @@ PitBull4DB = {
 									["自律"] = true,
 									["死亡纏繞"] = true,
 									["制裁之錘"] = true,
-									["強化變形術"] = true,
+									["鑿擊"] = true,
 									["震盪猛擊"] = true,
 									["絞殺"] = true,
 									["颶風術"] = true,
 									["悶棍"] = true,
-									["噬溫酷寒"] = true,
-									["鑿擊"] = true,
-									["魅惑"] = true,
+									["啃食"] = true,
+									["致盲"] = true,
 									["恐懼術"] = true,
+									["心靈恐慌"] = true,
 									["懺悔"] = true,
-									["變形術"] = true,
+									["魅惑"] = true,
 									["心靈尖嘯"] = true,
 									["偷襲"] = true,
 									["沉默"] = true,
 									["低溫"] = true,
-									["星湧術"] = true,
+									["破膽怒吼"] = true,
 									["丟倒在地"] = true,
 									["絞喉 - 沉默"] = true,
 									["龍之吐息"] = true,
 									["震蕩波"] = true,
-									["破膽怒吼"] = true,
-									["心靈恐慌"] = true,
-									["致盲"] = true,
-									["啃食"] = true,
+									["星湧術"] = true,
+									["變形術"] = true,
+									["強化變形術"] = true,
+									["噬溫酷寒"] = true,
 									["極度冰凍"] = true,
 								},
 							},
@@ -50207,18 +49282,18 @@ PitBull4DB = {
 							},
 							[";0"] = {
 								["name_list"] = {
-									["亡靈意志"] = false,
 									["食屍"] = false,
+									["亡靈意志"] = false,
 								},
 							},
 							["10"] = {
 								["name_list"] = {
+									["劍刃亂舞"] = false,
 									["疾跑"] = false,
-									["能量刺激"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["能量刺激"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -50257,16 +49332,16 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["other_debuffs"] = {
-									["cooldown_text"] = {
-										["anchor"] = "CENTER",
-									},
-								},
-								["my_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
 										["size"] = 1,
+									},
+								},
+								["other_debuffs"] = {
+									["cooldown_text"] = {
+										["anchor"] = "CENTER",
 									},
 								},
 								["weapon_buffs"] = {
@@ -50276,7 +49351,7 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -50345,12 +49420,12 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50360,8 +49435,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50436,12 +49511,12 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50451,8 +49526,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50530,12 +49605,12 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50545,8 +49620,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50577,12 +49652,12 @@ PitBull4DB = {
 								},
 							},
 							["borders"] = {
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
@@ -50592,8 +49667,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50676,12 +49751,12 @@ PitBull4DB = {
 							},
 							["10"] = {
 								["name_list"] = {
-									["疾跑"] = false,
 									["能量刺激"] = false,
+									["劍刃亂舞"] = false,
 									["切割"] = false,
 									["冷酷"] = false,
 									["暗影閃現"] = false,
-									["劍刃亂舞"] = false,
+									["疾跑"] = false,
 									["冷血"] = false,
 								},
 							},
@@ -50720,14 +49795,12 @@ PitBull4DB = {
 								["my_debuffs"] = false,
 							},
 							["texts"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["cooldown_text"] = {
-										["color_by_time"] = true,
-										["anchor"] = "BOTTOM",
-										["size"] = 1,
+										["anchor"] = "CENTER",
 									},
 								},
-								["my_buffs"] = {
+								["my_debuffs"] = {
 									["cooldown_text"] = {
 										["color_by_time"] = true,
 										["anchor"] = "BOTTOM",
@@ -50741,9 +49814,11 @@ PitBull4DB = {
 										["size"] = 1,
 									},
 								},
-								["other_debuffs"] = {
+								["my_buffs"] = {
 									["cooldown_text"] = {
-										["anchor"] = "CENTER",
+										["color_by_time"] = true,
+										["anchor"] = "BOTTOM",
+										["size"] = 1,
 									},
 								},
 							},
@@ -50815,13 +49890,13 @@ PitBull4DB = {
 							["max_buffs"] = 9,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50830,8 +49905,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50847,6 +49922,28 @@ PitBull4DB = {
 						["Pet"] = {
 							["max_debuffs"] = 8,
 							["highlight"] = false,
+							["borders"] = {
+								["other_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_debuffs"] = {
+									["enemy"] = {
+										["color_type"] = "type",
+									},
+								},
+								["other_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+								["my_buffs"] = {
+									["friend"] = {
+										["color_type"] = "type",
+									},
+								},
+							},
 							["layout"] = {
 								["buff"] = {
 									["size_to_fit"] = false,
@@ -50862,28 +49959,6 @@ PitBull4DB = {
 								},
 							},
 							["enabled_buffs"] = false,
-							["borders"] = {
-								["my_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-								["my_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_buffs"] = {
-									["friend"] = {
-										["color_type"] = "type",
-									},
-								},
-								["other_debuffs"] = {
-									["enemy"] = {
-										["color_type"] = "type",
-									},
-								},
-							},
 							["enabled_weapons"] = false,
 						},
 						["Focus"] = {
@@ -50948,13 +50023,13 @@ PitBull4DB = {
 							["max_buffs"] = 14,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -50963,8 +50038,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -51045,13 +50120,13 @@ PitBull4DB = {
 							["max_buffs"] = 20,
 							["zoom_aura"] = true,
 							["borders"] = {
-								["my_debuffs"] = {
+								["other_debuffs"] = {
 									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
-								["my_buffs"] = {
-									["friend"] = {
+								["my_debuffs"] = {
+									["enemy"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -51060,8 +50135,8 @@ PitBull4DB = {
 										["color_type"] = "type",
 									},
 								},
-								["other_debuffs"] = {
-									["enemy"] = {
+								["my_buffs"] = {
+									["friend"] = {
 										["color_type"] = "type",
 									},
 								},
@@ -51176,11 +50251,200 @@ PitBull4DB = {
 				},
 			},
 		},
-		["Runes"] = {
+		["ReputationBar"] = {
 			["profiles"] = {
+				["my"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
+				["Jinzakk - 黑龍軍團"] = {
+					["layouts"] = {
+						["普通"] = {
+							["enabled"] = false,
+						},
+						["簡單"] = {
+							["enabled"] = false,
+						},
+					},
+				},
 				["dk.2014.10.30"] = {
-					["global"] = {
-						["enabled"] = false,
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Durix - 燃烧之刃"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["pet"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+					},
+				},
+				["Slick.2016.08.12"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["BuffOnly"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["pet"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+					},
+				},
+				["test"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 5,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Default.2016.08.05"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+					},
+				},
+				["Darknex - Emerald Dream"] = {
+					["layouts"] = {
+						["Self"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
+						["Pet"] = {
+							["position"] = 5,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["position"] = 3.00001,
+						},
 					},
 				},
 			},
@@ -51833,45 +51097,41 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
-							["animated"] = true,
-							["background_alpha"] = 0,
-							["position"] = 4,
+							["enabled"] = false,
 							["hide_no_power"] = true,
-							["size"] = 1.2,
+							["animated"] = true,
+							["size"] = 1,
 						},
 						["Party"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
 							["size"] = 1,
 						},
-						["pet"] = {
-							["animated"] = true,
-							["background_alpha"] = 0,
-							["position"] = 4,
-							["hide_no_power"] = true,
-							["size"] = 1.2,
-						},
-						["Target"] = {
-							["animated"] = true,
-							["background_alpha"] = 0,
-							["position"] = 4.00001,
-							["size"] = 1,
-							["alpha"] = 0.7,
+						["Focus"] = {
 							["texture"] = "BantoBar",
+							["animated"] = true,
+							["background_alpha"] = 0,
+							["size"] = 1,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["size"] = 1,
 						},
 						["Mini"] = {
 							["enabled"] = false,
 							["size"] = 1,
 						},
 						["Pet"] = {
-							["position"] = 4,
 							["size"] = 1,
 						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
+						["Target"] = {
+							["animated"] = true,
+							["background_alpha"] = 0,
+							["position"] = 4,
+							["texture"] = "BantoBar",
 							["size"] = 1,
 						},
 					},
@@ -52054,44 +51314,46 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
-							["position"] = 3,
+							["position"] = 4,
 							["hide_no_power"] = true,
-							["size"] = 1,
+							["size"] = 1.2,
 						},
 						["Party"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
 							["size"] = 1,
 						},
-						["Focus"] = {
-							["size"] = 1,
+						["pet"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
-							["texture"] = "BantoBar",
-						},
-						["Mini_Party_tar"] = {
-							["enabled"] = false,
-							["size"] = 1,
-						},
-						["Mini"] = {
-							["enabled"] = false,
-							["size"] = 1,
-						},
-						["Pet"] = {
-							["size"] = 1,
 							["position"] = 4,
+							["hide_no_power"] = true,
+							["size"] = 1.2,
 						},
 						["Target"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
 							["position"] = 4.00001,
 							["size"] = 1,
+							["alpha"] = 0.7,
 							["texture"] = "BantoBar",
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["size"] = 1,
+						},
+						["Pet"] = {
+							["position"] = 4,
+							["size"] = 1,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["size"] = 1,
 						},
 					},
 				},
@@ -52179,12 +51441,13 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
-							["enabled"] = false,
-							["hide_no_power"] = true,
 							["animated"] = true,
+							["background_alpha"] = 0,
+							["position"] = 3,
+							["hide_no_power"] = true,
 							["size"] = 1,
 						},
 						["Party"] = {
@@ -52193,10 +51456,10 @@ PitBull4DB = {
 							["size"] = 1,
 						},
 						["Focus"] = {
-							["texture"] = "BantoBar",
+							["size"] = 1,
 							["animated"] = true,
 							["background_alpha"] = 0,
-							["size"] = 1,
+							["texture"] = "BantoBar",
 						},
 						["Mini_Party_tar"] = {
 							["enabled"] = false,
@@ -52208,13 +51471,14 @@ PitBull4DB = {
 						},
 						["Pet"] = {
 							["size"] = 1,
+							["position"] = 4,
 						},
 						["Target"] = {
 							["animated"] = true,
 							["background_alpha"] = 0,
-							["position"] = 4,
-							["texture"] = "BantoBar",
+							["position"] = 4.00001,
 							["size"] = 1,
+							["texture"] = "BantoBar",
 						},
 					},
 				},
@@ -52344,199 +51608,935 @@ PitBull4DB = {
 				},
 			},
 		},
-		["ReputationBar"] = {
+		["RestIcon"] = {
 			["profiles"] = {
-				["my"] = {
+				["Evillix - 黑龍軍團"] = {
 					["layouts"] = {
-						["普通"] = {
-							["enabled"] = false,
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
-						["簡單"] = {
+						["Party"] = {
 							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Warlock_Draft"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 					},
 				},
 				["Jinzakk - 黑龍軍團"] = {
 					["layouts"] = {
 						["普通"] = {
-							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 						["簡單"] = {
 							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+					},
+				},
+				["ROGUE"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["dk.2014.10.30"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["Durix - 燃烧之刃"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
-				["rog.2014.10.20"] = {
+				["Zenez - 燃烧之刃"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 					},
 				},
-				["wlk.2014.10.20"] = {
+				["Darknex - 黑龍軍團"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Warlock_style2"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-					},
-				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = false,
-							["position"] = 5,
-						},
-						["Target"] = {
-							["enabled"] = false,
-							["position"] = 3.00001,
-						},
-						["pet"] = {
-							["enabled"] = false,
-							["position"] = 5,
-						},
-						["Pet"] = {
-							["position"] = 5,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["Slick.2016.08.12"] = {
 					["layouts"] = {
 						["Self"] = {
+							["position"] = 27,
+							["location"] = "edge_bottom_right",
+						},
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
-							["position"] = 5,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["position"] = 27,
+							["location"] = "edge_top_right",
 						},
 						["BuffOnly"] = {
-							["enabled"] = false,
-							["position"] = 5,
+							["position"] = 27,
+							["location"] = "edge_bottom_right",
 						},
 						["Focus"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["position"] = 27,
+							["location"] = "edge_top_right",
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["position"] = 27,
+							["location"] = "edge_top_right",
 						},
 						["pet"] = {
-							["enabled"] = false,
-							["position"] = 5,
-						},
-						["Pet"] = {
-							["position"] = 5,
+							["position"] = 27,
+							["location"] = "edge_top_right",
 						},
 					},
 				},
-				["test"] = {
+				["Draculax - 銀翼要塞"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 5,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Draculax - 黑龍軍團"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["Default.2016.08.05"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Darknex_110408"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["HUNTER"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Rogue_Style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+					},
+				},
+				["Darknex-test1"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["术士"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["wlk.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Warlock_style2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["FocusAsTar"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_FocusTar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+					},
+				},
+				["Warlock"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["pet"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+					},
+				},
+				["rog.2014.10.20"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["test"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["default"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+					},
+				},
+				["Darknex-2"] = {
+					["layouts"] = {
+						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Pet"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Target"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
 				["Darknex - Emerald Dream"] = {
 					["layouts"] = {
 						["Self"] = {
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Party"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Focus"] = {
+							["enabled"] = false,
+							["location"] = "edge_top_right",
+							["position"] = 27,
+						},
+						["Mini_Party_tar"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
+						},
+						["Mini"] = {
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Pet"] = {
-							["position"] = 5,
+							["enabled"] = false,
+							["position"] = 1.00004,
 						},
 						["Target"] = {
 							["enabled"] = false,
-							["position"] = 3.00001,
+							["location"] = "edge_top_right",
+							["position"] = 27,
 						},
 					},
 				},
@@ -53233,36 +53233,27 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
-							["hostility_color_npcs"] = false,
-							["hostility_color"] = false,
-							["position"] = 3,
-							["color_by_class"] = false,
-							["alpha"] = 0.75,
 							["background_alpha"] = 0,
+							["hostility_color"] = false,
+							["position"] = 1.00001,
 						},
 						["Party"] = {
 							["background_alpha"] = 0.15,
 							["hostility_color"] = false,
 							["position"] = 1.00001,
 						},
-						["pet"] = {
-							["hostility_color_npcs"] = false,
-							["hostility_color"] = false,
-							["position"] = 3,
-							["color_by_class"] = false,
-							["alpha"] = 0.75,
+						["Focus"] = {
 							["background_alpha"] = 0,
+							["hostility_color"] = false,
+							["position"] = 1.00001,
 						},
-						["Target"] = {
-							["hostility_color_npcs"] = false,
+						["Mini_Party_tar"] = {
 							["background_alpha"] = 0,
-							["position"] = 3,
-							["hostility_color"] = false,
-							["alpha"] = 0.7,
 							["color_pvp_by_class"] = true,
+							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["background_alpha"] = 0,
@@ -53270,14 +53261,15 @@ PitBull4DB = {
 							["position"] = 1.00001,
 						},
 						["Pet"] = {
-							["background_alpha"] = 0,
-							["color_pvp_by_class"] = true,
-							["position"] = 3,
-						},
-						["Mini_Party_tar"] = {
-							["background_alpha"] = 0,
 							["color_pvp_by_class"] = true,
 							["position"] = 1.00001,
+						},
+						["Target"] = {
+							["hostility_color_npcs"] = false,
+							["hostility_color"] = false,
+							["position"] = 3,
+							["color_pvp_by_class"] = true,
+							["background_alpha"] = 0,
 						},
 					},
 				},
@@ -53458,28 +53450,36 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["hostility_color_npcs"] = false,
-							["background_alpha"] = 0,
 							["hostility_color"] = false,
-							["position"] = 2,
+							["position"] = 3,
+							["color_by_class"] = false,
+							["alpha"] = 0.75,
+							["background_alpha"] = 0,
 						},
 						["Party"] = {
 							["background_alpha"] = 0.15,
 							["hostility_color"] = false,
 							["position"] = 1.00001,
 						},
-						["Focus"] = {
-							["background_alpha"] = 0,
+						["pet"] = {
+							["hostility_color_npcs"] = false,
 							["hostility_color"] = false,
-							["position"] = 1.00001,
-						},
-						["Mini_Party_tar"] = {
+							["position"] = 3,
+							["color_by_class"] = false,
+							["alpha"] = 0.75,
 							["background_alpha"] = 0,
+						},
+						["Target"] = {
+							["hostility_color_npcs"] = false,
+							["background_alpha"] = 0,
+							["position"] = 3,
+							["hostility_color"] = false,
+							["alpha"] = 0.7,
 							["color_pvp_by_class"] = true,
-							["position"] = 1.00001,
 						},
 						["Mini"] = {
 							["background_alpha"] = 0,
@@ -53491,12 +53491,10 @@ PitBull4DB = {
 							["color_pvp_by_class"] = true,
 							["position"] = 3,
 						},
-						["Target"] = {
-							["hostility_color_npcs"] = false,
+						["Mini_Party_tar"] = {
 							["background_alpha"] = 0,
-							["position"] = 3,
 							["color_pvp_by_class"] = true,
-							["hostility_color"] = false,
+							["position"] = 1.00001,
 						},
 					},
 				},
@@ -53586,12 +53584,13 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
+							["hostility_color_npcs"] = false,
 							["background_alpha"] = 0,
 							["hostility_color"] = false,
-							["position"] = 1.00001,
+							["position"] = 2,
 						},
 						["Party"] = {
 							["background_alpha"] = 0.15,
@@ -53614,15 +53613,16 @@ PitBull4DB = {
 							["position"] = 1.00001,
 						},
 						["Pet"] = {
+							["background_alpha"] = 0,
 							["color_pvp_by_class"] = true,
-							["position"] = 1.00001,
+							["position"] = 3,
 						},
 						["Target"] = {
 							["hostility_color_npcs"] = false,
-							["hostility_color"] = false,
+							["background_alpha"] = 0,
 							["position"] = 3,
 							["color_pvp_by_class"] = true,
-							["background_alpha"] = 0,
+							["hostility_color"] = false,
 						},
 					},
 				},
@@ -54568,25 +54568,28 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
+							["enabled"] = true,
 							["out_of_combat_opacity"] = 0.5,
 							["target_opacity"] = 0.5,
-							["hurt_opacity"] = 1,
+							["hurt_opacity"] = 0.5,
 						},
 						["Party"] = {
-							["hurt_opacity"] = 0.9,
 							["out_of_combat_opacity"] = 0.5,
-						},
-						["Focus"] = {
 							["hurt_opacity"] = 0.9,
-							["out_of_combat_opacity"] = 0.5,
 						},
-						["Mini_Party_tar"] = {
-							["out_of_combat_opacity"] = 1,
-							["target_opacity"] = 1,
-							["hurt_opacity"] = 1,
+						["pet"] = {
+							["enabled"] = true,
+							["out_of_combat_opacity"] = 0.5,
+							["target_opacity"] = 0.5,
+							["hurt_opacity"] = 0.5,
+						},
+						["Target"] = {
+							["out_of_combat_opacity"] = 0.5,
+							["hurt_opacity"] = 0.85,
+							["in_combat_opacity"] = 0.85,
 						},
 						["Mini"] = {
 							["out_of_combat_opacity"] = 1,
@@ -54598,9 +54601,10 @@ PitBull4DB = {
 							["target_opacity"] = 0.5,
 							["hurt_opacity"] = 1,
 						},
-						["Target"] = {
-							["hurt_opacity"] = 0.9,
-							["out_of_combat_opacity"] = 0.5,
+						["Mini_Party_tar"] = {
+							["out_of_combat_opacity"] = 1,
+							["target_opacity"] = 1,
+							["hurt_opacity"] = 1,
 						},
 					},
 				},
@@ -54679,46 +54683,6 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
-					["layouts"] = {
-						["Self"] = {
-							["enabled"] = true,
-							["out_of_combat_opacity"] = 0.5,
-							["target_opacity"] = 0.5,
-							["hurt_opacity"] = 0.5,
-						},
-						["Party"] = {
-							["out_of_combat_opacity"] = 0.5,
-							["hurt_opacity"] = 0.9,
-						},
-						["pet"] = {
-							["enabled"] = true,
-							["out_of_combat_opacity"] = 0.5,
-							["target_opacity"] = 0.5,
-							["hurt_opacity"] = 0.5,
-						},
-						["Target"] = {
-							["out_of_combat_opacity"] = 0.5,
-							["hurt_opacity"] = 0.85,
-							["in_combat_opacity"] = 0.85,
-						},
-						["Mini"] = {
-							["out_of_combat_opacity"] = 1,
-							["target_opacity"] = 1,
-							["hurt_opacity"] = 1,
-						},
-						["Pet"] = {
-							["out_of_combat_opacity"] = 0.5,
-							["target_opacity"] = 0.5,
-							["hurt_opacity"] = 1,
-						},
-						["Mini_Party_tar"] = {
-							["out_of_combat_opacity"] = 1,
-							["target_opacity"] = 1,
-							["hurt_opacity"] = 1,
-						},
-					},
-				},
 				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
@@ -54752,6 +54716,42 @@ PitBull4DB = {
 						["Target"] = {
 							["out_of_combat_opacity"] = 0.5,
 							["hurt_opacity"] = 0.9,
+						},
+					},
+				},
+				["default"] = {
+					["layouts"] = {
+						["Self"] = {
+							["out_of_combat_opacity"] = 0.5,
+							["target_opacity"] = 0.5,
+							["hurt_opacity"] = 1,
+						},
+						["Party"] = {
+							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
+						},
+						["Focus"] = {
+							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
+						},
+						["Mini_Party_tar"] = {
+							["out_of_combat_opacity"] = 1,
+							["target_opacity"] = 1,
+							["hurt_opacity"] = 1,
+						},
+						["Mini"] = {
+							["out_of_combat_opacity"] = 1,
+							["target_opacity"] = 1,
+							["hurt_opacity"] = 1,
+						},
+						["Pet"] = {
+							["out_of_combat_opacity"] = 0.5,
+							["target_opacity"] = 0.5,
+							["hurt_opacity"] = 1,
+						},
+						["Target"] = {
+							["hurt_opacity"] = 0.9,
+							["out_of_combat_opacity"] = 0.5,
 						},
 					},
 				},
@@ -57229,7 +57229,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["default"] = {
+				["Default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
@@ -57237,10 +57237,10 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["Focus"] = {
+						["pet"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -57249,7 +57249,7 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 					},
@@ -57304,7 +57304,7 @@ PitBull4DB = {
 						},
 					},
 				},
-				["Default"] = {
+				["Darknex-test1"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,
@@ -57312,10 +57312,10 @@ PitBull4DB = {
 						["Party"] = {
 							["enabled"] = false,
 						},
-						["pet"] = {
+						["Focus"] = {
 							["enabled"] = false,
 						},
-						["Mini_Party_tar"] = {
+						["Target"] = {
 							["enabled"] = false,
 						},
 						["Mini"] = {
@@ -57324,12 +57324,12 @@ PitBull4DB = {
 						["Pet"] = {
 							["enabled"] = false,
 						},
-						["Target"] = {
+						["Mini_Party_tar"] = {
 							["enabled"] = false,
 						},
 					},
 				},
-				["Darknex-test1"] = {
+				["default"] = {
 					["layouts"] = {
 						["Self"] = {
 							["enabled"] = false,

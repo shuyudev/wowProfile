@@ -45,6 +45,11 @@ DiminishingReturnsDB = {
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {
+			["categories"] = {
+				["stun"] = true,
+				["incapacitate"] = true,
+				["disorient"] = true,
+			},
 		},
 	},
 }
