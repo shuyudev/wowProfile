@@ -15,9 +15,9 @@ Bagnon_Sets = {
 	["players"] = {
 		["Kel'Thuzad"] = {
 		},
-		["Malygos"] = {
-		},
 		["Emerald Dream"] = {
+		},
+		["Malygos"] = {
 		},
 	},
 	["gemColor"] = {
@@ -29,10 +29,9 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["displayBank"] = true,
-	["refrigeColor"] = {
+	["displayCraft"] = false,
+	["reagentColor"] = {
 	},
-	["displayAuction"] = false,
 	["global"] = {
 		["inventory"] = {
 			["brokerObject"] = "WeakAuras",
@@ -45,22 +44,22 @@ Bagnon_Sets = {
 			["alpha"] = 0.8,
 			["y"] = 314.731994628906,
 			["x"] = -57.0605779646987,
-			["columns"] = 15,
+			["bagBreak"] = false,
 			["borderColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.225961327552795, -- [4]
 			},
+			["spacing"] = 1,
+			["itemScale"] = 1,
 			["color"] = {
 				0, -- [1]
 				0, -- [2]
 				0, -- [3]
 				0, -- [4]
 			},
-			["itemScale"] = 1,
-			["spacing"] = 1,
-			["bagBreak"] = false,
+			["columns"] = 15,
 		},
 		["vault"] = {
 			["y"] = 229.666702270508,
@@ -92,15 +91,16 @@ Bagnon_Sets = {
 			},
 			["color"] = {
 			},
-			["showBags"] = true,
 			["hiddenBags"] = {
 				[5] = false,
 				[-3] = false,
 				[-1] = false,
 			},
+			["showBags"] = true,
 		},
 	},
-	["reagentColor"] = {
+	["displayAuction"] = false,
+	["refrigeColor"] = {
 	},
-	["displayCraft"] = false,
+	["displayBank"] = true,
 }

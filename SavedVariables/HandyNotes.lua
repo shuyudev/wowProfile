@@ -11,29 +11,26 @@ HandyNotesDB = {
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["profileKeys"] = {
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["global"] = {
 		["Suramar"] = {
 			[29295071] = {
-				["title"] = "CAVE",
 				["cont"] = false,
 				["icon"] = 1,
+				["title"] = "CAVE",
 				["desc"] = "",
 			},
 		},
 		["Azsuna"] = {
 			[58701410] = {
-				["icon"] = 1,
 				["title"] = "portal",
 				["cont"] = false,
+				["icon"] = 1,
 				["desc"] = "",
 			},
 			[64005290] = {
-				["title"] = "cave",
 				["cont"] = false,
 				["icon"] = 1,
+				["title"] = "cave",
 				["desc"] = "",
 			},
 		},
@@ -53,6 +50,9 @@ HandyNotes_HandyNotesDB = {
 				["desc"] = "",
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {
