@@ -26,7 +26,6 @@ VER 3 000000000000000E "Fish" "INV_Misc_QuestionMark"
 END
 VER 3 0000000000000008 "Focus" "458724"
 /clearfocus [mod:shift]
-/focus [mod:alt,@target,exists]
 /focus [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /focus [nomod,@target,exists]
@@ -46,7 +45,8 @@ VER 3 0000000000000003 "T2" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0000000000000005 "Target" "132212"
-/stopattack [nomod:alt]
+/focus [@target, mod:alt]
+/stopattack
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
 /cleartarget [nomod]

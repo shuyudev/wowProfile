@@ -58,9 +58,9 @@ VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 /use [nocombat]!Stealth
-/use [form:2,spec:3]Symbols of Death;[stealth,spec:2,@target]Ambush;[stealth,spec:1,@target]Mutilate
+/use [form:2,spec:3][mod:shift]Symbols of Death;[stealth,spec:2,@target,harm]Ambush
 /stopattack [stealth]
-/stopmacro [stealth][nocombat][@target,noharm]
+/stopmacro [stealth,nospec:1][nocombat][@target,noharm]
 /use [spec:3,form:0]Backstab;[spec:2]Saber Slash;Mutilate
 END
 VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"

@@ -1,5 +1,19 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
+		["Därknex - Kel'Thuzad"] = "Därknex - Kel'Thuzad",
+		["Felnex - Emerald Dream"] = "Felnex - Emerald Dream",
+		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+		["Elunex - Malygos"] = "Elunex - Malygos",
+		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
+		["Shädowx - Emerald Dream"] = "Shädowx - Emerald Dream",
+		["Neroix - Emerald Dream"] = "Neroix - Emerald Dream",
+		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
+		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
+		["Gorlordis - Emerald Dream"] = "Gorlordis - Emerald Dream",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -18,20 +32,6 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Shadowzxz - Emerald Dream"] = "Shadowzxz - Emerald Dream",
-		["Därknex - Kel'Thuzad"] = "Därknex - Kel'Thuzad",
-		["Felnex - Emerald Dream"] = "Felnex - Emerald Dream",
-		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
-		["Gorlordis - Emerald Dream"] = "Gorlordis - Emerald Dream",
-		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
-		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
-		["Neroix - Emerald Dream"] = "Neroix - Emerald Dream",
-		["Shädowx - Emerald Dream"] = "Shädowx - Emerald Dream",
-		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
-		["Elunex - Malygos"] = "Elunex - Malygos",
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["profiles"] = {
 		["Shadowzxz - Emerald Dream"] = {
 		},
@@ -41,13 +41,16 @@ Postal3DB = {
 		},
 		["Marnethy - Emerald Dream"] = {
 		},
-		["Gorlordis - Emerald Dream"] = {
+		["Darknex - Emerald Dream"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Felnex|Emerald Dream|Horde", -- [1]
+				},
+			},
 		},
-		["Eavey - Emerald Dream"] = {
+		["Elunex - Malygos"] = {
 		},
 		["Elunnex - Emerald Dream"] = {
-		},
-		["Neroix - Emerald Dream"] = {
 		},
 		["Shädowx - Emerald Dream"] = {
 			["BlackBook"] = {
@@ -56,16 +59,13 @@ Postal3DB = {
 				},
 			},
 		},
+		["Neroix - Emerald Dream"] = {
+		},
 		["Ruthala - Emerald Dream"] = {
 		},
-		["Elunex - Malygos"] = {
+		["Eavey - Emerald Dream"] = {
 		},
-		["Darknex - Emerald Dream"] = {
-			["BlackBook"] = {
-				["recent"] = {
-					"Felnex|Emerald Dream|Horde", -- [1]
-				},
-			},
+		["Gorlordis - Emerald Dream"] = {
 		},
 	},
 }

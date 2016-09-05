@@ -6,11 +6,11 @@ NugComboBarDB_Global = {
 	["adjustY"] = 2.1,
 	["y"] = -192.790298461914,
 	["x"] = -69.5301895141602,
-	["preset3d"] = "funnelRed",
-	["soundChannel"] = "Master",
-	["alpha"] = 0.3,
-	["adjustX"] = 2.05,
+	["shadowDance"] = false,
 	["charspec"] = {
 	},
-	["shadowDance"] = false,
+	["alpha"] = 0.3,
+	["adjustX"] = 2.05,
+	["soundChannel"] = "Master",
+	["preset3d"] = "funnelRed",
 }

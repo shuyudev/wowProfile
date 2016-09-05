@@ -5,14 +5,14 @@ RecountDB = {
 		["Därknex - Kel'Thuzad"] = "Default",
 		["Felnex - Emerald Dream"] = "Default",
 		["Marnethy - Emerald Dream"] = "Marnethy - Emerald Dream",
-		["Gorlordis - Emerald Dream"] = "Gorlordis - Emerald Dream",
-		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
-		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
-		["Neroix - Emerald Dream"] = "Default",
-		["Shädowx - Emerald Dream"] = "Shädowx - Emerald Dream",
-		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
-		["Elunex - Malygos"] = "Default",
 		["Darknex - Emerald Dream"] = "Default",
+		["Elunex - Malygos"] = "Default",
+		["Elunnex - Emerald Dream"] = "Elunnex - Emerald Dream",
+		["Shädowx - Emerald Dream"] = "Shädowx - Emerald Dream",
+		["Neroix - Emerald Dream"] = "Default",
+		["Ruthala - Emerald Dream"] = "Ruthala - Emerald Dream",
+		["Eavey - Emerald Dream"] = "Eavey - Emerald Dream",
+		["Gorlordis - Emerald Dream"] = "Gorlordis - Emerald Dream",
 	},
 	["profiles"] = {
 		["Shadowzxz - Emerald Dream"] = {
@@ -71,14 +71,19 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Gorlordis - Emerald Dream"] = {
+		["Darknex - Emerald Dream"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 30.024658203125,
-					["x"] = 511.210205078125,
-					["w"] = 140.000015258789,
+					["y"] = -352.166694641113,
+					["x"] = -597.018539428711,
+					["w"] = 253,
+					["h"] = 152.999984741211,
 				},
 			},
+			["AutoDeleteNewInstance"] = false,
+			["LastInstanceName"] = "The Tiger's Peak",
+			["DeleteJoinGroup"] = false,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -89,7 +94,10 @@ RecountDB = {
 					},
 				},
 			},
-			["CurDataSet"] = "OverallData",
+			["Locked"] = true,
+			["MainWindowHeight"] = 153.382766723633,
+			["MainWindowWidth"] = 252.987747192383,
+			["Font"] = "AR ZhongkaiGBK Medium",
 		},
 		["Elunex - Malygos"] = {
 			["MainWindow"] = {
@@ -109,10 +117,11 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Eavey - Emerald Dream"] = {
-			["MainWindowVis"] = false,
+		["Marnethy - Emerald Dream"] = {
 			["MainWindow"] = {
 				["Position"] = {
+					["y"] = 24.493896484375,
+					["x"] = -667.654586791992,
 					["w"] = 140.000015258789,
 				},
 			},
@@ -180,13 +189,32 @@ RecountDB = {
 				},
 			},
 			["Locked"] = true,
-			["MainWindowVis"] = false,
 			["BarTextColorSwap"] = false,
-			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
 			["CurDataSet"] = "LastFightData",
-			["MainWindowHeight"] = 111.000007629395,
+			["Font"] = "AR ZhongkaiGBK Medium (Combat)",
+			["LastInstanceName"] = "Halls of Valor",
 			["MainWindowWidth"] = 226.382766723633,
-			["LastInstanceName"] = "Vault of the Wardens",
+			["MainWindowHeight"] = 111.000007629395,
+		},
+		["Elunnex - Emerald Dream"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 71.9013061523438,
+					["x"] = -342.91357421875,
+					["w"] = 140.000015258789,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
 		},
 		["Shädowx - Emerald Dream"] = {
 			["MainWindowVis"] = false,
@@ -211,26 +239,6 @@ RecountDB = {
 			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 		},
-		["Elunnex - Emerald Dream"] = {
-			["MainWindow"] = {
-				["Position"] = {
-					["y"] = 71.9013061523438,
-					["x"] = -342.91357421875,
-					["w"] = 140.000015258789,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["CurDataSet"] = "OverallData",
-		},
 		["Ruthala - Emerald Dream"] = {
 			["MainWindowVis"] = false,
 			["MainWindow"] = {
@@ -250,11 +258,10 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Marnethy - Emerald Dream"] = {
+		["Eavey - Emerald Dream"] = {
+			["MainWindowVis"] = false,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 24.493896484375,
-					["x"] = -667.654586791992,
 					["w"] = 140.000015258789,
 				},
 			},
@@ -270,19 +277,14 @@ RecountDB = {
 			},
 			["CurDataSet"] = "OverallData",
 		},
-		["Darknex - Emerald Dream"] = {
+		["Gorlordis - Emerald Dream"] = {
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = -352.166694641113,
-					["x"] = -597.018539428711,
-					["w"] = 253,
-					["h"] = 152.999984741211,
+					["y"] = 30.024658203125,
+					["x"] = 511.210205078125,
+					["w"] = 140.000015258789,
 				},
 			},
-			["AutoDeleteNewInstance"] = false,
-			["LastInstanceName"] = "The Tiger's Peak",
-			["DeleteJoinGroup"] = false,
-			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -293,10 +295,7 @@ RecountDB = {
 					},
 				},
 			},
-			["Locked"] = true,
-			["Font"] = "AR ZhongkaiGBK Medium",
-			["MainWindowWidth"] = 252.987747192383,
-			["MainWindowHeight"] = 153.382766723633,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

@@ -7,11 +7,11 @@ TrufiGCDChSave = {
 			["point"] = "CENTER",
 			["enable"] = true,
 			["text"] = "Player",
-			["fade"] = "Left",
-			["y"] = -78.2222671508789,
-			["x"] = -184.098709106445,
+			["fade"] = "Up",
+			["y"] = 147.753234863281,
+			["x"] = 157.235275268555,
 			["speed"] = 18.75,
-			["width"] = 3,
+			["width"] = 5,
 			["size"] = 30,
 		}, -- [1]
 		{
@@ -118,10 +118,10 @@ TrufiGCDChSave = {
 			["enable"] = true,
 			["text"] = "Target",
 			["fade"] = "Right",
-			["y"] = -159.605072021484,
-			["x"] = -320.790008544922,
+			["y"] = -162.765518188477,
+			["x"] = -292.345428466797,
 			["speed"] = 18.75,
-			["width"] = 3,
+			["width"] = 5,
 			["size"] = 30,
 		}, -- [11]
 		{
@@ -138,17 +138,17 @@ TrufiGCDChSave = {
 	},
 	["TooltipSpellID"] = true,
 	["EnableIn"] = {
-		["World"] = true,
-		["Arena"] = true,
-		["Enable"] = true,
-		["Raid"] = true,
-		["Bg"] = true,
 		["PvE"] = true,
+		["Raid"] = true,
+		["Enable"] = true,
+		["Arena"] = true,
+		["Bg"] = true,
+		["World"] = true,
 	},
 	["TrGCDBL"] = {
 		6603, -- [1]
 		75, -- [2]
 		7384, -- [3]
 	},
-	["ModScroll"] = true,
+	["ModScroll"] = false,
 }

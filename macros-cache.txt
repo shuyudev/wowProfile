@@ -36,6 +36,9 @@ VER 3 000000000000000A "Mount" "132251"
 /stopmacro [mod:shift/ctrl]
 /run C_MountJournal.SummonByID(0)
 END
+VER 3 000000000000000F "Query" "ABILITY_SPY"
+/tar Enderkind
+END
 VER 3 0000000000000002 "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 13
