@@ -11,27 +11,28 @@ HandyNotesDB = {
 	},
 }
 HandyNotes_HandyNotesDB = {
-	["profileKeys"] = {
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
-	},
 	["global"] = {
 		["Suramar"] = {
+			[43406072] = {
+				["cont"] = false,
+				["icon"] = 7,
+				["title"] = "Portal",
+				["desc"] = "",
+			},
+			[30831102] = {
+				["title"] = "Portal",
+				["cont"] = false,
+				["icon"] = 7,
+				["desc"] = "",
+			},
+			[36314689] = {
+				["cont"] = false,
+				["icon"] = 7,
+				["title"] = "Portal",
+				["desc"] = "",
+			},
 			[29295071] = {
 				["title"] = "CAVE",
-				["cont"] = false,
-				["icon"] = 1,
-				["desc"] = "",
-			},
-		},
-		["Azsuna"] = {
-			[58701410] = {
-				["icon"] = 1,
-				["title"] = "portal",
-				["cont"] = false,
-				["desc"] = "",
-			},
-			[64005290] = {
-				["title"] = "cave",
 				["cont"] = false,
 				["icon"] = 1,
 				["desc"] = "",
@@ -53,6 +54,23 @@ HandyNotes_HandyNotesDB = {
 				["desc"] = "",
 			},
 		},
+		["Azsuna"] = {
+			[58701410] = {
+				["icon"] = 1,
+				["title"] = "portal",
+				["cont"] = false,
+				["desc"] = "",
+			},
+			[64005290] = {
+				["title"] = "cave",
+				["cont"] = false,
+				["icon"] = 1,
+				["desc"] = "",
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {

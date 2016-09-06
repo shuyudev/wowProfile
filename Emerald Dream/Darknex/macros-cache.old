@@ -1,7 +1,7 @@
 VER 3 010000000000001A "Aoe" "INV_Misc_QuestionMark"
 #showtooltip
 /targetenemy [@target,noexists]
-/use [spec:3,mod:alt,@target,harm,form:0,combat]Shadow Dance
+/use [spec:3,mod:alt,form:0,combat]Shadow Dance
 /use [spec:3]Shuriken Storm;[spec:1]Fan of Knives
 /startattack
 END
@@ -58,14 +58,14 @@ VER 3 0100000000000003 "Kick" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 /use [nocombat]!Stealth
-/use [form:2,spec:3][mod:shift]Symbols of Death;[stealth,spec:2,@target,harm]Ambush;[@target,harm]Mutilate
+/use [form:2,spec:3][mod:shift]Symbols of Death;[stealth,spec:2,@target,harm]Ambush
 /stopattack [stealth]
-/stopmacro [stealth][nocombat][@target,noharm]
-/use [spec:3,form:0]Backstab;[spec:2]Saber Slash
+/stopmacro [stealth,nospec:1][nocombat][@target,noharm]
+/use [spec:3,form:0]Backstab;[spec:2]Saber Slash;Mutilate
 END
 VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 #showtooltip Vanish
-/use [form:0,nocombat]!Stealth;[mod:ctrl]Vanish;[form:0]Vanish
+/use [form:0,nocombat]!Stealth;[mod:shift]Vanish;[form:0]Vanish
 /cleartarget [mod:shift]
 /targetenemy [mod:shift]
 /use [@mouseover,exists]Pick Pocket;Pick Pocket

@@ -19,7 +19,7 @@ TipTac_Config = {
 	["hideDefaultBar"] = true,
 	["healthBar"] = true,
 	["colRace"] = "|cffffffff",
-	["mouseOffsetX"] = 0,
+	["nameType"] = "normal",
 	["tipBorderColor"] = {
 		0.3, -- [1]
 		0.3, -- [2]
@@ -29,31 +29,36 @@ TipTac_Config = {
 	["classification_normal"] = "%s ",
 	["colLevel"] = "|cffc0c0c0",
 	["healthBarClassColor"] = true,
-	["anchorFrameUnitType"] = "normal",
+	["anchorFrameTipPoint"] = "TOPRIGHT",
 	["anchorFrameUnitPoint"] = "BOTTOMRIGHT",
 	["reactColoredBorder"] = false,
 	["classification_minus"] = "-%s ",
 	["barFontFlags"] = "OUTLINE",
-	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-	["healthBarText"] = "value",
-	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
+	["hideWorldTips"] = true,
+	["fontSizeDelta"] = 2,
+	["gradientTip"] = false,
 	["fontSize"] = 12,
 	["anchorWorldTipType"] = "normal",
+	["classification_rare"] = "%s|r (Rare) ",
 	["colGuild"] = "|c00000406",
-	["colorGuildByReaction"] = true,
-	["left"] = 702.419494628906,
 	["optionsBottom"] = 296.135864257813,
-	["backdropInsets"] = 4,
+	["left"] = 702.419494628906,
+	["preFadeTime"] = 0.1,
 	["classification_rareelite"] = "+%s|r (Rare) ",
 	["reactColoredBackdrop"] = false,
 	["anchorWorldUnitPoint"] = "BOTTOMRIGHT",
 	["classification_trivial"] = "~%s ",
-	["classification_worldboss"] = "%s|r (Boss) ",
-	["fadeTime"] = 0.1,
-	["manaBar"] = false,
+	["backdropInsets"] = 4,
+	["healthBarColor"] = {
+		0.3, -- [1]
+		0.9, -- [2]
+		0.3, -- [3]
+		1, -- [4]
+	},
+	["colorNameByClass"] = false,
 	["colSameGuild"] = "|cffff32ff",
 	["anchorWorldTipPoint"] = "BOTTOMRIGHT",
-	["colorNameByClass"] = false,
+	["manaBar"] = false,
 	["gradientColor"] = {
 		0.8, -- [1]
 		0.8, -- [2]
@@ -62,20 +67,15 @@ TipTac_Config = {
 	},
 	["classColoredBorder"] = false,
 	["anchorWorldUnitType"] = "normal",
-	["healthBarColor"] = {
-		0.3, -- [1]
-		0.9, -- [2]
-		0.3, -- [3]
-		1, -- [4]
-	},
+	["fadeTime"] = 0.1,
 	["targetYouText"] = "<<YOU>>",
-	["preFadeTime"] = 0.1,
+	["classification_worldboss"] = "%s|r (Boss) ",
 	["top"] = 853.333374023438,
-	["classification_rare"] = "%s|r (Rare) ",
-	["gradientTip"] = false,
-	["fontSizeDelta"] = 2,
-	["hideWorldTips"] = true,
+	["colorGuildByReaction"] = true,
+	["barFontFace"] = "Fonts\\FRIZQT__.TTF",
+	["healthBarText"] = "value",
+	["tipBackdropBG"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 	["barFontSize"] = 12,
-	["anchorFrameTipPoint"] = "TOPRIGHT",
-	["nameType"] = "normal",
+	["anchorFrameUnitType"] = "normal",
+	["mouseOffsetX"] = 0,
 }

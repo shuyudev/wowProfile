@@ -1,7 +1,7 @@
 VER 3 010000000000001A "Aoe" "INV_Misc_QuestionMark"
 #showtooltip
 /targetenemy [@target,noexists]
-/use [spec:3,mod:alt,@target,harm,form:0,combat]Shadow Dance
+/use [spec:3,mod:alt,form:0,combat]Shadow Dance
 /use [spec:3]Shuriken Storm;[spec:1]Fan of Knives
 /startattack
 END
@@ -65,7 +65,7 @@ VER 3 0100000000000007 "Main" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000014 "Pick" "INV_MISC_QUESTIONMARK"
 #showtooltip Vanish
-/use [form:0,nocombat]!Stealth;[mod:ctrl]Vanish;[form:0]Vanish
+/use [form:0,nocombat]!Stealth;[mod:shift]Vanish;[form:0]Vanish
 /cleartarget [mod:shift]
 /targetenemy [mod:shift]
 /use [@mouseover,exists]Pick Pocket;Pick Pocket
@@ -93,5 +93,5 @@ END
 VER 3 0100000000000016 "Tricks" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use [mod:alt,@mouseover,help]Tricks of the Trade;[mod:alt]Tricks of the Trade;[mod:shift]15;[spec:1]Poisoned Knife;[spec:3]Shuriken Toss;Pistol Shot
-/use [btn:2]Goblin Glider Kit
+/use [mod:shift][btn:2]Goblin Glider Kit
 END
