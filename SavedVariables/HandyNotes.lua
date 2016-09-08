@@ -11,30 +11,47 @@ HandyNotesDB = {
 	},
 }
 HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
+	},
 	["global"] = {
+		["Stormheim"] = {
+			[64404620] = {
+				["title"] = "Uldgar",
+				["cont"] = false,
+				["icon"] = 8,
+				["desc"] = "",
+			},
+		},
 		["Suramar"] = {
 			[43406072] = {
-				["cont"] = false,
-				["icon"] = 7,
-				["title"] = "Portal",
-				["desc"] = "",
-			},
-			[30831102] = {
 				["title"] = "Portal",
 				["cont"] = false,
 				["icon"] = 7,
 				["desc"] = "",
 			},
-			[36314689] = {
+			[41381505] = {
+				["title"] = "Portal",
 				["cont"] = false,
 				["icon"] = 7,
-				["title"] = "Portal",
 				["desc"] = "",
 			},
 			[29295071] = {
+				["icon"] = 1,
 				["title"] = "CAVE",
 				["cont"] = false,
-				["icon"] = 1,
+				["desc"] = "",
+			},
+			[36314689] = {
+				["title"] = "Portal",
+				["cont"] = false,
+				["icon"] = 7,
+				["desc"] = "",
+			},
+			[30831102] = {
+				["icon"] = 7,
+				["title"] = "Portal",
+				["cont"] = false,
 				["desc"] = "",
 			},
 		},
@@ -56,21 +73,18 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Azsuna"] = {
 			[58701410] = {
+				["cont"] = false,
 				["icon"] = 1,
 				["title"] = "portal",
-				["cont"] = false,
 				["desc"] = "",
 			},
 			[64005290] = {
+				["icon"] = 1,
 				["title"] = "cave",
 				["cont"] = false,
-				["icon"] = 1,
 				["desc"] = "",
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Darknex - Emerald Dream"] = "Darknex - Emerald Dream",
 	},
 	["profiles"] = {
 		["Darknex - Emerald Dream"] = {

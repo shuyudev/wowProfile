@@ -37,7 +37,7 @@ VER 3 000000000000000A "Mount" "132251"
 /run C_MountJournal.SummonByID(0)
 END
 VER 3 000000000000000F "Query" "ABILITY_SPY"
-/tar Enderkind
+/tar Uldgar
 END
 VER 3 0000000000000002 "T1" "INV_MISC_QUESTIONMARK"
 #showtooltip
@@ -48,7 +48,7 @@ VER 3 0000000000000003 "T2" "INV_MISC_QUESTIONMARK"
 /use 14
 END
 VER 3 0000000000000005 "Target" "132212"
-/focus [@target, mod:alt]
+/focus [mod:alt,@target,exists]
 /stopattack
 /tar [nomod,@mouseover,exists]
 /stopmacro [nomod,@mouseover,exists]
